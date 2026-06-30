@@ -20,14 +20,14 @@ LOG_CHANNEL(log_cheat_patch);
 // fmt_class_string specializations
 // ===========================================================================
 template <>
-void fmt_class_string<cheat_type>::format(std::string& out, u64 arg)
+void fmt_class_string<cheat_exec_type>::format(std::string& out, u64 arg)
 {
-	format_enum(out, arg, [](cheat_type value)
+	format_enum(out, arg, [](cheat_exec_type value)
 	{
 		switch (value)
 		{
-		case cheat_type::normal: return "Normal";
-		case cheat_type::constant: return "Constant";
+		case cheat_exec_type::normal: return "Normal";
+		case cheat_exec_type::constant: return "Constant";
 		default: return unknown;
 		}
 	});
@@ -372,7 +372,7 @@ bool cheat_engine::activate_cheat(const std::string& game_name, const std::strin
                                   std::unordered_map<std::string, std::string> var_choices)
 {
 	cheat_executor ce(game_name, cheat_name, entry, var_choices);
-	if (entry.type == cheat_type::constant)
+	if (entry.type == cheat_exec_type::constant)
 	{
 		std::lock_guard lock(m_mutex_constant);
 		return m_constant_cheats.insert(std::move(ce)).second;

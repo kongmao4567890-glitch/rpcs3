@@ -189,8 +189,8 @@ namespace ncl_parser
 			case 1:
 				if (!line.empty())
 				{
-					if (line[0] == '0') entry.type = cheat_type::normal;
-					else if (line[0] == '1' || line[0] == 'T') entry.type = cheat_type::constant;
+					if (line[0] == '0') entry.type = cheat_exec_type::normal;
+					else if (line[0] == '1' || line[0] == 'T') entry.type = cheat_exec_type::constant;
 				}
 				break;
 			default:
@@ -310,7 +310,7 @@ bool cheat_storage::load_cheatsv2(const std::string& path)
 			if (cheat_node["Type"])
 			{
 				std::string t = cheat_node["Type"].Scalar();
-				entry.type = (t == "Constant" || t == "constant") ? cheat_type::constant : cheat_type::normal;
+				entry.type = (t == "Constant" || t == "constant") ? cheat_exec_type::constant : cheat_exec_type::normal;
 			}
 
 			if (cheat_node["Codes"] && cheat_node["Codes"].IsSequence())
@@ -470,7 +470,7 @@ void cheat_storage::load()
 			if (const auto a = cheat_key.second["Author"]; a && a.IsScalar()) cheat_data.author = a.Scalar();
 			if (const auto c = cheat_key.second["Comments"]; c && c.IsSequence()) for (const auto& cm : c) cheat_data.comments.push_back(cm.Scalar());
 			if (const auto t = cheat_key.second["Type"]; t && t.IsScalar())
-				cheat_data.type = (t.Scalar() == "Constant") ? cheat_type::constant : cheat_type::normal;
+				cheat_data.type = (t.Scalar() == "Constant") ? cheat_exec_type::constant : cheat_exec_type::normal;
 			if (const auto codes = cheat_key.second["Codes"]; codes && codes.IsSequence())
 				for (const auto& code : codes)
 				{
@@ -685,7 +685,7 @@ void cheat_manager_dialog::refresh_tree()
 		{
 			auto sub_entry = new QTreeWidgetItem();
 			sub_entry->setText(0, QString::fromStdString(cheat_name));
-			if (entry.type == cheat_type::constant) sub_entry->setCheckState(0, Qt::CheckState::Unchecked);
+			if (entry.type == cheat_exec_type::constant) sub_entry->setCheckState(0, Qt::CheckState::Unchecked);
 			top_entry->addChild(sub_entry);
 		}
 	}
@@ -810,7 +810,7 @@ cheat_pre_boot_dialog::cheat_pre_boot_dialog(const std::string& serial, const st
 			{
 				auto* child = new QTreeWidgetItem();
 				child->setText(0, QString::fromStdString(cn));
-				if (ce->type == cheat_type::constant) child->setCheckState(0, Qt::CheckState::Unchecked);
+				if (ce->type == cheat_exec_type::constant) child->setCheckState(0, Qt::CheckState::Unchecked);
 				top->addChild(child);
 			}
 			items.append(top);

@@ -35,7 +35,7 @@ enum class cheat_inst : u8
 	copy_bytes,
 };
 
-enum class cheat_type : u8
+enum class cheat_exec_type : u8
 {
 	normal,
 	constant,
@@ -52,7 +52,7 @@ struct cheat_code
 
 struct cheat_entry
 {
-	cheat_type type{};
+	cheat_exec_type type{};
 	std::string author;
 	std::vector<cheat_code> codes;
 	std::map<std::string, std::map<std::string, std::string>> variables;
@@ -63,7 +63,7 @@ struct cheat_entry
 
 // Forward declare for fmt_class_string
 template <>
-void fmt_class_string<cheat_type>::format(std::string& out, u64 arg);
+void fmt_class_string<cheat_exec_type>::format(std::string& out, u64 arg);
 
 template <>
 void fmt_class_string<cheat_inst>::format(std::string& out, u64 arg);
