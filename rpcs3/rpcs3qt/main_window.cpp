@@ -551,6 +551,55 @@ void main_window::Boot(const std::string& path, const std::string& title_id, boo
 		return;
 	}
 
+	// Show cheat selection dialog before booting (if cheats are available for this game)
+	if (!title_id.empty())
+	{
+		auto& cp_engine = cheat_patch_engine::get();
+		auto cheats = cp_engine.cheats_for_serial(title_id);
+
+		// Filter to only cheats matching this serial
+		bool has_cheats = false;
+		for (const auto* g : cheats)
+		{
+			if (g->serials.empty())
+				continue;
+			for (const auto& s : g->serials)
+			{
+				if (s == title_id || s == "All")
+				{
+					has_cheats = true;
+					break;
+				}
+			}
+			if (has_cheats)
+				break;
+		}
+
+		if (has_cheats)
+		{
+			// Try to get game name from game list
+			std::string game_name;
+			if (m_game_list_frame)
+			{
+				for (const auto& game : m_game_list_frame->GetGameInfo())
+				{
+					if (game->info.serial == title_id)
+					{
+						game_name = game->info.name;
+						break;
+					}
+				}
+			}
+
+			cheat_pre_boot_dialog cheat_dlg(title_id, game_name, this);
+			if (cheat_dlg.exec() != QDialog::Accepted)
+			{
+				// User cancelled - don't boot the game
+				return;
+			}
+		}
+	}
+
 	Emu.GracefulShutdown(false);
 
 	m_app_icon = gui::utils::get_app_icon_from_path(path, title_id);

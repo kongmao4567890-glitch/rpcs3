@@ -11,6 +11,8 @@
 #include <QComboBox>
 #include <QLineEdit>
 #include <QDialogButtonBox>
+#include <QListWidget>
+#include <QLabel>
 
 #include <string>
 #include <vector>
@@ -19,31 +21,21 @@
 #include <sstream>
 
 // ============================================================================
-// New independent cheat module — supports RPCS3 patch.yml format
-// and user-defined custom cheats. Completely separate from the legacy
-// cheat_manager and patch_engine.
+// Independent cheat module — supports both RPCS3 patch.yml format
+// and cheatsv2.yml format (write_bytes, find_replace, etc.)
+// Completely separate from the legacy cheat_manager and patch_engine.
 // ============================================================================
 
-// Patch types matching the patch.yml format
+// ---------------------------------------------------------------------------
+// Patch.yml format types (existing)
+// ---------------------------------------------------------------------------
 enum class cp_patch_type : u8
 {
 	invalid,
-	byte,     // 8-bit
-	le16,     // little-endian 16-bit
-	be16,     // big-endian 16-bit
-	le32,     // little-endian 32-bit
-	be32,     // big-endian 32-bit
-	le64,     // little-endian 64-bit
-	be64,     // big-endian 64-bit
-	lef32,    // little-endian float32
-	bef32,    // big-endian float32
-	lef64,    // little-endian float64
-	bef64,    // big-endian float64
-	utf8,     // UTF-8 string (not null-terminated)
-	c_utf8,   // UTF-8 string (null-terminated)
+	byte, le16, be16, le32, be32, le64, be64,
+	lef32, bef32, lef64, bef64, utf8, c_utf8,
 };
 
-// Returns the byte count that a patch type writes to memory (0 = variable/string)
 inline u32 cp_type_size(cp_patch_type t)
 {
 	switch (t)
@@ -53,39 +45,87 @@ inline u32 cp_type_size(cp_patch_type t)
 	case cp_patch_type::be16:  return 2;
 	case cp_patch_type::le32:
 	case cp_patch_type::be32:
-	case cp_patch_type::le64:
-	case cp_patch_type::be64:
 	case cp_patch_type::lef32:
 	case cp_patch_type::bef32: return 4;
+	case cp_patch_type::le64:
+	case cp_patch_type::be64:
 	case cp_patch_type::lef64:
 	case cp_patch_type::bef64: return 8;
 	default: return 0;
 	}
 }
 
-// A single patch line: [ type, offset, value ]
+// ---------------------------------------------------------------------------
+// Cheatsv2.yml code types (new)
+// ---------------------------------------------------------------------------
+enum class cp_v2_type : u8
+{
+	unknown,
+	write_bytes,      // [write_bytes, OFFSET, HEX_DATA]
+	find_replace,     // [find_replace, START, LENGTH, SEARCH_HEX, REPLACE_HEX]
+	write_text,       // [write_text, OFFSET, TEXT]
+	write_float,      // [write_float, OFFSET, FLOAT_VALUE]
+	read_pointer,     // [read_pointer, BASE_OFFSET, OFFSET]
+	copy_bytes,       // [copy_bytes, SRC, DST, LENGTH]
+	write_condensed,  // [write_condensed, ADDR, VAL1, VAL2, VAL3]
+	compared_cond,    // [compared_cond, ADDR, VALUE, LENGTH]
+};
+
+// ---------------------------------------------------------------------------
+// A patch entry from patch.yml format
+// ---------------------------------------------------------------------------
 struct cp_patch_entry
 {
 	cp_patch_type type = cp_patch_type::invalid;
-	u32 offset = 0;           // PS3 virtual address (resolved at apply time)
-	u64 long_value = 0;       // integer value (host endianness)
-	f64 double_value = 0.0;   // float value
-	std::string str_value;    // string value (for utf8 / c_utf8)
-	std::string original_offset; // original offset string (for display)
-	std::string original_value;  // original value string (for display)
+	u32 offset = 0;
+	u64 long_value = 0;
+	f64 double_value = 0.0;
+	std::string str_value;
+	std::string original_offset;
+	std::string original_value;
 };
 
-// A named group of patches (e.g. "60 FPS", "Infinite Health")
+// ---------------------------------------------------------------------------
+// A code line from cheatsv2.yml format
+// ---------------------------------------------------------------------------
+struct cp_code_line
+{
+	cp_v2_type type = cp_v2_type::unknown;
+	u32 address = 0;          // Primary address
+	u32 param = 0;            // Search length / copy length / offset
+	u32 dst_address = 0;      // Destination (copy_bytes)
+	std::vector<u8> data;     // Bytes to write
+	std::vector<u8> search;   // Search pattern (find_replace)
+	std::vector<u8> replace;  // Replace pattern (find_replace)
+	std::string text;         // Text (write_text)
+	f64 fval = 0.0;           // Float (write_float)
+	std::vector<u32> extra;   // Extra params (write_condensed)
+	std::string raw;          // Raw representation for display
+};
+
+// ---------------------------------------------------------------------------
+// A named group of cheats (supports both formats)
+// ---------------------------------------------------------------------------
 struct cp_cheat_group
 {
-	std::string description;          // e.g. "60 FPS"
+	std::string description;          // Cheat name (e.g. "60 FPS")
 	std::string author;
 	std::string notes;
-	std::string hash;                 // PPU-<hash> key
-	std::vector<std::string> serials; // game serials (e.g. "BLUS30443")
+	std::string hash;                 // PPU-<hash> key (patch.yml)
+	std::string game_key;             // Full game key (cheatsv2.yml)
+	std::vector<std::string> serials; // Game serials
+	std::vector<std::string> comments;
+
+	// Patch.yml entries
 	std::vector<cp_patch_entry> entries;
-	bool enabled = false;             // active for periodic application
-	bool is_custom = false;           // user-added (not from patch.yml)
+
+	// Cheatsv2 code lines
+	std::vector<cp_code_line> codes;
+	bool is_v2 = false;               // true if from cheatsv2.yml
+
+	bool enabled = false;             // Active for application
+	bool applied = false;             // Already applied (for one-shot codes)
+	bool is_custom = false;           // User-added
 };
 
 // ---------------------------------------------------------------------------
@@ -96,29 +136,36 @@ class cheat_patch_engine
 public:
 	static cheat_patch_engine& get();
 
-	// Load patches from a patch.yml file (appends to internal database)
+	// Load from patch.yml format
 	bool load_patch_yml(const std::string& path, std::string_view content = "", std::stringstream* log = nullptr);
 
-	// Add a user-defined custom cheat (single entry)
+	// Load from cheatsv2.yml format
+	bool load_cheatsv2(const std::string& path, std::string_view content = "");
+
+	// Add a user-defined custom cheat
 	void add_custom_cheat(const std::string& name, const std::string& serial,
 	                      cp_patch_type type, u32 offset, u64 value,
 	                      const std::string& str_value = "");
 
-	// Remove a cheat group by description (custom only)
 	bool remove_cheat(const std::string& description);
-
-	// Toggle a cheat group on/off
 	void set_enabled(const std::string& description, bool enabled);
 
-	// Apply all enabled cheats matching the current game to PS3 memory.
-	// Safe to call periodically (timer-driven "freeze" effect).
+	// Apply all enabled cheats for the current game
 	void apply_cheats();
 
-	// Immediately apply a single group (one-shot, ignores enabled flag)
+	// Apply a single group
 	bool apply_group(const cp_cheat_group& group);
 
-	// Write one patch entry to memory at the given address
+	// Write one patch entry to memory
 	static bool write_entry(u32 addr, const cp_patch_entry& entry);
+
+	// Write raw bytes to memory
+	static bool write_raw_bytes(u32 addr, const u8* data, u32 size);
+
+	// Find and replace bytes in memory
+	static bool find_replace_bytes(u32 start, u32 length,
+	                               const u8* search, u32 search_len,
+	                               const u8* replace, u32 replace_len);
 
 	// Persist / restore enabled state
 	void save_config();
@@ -129,24 +176,31 @@ public:
 	std::vector<cp_cheat_group*> cheats_for_serial(const std::string& serial);
 	cp_cheat_group* find(const std::string& description);
 
+	// Check if cheats are available for a serial
+	bool has_cheats_for_serial(const std::string& serial) const;
+
 	// Type helpers
 	static cp_patch_type parse_type(std::string_view text);
 	static std::string type_name(cp_patch_type t);
 	static std::string format_value(const cp_patch_entry& e);
+	static std::string v2_type_name(cp_v2_type t);
+
+	// Parse a hex string into bytes
+	static std::vector<u8> parse_hex(const std::string& hex);
 
 private:
 	cheat_patch_engine();
-
-	// Parse one YAML sequence node into patch entries (resolves `load` anchors)
 	bool parse_patch_seq(YAML::Node seq, cp_cheat_group& group, const YAML::Node& root);
+	bool apply_v2_code(const cp_code_line& code);
 
 	std::vector<cp_cheat_group> m_cheats;
 	std::unordered_map<std::string, bool> m_pending_enabled;
 	const std::string m_config_file = "cheat_patch_config.yml";
+	bool m_v2_loaded = false;
 };
 
 // ---------------------------------------------------------------------------
-// Dialog — UI for browsing / toggling / adding cheats
+// Main cheat manager dialog (browse / toggle / add cheats)
 // ---------------------------------------------------------------------------
 class cheat_patch_dialog : public QDialog
 {
@@ -163,6 +217,7 @@ public:
 private:
 	void refresh_list();
 	void on_import();
+	void on_import_v2();
 	void on_add_custom();
 	void on_apply_now();
 	void on_item_changed(QTableWidgetItem* item);
@@ -170,6 +225,7 @@ private:
 
 	QTableWidget* m_table = nullptr;
 	QPushButton*  m_btn_import   = nullptr;
+	QPushButton*  m_btn_import_v2 = nullptr;
 	QPushButton*  m_btn_add      = nullptr;
 	QPushButton*  m_btn_apply    = nullptr;
 	QCheckBox*    m_chk_auto     = nullptr;
@@ -177,6 +233,36 @@ private:
 	cheat_patch_engine& m_engine;
 
 	static cheat_patch_dialog* s_inst;
+};
+
+// ---------------------------------------------------------------------------
+// Pre-game-boot cheat selection dialog
+// Shown before a game loads, lets user pick which cheats to enable
+// ---------------------------------------------------------------------------
+class cheat_pre_boot_dialog : public QDialog
+{
+	Q_OBJECT
+public:
+	explicit cheat_pre_boot_dialog(const std::string& serial, const std::string& game_name, QWidget* parent = nullptr);
+
+	// Returns true if user clicked "Start Game"
+	bool confirmed() const { return m_confirmed; }
+
+private:
+	void select_all(bool checked);
+	void on_item_changed(QListWidgetItem* item);
+
+	QLabel*      m_label      = nullptr;
+	QListWidget* m_list       = nullptr;
+	QPushButton* m_btn_all    = nullptr;
+	QPushButton* m_btn_none   = nullptr;
+	QPushButton* m_btn_start  = nullptr;
+	QPushButton* m_btn_cancel = nullptr;
+	QCheckBox*   m_chk_remember = nullptr;
+
+	bool m_confirmed = false;
+	cheat_patch_engine& m_engine;
+	std::string m_serial;
 };
 
 // ---------------------------------------------------------------------------

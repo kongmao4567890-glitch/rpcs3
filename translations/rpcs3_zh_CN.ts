@@ -563,25 +563,29 @@ Terminating...</source>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="101" />
             <source>L4
 Plus</source>
-            <translation type="unfinished" />
+            <translation>L4
+加</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="102" />
             <source>L5
 Minus</source>
-            <translation type="unfinished" />
+            <translation>L5
+减</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="103" />
             <source>R4
 Dial CW</source>
-            <translation type="unfinished" />
+            <translation>R4
+拨盘顺时针</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="104" />
             <source>R5
 Dial CCW</source>
-            <translation type="unfinished" />
+            <translation>R5
+拨盘逆时针</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="105" />
@@ -2705,37 +2709,37 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="1073" />
             <source>Unsigned 16 bits</source>
-            <translation type="unfinished" />
+            <translation>无符号 16 位</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="1074" />
             <source>Unsigned 32 bits</source>
-            <translation type="unfinished" />
+            <translation>无符号 32 位</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="1075" />
             <source>Unsigned 64 bits</source>
-            <translation type="unfinished" />
+            <translation>无符号 64 位</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="1076" />
             <source>Signed 8 bits</source>
-            <translation type="unfinished" />
+            <translation>有符号 8 位</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="1077" />
             <source>Signed 16 bits</source>
-            <translation type="unfinished" />
+            <translation>有符号 16 位</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="1078" />
             <source>Signed 32 bits</source>
-            <translation type="unfinished" />
+            <translation>有符号 32 位</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="1079" />
             <source>Signed 64 bits</source>
-            <translation type="unfinished" />
+            <translation>有符号 64 位</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="1080" />
@@ -2748,7 +2752,7 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="784" />
             <source>Cheat Patch Manager</source>
-            <translation type="unfinished" />
+            <translation>作弊补丁管理器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="792" />
@@ -2814,7 +2818,7 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="879" />
             <source>%1 entries</source>
-            <translation type="unfinished" />
+            <translation>%1 条目</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="911" />
@@ -2830,7 +2834,7 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="918" />
             <source>Cheats imported successfully.</source>
-            <translation type="unfinished" />
+            <translation>作弊码导入成功。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="923" />
@@ -2873,12 +2877,12 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="1013" />
             <source>View Details</source>
-            <translation type="unfinished" />
+            <translation>查看详情</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="1030" />
             <source>Cheat Details</source>
-            <translation type="unfinished" />
+            <translation>作弊码详情</translation>
         </message>
     </context>
     <context>
@@ -2896,7 +2900,7 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="150" />
             <source>Host:</source>
-            <translation type="unfinished" />
+            <translation>主机：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="169" />
@@ -2911,7 +2915,7 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="174" />
             <source>Missing Hostname!</source>
-            <translation type="unfinished" />
+            <translation>缺少主机名！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="174" />
@@ -2930,7 +2934,7 @@ It might be blocked by another application.</source>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="22" />
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="26" />
             <source>Server:</source>
-            <translation type="unfinished" />
+            <translation>服务器：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="41" />
@@ -2940,12 +2944,12 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="42" />
             <source>Del</source>
-            <translation type="unfinished" />
+            <translation>删除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="87" />
             <source>Existing Server</source>
-            <translation type="unfinished" />
+            <translation>已有服务器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="87" />
@@ -3052,7 +3056,7 @@ Some settings seem to deviate from the default config:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="1050" />
             <source>e.g. Infinite Health</source>
-            <translation type="unfinished" />
+            <translation>例如：无限生命</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="1051" />
@@ -3077,7 +3081,7 @@ Some settings seem to deviate from the default config:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="1077" />
             <source>0x...</source>
-            <translation type="unfinished" />
+            <translation>0x...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="1078" />
@@ -3130,7 +3134,7 @@ Some settings seem to deviate from the default config:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_add_bp_window.cpp" line="45" />
             <source>Execution</source>
-            <translation type="unfinished" />
+            <translation>执行</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_add_bp_window.cpp" line="54" />
@@ -3180,7 +3184,7 @@ Some settings seem to deviate from the default config:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="103" />
             <source>Step</source>
-            <translation type="unfinished" />
+            <translation>单步</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="104" />
@@ -3251,7 +3255,7 @@ Double-click: Set breakpoints.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="499" />
             <source>Max MFC cmds logged</source>
-            <translation type="unfinished" />
+            <translation>记录的最大 MFC 命令数</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="499" />
@@ -3262,7 +3266,7 @@ Double-click: Set breakpoints.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="555" />
             <source>Max PPU calls logged</source>
-            <translation type="unfinished" />
+            <translation>记录的最大 PPU 调用数</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="1133" />
@@ -3272,7 +3276,7 @@ Double-click: Set breakpoints.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="1321" />
             <source>SPU Disassembler Properties</source>
-            <translation type="unfinished" />
+            <translation>SPU 反汇编器属性</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="1340" />
@@ -3321,12 +3325,12 @@ Double-click: Set breakpoints.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_list.cpp" line="27" />
             <source>ASM</source>
-            <translation type="unfinished" />
+            <translation>汇编</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_list.cpp" line="409" />
             <source>RSX Command Detail</source>
-            <translation type="unfinished" />
+            <translation>RSX 命令详情</translation>
         </message>
     </context>
     <context>
@@ -3334,7 +3338,7 @@ Double-click: Set breakpoints.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="573" />
             <source>Dimensions Manager</source>
-            <translation type="unfinished" />
+            <translation>Dimensions 管理器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="583" />
@@ -3381,7 +3385,7 @@ Double-click: Set breakpoints.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="708" />
             <source>Dimensions Figure (*.bin);;</source>
-            <translation type="unfinished" />
+            <translation>Dimensions 玩偶 (*.bin);;</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="746" />
@@ -3411,7 +3415,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/downloader.cpp" line="70" />
             <source>Please wait... Trying again</source>
-            <translation type="unfinished" />
+            <translation>请稍候... 正在重试</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/downloader.cpp" line="188" />
@@ -3421,7 +3425,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/downloader.cpp" line="188" />
             <source>Abort</source>
-            <translation type="unfinished" />
+            <translation>中止</translation>
         </message>
     </context>
     <context>
@@ -3429,7 +3433,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="23" />
             <source>SPU ELF Dumper</source>
-            <translation type="unfinished" />
+            <translation>SPU ELF 转储器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="33" />
@@ -3474,7 +3478,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="79" />
             <source>Flags:</source>
-            <translation type="unfinished" />
+            <translation>标志：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="128" />
@@ -3494,7 +3498,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="131" />
             <source>Segment Flags</source>
-            <translation type="unfinished" />
+            <translation>段标志</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="135" />
@@ -3628,13 +3632,13 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1039" />
             <source>RPCS3 Scheduler</source>
             <comment>Thread Scheduler Mode</comment>
-            <translation type="unfinished" />
+            <translation>RPCS3 调度器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1040" />
             <source>RPCS3 Alternative Scheduler</source>
             <comment>Thread Scheduler Mode</comment>
-            <translation type="unfinished" />
+            <translation>RPCS3 备用调度器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1041" />
@@ -3664,13 +3668,13 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1055" />
             <source>Legacy Recompiler (single-threaded)</source>
             <comment>Shader Mode</comment>
-            <translation type="unfinished" />
+            <translation>旧式重编译器（单线程）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1056" />
             <source>Async Recompiler (multi-threaded)</source>
             <comment>Shader Mode</comment>
-            <translation type="unfinished" />
+            <translation>异步重编译器（多线程）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1057" />
@@ -3694,7 +3698,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1065" />
             <source>1080i</source>
             <comment>Resolution</comment>
-            <translation type="unfinished" />
+            <translation>1080i</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1066" />
@@ -3730,25 +3734,25 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1071" />
             <source>1600x1080p</source>
             <comment>Resolution</comment>
-            <translation type="unfinished" />
+            <translation>1600x1080p</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1072" />
             <source>1440x1080p</source>
             <comment>Resolution</comment>
-            <translation type="unfinished" />
+            <translation>1440x1080p</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1073" />
             <source>1280x1080p</source>
             <comment>Resolution</comment>
-            <translation type="unfinished" />
+            <translation>1280x1080p</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1074" />
             <source>960x1080p</source>
             <comment>Resolution</comment>
-            <translation type="unfinished" />
+            <translation>960x1080p</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1080" />
@@ -3784,7 +3788,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1085" />
             <source>Display</source>
             <comment>Frame limit</comment>
-            <translation type="unfinished" />
+            <translation>显示器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1086" />
@@ -3796,7 +3800,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1087" />
             <source>PS3 Native</source>
             <comment>Frame limit</comment>
-            <translation type="unfinished" />
+            <translation>PS3 原生</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1088" />
@@ -3844,7 +3848,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1110" />
             <source>Ultra</source>
             <comment>Shader Precision</comment>
-            <translation type="unfinished" />
+            <translation>极高</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1111" />
@@ -3862,13 +3866,13 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1118" />
             <source>Nearest</source>
             <comment>Output Scaling Mode</comment>
-            <translation type="unfinished" />
+            <translation>最近邻</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1119" />
             <source>Bilinear</source>
             <comment>Output Scaling Mode</comment>
-            <translation type="unfinished" />
+            <translation>双线性</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1120" />
@@ -3916,19 +3920,19 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1141" />
             <source>SingStar</source>
             <comment>Microphone handler</comment>
-            <translation type="unfinished" />
+            <translation>SingStar</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1142" />
             <source>Real SingStar</source>
             <comment>Microphone handler</comment>
-            <translation type="unfinished" />
+            <translation>真实 SingStar</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1143" />
             <source>Rocksmith</source>
             <comment>Microphone handler</comment>
-            <translation type="unfinished" />
+            <translation>Rocksmith</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1149" />
@@ -3958,7 +3962,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1158" />
             <source>Raw</source>
             <comment>Mouse handler</comment>
-            <translation type="unfinished" />
+            <translation>原始</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1164" />
@@ -3970,19 +3974,19 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1165" />
             <source>EyeToy</source>
             <comment>Camera type</comment>
-            <translation type="unfinished" />
+            <translation>EyeToy</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1166" />
             <source>PS Eye</source>
             <comment>Camera type</comment>
-            <translation type="unfinished" />
+            <translation>PS Eye</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1167" />
             <source>UVC 1.1</source>
             <comment>Camera type</comment>
-            <translation type="unfinished" />
+            <translation>UVC 1.1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1173" />
@@ -4018,13 +4022,13 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1183" />
             <source>Fake</source>
             <comment>Camera handler</comment>
-            <translation type="unfinished" />
+            <translation>模拟</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1184" />
             <source>Qt</source>
             <comment>Camera handler</comment>
-            <translation type="unfinished" />
+            <translation>Qt</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1186" />
@@ -4042,19 +4046,19 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1194" />
             <source>Qt</source>
             <comment>Music handler</comment>
-            <translation type="unfinished" />
+            <translation>Qt</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1200" />
             <source>Single-threaded</source>
             <comment>Pad handler mode</comment>
-            <translation type="unfinished" />
+            <translation>单线程</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1201" />
             <source>Multi-threaded</source>
             <comment>Pad handler mode</comment>
-            <translation type="unfinished" />
+            <translation>多线程</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1207" />
@@ -4066,13 +4070,13 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1208" />
             <source>Real</source>
             <comment>Move handler</comment>
-            <translation type="unfinished" />
+            <translation>真实</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1209" />
             <source>Fake</source>
             <comment>Move handler</comment>
-            <translation type="unfinished" />
+            <translation>模拟</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1210" />
@@ -4090,13 +4094,13 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1213" />
             <source>Gun</source>
             <comment>Gun handler</comment>
-            <translation type="unfinished" />
+            <translation>光枪</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1220" />
             <source>Null (use real Buzzers)</source>
             <comment>Buzz handler</comment>
-            <translation type="unfinished" />
+            <translation>无（使用真实蜂鸣器）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1221" />
@@ -4168,13 +4172,13 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1252" />
             <source>Simulated</source>
             <comment>PSN Status</comment>
-            <translation type="unfinished" />
+            <translation>模拟</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1253" />
             <source>RPCN</source>
             <comment>PSN Status</comment>
-            <translation type="unfinished" />
+            <translation>RPCN</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1259" />
@@ -4210,13 +4214,13 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1269" />
             <source>Ordered &amp; Atomic</source>
             <comment>RSX FIFO Fetch Accuracy</comment>
-            <translation type="unfinished" />
+            <translation>有序且原子</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1270" />
             <source>PS3</source>
             <comment>RSX FIFO Fetch Accuracy</comment>
-            <translation type="unfinished" />
+            <translation>PS3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1276" />
@@ -4318,7 +4322,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1313" />
             <source>Interpreter (dynamic)</source>
             <comment>SPU decoder</comment>
-            <translation type="unfinished" />
+            <translation>解释器（动态）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1314" />
@@ -4378,19 +4382,19 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1338" />
             <source>Linear PCM 2 Ch. 48 kHz</source>
             <comment>Audio format flag</comment>
-            <translation type="unfinished" />
+            <translation>线性 PCM 2 声道 48 kHz</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1339" />
             <source>Linear PCM 5.1 Ch. 48 kHz</source>
             <comment>Audio format flag</comment>
-            <translation type="unfinished" />
+            <translation>线性 PCM 5.1 声道 48 kHz</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1340" />
             <source>Linear PCM 7.1 Ch. 48 kHz</source>
             <comment>Audio format flag</comment>
-            <translation type="unfinished" />
+            <translation>线性 PCM 7.1 声道 48 kHz</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1341" />
@@ -4402,7 +4406,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1342" />
             <source>DTS 5.1 Ch.</source>
             <comment>Audio format flag</comment>
-            <translation type="unfinished" />
+            <translation>DTS 5.1 声道</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1348" />
@@ -4414,43 +4418,43 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1349" />
             <source>CellAudio</source>
             <comment>Audio Provider</comment>
-            <translation type="unfinished" />
+            <translation>CellAudio</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1350" />
             <source>RSXAudio</source>
             <comment>Audio Provider</comment>
-            <translation type="unfinished" />
+            <translation>RSXAudio</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1356" />
             <source>HDMI 0</source>
             <comment>Audio Avport</comment>
-            <translation type="unfinished" />
+            <translation>HDMI 0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1357" />
             <source>HDMI 1</source>
             <comment>Audio Avport</comment>
-            <translation type="unfinished" />
+            <translation>HDMI 1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1358" />
             <source>AV multiout</source>
             <comment>Audio Avport</comment>
-            <translation type="unfinished" />
+            <translation>AV 多输出</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1359" />
             <source>SPDIF 0</source>
             <comment>Audio Avport</comment>
-            <translation type="unfinished" />
+            <translation>SPDIF 0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1360" />
             <source>SPDIF 1</source>
             <comment>Audio Avport</comment>
-            <translation type="unfinished" />
+            <translation>SPDIF 1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1366" />
@@ -4462,7 +4466,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1367" />
             <source>Mono</source>
             <comment>Audio Channel Layout</comment>
-            <translation type="unfinished" />
+            <translation>单声道</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1368" />
@@ -4474,19 +4478,19 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1369" />
             <source>Stereo LFE</source>
             <comment>Audio Channel Layout</comment>
-            <translation type="unfinished" />
+            <translation>立体声 LFE</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1370" />
             <source>Quadraphonic</source>
             <comment>Audio Channel Layout</comment>
-            <translation type="unfinished" />
+            <translation>四声道</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1371" />
             <source>Quadraphonic LFE</source>
             <comment>Audio Channel Layout</comment>
-            <translation type="unfinished" />
+            <translation>四声道 LFE</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1372" />
@@ -4504,13 +4508,13 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1379" />
             <source>Japan</source>
             <comment>License Area</comment>
-            <translation type="unfinished" />
+            <translation>日本</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1380" />
             <source>America</source>
             <comment>License Area</comment>
-            <translation type="unfinished" />
+            <translation>美洲</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1381" />
@@ -4522,19 +4526,19 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1382" />
             <source>Southeast Asia</source>
             <comment>License Area</comment>
-            <translation type="unfinished" />
+            <translation>东南亚</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1383" />
             <source>Korea</source>
             <comment>License Area</comment>
-            <translation type="unfinished" />
+            <translation>韩国</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1384" />
             <source>China</source>
             <comment>License Area</comment>
-            <translation type="unfinished" />
+            <translation>中国</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1385" />
@@ -4558,31 +4562,31 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1398" />
             <source>Year/Month/Day</source>
             <comment>Date Format</comment>
-            <translation type="unfinished" />
+            <translation>年/月/日</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1399" />
             <source>Day/Month/Year</source>
             <comment>Date Format</comment>
-            <translation type="unfinished" />
+            <translation>日/月/年</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1400" />
             <source>Month/Day/Year</source>
             <comment>Date Format</comment>
-            <translation type="unfinished" />
+            <translation>月/日/年</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1406" />
             <source>12-hour clock</source>
             <comment>Time Format</comment>
-            <translation type="unfinished" />
+            <translation>12 小时制</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1407" />
             <source>24-hour clock</source>
             <comment>Time Format</comment>
-            <translation type="unfinished" />
+            <translation>24 小时制</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1413" />
@@ -4894,43 +4898,43 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1481" />
             <source>Interlaced</source>
             <comment>3D Display Mode</comment>
-            <translation type="unfinished" />
+            <translation>隔行扫描</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1482" />
             <source>Anaglyph Red-Green</source>
             <comment>3D Display Mode</comment>
-            <translation type="unfinished" />
+            <translation>红绿分色</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1483" />
             <source>Anaglyph Red-Blue</source>
             <comment>3D Display Mode</comment>
-            <translation type="unfinished" />
+            <translation>红蓝分色</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1484" />
             <source>Anaglyph Red-Cyan</source>
             <comment>3D Display Mode</comment>
-            <translation type="unfinished" />
+            <translation>红青分色</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1485" />
             <source>Anaglyph Magenta-Cyan</source>
             <comment>3D Display Mode</comment>
-            <translation type="unfinished" />
+            <translation>品红青分色</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1486" />
             <source>Anaglyph Green-Magenta (Trioscopic)</source>
             <comment>3D Display Mode</comment>
-            <translation type="unfinished" />
+            <translation>绿品红分色（Trioscopic）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1487" />
             <source>Anaglyph Amber-Blue (ColorCode 3D)</source>
             <comment>3D Display Mode</comment>
-            <translation type="unfinished" />
+            <translation>琥珀蓝分色（ColorCode 3D）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1488" />
@@ -4942,13 +4946,13 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1494" />
             <source>Guitar (17 frets)</source>
             <comment>Midi Device Type</comment>
-            <translation type="unfinished" />
+            <translation>吉他（17 品）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1495" />
             <source>Guitar (22 frets)</source>
             <comment>Midi Device Type</comment>
-            <translation type="unfinished" />
+            <translation>吉他（22 品）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1496" />
@@ -4960,27 +4964,27 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1497" />
             <source>Drums</source>
             <comment>Midi Device Type</comment>
-            <translation type="unfinished" />
+            <translation>架子鼓</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1503" />
             <source>Accurate XFloat</source>
-            <translation type="unfinished" />
+            <translation>精确 XFloat</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1504" />
             <source>Approximate XFloat</source>
-            <translation type="unfinished" />
+            <translation>近似 XFloat</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1505" />
             <source>Relaxed XFloat</source>
-            <translation type="unfinished" />
+            <translation>宽松 XFloat</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1506" />
             <source>Inaccurate XFloat</source>
-            <translation type="unfinished" />
+            <translation>不精确 XFloat</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1512" />
@@ -4992,7 +4996,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1513" />
             <source>Adaptive</source>
             <comment>VSync Mode</comment>
-            <translation type="unfinished" />
+            <translation>自适应</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1514" />
@@ -5036,12 +5040,12 @@ This change will only be final when you save the config.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="660" />
             <source>Reverse force feedback effects</source>
-            <translation type="unfinished" />
+            <translation>反转力反馈效果</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="665" />
             <source>Force feedback direction encoding:</source>
-            <translation type="unfinished" />
+            <translation>力反馈方向编码：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="668" />
@@ -5051,12 +5055,12 @@ This change will only be final when you save the config.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="669" />
             <source>Cartesian</source>
-            <translation type="unfinished" />
+            <translation>笛卡尔</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="670" />
             <source>Polar</source>
-            <translation type="unfinished" />
+            <translation>极坐标</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="671" />
@@ -5078,17 +5082,17 @@ Switch to Cartesian or Polar only if your wheel reports no force feedback with t
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="681" />
             <source>Driving Force GT</source>
-            <translation type="unfinished" />
+            <translation>Driving Force GT</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="682" />
             <source>G25</source>
-            <translation type="unfinished" />
+            <translation>G25</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="683" />
             <source>Driving Force Pro</source>
-            <translation type="unfinished" />
+            <translation>Driving Force Pro</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="690" />
@@ -5103,7 +5107,7 @@ Switch to Cartesian or Polar only if your wheel reports no force feedback with t
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="705" />
             <source>Axes:</source>
-            <translation type="unfinished" />
+            <translation>轴：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="725" />
@@ -5187,12 +5191,12 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="405" />
             <source>Sharpshooter</source>
-            <translation type="unfinished" />
+            <translation>Sharpshooter</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="406" />
             <source>Racing Wheel</source>
-            <translation type="unfinished" />
+            <translation>赛车方向盘</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="415" />
@@ -5217,7 +5221,7 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="543" />
             <source>Player %0</source>
-            <translation type="unfinished" />
+            <translation>玩家 %0</translation>
         </message>
     </context>
     <context>
@@ -5243,7 +5247,7 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="409" />
             <source>Figure Creator</source>
-            <translation type="unfinished" />
+            <translation>玩偶创建器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="417" />
@@ -5258,17 +5262,17 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="419" />
             <source>1.0</source>
-            <translation type="unfinished" />
+            <translation>1.0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="420" />
             <source>2.0</source>
-            <translation type="unfinished" />
+            <translation>2.0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="421" />
             <source>3.0</source>
-            <translation type="unfinished" />
+            <translation>3.0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="477" />
@@ -5283,7 +5287,7 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="510" />
             <source>Series:</source>
-            <translation type="unfinished" />
+            <translation>系列：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="523" />
@@ -5319,7 +5323,7 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="582" />
             <source>Infinity Figure (*.bin);;</source>
-            <translation type="unfinished" />
+            <translation>Infinity 玩偶 (*.bin);;</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="589" />
@@ -5343,22 +5347,22 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/find_dialog.cpp" line="14" />
             <source>Search...</source>
-            <translation type="unfinished" />
+            <translation>搜索...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/find_dialog.cpp" line="16" />
             <source>Case sensitive</source>
-            <translation type="unfinished" />
+            <translation>区分大小写</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/find_dialog.cpp" line="23" />
             <source>Line 0/0</source>
-            <translation type="unfinished" />
+            <translation>行 0/0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/find_dialog.cpp" line="24" />
             <source>Word 0/0</source>
-            <translation type="unfinished" />
+            <translation>字 0/0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/find_dialog.cpp" line="26" />
@@ -5383,12 +5387,12 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/find_dialog.cpp" line="166" />
             <source>Line %0/%1</source>
-            <translation type="unfinished" />
+            <translation>行 %0/%1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/find_dialog.cpp" line="167" />
             <source>Word %0/%1</source>
-            <translation type="unfinished" />
+            <translation>字 %0/%1</translation>
         </message>
     </context>
     <context>
@@ -5461,7 +5465,7 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="161" />
             <source>Database missing</source>
-            <translation type="unfinished" />
+            <translation>缺少数据库</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="161" />
@@ -5472,7 +5476,7 @@ Make sure you are connected to the internet.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="162" />
             <source>Retrieving...</source>
-            <translation type="unfinished" />
+            <translation>正在获取...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="162" />
@@ -5486,7 +5490,8 @@ Make sure you are connected to the internet.</source>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="132" />
             <source>%0 - %1
 </source>
-            <translation type="unfinished" />
+            <translation>%0 - %1
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="136" />
@@ -5547,13 +5552,15 @@ Disc Game Info:
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="179" />
             <source>VFS unhosted: %0
 </source>
-            <translation type="unfinished" />
+            <translation>VFS 未托管：%0
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="182" />
             <source>VFS hosted: %0
 </source>
-            <translation type="unfinished" />
+            <translation>VFS 已托管：%0
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="185" />
@@ -5778,13 +5785,14 @@ Integrity check aborted</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="555" />
             <source>Calculating hash: %0</source>
-            <translation type="unfinished" />
+            <translation>正在计算哈希：%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="590" />
             <source>
     %0: %1</source>
-            <translation type="unfinished" />
+            <translation>
+    %0: %1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="595" />
@@ -5807,7 +5815,7 @@ Integrity check aborted</source>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="633" />
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="655" />
             <source>Removal Aborted</source>
-            <translation type="unfinished" />
+            <translation>移除已中止</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="634" />
@@ -6025,7 +6033,7 @@ Progress: %1/%2 caches compiled</source>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1636" />
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1642" />
             <source>Content Batch Removal</source>
-            <translation type="unfinished" />
+            <translation>内容批量移除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1642" />
@@ -6035,7 +6043,7 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1647" />
             <source>%0/%1 contents cleared</source>
-            <translation type="unfinished" />
+            <translation>已清除 %0/%1 项内容</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1687" />
@@ -6078,7 +6086,7 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="77" />
             <source>&amp;Reboot</source>
-            <translation type="unfinished" />
+            <translation>重新启动(&amp;R)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="78" />
@@ -6173,7 +6181,7 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="174" />
             <source>&amp;Compare Configurations</source>
-            <translation type="unfinished" />
+            <translation>比较配置(&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="193" />
@@ -6337,7 +6345,7 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="357" />
             <source>&amp;Replace Hover Gif</source>
-            <translation type="unfinished" />
+            <translation>替换悬停 Gif(&amp;R)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="358" />
@@ -6493,7 +6501,7 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="616" />
             <source>&amp;Check ISO Integrity</source>
-            <translation type="unfinished" />
+            <translation>检查 ISO 完整性(&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="634" />
@@ -6534,7 +6542,8 @@ You can clear the line in order to use the original title.</source>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="757" />
             <source>%0
 %1</source>
-            <translation type="unfinished" />
+            <translation>%0
+%1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="776" />
@@ -6694,7 +6703,7 @@ Falling back to local database.
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="271" />
             <source>Parental Level</source>
-            <translation type="unfinished" />
+            <translation>家长控制等级</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="272" />
@@ -6805,7 +6814,7 @@ Notes:
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_grid.cpp" line="95" />
             <source>%0 [%1]</source>
-            <translation type="unfinished" />
+            <translation>%0 [%1]</translation>
         </message>
     </context>
     <context>
@@ -6899,12 +6908,12 @@ Do you wish to use this build anyway?</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="120" />
             <source>RPCS3 website</source>
-            <translation type="unfinished" />
+            <translation>RPCS3 网站</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="133" />
             <source>Vulkan Check Timeout</source>
-            <translation type="unfinished" />
+            <translation>Vulkan 检查超时</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="134" />
@@ -6947,7 +6956,7 @@ Some thread has probably deadlocked. Aborting.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="892" />
             <source>Terminate RPCS3</source>
-            <translation type="unfinished" />
+            <translation>终止 RPCS3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="893" />
@@ -6978,7 +6987,7 @@ Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="939" />
             <source>%0 written, %1 second(s) passed%2</source>
-            <translation type="unfinished" />
+            <translation>已写入 %0，已过 %1 秒%2</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="998" />
@@ -7033,7 +7042,7 @@ Some thread has probably deadlocked. Aborting.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="718" />
             <source>Infinity Manager</source>
-            <translation type="unfinished" />
+            <translation>Infinity 管理器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="733" />
@@ -7048,42 +7057,42 @@ Some thread has probably deadlocked. Aborting.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="738" />
             <source>Power Disc Two</source>
-            <translation type="unfinished" />
+            <translation>力量光盘二</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="740" />
             <source>Power Disc Three</source>
-            <translation type="unfinished" />
+            <translation>力量光盘三</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="742" />
             <source>Player One</source>
-            <translation type="unfinished" />
+            <translation>玩家一</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="744" />
             <source>Player One Ability One</source>
-            <translation type="unfinished" />
+            <translation>玩家一技能一</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="746" />
             <source>Player One Ability Two</source>
-            <translation type="unfinished" />
+            <translation>玩家一技能二</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="748" />
             <source>Player Two</source>
-            <translation type="unfinished" />
+            <translation>玩家二</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="750" />
             <source>Player Two Ability One</source>
-            <translation type="unfinished" />
+            <translation>玩家二技能一</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="752" />
             <source>Player Two Ability Two</source>
-            <translation type="unfinished" />
+            <translation>玩家二技能二</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="780" />
@@ -7120,7 +7129,7 @@ Some thread has probably deadlocked. Aborting.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="850" />
             <source>Infinity Figure (*.bin);;</source>
-            <translation type="unfinished" />
+            <translation>Infinity 玩偶 (*.bin);;</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="866" />
@@ -7170,12 +7179,12 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="55" />
             <source>Instruction: </source>
-            <translation type="unfinished" />
+            <translation>指令：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="56" />
             <source>Preview:     </source>
-            <translation type="unfinished" />
+            <translation>预览：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="65" />
@@ -7224,7 +7233,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/ipc_settings_dialog.cpp" line="27" />
             <source>IPC Server Port</source>
-            <translation type="unfinished" />
+            <translation>IPC 服务器端口</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ipc_settings_dialog.cpp" line="52" />
@@ -7242,7 +7251,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="154" />
             <source>Kamen Rider Creator</source>
-            <translation type="unfinished" />
+            <translation>假面骑士创建器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="180" />
@@ -7281,7 +7290,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="263" />
             <source>Kamen Rider Manager</source>
-            <translation type="unfinished" />
+            <translation>假面骑士管理器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="278" />
@@ -7291,7 +7300,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="289" />
             <source>Kamen Rider %1</source>
-            <translation type="unfinished" />
+            <translation>假面骑士 %1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="293" />
@@ -7356,7 +7365,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="174" />
             <source>Kernel Explorer | %1</source>
-            <translation type="unfinished" />
+            <translation>内核浏览器 | %1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="181" />
@@ -7371,7 +7380,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="190" />
             <source>Kernel</source>
-            <translation type="unfinished" />
+            <translation>内核</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="223" />
@@ -7391,27 +7400,27 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="227" />
             <source>Mutexes</source>
-            <translation type="unfinished" />
+            <translation>互斥锁</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="228" />
             <source>Condition Variables</source>
-            <translation type="unfinished" />
+            <translation>条件变量</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="229" />
             <source>Reader Writer Locks</source>
-            <translation type="unfinished" />
+            <translation>读写锁</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="230" />
             <source>Interrupt Tags</source>
-            <translation type="unfinished" />
+            <translation>中断标记</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="231" />
             <source>Interrupt Service Handles</source>
-            <translation type="unfinished" />
+            <translation>中断服务句柄</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="232" />
@@ -7426,7 +7435,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="234" />
             <source>Traces</source>
-            <translation type="unfinished" />
+            <translation>跟踪</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="235" />
@@ -7436,17 +7445,17 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="236" />
             <source>PRX Modules</source>
-            <translation type="unfinished" />
+            <translation>PRX 模块</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="237" />
             <source>SPU Ports</source>
-            <translation type="unfinished" />
+            <translation>SPU 端口</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="238" />
             <source>Overlay Modules</source>
-            <translation type="unfinished" />
+            <translation>覆盖模块</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="239" />
@@ -7461,7 +7470,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="241" />
             <source>Semaphores</source>
-            <translation type="unfinished" />
+            <translation>信号量</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="242" />
@@ -7477,12 +7486,12 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="244" />
             <source>Event Flags</source>
-            <translation type="unfinished" />
+            <translation>事件标志</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="245" />
             <source>RSXAudio Objects</source>
-            <translation type="unfinished" />
+            <translation>RSXAudio 对象</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="247" />
@@ -7512,22 +7521,22 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="252" />
             <source>Sockets</source>
-            <translation type="unfinished" />
+            <translation>套接字</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="776" />
             <source>SPURS %1</source>
-            <translation type="unfinished" />
+            <translation>SPURS %1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="851" />
             <source>IO-EA Table</source>
-            <translation type="unfinished" />
+            <translation>IO-EA 表</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="852" />
             <source>Zcull Bindings</source>
-            <translation type="unfinished" />
+            <translation>Zcull 绑定</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="853" />
@@ -7685,22 +7694,22 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.cpp" line="39" />
             <source>Motion X</source>
-            <translation type="unfinished" />
+            <translation>体感 X</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.cpp" line="40" />
             <source>Motion Y</source>
-            <translation type="unfinished" />
+            <translation>体感 Y</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.cpp" line="41" />
             <source>Motion Z</source>
-            <translation type="unfinished" />
+            <translation>体感 Z</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.cpp" line="42" />
             <source>Motion G</source>
-            <translation type="unfinished" />
+            <translation>体感 G</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.cpp" line="44" />
@@ -7872,7 +7881,7 @@ File was too small.</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="56" />
             <source>Enter</source>
             <comment>OSK Dialog</comment>
-            <translation type="unfinished" />
+            <translation>回车</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="57" />
@@ -7884,19 +7893,19 @@ File was too small.</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="58" />
             <source>Space</source>
             <comment>OSK Dialog</comment>
-            <translation type="unfinished" />
+            <translation>空格</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="59" />
             <source>Backspace</source>
             <comment>OSK Dialog</comment>
-            <translation type="unfinished" />
+            <translation>退格</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="60" />
             <source>Shift</source>
             <comment>OSK Dialog</comment>
-            <translation type="unfinished" />
+            <translation>Shift</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="61" />
@@ -7908,13 +7917,13 @@ File was too small.</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="62" />
             <source>[Enter Password]</source>
             <comment>OSK Dialog</comment>
-            <translation type="unfinished" />
+            <translation>[输入密码]</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="63" />
             <source>Select media</source>
             <comment>Media dialog</comment>
-            <translation type="unfinished" />
+            <translation>选择媒体</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="64" />
@@ -7932,7 +7941,7 @@ File was too small.</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="66" />
             <source>Enter</source>
             <comment>Enter Dialog List</comment>
-            <translation type="unfinished" />
+            <translation>确定</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="67" />
@@ -8272,7 +8281,8 @@ Space Needed: %0 KB</source>
             <source>Math domain violation.
 (%0)</source>
             <comment>Error code</comment>
-            <translation type="unfinished" />
+            <translation>数学域违例。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="118" />
@@ -8342,7 +8352,8 @@ Space Needed: %0 KB</source>
             <source>Broken pipe.
 (%0)</source>
             <comment>Error code</comment>
-            <translation type="unfinished" />
+            <translation>管道破裂。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="128" />
@@ -8370,7 +8381,8 @@ Space Needed: %0 KB</source>
             <source>Access violation.
 (%0)</source>
             <comment>Error code</comment>
-            <translation type="unfinished" />
+            <translation>访问违例。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="132" />
@@ -8482,7 +8494,8 @@ Space Needed: %0 KB</source>
             <source>Overflow occurred.
 (%0)</source>
             <comment>Error code</comment>
-            <translation type="unfinished" />
+            <translation>发生溢出。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="148" />
@@ -8649,13 +8662,13 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="173" />
             <source>Select Message</source>
             <comment>RECVMESSAGE_DIALOG</comment>
-            <translation type="unfinished" />
+            <translation>选择消息</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="174" />
             <source>Select Invite</source>
             <comment>RECVMESSAGE_DIALOG</comment>
-            <translation type="unfinished" />
+            <translation>选择邀请</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="175" />
@@ -8673,7 +8686,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="177" />
             <source>Subject:</source>
             <comment>RECVMESSAGE_DIALOG</comment>
-            <translation type="unfinished" />
+            <translation>主题：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="178" />
@@ -8685,7 +8698,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="179" />
             <source>Send Invite</source>
             <comment>SENDMESSAGE_DIALOG</comment>
-            <translation type="unfinished" />
+            <translation>发送邀请</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="180" />
@@ -8730,7 +8743,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="186" />
             <source>Recording aborted!</source>
-            <translation type="unfinished" />
+            <translation>录制已中止！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="187" />
@@ -8806,7 +8819,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="201" />
             <source>RPCN: Received friend request: %0</source>
             <comment>RCPN Friends</comment>
-            <translation type="unfinished" />
+            <translation>RPCN：收到好友请求：%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="202" />
@@ -8850,7 +8863,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="209" />
             <source>Friends</source>
-            <translation type="unfinished" />
+            <translation>好友</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="210" />
@@ -8860,7 +8873,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="211" />
             <source>Blocked Users</source>
-            <translation type="unfinished" />
+            <translation>已屏蔽用户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="212" />
@@ -8875,17 +8888,17 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="214" />
             <source>Blocked</source>
-            <translation type="unfinished" />
+            <translation>已屏蔽</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="215" />
             <source>You sent a friend request</source>
-            <translation type="unfinished" />
+            <translation>你发送了好友请求</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="216" />
             <source>Sent you a friend request</source>
-            <translation type="unfinished" />
+            <translation>向你发送了好友请求</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="217" />
@@ -8913,7 +8926,9 @@ Subject:</source>
             <source>Accept Request?
 
 %0</source>
-            <translation type="unfinished" />
+            <translation>接受请求？
+
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="221" />
@@ -8927,12 +8942,14 @@ Subject:</source>
             <source>Reject Request?
 
 %0</source>
-            <translation type="unfinished" />
+            <translation>拒绝请求？
+
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="223" />
             <source>Reject Request</source>
-            <translation type="unfinished" />
+            <translation>拒绝请求</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="224" />
@@ -9042,13 +9059,13 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="243" />
             <source>Output Scaling</source>
             <comment>Video</comment>
-            <translation type="unfinished" />
+            <translation>输出缩放</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="244" />
             <source>FidelityFX CAS Sharpening Intensity</source>
             <comment>Video</comment>
-            <translation type="unfinished" />
+            <translation>FidelityFX CAS 锐化强度</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="245" />
@@ -9072,7 +9089,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="248" />
             <source>Stereo Mode</source>
             <comment>Video</comment>
-            <translation type="unfinished" />
+            <translation>立体模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="249" />
@@ -9107,13 +9124,13 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="254" />
             <source>Pad Handler Mode</source>
             <comment>Input</comment>
-            <translation type="unfinished" />
+            <translation>手柄处理程序模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="255" />
             <source>Pad Handler Sleep</source>
             <comment>Input</comment>
-            <translation type="unfinished" />
+            <translation>手柄处理程序休眠</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="256" />
@@ -9154,7 +9171,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="262" />
             <source>Sleep Timers Accuracy</source>
             <comment>Advanced</comment>
-            <translation type="unfinished" />
+            <translation>睡眠定时器精度</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="263" />
@@ -9178,18 +9195,18 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="266" />
             <source>VBlank Frequency</source>
             <comment>Advanced</comment>
-            <translation type="unfinished" />
+            <translation>VBlank 频率</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="267" />
             <source>VBlank NTSC Fixup</source>
             <comment>Advanced</comment>
-            <translation type="unfinished" />
+            <translation>VBlank NTSC 修正</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="268" />
             <source>Overlays</source>
-            <translation type="unfinished" />
+            <translation>覆盖层</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="269" />
@@ -9284,31 +9301,31 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="284" />
             <source>Detail level</source>
             <comment>Performance Overlay</comment>
-            <translation type="unfinished" />
+            <translation>详细级别</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="285" />
             <source>Framerate Graph Detail Level</source>
             <comment>Performance Overlay</comment>
-            <translation type="unfinished" />
+            <translation>帧率图详细级别</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="286" />
             <source>Frametime Graph Detail Level</source>
             <comment>Performance Overlay</comment>
-            <translation type="unfinished" />
+            <translation>帧时间图详细级别</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="287" />
             <source>Framerate Datapoints</source>
             <comment>Performance Overlay</comment>
-            <translation type="unfinished" />
+            <translation>帧率数据点</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="288" />
             <source>Frametime Datapoints</source>
             <comment>Performance Overlay</comment>
-            <translation type="unfinished" />
+            <translation>帧时间数据点</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="289" />
@@ -9407,7 +9424,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="305" />
             <source>SaveState</source>
-            <translation type="unfinished" />
+            <translation>存档状态</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="306" />
@@ -9457,7 +9474,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="315" />
             <source>Trophy Progress: %0</source>
-            <translation type="unfinished" />
+            <translation>奖杯进度：%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="316" />
@@ -9487,7 +9504,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="321" />
             <source>Platinum relevant</source>
-            <translation type="unfinished" />
+            <translation>与白金相关</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="322" />
@@ -9539,12 +9556,12 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="330" />
             <source>Progress: analyzing...</source>
-            <translation type="unfinished" />
+            <translation>进度：正在分析...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="331" />
             <source>remaining</source>
-            <translation type="unfinished" />
+            <translation>剩余</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="332" />
@@ -9559,7 +9576,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="334" />
             <source>module</source>
-            <translation type="unfinished" />
+            <translation>模块</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="335" />
@@ -9569,7 +9586,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="336" />
             <source>Please wait</source>
-            <translation type="unfinished" />
+            <translation>请稍候</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="337" />
@@ -9584,17 +9601,17 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="339" />
             <source>Scanning PPU Executable...</source>
-            <translation type="unfinished" />
+            <translation>正在扫描 PPU 可执行文件...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="340" />
             <source>Analyzing PPU Executable...</source>
-            <translation type="unfinished" />
+            <translation>正在分析 PPU 可执行文件...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="341" />
             <source>Scanning PPU Modules...</source>
-            <translation type="unfinished" />
+            <translation>正在扫描 PPU 模块...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="342" />
@@ -9609,7 +9626,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="344" />
             <source>Linking PPU Modules...</source>
-            <translation type="unfinished" />
+            <translation>正在链接 PPU 模块...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="345" />
@@ -9680,7 +9697,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="320" />
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="326" />
             <source>Channel %0</source>
-            <translation type="unfinished" />
+            <translation>频道 %0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="146" />
@@ -9692,7 +9709,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="158" />
             <source>TTY</source>
-            <translation type="unfinished" />
+            <translation>TTY</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="237" />
@@ -9876,17 +9893,17 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_level_dialog.cpp" line="49" />
             <source>Channel</source>
-            <translation type="unfinished" />
+            <translation>频道</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_level_dialog.cpp" line="49" />
             <source>Level</source>
-            <translation type="unfinished" />
+            <translation>级别</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_level_dialog.cpp" line="82" />
             <source>Filter channels</source>
-            <translation type="unfinished" />
+            <translation>过滤频道</translation>
         </message>
     </context>
     <context>
@@ -9894,12 +9911,12 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="69" />
             <source> | Filter '%0'</source>
-            <translation type="unfinished" />
+            <translation> | 过滤 '%0'</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="74" />
             <source> | Exclude '%0'</source>
-            <translation type="unfinished" />
+            <translation> | 排除 '%0'</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="77" />
@@ -9934,7 +9951,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="88" />
             <source>&amp;Exclude%0</source>
-            <translation type="unfinished" />
+            <translation>排除(&amp;E)%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="89" />
@@ -10020,7 +10037,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="221" />
             <source>Exclude</source>
-            <translation type="unfinished" />
+            <translation>排除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="221" />
@@ -10040,17 +10057,17 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="320" />
             <source>Pasting...</source>
-            <translation type="unfinished" />
+            <translation>正在粘贴...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="336" />
             <source>Filtering...</source>
-            <translation type="unfinished" />
+            <translation>正在过滤...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="446" />
             <source>Ooops!</source>
-            <translation type="unfinished" />
+            <translation>哎呀！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="446" />
@@ -10068,7 +10085,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="75" />
             <source>Search...</source>
-            <translation type="unfinished" />
+            <translation>搜索...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="151" />
@@ -10118,7 +10135,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="252" />
             <source>Mice</source>
-            <translation type="unfinished" />
+            <translation>鼠标</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="264" />
@@ -10133,7 +10150,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="303" />
             <source>Network Services</source>
-            <translation type="unfinished" />
+            <translation>网络服务</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="311" />
@@ -10143,17 +10160,17 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="320" />
             <source>Databases</source>
-            <translation type="unfinished" />
+            <translation>数据库</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="328" />
             <source>Packages/Raps/Edats</source>
-            <translation type="unfinished" />
+            <translation>包/Raps/Edats</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="352" />
             <source>Utilities</source>
-            <translation type="unfinished" />
+            <translation>实用工具</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="378" />
@@ -10295,7 +10312,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="616" />
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1104" />
             <source>Pads</source>
-            <translation type="unfinished" />
+            <translation>手柄</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="619" />
@@ -10316,7 +10333,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="632" />
             <source>Input/Output</source>
-            <translation type="unfinished" />
+            <translation>输入/输出</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="635" />
@@ -10431,17 +10448,17 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="730" />
             <source>Manage trophies</source>
-            <translation type="unfinished" />
+            <translation>管理奖杯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="735" />
             <source>User Accounts</source>
-            <translation type="unfinished" />
+            <translation>用户账户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="738" />
             <source>Manage user accounts</source>
-            <translation type="unfinished" />
+            <translation>管理用户账户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="743" />
@@ -10471,17 +10488,17 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="777" />
             <source>Extract MSELF</source>
-            <translation type="unfinished" />
+            <translation>解包 MSELF</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="782" />
             <source>Extract PUP</source>
-            <translation type="unfinished" />
+            <translation>解包 PUP</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="787" />
             <source>Extract Encrypted TAR</source>
-            <translation type="unfinished" />
+            <translation>解包加密 TAR</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="790" />
@@ -10501,7 +10518,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="811" />
             <source>Support Us</source>
-            <translation type="unfinished" />
+            <translation>支持我们</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="814" />
@@ -10566,7 +10583,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="886" />
             <source>Check Integrity</source>
-            <translation type="unfinished" />
+            <translation>检查完整性</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="891" />
@@ -10593,7 +10610,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="917" />
             <source>Tiny</source>
-            <translation type="unfinished" />
+            <translation>极小</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="928" />
@@ -10618,7 +10635,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="963" />
             <source>Grid Mode</source>
-            <translation type="unfinished" />
+            <translation>网格模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="975" />
@@ -10701,7 +10718,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1092" />
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1333" />
             <source>RPCN</source>
-            <translation type="unfinished" />
+            <translation>RPCN</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1095" />
@@ -10711,7 +10728,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1116" />
             <source>FullScr</source>
-            <translation type="unfinished" />
+            <translation>全屏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1119" />
@@ -10746,7 +10763,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1155" />
             <source>Refresh gamelist</source>
-            <translation type="unfinished" />
+            <translation>刷新游戏列表</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1164" />
@@ -10837,22 +10854,22 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1256" />
             <source>Skylanders Portal</source>
-            <translation type="unfinished" />
+            <translation>Skylanders 传送门</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1261" />
             <source>Infinity Base</source>
-            <translation type="unfinished" />
+            <translation>Infinity 基座</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1266" />
             <source>Dimensions Toypad</source>
-            <translation type="unfinished" />
+            <translation>Dimensions 触控板</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1271" />
             <source>Kamen Rider Ride Gate</source>
-            <translation type="unfinished" />
+            <translation>假面骑士 Ride Gate</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1276" />
@@ -10907,7 +10924,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1341" />
             <source>Clans</source>
-            <translation type="unfinished" />
+            <translation>战队</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1344" />
@@ -10917,7 +10934,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1349" />
             <source>IPC</source>
-            <translation type="unfinished" />
+            <translation>IPC</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1352" />
@@ -10937,7 +10954,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1379" />
             <source>Play Hover Gifs</source>
-            <translation type="unfinished" />
+            <translation>播放悬停 Gif</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1384" />
@@ -10947,22 +10964,22 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1389" />
             <source>Patch Creator</source>
-            <translation type="unfinished" />
+            <translation>补丁创建器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1394" />
             <source>Cameras</source>
-            <translation type="unfinished" />
+            <translation>摄像头</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1402" />
             <source>Eject Disc</source>
-            <translation type="unfinished" />
+            <translation>弹出光盘</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1410" />
             <source>Insert Disc</source>
-            <translation type="unfinished" />
+            <translation>插入光盘</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1415" />
@@ -10977,27 +10994,27 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1428" />
             <source>System Commands</source>
-            <translation type="unfinished" />
+            <translation>系统命令</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1433" />
             <source>Buzz</source>
-            <translation type="unfinished" />
+            <translation>Buzz</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1438" />
             <source>GHLtar</source>
-            <translation type="unfinished" />
+            <translation>GHLtar</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1443" />
             <source>Turntable</source>
-            <translation type="unfinished" />
+            <translation>打碟机</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1448" />
             <source>USIO</source>
-            <translation type="unfinished" />
+            <translation>USIO</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1453" />
@@ -11012,7 +11029,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1463" />
             <source>GunCon 3</source>
-            <translation type="unfinished" />
+            <translation>GunCon 3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1468" />
@@ -11027,7 +11044,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1478" />
             <source>Logitech G27 Wheel</source>
-            <translation type="unfinished" />
+            <translation>罗技 G27 方向盘</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1483" />
@@ -11042,7 +11059,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1493" />
             <source>VFS Tool</source>
-            <translation type="unfinished" />
+            <translation>VFS 工具</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1498" />
@@ -11063,7 +11080,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1529" />
             <source>Savestates</source>
-            <translation type="unfinished" />
+            <translation>存档状态</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1537" />
@@ -11113,7 +11130,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3805" />
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3818" />
             <source>Play %0</source>
-            <translation type="unfinished" />
+            <translation>播放 %0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="223" />
@@ -11132,7 +11149,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="347" />
             <source>Missing Firmware Detected!</source>
-            <translation type="unfinished" />
+            <translation>检测到缺少固件！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="348" />
@@ -11143,7 +11160,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="354" />
             <source>Locate PS3UPDAT.PUP</source>
-            <translation type="unfinished" />
+            <translation>定位 PS3UPDAT.PUP</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="483" />
@@ -11264,7 +11281,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="763" />
             <source>Select ISO</source>
-            <translation type="unfinished" />
+            <translation>选择 ISO</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="763" />
@@ -11275,7 +11292,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="798" />
             <source>Select RSX Capture</source>
-            <translation type="unfinished" />
+            <translation>选择 RSX 捕获</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="798" />
@@ -11295,7 +11312,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1076" />
             <source>RPCS3 Package Installer</source>
-            <translation type="unfinished" />
+            <translation>RPCS3 包安装器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1076" />
@@ -11313,7 +11330,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1103" />
             <source>v.%0</source>
             <comment>Package version for install progress dialog</comment>
-            <translation type="unfinished" />
+            <translation>v.%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1168" />
@@ -11422,7 +11439,7 @@ Please add RPCS3 to your anti-virus' whitelist or use better anti-virus software
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1699" />
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1714" />
             <source>RPCS3 Firmware Installer</source>
-            <translation type="unfinished" />
+            <translation>RPCS3 固件安装器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1401" />
@@ -11447,13 +11464,14 @@ Please add RPCS3 to your anti-virus' whitelist or use better anti-virus software
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1470" />
             <source>TAR Extraction</source>
-            <translation type="unfinished" />
+            <translation>TAR 解包</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1470" />
             <source>Extracting encrypted TARs
 Please wait...</source>
-            <translation type="unfinished" />
+            <translation>正在解包加密 TAR
+请稍候...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1493" />
@@ -11833,7 +11851,7 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="4379" />
             <source>PARAM.SFO Information</source>
-            <translation type="unfinished" />
+            <translation>PARAM.SFO 信息</translation>
         </message>
     </context>
     <context>
@@ -11866,12 +11884,12 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="107" />
             <source>Words</source>
-            <translation type="unfinished" />
+            <translation>字</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="135" />
             <source>Control</source>
-            <translation type="unfinished" />
+            <translation>控制</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="155" />
@@ -11891,7 +11909,7 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="190" />
             <source>Mode</source>
-            <translation type="unfinished" />
+            <translation>模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="209" />
@@ -11912,7 +11930,7 @@ image</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="296" />
             <source>Search...</source>
-            <translation type="unfinished" />
+            <translation>搜索...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="299" />
@@ -11922,7 +11940,7 @@ image</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="302" />
             <source>Case Insensitive</source>
-            <translation type="unfinished" />
+            <translation>不区分大小写</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="304" />
@@ -11934,7 +11952,7 @@ Warning: this may reduce performance of the search.</source>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="308" />
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="352" />
             <source>Select search mode(s)..</source>
-            <translation type="unfinished" />
+            <translation>选择搜索模式..</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="309" />
@@ -11964,12 +11982,12 @@ Warning: this may reduce performance of the search.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="314" />
             <source>Instruction</source>
-            <translation type="unfinished" />
+            <translation>指令</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="315" />
             <source>RegEx Instruction</source>
-            <translation type="unfinished" />
+            <translation>正则表达式指令</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="317" />
@@ -11984,7 +12002,7 @@ RegEx: search an instruction containing text that matches the regular expression
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="327" />
             <source>SPU RegEx-Instruction</source>
-            <translation type="unfinished" />
+            <translation>SPU 正则表达式指令</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="328" />
@@ -11996,7 +12014,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="357" />
             <source>%0 mode(s) selected</source>
-            <translation type="unfinished" />
+            <translation>已选择 %0 个模式</translation>
         </message>
     </context>
     <context>
@@ -12022,7 +12040,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="383" />
             <source>Figure Creator</source>
-            <translation type="unfinished" />
+            <translation>玩偶创建器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="399" />
@@ -12062,7 +12080,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="464" />
             <source>Dimensions Figure (*.bin);;</source>
-            <translation type="unfinished" />
+            <translation>Dimensions 玩偶 (*.bin);;</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="473" />
@@ -12081,7 +12099,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="503" />
             <source>Figure Mover</source>
-            <translation type="unfinished" />
+            <translation>玩偶迁移器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="540" />
@@ -12142,7 +12160,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/music_player_dialog.ui" line="131" />
             <source>Vol:</source>
-            <translation type="unfinished" />
+            <translation>音量：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/music_player_dialog.cpp" line="41" />
@@ -12176,7 +12194,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_led_settings_dialog.ui" line="49" />
             <source>Player LED</source>
-            <translation type="unfinished" />
+            <translation>玩家 LED</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_led_settings_dialog.ui" line="55" />
@@ -12224,7 +12242,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_motion_settings_dialog.ui" line="32" />
             <source>X</source>
-            <translation type="unfinished" />
+            <translation>X</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_motion_settings_dialog.ui" line="45" />
@@ -12232,7 +12250,7 @@ Tip: SPU floats are commented along forming instructions.</source>
             <location filename="../rpcs3/rpcs3qt/pad_motion_settings_dialog.ui" line="131" />
             <location filename="../rpcs3/rpcs3qt/pad_motion_settings_dialog.ui" line="174" />
             <source>0</source>
-            <translation type="unfinished" />
+            <translation>0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_motion_settings_dialog.ui" line="58" />
@@ -12240,7 +12258,7 @@ Tip: SPU floats are commented along forming instructions.</source>
             <location filename="../rpcs3/rpcs3qt/pad_motion_settings_dialog.ui" line="144" />
             <location filename="../rpcs3/rpcs3qt/pad_motion_settings_dialog.ui" line="187" />
             <source>Mirrored</source>
-            <translation type="unfinished" />
+            <translation>镜像</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_motion_settings_dialog.ui" line="65" />
@@ -12248,22 +12266,22 @@ Tip: SPU floats are commented along forming instructions.</source>
             <location filename="../rpcs3/rpcs3qt/pad_motion_settings_dialog.ui" line="151" />
             <location filename="../rpcs3/rpcs3qt/pad_motion_settings_dialog.ui" line="194" />
             <source>Shift: </source>
-            <translation type="unfinished" />
+            <translation>偏移：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_motion_settings_dialog.ui" line="75" />
             <source>Y</source>
-            <translation type="unfinished" />
+            <translation>Y</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_motion_settings_dialog.ui" line="118" />
             <source>Z</source>
-            <translation type="unfinished" />
+            <translation>Z</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_motion_settings_dialog.ui" line="161" />
             <source>G</source>
-            <translation type="unfinished" />
+            <translation>G</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_motion_settings_dialog.ui" line="247" />
@@ -12356,7 +12374,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="275" />
             <source>W</source>
-            <translation type="unfinished" />
+            <translation>W</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="306" />
@@ -12369,7 +12387,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="324" />
             <source>A</source>
-            <translation type="unfinished" />
+            <translation>A</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="337" />
@@ -12383,7 +12401,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="355" />
             <source>D</source>
-            <translation type="unfinished" />
+            <translation>D</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="398" />
@@ -12398,7 +12416,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="416" />
             <source>S</source>
-            <translation type="unfinished" />
+            <translation>S</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="448" />
@@ -12408,19 +12426,19 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="685" />
             <source>Orientation Reset</source>
-            <translation type="unfinished" />
+            <translation>方向重置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="703" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="754" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="805" />
             <source>-</source>
-            <translation type="unfinished" />
+            <translation>-</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="726" />
             <source>Orientation</source>
-            <translation type="unfinished" />
+            <translation>方向</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="736" />
@@ -12431,7 +12449,7 @@ Tip: SPU floats are commented along forming instructions.</source>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="777" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="825" />
             <source>Toggle</source>
-            <translation type="unfinished" />
+            <translation>切换</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="787" />
@@ -12443,7 +12461,7 @@ Tip: SPU floats are commented along forming instructions.</source>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="968" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="978" />
             <source>%</source>
-            <translation type="unfinished" />
+            <translation>%</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="835" />
@@ -12478,7 +12496,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1002" />
             <source>Switch</source>
-            <translation type="unfinished" />
+            <translation>切换</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1043" />
@@ -12489,13 +12507,13 @@ Tip: SPU floats are commented along forming instructions.</source>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1061" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1142" />
             <source>x</source>
-            <translation type="unfinished" />
+            <translation>x</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1091" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1168" />
             <source>y</source>
-            <translation type="unfinished" />
+            <translation>y</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1124" />
@@ -12516,7 +12534,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1289" />
             <source>Q</source>
-            <translation type="unfinished" />
+            <translation>Q</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1302" />
@@ -12527,7 +12545,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1320" />
             <source>R</source>
-            <translation type="unfinished" />
+            <translation>R</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1355" />
@@ -12537,7 +12555,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1373" />
             <source>Space</source>
-            <translation type="unfinished" />
+            <translation>空格</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1386" />
@@ -12547,7 +12565,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1404" />
             <source>Enter</source>
-            <translation type="unfinished" />
+            <translation>回车</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1463" />
@@ -12557,7 +12575,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1481" />
             <source>Backspace</source>
-            <translation type="unfinished" />
+            <translation>退格</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1514" />
@@ -12568,7 +12586,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1532" />
             <source>E</source>
-            <translation type="unfinished" />
+            <translation>E</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1545" />
@@ -12578,7 +12596,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1563" />
             <source>T</source>
-            <translation type="unfinished" />
+            <translation>T</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1641" />
@@ -12589,7 +12607,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1659" />
             <source>F</source>
-            <translation type="unfinished" />
+            <translation>F</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1672" />
@@ -12600,12 +12618,12 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1690" />
             <source>G</source>
-            <translation type="unfinished" />
+            <translation>G</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1723" />
             <source>Device Class</source>
-            <translation type="unfinished" />
+            <translation>设备类别</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1756" />
@@ -12636,7 +12654,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1923" />
             <source>V</source>
-            <translation type="unfinished" />
+            <translation>V</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1954" />
@@ -12647,7 +12665,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1972" />
             <source>Z</source>
-            <translation type="unfinished" />
+            <translation>Z</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1985" />
@@ -12658,7 +12676,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2003" />
             <source>C</source>
-            <translation type="unfinished" />
+            <translation>C</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2046" />
@@ -12669,7 +12687,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2064" />
             <source>X</source>
-            <translation type="unfinished" />
+            <translation>X</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2096" />
@@ -12679,7 +12697,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2160" />
             <source>PgUp</source>
-            <translation type="unfinished" />
+            <translation>上翻页</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2209" />
@@ -12694,7 +12712,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2301" />
             <source>PgDown</source>
-            <translation type="unfinished" />
+            <translation>下翻页</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2333" />
@@ -12735,7 +12753,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2578" />
             <source>Stick Preview</source>
-            <translation type="unfinished" />
+            <translation>摇杆预览</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2596" />
@@ -12745,7 +12763,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2658" />
             <source>Stick Interpolation</source>
-            <translation type="unfinished" />
+            <translation>摇杆插值</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="93" />
@@ -12760,7 +12778,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="123" />
             <source>Player %0</source>
-            <translation type="unfinished" />
+            <translation>玩家 %0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="153" />
@@ -12775,22 +12793,22 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="179" />
             <source>Guitar</source>
-            <translation type="unfinished" />
+            <translation>吉他</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="180" />
             <source>Drum</source>
-            <translation type="unfinished" />
+            <translation>架子鼓</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="181" />
             <source>DJ</source>
-            <translation type="unfinished" />
+            <translation>DJ</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="182" />
             <source>Dance Mat</source>
-            <translation type="unfinished" />
+            <translation>跳舞毯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="183" />
@@ -12801,12 +12819,12 @@ Tip: SPU floats are commented along forming instructions.</source>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="184" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2273" />
             <source>Skateboard</source>
-            <translation type="unfinished" />
+            <translation>滑板</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="185" />
             <source>GunCon 3</source>
-            <translation type="unfinished" />
+            <translation>GunCon 3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="186" />
@@ -12821,7 +12839,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="188" />
             <source>uDraw GameTablet</source>
-            <translation type="unfinished" />
+            <translation>uDraw 游戏画板</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="189" />
@@ -12861,12 +12879,12 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="218" />
             <source>Relative</source>
-            <translation type="unfinished" />
+            <translation>相对</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="219" />
             <source>Absolute</source>
-            <translation type="unfinished" />
+            <translation>绝对</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="368" />
@@ -12894,49 +12912,49 @@ Tip: SPU floats are commented along forming instructions.</source>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1822" />
             <source>Dance Dance Revolution</source>
             <comment>Dance Dance Revolution Mat</comment>
-            <translation type="unfinished" />
+            <translation>Dance Dance Revolution</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1827" />
             <source>DJ Hero Turntable</source>
             <comment>DJ Hero Turntable</comment>
-            <translation type="unfinished" />
+            <translation>DJ Hero 打碟机</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1832" />
             <source>Rock Band</source>
             <comment>Harmonix Rock Band Drum Kit</comment>
-            <translation type="unfinished" />
+            <translation>Rock Band</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1837" />
             <source>Rock Band Pro</source>
             <comment>Harmonix Rock Band Pro-Drum Kit</comment>
-            <translation type="unfinished" />
+            <translation>Rock Band Pro</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1842" />
             <source>Rock Band</source>
             <comment>Harmonix Rock Band Guitar</comment>
-            <translation type="unfinished" />
+            <translation>Rock Band</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1847" />
             <source>Guitar Hero</source>
             <comment>RedOctane Guitar Hero Drum Kit</comment>
-            <translation type="unfinished" />
+            <translation>Guitar Hero</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1852" />
             <source>Guitar Hero</source>
             <comment>RedOctane Guitar Hero Guitar</comment>
-            <translation type="unfinished" />
+            <translation>Guitar Hero</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1857" />
             <source>Rock Revolution</source>
             <comment>Rock Revolution Drum Controller</comment>
-            <translation type="unfinished" />
+            <translation>Rock Revolution</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1862" />
@@ -12948,13 +12966,13 @@ Tip: SPU floats are commented along forming instructions.</source>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1867" />
             <source>RIDE Skateboard</source>
             <comment>Tony Hawk RIDE Skateboard Controller</comment>
-            <translation type="unfinished" />
+            <translation>RIDE 滑板</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1872" />
             <source>GunCon 3</source>
             <comment>GunCon 3 Controller</comment>
-            <translation type="unfinished" />
+            <translation>GunCon 3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1877" />
@@ -12972,31 +12990,31 @@ Tip: SPU floats are commented along forming instructions.</source>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1887" />
             <source>uDraw GameTablet</source>
             <comment>uDraw GameTablet Controller</comment>
-            <translation type="unfinished" />
+            <translation>uDraw 游戏画板</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1915" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1927" />
             <source>Green Fret</source>
-            <translation type="unfinished" />
+            <translation>绿色品格</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1916" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1928" />
             <source>Red Fret</source>
-            <translation type="unfinished" />
+            <translation>红色品格</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1917" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1930" />
             <source>Yellow Fret</source>
-            <translation type="unfinished" />
+            <translation>黄色品格</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1918" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1929" />
             <source>Blue Fret</source>
-            <translation type="unfinished" />
+            <translation>蓝色品格</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1919" />
@@ -13014,13 +13032,13 @@ Tip: SPU floats are commented along forming instructions.</source>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1921" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1935" />
             <source>Whammy</source>
-            <translation type="unfinished" />
+            <translation>摇把</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1922" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1936" />
             <source>Orange Fret</source>
-            <translation type="unfinished" />
+            <translation>橙色品格</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1933" />
@@ -13035,57 +13053,57 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1937" />
             <source>Solo Modifier</source>
-            <translation type="unfinished" />
+            <translation>独奏修饰键</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1938" />
             <source>Tilt</source>
-            <translation type="unfinished" />
+            <translation>倾斜</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1943" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1953" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1962" />
             <source>Green Pad</source>
-            <translation type="unfinished" />
+            <translation>绿色鼓面</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1944" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1954" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1963" />
             <source>Red Pad</source>
-            <translation type="unfinished" />
+            <translation>红色鼓面</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1945" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1955" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1964" />
             <source>Blue Pad</source>
-            <translation type="unfinished" />
+            <translation>蓝色鼓面</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1946" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1956" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1965" />
             <source>Yellow Pad</source>
-            <translation type="unfinished" />
+            <translation>黄色鼓面</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1947" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1957" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1966" />
             <source>Foot Pedal</source>
-            <translation type="unfinished" />
+            <translation>脚踏板</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1948" />
             <source>Orange Pad</source>
-            <translation type="unfinished" />
+            <translation>橙色鼓面</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1967" />
             <source>Pad Modifier</source>
-            <translation type="unfinished" />
+            <translation>鼓面修饰键</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1968" />
@@ -13095,7 +13113,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1969" />
             <source>Cymbal Modifier</source>
-            <translation type="unfinished" />
+            <translation>镲片修饰键</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1997" />
@@ -13236,22 +13254,22 @@ The selected configuration is now '%1'.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2295" />
             <source>DS3 Pad #%0</source>
-            <translation type="unfinished" />
+            <translation>DS3 手柄 #%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2296" />
             <source>DS4 Pad #%0</source>
-            <translation type="unfinished" />
+            <translation>DS4 手柄 #%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2297" />
             <source>DualSense Pad #%0</source>
-            <translation type="unfinished" />
+            <translation>DualSense 手柄 #%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2298" />
             <source>Skateboard #%0</source>
-            <translation type="unfinished" />
+            <translation>滑板 #%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2299" />
@@ -13261,7 +13279,7 @@ The selected configuration is now '%1'.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2301" />
             <source>XInput Pad #%0</source>
-            <translation type="unfinished" />
+            <translation>XInput 手柄 #%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2302" />
@@ -13279,7 +13297,7 @@ The selected configuration is now '%1'.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.ui" line="14" />
             <source>Patch Creator</source>
-            <translation type="unfinished" />
+            <translation>补丁创建器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.ui" line="37" />
@@ -13312,7 +13330,7 @@ The selected configuration is now '%1'.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.ui" line="104" />
             <source>Hash</source>
-            <translation type="unfinished" />
+            <translation>哈希</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.ui" line="113" />
@@ -13449,7 +13467,7 @@ The export of invalid patches is not allowed.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.ui" line="38" />
             <source>Filter patches</source>
-            <translation type="unfinished" />
+            <translation>过滤补丁</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.ui" line="45" />
@@ -13459,7 +13477,7 @@ The export of invalid patches is not allowed.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.ui" line="106" />
             <source>Patch Information</source>
-            <translation type="unfinished" />
+            <translation>补丁信息</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.ui" line="112" />
@@ -13479,7 +13497,7 @@ The export of invalid patches is not allowed.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.ui" line="175" />
             <source>Hash</source>
-            <translation type="unfinished" />
+            <translation>哈希</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.ui" line="197" />
@@ -13510,7 +13528,7 @@ The export of invalid patches is not allowed.</source>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.ui" line="294" />
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.ui" line="301" />
             <source>N/A</source>
-            <translation type="unfinished" />
+            <translation>不适用</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="240" />
@@ -13573,12 +13591,12 @@ This action is immediate and irreversible!</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="941" />
             <source>Expand Children</source>
-            <translation type="unfinished" />
+            <translation>展开子项</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="951" />
             <source>Collapse Children</source>
-            <translation type="unfinished" />
+            <translation>折叠子项</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="964" />
@@ -13756,13 +13774,13 @@ Log:
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="32" />
             <source>PKG Installation</source>
-            <translation type="unfinished" />
+            <translation>PKG 安装</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="74" />
             <source>DLC</source>
             <comment>Package type info (DLC)</comment>
-            <translation type="unfinished" />
+            <translation>DLC</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="78" />
@@ -13774,7 +13792,7 @@ Log:
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="88" />
             <source>v.%0</source>
             <comment>Version info</comment>
-            <translation type="unfinished" />
+            <translation>v.%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="93" />
@@ -13788,13 +13806,15 @@ Log:
 
 %0</source>
             <comment>Changelog info</comment>
-            <translation type="unfinished" />
+            <translation>更新日志：
+
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="102" />
             <source>&lt;b&gt;%0&lt;/b&gt; (%1) - %2</source>
             <comment>Package text</comment>
-            <translation type="unfinished" />
+            <translation>&lt;b&gt;%0&lt;/b&gt; (%1) - %2</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="134" />
@@ -13809,7 +13829,7 @@ Log:
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="153" />
             <source>Skip</source>
-            <translation type="unfinished" />
+            <translation>跳过</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="183" />
@@ -13913,7 +13933,7 @@ Required disk space: %3</source>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="49" />
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="273" />
             <source>Histogram</source>
-            <translation type="unfinished" />
+            <translation>直方图</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="100" />
@@ -13958,7 +13978,7 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="249" />
             <source>Input Format</source>
-            <translation type="unfinished" />
+            <translation>输入格式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="261" />
@@ -13968,7 +13988,7 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="285" />
             <source>Display</source>
-            <translation type="unfinished" />
+            <translation>显示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="291" />
@@ -13988,22 +14008,22 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="312" />
             <source>Draw Contours</source>
-            <translation type="unfinished" />
+            <translation>绘制轮廓</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="319" />
             <source>Draw Overlays</source>
-            <translation type="unfinished" />
+            <translation>绘制覆盖层</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="62" />
             <source>RGBA</source>
-            <translation type="unfinished" />
+            <translation>RGBA</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="63" />
             <source>RAW8</source>
-            <translation type="unfinished" />
+            <translation>RAW8</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="76" />
@@ -14013,7 +14033,7 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="77" />
             <source>Grayscale</source>
-            <translation type="unfinished" />
+            <translation>灰度</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="78" />
@@ -14038,12 +14058,12 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="82" />
             <source>Contours</source>
-            <translation type="unfinished" />
+            <translation>轮廓</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="94" />
             <source>Hues</source>
-            <translation type="unfinished" />
+            <translation>色调</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="203" />
@@ -14122,7 +14142,7 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/raw_mouse_settings_dialog.cpp" line="295" />
             <source>Player %0</source>
-            <translation type="unfinished" />
+            <translation>玩家 %0</translation>
         </message>
     </context>
     <context>
@@ -14135,12 +14155,12 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.ui" line="24" />
             <source>Presets</source>
-            <translation type="unfinished" />
+            <translation>预设</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.ui" line="30" />
             <source>Preset</source>
-            <translation type="unfinished" />
+            <translation>预设</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.ui" line="42" />
@@ -14150,7 +14170,7 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.ui" line="48" />
             <source>Keys</source>
-            <translation type="unfinished" />
+            <translation>按键</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.ui" line="55" />
@@ -14171,7 +14191,7 @@ Required disk space: %3</source>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.ui" line="104" />
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.ui" line="185" />
             <source>Codec</source>
-            <translation type="unfinished" />
+            <translation>编解码器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.ui" line="116" />
@@ -14187,7 +14207,7 @@ Required disk space: %3</source>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.ui" line="140" />
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.ui" line="197" />
             <source>Bitrate</source>
-            <translation type="unfinished" />
+            <translation>比特率</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.ui" line="152" />
@@ -14207,42 +14227,42 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.cpp" line="99" />
             <source>720p 30fps</source>
-            <translation type="unfinished" />
+            <translation>720p 30fps</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.cpp" line="100" />
             <source>720p 60fps</source>
-            <translation type="unfinished" />
+            <translation>720p 60fps</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.cpp" line="101" />
             <source>1080p 30fps</source>
-            <translation type="unfinished" />
+            <translation>1080p 30fps</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.cpp" line="102" />
             <source>1080p 60fps</source>
-            <translation type="unfinished" />
+            <translation>1080p 60fps</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.cpp" line="103" />
             <source>1440p 30fps</source>
-            <translation type="unfinished" />
+            <translation>1440p 30fps</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.cpp" line="104" />
             <source>1440p 60fps</source>
-            <translation type="unfinished" />
+            <translation>1440p 60fps</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.cpp" line="105" />
             <source>2160p 30fps</source>
-            <translation type="unfinished" />
+            <translation>2160p 30fps</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.cpp" line="106" />
             <source>2160p 60fps</source>
-            <translation type="unfinished" />
+            <translation>2160p 60fps</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.cpp" line="107" />
@@ -14257,7 +14277,7 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.cpp" line="313" />
             <source>Framerate:</source>
-            <translation type="unfinished" />
+            <translation>帧率：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.cpp" line="314" />
@@ -14295,7 +14315,7 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/recvmessage_dialog_frame.cpp" line="43" />
             <source>Choose message:</source>
-            <translation type="unfinished" />
+            <translation>选择消息：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recvmessage_dialog_frame.cpp" line="54" />
@@ -14359,13 +14379,13 @@ No changes were made.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="151" />
             <source>RPCN: Account</source>
-            <translation type="unfinished" />
+            <translation>RPCN：账户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="156" />
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="160" />
             <source>Server:</source>
-            <translation type="unfinished" />
+            <translation>服务器：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="169" />
@@ -14375,12 +14395,12 @@ No changes were made.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="170" />
             <source>Del</source>
-            <translation type="unfinished" />
+            <translation>删除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="181" />
             <source>Account:</source>
-            <translation type="unfinished" />
+            <translation>账户：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="183" />
@@ -14395,7 +14415,7 @@ No changes were made.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="185" />
             <source>Test Account</source>
-            <translation type="unfinished" />
+            <translation>测试账户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="194" />
@@ -14405,7 +14425,7 @@ No changes were made.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="239" />
             <source>Existing Server</source>
-            <translation type="unfinished" />
+            <translation>已有服务器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="239" />
@@ -14428,7 +14448,9 @@ Note that these restrictions apply:
             <source>Please choose your password:
 
 </source>
-            <translation type="unfinished" />
+            <translation>请选择您的密码：
+
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="283" />
@@ -14442,7 +14464,7 @@ Note that these restrictions apply:
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="292" />
             <source>RPCN: Account Creation</source>
-            <translation type="unfinished" />
+            <translation>RPCN：创建账户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="292" />
@@ -14530,12 +14552,12 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="742" />
             <source>Username:</source>
-            <translation type="unfinished" />
+            <translation>用户名：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="746" />
             <source>Password:</source>
-            <translation type="unfinished" />
+            <translation>密码：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="747" />
@@ -14545,17 +14567,17 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="748" />
             <source>Token:</source>
-            <translation type="unfinished" />
+            <translation>令牌：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="752" />
             <source>Resend Token</source>
-            <translation type="unfinished" />
+            <translation>重新发送令牌</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="753" />
             <source>Change Password</source>
-            <translation type="unfinished" />
+            <translation>修改密码</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="754" />
@@ -14570,7 +14592,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="781" />
             <source>Please enter your password:</source>
-            <translation type="unfinished" />
+            <translation>请输入您的密码：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="791" />
@@ -14585,7 +14607,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="816" />
             <source>Missing Input</source>
-            <translation type="unfinished" />
+            <translation>缺少输入</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="816" />
@@ -14661,7 +14683,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="869" />
             <source>Token Sent!</source>
-            <translation type="unfinished" />
+            <translation>令牌已发送！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="869" />
@@ -14676,7 +14698,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="881" />
             <source>RPCN: Change Password</source>
-            <translation type="unfinished" />
+            <translation>RPCN：修改密码</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="881" />
@@ -14725,7 +14747,7 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="915" />
             <source>Password Reset Token Sent!</source>
-            <translation type="unfinished" />
+            <translation>密码重置令牌已发送！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="915" />
@@ -14735,7 +14757,7 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="921" />
             <source>Please enter the password reset token you received:</source>
-            <translation type="unfinished" />
+            <translation>请输入您收到的密码重置令牌：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="928" />
@@ -14761,7 +14783,7 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="959" />
             <source>Password Successfully Changed!</source>
-            <translation type="unfinished" />
+            <translation>密码修改成功！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="959" />
@@ -14794,7 +14816,7 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="401" />
             <source>Host:</source>
-            <translation type="unfinished" />
+            <translation>主机：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="420" />
@@ -14809,7 +14831,7 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="425" />
             <source>Missing Hostname!</source>
-            <translation type="unfinished" />
+            <translation>缺少主机名！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="425" />
@@ -14822,12 +14844,12 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="553" />
             <source>RPCN: Email</source>
-            <translation type="unfinished" />
+            <translation>RPCN：邮箱</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="563" />
             <source>Enter your email:</source>
-            <translation type="unfinished" />
+            <translation>输入您的邮箱：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="565" />
@@ -14842,12 +14864,12 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="586" />
             <source>The two emails you entered don't match!</source>
-            <translation type="unfinished" />
+            <translation>您输入的两个邮箱不一致！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="592" />
             <source>Missing Email</source>
-            <translation type="unfinished" />
+            <translation>缺少邮箱</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="592" />
@@ -14870,12 +14892,12 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="494" />
             <source>RPCN: Password</source>
-            <translation type="unfinished" />
+            <translation>RPCN：密码</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="504" />
             <source>Enter your password:</source>
-            <translation type="unfinished" />
+            <translation>输入您的密码：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="507" />
@@ -14890,12 +14912,12 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="529" />
             <source>The two passwords you entered don't match!</source>
-            <translation type="unfinished" />
+            <translation>您输入的两个密码不一致！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="535" />
             <source>Missing Password</source>
-            <translation type="unfinished" />
+            <translation>缺少密码</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="535" />
@@ -14908,12 +14930,12 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="617" />
             <source>RPCN: Username</source>
-            <translation type="unfinished" />
+            <translation>RPCN：用户名</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="624" />
             <source>Token:</source>
-            <translation type="unfinished" />
+            <translation>令牌：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="647" />
@@ -14933,17 +14955,17 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="443" />
             <source>RPCN: Username</source>
-            <translation type="unfinished" />
+            <translation>RPCN：用户名</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="450" />
             <source>Username:</source>
-            <translation type="unfinished" />
+            <translation>用户名：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="472" />
             <source>Missing Username!</source>
-            <translation type="unfinished" />
+            <translation>缺少用户名！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="472" />
@@ -15045,12 +15067,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1082" />
             <source>RPCN: Friends</source>
-            <translation type="unfinished" />
+            <translation>RPCN：好友</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1093" />
             <source>Friends</source>
-            <translation type="unfinished" />
+            <translation>好友</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1098" />
@@ -15060,17 +15082,17 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1103" />
             <source>Friend Requests</source>
-            <translation type="unfinished" />
+            <translation>好友请求</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1113" />
             <source>Blocked Users</source>
-            <translation type="unfinished" />
+            <translation>已屏蔽用户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1120" />
             <source>Recent Players</source>
-            <translation type="unfinished" />
+            <translation>最近玩家</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1140" />
@@ -15137,12 +15159,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1260" />
             <source>&amp;Accept Request</source>
-            <translation type="unfinished" />
+            <translation>接受请求(&amp;A)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1261" />
             <source>&amp;Reject Request</source>
-            <translation type="unfinished" />
+            <translation>拒绝请求(&amp;R)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1267" />
@@ -15173,7 +15195,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1300" />
             <source>&amp;Send Friend Request</source>
-            <translation type="unfinished" />
+            <translation>发送好友请求(&amp;S)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1322" />
@@ -15183,7 +15205,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1322" />
             <source>Friend's username:</source>
-            <translation type="unfinished" />
+            <translation>好友用户名：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1335" />
@@ -15246,13 +15268,13 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="102" />
             <source>RPCN - %0</source>
-            <translation type="unfinished" />
+            <translation>RPCN - %0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="106" />
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="115" />
             <source>RPCN</source>
-            <translation type="unfinished" />
+            <translation>RPCN</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="118" />
@@ -15262,7 +15284,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="119" />
             <source>Friends</source>
-            <translation type="unfinished" />
+            <translation>好友</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="132" />
@@ -15296,17 +15318,17 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rsx_debugger.cpp" line="60" />
             <source>Draw</source>
-            <translation type="unfinished" />
+            <translation>绘制</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rsx_debugger.cpp" line="61" />
             <source>Primitive</source>
-            <translation type="unfinished" />
+            <translation>图元</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rsx_debugger.cpp" line="62" />
             <source>Command</source>
-            <translation type="unfinished" />
+            <translation>命令</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rsx_debugger.cpp" line="76" />
@@ -15321,7 +15343,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rsx_debugger.cpp" line="113" />
             <source>Captured Draw Calls</source>
-            <translation type="unfinished" />
+            <translation>已捕获的绘制调用</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rsx_debugger.cpp" line="115" />
@@ -15331,7 +15353,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rsx_debugger.cpp" line="118" />
             <source>Draw calls</source>
-            <translation type="unfinished" />
+            <translation>绘制调用</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rsx_debugger.cpp" line="130" />
@@ -15410,7 +15432,7 @@ To confirm, type your username below and click "Yes".
             <location filename="../rpcs3/rpcs3qt/save_data_info_dialog.cpp" line="21" />
             <location filename="../rpcs3/rpcs3qt/save_data_info_dialog.cpp" line="71" />
             <source>Detail</source>
-            <translation type="unfinished" />
+            <translation>详情</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_info_dialog.cpp" line="24" />
@@ -15420,7 +15442,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_info_dialog.cpp" line="62" />
             <source>User ID</source>
-            <translation type="unfinished" />
+            <translation>用户 ID</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_info_dialog.cpp" line="65" />
@@ -15430,7 +15452,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_info_dialog.cpp" line="68" />
             <source>Subtitle</source>
-            <translation type="unfinished" />
+            <translation>副标题</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_info_dialog.cpp" line="80" />
@@ -15463,7 +15485,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_list_dialog.cpp" line="49" />
             <source>Subtitle</source>
-            <translation type="unfinished" />
+            <translation>副标题</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_list_dialog.cpp" line="49" />
@@ -15478,7 +15500,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_list_dialog.cpp" line="56" />
             <source>&amp;Select Entry</source>
-            <translation type="unfinished" />
+            <translation>选择条目(&amp;S)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_list_dialog.cpp" line="68" />
@@ -15516,7 +15538,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="91" />
             <source>Search:</source>
-            <translation type="unfinished" />
+            <translation>搜索：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="93" />
@@ -15611,7 +15633,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="668" />
             <source>%1 items selected</source>
-            <translation type="unfinished" />
+            <translation>已选择 %1 项</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="700" />
@@ -15622,7 +15644,8 @@ To confirm, type your username below and click "Yes".
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="701" />
             <source>Details:
 </source>
-            <translation type="unfinished" />
+            <translation>详情：
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="702" />
@@ -15636,7 +15659,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="35" />
             <source>Savestate Manager</source>
-            <translation type="unfinished" />
+            <translation>存档状态管理器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="120" />
@@ -15708,7 +15731,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="260" />
             <source>Savestates</source>
-            <translation type="unfinished" />
+            <translation>存档状态</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="270" />
@@ -15828,12 +15851,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/screenshot_manager_dialog.cpp" line="44" />
             <source>RPCS3 Screenshots</source>
-            <translation type="unfinished" />
+            <translation>RPCS3 截图</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/screenshot_manager_dialog.cpp" line="45" />
             <source>Cell Screenshots</source>
-            <translation type="unfinished" />
+            <translation>Cell 截图</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/screenshot_manager_dialog.cpp" line="50" />
@@ -15862,7 +15885,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/screenshot_preview.cpp" line="21" />
             <source>Screenshot Viewer</source>
-            <translation type="unfinished" />
+            <translation>截图查看器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/screenshot_preview.cpp" line="35" />
@@ -15887,7 +15910,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/screenshot_preview.cpp" line="48" />
             <source>E&amp;xit</source>
-            <translation type="unfinished" />
+            <translation>退出(&amp;x)</translation>
         </message>
     </context>
     <context>
@@ -15943,7 +15966,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="157" />
             <source>SPU XFloat Accuracy</source>
-            <translation type="unfinished" />
+            <translation>SPU XFloat 精度</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="175" />
@@ -15961,7 +15984,7 @@ To confirm, type your username below and click "Yes".
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="824" />
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="855" />
             <source>0</source>
-            <translation type="unfinished" />
+            <translation>0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="224" />
@@ -16043,7 +16066,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="418" />
             <source>Framelimit</source>
-            <translation type="unfinished" />
+            <translation>帧率限制</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="448" />
@@ -16053,12 +16076,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="460" />
             <source>Anti-Aliasing (MSAA)</source>
-            <translation type="unfinished" />
+            <translation>抗锯齿 (MSAA)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="490" />
             <source>ZCULL Accuracy</source>
-            <translation type="unfinished" />
+            <translation>ZCULL 精度</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="502" />
@@ -16068,12 +16091,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="532" />
             <source>Vsync</source>
-            <translation type="unfinished" />
+            <translation>垂直同步</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="547" />
             <source>3D</source>
-            <translation type="unfinished" />
+            <translation>3D</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="553" />
@@ -16109,12 +16132,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="658" />
             <source>25</source>
-            <translation type="unfinished" />
+            <translation>25</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="675" />
             <source>800</source>
-            <translation type="unfinished" />
+            <translation>800</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="709" />
@@ -16124,32 +16147,32 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="720" />
             <source>1</source>
-            <translation type="unfinished" />
+            <translation>1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="737" />
             <source>1024</source>
-            <translation type="unfinished" />
+            <translation>1024</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="748" />
             <source>1x1</source>
-            <translation type="unfinished" />
+            <translation>1x1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="772" />
             <source>Output Scaling</source>
-            <translation type="unfinished" />
+            <translation>输出缩放</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="809" />
             <source>RCAS Sharpening Strength</source>
-            <translation type="unfinished" />
+            <translation>RCAS 锐化强度</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="844" />
             <source>100</source>
-            <translation type="unfinished" />
+            <translation>100</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="912" />
@@ -16235,7 +16258,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1203" />
             <source>RSXAudio Avport</source>
-            <translation type="unfinished" />
+            <translation>RSXAudio AV 端口</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1215" />
@@ -16251,7 +16274,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1248" />
             <source>Master: 0%</source>
-            <translation type="unfinished" />
+            <translation>主音量：0%</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1294" />
@@ -16291,22 +16314,22 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1459" />
             <source>Mic1:</source>
-            <translation type="unfinished" />
+            <translation>麦克风1：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1472" />
             <source>Mic3:</source>
-            <translation type="unfinished" />
+            <translation>麦克风3：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1513" />
             <source>Mic2:</source>
-            <translation type="unfinished" />
+            <translation>麦克风2：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1526" />
             <source>Mic4:</source>
-            <translation type="unfinished" />
+            <translation>麦克风4：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1609" />
@@ -16347,7 +16370,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1689" />
             <source>Pad Handler Mode</source>
-            <translation type="unfinished" />
+            <translation>手柄处理程序模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1701" />
@@ -16407,7 +16430,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1840" />
             <source>Use SDL GameController Database</source>
-            <translation type="unfinished" />
+            <translation>使用 SDL GameController 数据库</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1847" />
@@ -16477,7 +16500,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2143" />
             <source>Homebrew</source>
-            <translation type="unfinished" />
+            <translation>自制软件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2149" />
@@ -16512,7 +16535,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2273" />
             <source>IP/Hosts switches</source>
-            <translation type="unfinished" />
+            <translation>IP/Hosts 开关</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2292" />
@@ -16563,7 +16586,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2469" />
             <source>Accurate RSX Reservation Access</source>
-            <translation type="unfinished" />
+            <translation>精确 RSX 预留访问</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2476" />
@@ -16573,7 +16596,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2483" />
             <source>Anti-Cheat Savestates Mode</source>
-            <translation type="unfinished" />
+            <translation>防作弊存档状态模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2490" />
@@ -16603,12 +16626,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2525" />
             <source>PPU Reservation Priority</source>
-            <translation type="unfinished" />
+            <translation>PPU 预留优先级</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2532" />
             <source>PPU/SPU LLVM Precompilation</source>
-            <translation type="unfinished" />
+            <translation>PPU/SPU LLVM 预编译</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2539" />
@@ -16623,7 +16646,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2562" />
             <source>Sleep Timers Accuracy</source>
-            <translation type="unfinished" />
+            <translation>睡眠定时器精度</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2580" />
@@ -16643,7 +16666,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2655" />
             <source>Firmware Libraries</source>
-            <translation type="unfinished" />
+            <translation>固件库</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2726" />
@@ -16668,7 +16691,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2754" />
             <source>Force Hardware MSAA Resolve</source>
-            <translation type="unfinished" />
+            <translation>强制硬件 MSAA 解析</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2761" />
@@ -16698,7 +16721,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2805" />
             <source>RSX FIFO Accuracy</source>
-            <translation type="unfinished" />
+            <translation>RSX FIFO 精度</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2823" />
@@ -16713,22 +16736,22 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2856" />
             <source>1 µs</source>
-            <translation type="unfinished" />
+            <translation>1 µs</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2884" />
             <source>VBlank Frequency</source>
-            <translation type="unfinished" />
+            <translation>VBlank 频率</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2899" />
             <source>60 Hz</source>
-            <translation type="unfinished" />
+            <translation>60 Hz</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2918" />
             <source>VBlank NTSC Fixup</source>
-            <translation type="unfinished" />
+            <translation>VBlank NTSC 修正</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2990" />
@@ -16778,12 +16801,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3055" />
             <source>Use native user interface</source>
-            <translation type="unfinished" />
+            <translation>使用原生用户界面</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3062" />
             <source>Use recursive scan</source>
-            <translation type="unfinished" />
+            <translation>使用递归扫描</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3072" />
@@ -16863,7 +16886,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3209" />
             <source>Viewport</source>
-            <translation type="unfinished" />
+            <translation>视口</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3215" />
@@ -16893,7 +16916,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3274" />
             <source>ms</source>
-            <translation type="unfinished" />
+            <translation>毫秒</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3311" />
@@ -16928,7 +16951,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3413" />
             <source>Background darkening:</source>
-            <translation type="unfinished" />
+            <translation>背景变暗：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3427" />
@@ -16978,7 +17001,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3549" />
             <source>Detail Level:</source>
-            <translation type="unfinished" />
+            <translation>详细级别：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3577" />
@@ -16994,7 +17017,7 @@ To confirm, type your username below and click "Yes".
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3599" />
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3627" />
             <source>Centered</source>
-            <translation type="unfinished" />
+            <translation>居中</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3618" />
@@ -17024,12 +17047,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3767" />
             <source>Framerate datapoints:</source>
-            <translation type="unfinished" />
+            <translation>帧率数据点：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3796" />
             <source>Frametime datapoints:</source>
-            <translation type="unfinished" />
+            <translation>帧时间数据点：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3881" />
@@ -17039,7 +17062,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3891" />
             <source>UI Stylesheets</source>
-            <translation type="unfinished" />
+            <translation>UI 样式表</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3900" />
@@ -17089,7 +17112,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4061" />
             <source>Pad Input</source>
-            <translation type="unfinished" />
+            <translation>手柄输入</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4067" />
@@ -17104,7 +17127,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4105" />
             <source>GUI: 0%</source>
-            <translation type="unfinished" />
+            <translation>界面：0%</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4154" />
@@ -17154,7 +17177,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4239" />
             <source>Use Discord Rich Presence</source>
-            <translation type="unfinished" />
+            <translation>使用 Discord Rich Presence</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4246" />
@@ -17164,12 +17187,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4269" />
             <source>Installation ID</source>
-            <translation type="unfinished" />
+            <translation>安装 ID</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4275" />
             <source>UUID-placeholder</source>
-            <translation type="unfinished" />
+            <translation>UUID 占位符</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4285" />
@@ -17244,7 +17267,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4451" />
             <source>Renderdoc Compatibility Mode</source>
-            <translation type="unfinished" />
+            <translation>Renderdoc 兼容模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4458" />
@@ -17269,7 +17292,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4511" />
             <source>Hook static functions</source>
-            <translation type="unfinished" />
+            <translation>挂钩静态函数</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4518" />
@@ -17299,7 +17322,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4569" />
             <source>CPU Accuracy</source>
-            <translation type="unfinished" />
+            <translation>CPU 精度</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4575" />
@@ -17324,7 +17347,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4603" />
             <source>Accurate PPU Non-Java Mode</source>
-            <translation type="unfinished" />
+            <translation>精确 PPU 非 Java 模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4610" />
@@ -17334,7 +17357,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4617" />
             <source>Approximate PPU Non-Java Mode</source>
-            <translation type="unfinished" />
+            <translation>近似 PPU 非 Java 模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4624" />
@@ -17344,7 +17367,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4668" />
             <source>Accurate PPU 128 Reservations</source>
-            <translation type="unfinished" />
+            <translation>精确 PPU 128 预留</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4680" />
@@ -17364,7 +17387,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4733" />
             <source>Framebuffer Aliasing Heuristic Bias</source>
-            <translation type="unfinished" />
+            <translation>帧缓冲别名启发式偏置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4745" />
@@ -17417,13 +17440,13 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="465" />
             <source>720p (Recommended)</source>
             <comment>Resolution</comment>
-            <translation type="unfinished" />
+            <translation>720p（推荐）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="503" />
             <source>Display (%1)</source>
             <comment>Frame Limit</comment>
-            <translation type="unfinished" />
+            <translation>显示器 (%1)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="523" />
@@ -17435,12 +17458,12 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="529" />
             <source>%1x</source>
             <comment>Anisotropic filter override</comment>
-            <translation type="unfinished" />
+            <translation>%1x</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="541" />
             <source>Precise (Slowest)</source>
-            <translation type="unfinished" />
+            <translation>精确（最慢）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="542" />
@@ -17450,7 +17473,7 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="543" />
             <source>Relaxed (Fastest)</source>
-            <translation type="unfinished" />
+            <translation>宽松（最快）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="674" />
@@ -17462,7 +17485,7 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="676" />
             <source>%1% (%2x%3)</source>
             <comment>Resolution scale</comment>
-            <translation type="unfinished" />
+            <translation>%1% (%2x%3)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="702" />
@@ -17474,7 +17497,7 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="704" />
             <source>%1x%1</source>
             <comment>Minimum scalable dimension</comment>
-            <translation type="unfinished" />
+            <translation>%1x%1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="726" />
@@ -17484,7 +17507,7 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="728" />
             <source>%1%</source>
-            <translation type="unfinished" />
+            <translation>%1%</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="798" />
@@ -17506,7 +17529,7 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1151" />
             <source>Master: %0 %</source>
             <comment>Master volume</comment>
-            <translation type="unfinished" />
+            <translation>主音量：%0 %</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1154" />
@@ -17535,7 +17558,7 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1404" />
             <source>dd MMM yyyy HH:mm</source>
-            <translation type="unfinished" />
+            <translation>dd MMM yyyy HH:mm</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1413" />
@@ -17553,13 +17576,13 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1620" />
             <source>%0 Hz</source>
             <comment>VBlank rate</comment>
-            <translation type="unfinished" />
+            <translation>%0 Hz</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1629" />
             <source>%0 %</source>
             <comment>Clocks scale</comment>
-            <translation type="unfinished" />
+            <translation>%0 %</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1694" />
@@ -17570,7 +17593,7 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1701" />
             <source>Search libraries</source>
             <comment>Library search box</comment>
-            <translation type="unfinished" />
+            <translation>搜索库</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1813" />
@@ -17606,19 +17629,19 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1977" />
             <source>Framerate datapoints: %0</source>
             <comment>Framerate graph datapoints</comment>
-            <translation type="unfinished" />
+            <translation>帧率数据点：%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1980" />
             <source>Frametime datapoints: %0</source>
             <comment>Frametime graph datapoints</comment>
-            <translation type="unfinished" />
+            <translation>帧时间数据点：%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1983" />
             <source>Background darkening: %0 %</source>
             <comment>Shader load background darkening</comment>
-            <translation type="unfinished" />
+            <translation>背景变暗：%0 %</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1986" />
@@ -17630,13 +17653,13 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1991" />
             <source>%</source>
             <comment>Performance overlay margin x</comment>
-            <translation type="unfinished" />
+            <translation>%</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1994" />
             <source>%</source>
             <comment>Performance overlay margin y</comment>
-            <translation type="unfinished" />
+            <translation>%</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2107" />
@@ -17648,13 +17671,13 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2142" />
             <source>GPU Model</source>
             <comment>Game window title</comment>
-            <translation type="unfinished" />
+            <translation>GPU 型号</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2143" />
             <source>CPU Model</source>
             <comment>Game window title</comment>
-            <translation type="unfinished" />
+            <translation>CPU 型号</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2144" />
@@ -17702,7 +17725,7 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2151" />
             <source>Architecture</source>
             <comment>Game window title</comment>
-            <translation type="unfinished" />
+            <translation>架构</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2161" />
@@ -17714,7 +17737,13 @@ Preview:
 %1
 </source>
             <comment>Game window title</comment>
-            <translation type="unfinished" />
+            <translation>术语表：
+
+%0
+预览：
+
+%1
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2168" />
@@ -17726,7 +17755,7 @@ Preview:
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2236" />
             <source>User Interface: %0 %</source>
             <comment>GUI volume</comment>
-            <translation type="unfinished" />
+            <translation>用户界面：%0 %</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2267" />
@@ -17802,7 +17831,7 @@ Preview:
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2628" />
             <source>Native (%0)</source>
             <comment>Stylesheets</comment>
-            <translation type="unfinished" />
+            <translation>原生 (%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2631" />
@@ -17908,27 +17937,27 @@ Preview:
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="81" />
             <source>Savestate</source>
-            <translation type="unfinished" />
+            <translation>存档状态</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="82" />
             <source>Savestate 1</source>
-            <translation type="unfinished" />
+            <translation>存档状态 1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="83" />
             <source>Savestate 2</source>
-            <translation type="unfinished" />
+            <translation>存档状态 2</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="84" />
             <source>Savestate 3</source>
-            <translation type="unfinished" />
+            <translation>存档状态 3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="85" />
             <source>Savestate 4</source>
-            <translation type="unfinished" />
+            <translation>存档状态 4</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="87" />
@@ -17938,7 +17967,7 @@ Preview:
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="88" />
             <source>Toggle Framelimit</source>
-            <translation type="unfinished" />
+            <translation>切换帧率限制</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="89" />
@@ -17976,7 +18005,7 @@ Preview:
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="532" />
             <source>Skylander Creator</source>
-            <translation type="unfinished" />
+            <translation>Skylander 创建器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="547" />
@@ -17986,12 +18015,12 @@ Preview:
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="566" />
             <source>ID:</source>
-            <translation type="unfinished" />
+            <translation>ID：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="567" />
             <source>Variant:</source>
-            <translation type="unfinished" />
+            <translation>变体：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="580" />
@@ -18046,7 +18075,7 @@ Preview:
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="681" />
             <source>Skylanders Manager</source>
-            <translation type="unfinished" />
+            <translation>Skylanders 管理器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="696" />
@@ -18056,7 +18085,7 @@ Preview:
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="707" />
             <source>Skylander %1</source>
-            <translation type="unfinished" />
+            <translation>Skylander %1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="711" />
@@ -18132,7 +18161,7 @@ The file format is .wav and you should try to make the sounds as short as possib
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="33" />
             <source>Cursor</source>
-            <translation type="unfinished" />
+            <translation>光标</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="34" />
@@ -18167,7 +18196,7 @@ The file format is .wav and you should try to make the sounds as short as possib
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="40" />
             <source>Trophy popup</source>
-            <translation type="unfinished" />
+            <translation>奖杯弹窗</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="49" />
@@ -18187,7 +18216,7 @@ The file format is .wav and you should try to make the sounds as short as possib
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="61" />
             <source>WAV (*.wav);;</source>
-            <translation type="unfinished" />
+            <translation>WAV (*.wav);;</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="126" />
@@ -18205,12 +18234,12 @@ The file format is .wav and you should try to make the sounds as short as possib
         <message>
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="21" />
             <source>System Commands | %1</source>
-            <translation type="unfinished" />
+            <translation>系统命令 | %1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="25" />
             <source>Send Command</source>
-            <translation type="unfinished" />
+            <translation>发送命令</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="28" />
@@ -18220,7 +18249,7 @@ The file format is .wav and you should try to make the sounds as short as possib
         <message>
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="79" />
             <source>Select Command</source>
-            <translation type="unfinished" />
+            <translation>选择命令</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="84" />
@@ -18238,7 +18267,7 @@ The file format is .wav and you should try to make the sounds as short as possib
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="141" />
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="149" />
             <source>Listen!</source>
-            <translation type="unfinished" />
+            <translation>监听！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="118" />
@@ -18287,7 +18316,7 @@ Please contact a developer.</source>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="79" />
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1200" />
             <source>Progress: %1% (%2/%3)</source>
-            <translation type="unfinished" />
+            <translation>进度：%1% (%2/%3)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="160" />
@@ -18390,7 +18419,7 @@ Please contact a developer.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="421" />
             <source>Platinum Relevant</source>
-            <translation type="unfinished" />
+            <translation>与白金相关</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="422" />
@@ -18498,12 +18527,12 @@ Please contact a developer.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="938" />
             <source>&amp;Lock Trophy</source>
-            <translation type="unfinished" />
+            <translation>锁定奖杯(&amp;L)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="938" />
             <source>&amp;Unlock Trophy</source>
-            <translation type="unfinished" />
+            <translation>解锁奖杯(&amp;U)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="943" />
@@ -18519,7 +18548,7 @@ Please contact a developer.</source>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="986" />
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1284" />
             <source>Earned</source>
-            <translation type="unfinished" />
+            <translation>已获得</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="986" />
@@ -18567,7 +18596,7 @@ Please contact a developer.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1158" />
             <source>%0% (%1/%2)</source>
-            <translation type="unfinished" />
+            <translation>%0% (%1/%2)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1248" />
@@ -18687,17 +18716,17 @@ Check the log for more information.</source>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="384" />
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="385" />
             <source>N/A</source>
-            <translation type="unfinished" />
+            <translation>不适用</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="391" />
             <source>&amp;nbsp;&amp;nbsp;&amp;bull; %0: %1 (&lt;a href="https://github.com/RPCS3/rpcs3/pull/%2"&gt;#%2&lt;/a&gt;)</source>
-            <translation type="unfinished" />
+            <translation>&amp;nbsp;&amp;nbsp;&amp;bull; %0: %1 (&lt;a href="https://github.com/RPCS3/rpcs3/pull/%2"&gt;#%2&lt;/a&gt;)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="395" />
             <source>&amp;nbsp;&amp;nbsp;&amp;bull; %0: %1</source>
-            <translation type="unfinished" />
+            <translation>&amp;nbsp;&amp;nbsp;&amp;bull; %0: %1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="412" />
@@ -18714,7 +18743,7 @@ Check the log for more information.</source>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="443" />
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="445" />
             <source>Changelog:</source>
-            <translation type="unfinished" />
+            <translation>更新日志：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="455" />
@@ -18762,13 +18791,13 @@ Check the log for more information.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="35" />
             <source>User Manager</source>
-            <translation type="unfinished" />
+            <translation>用户管理器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="53" />
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="406" />
             <source>User ID</source>
-            <translation type="unfinished" />
+            <translation>用户 ID</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="53" />
@@ -19000,7 +19029,7 @@ Stop the emulator now?</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/vfs_tool_dialog.ui" line="14" />
             <source>VFS Tool</source>
-            <translation type="unfinished" />
+            <translation>VFS 工具</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/vfs_tool_dialog.ui" line="20" />
@@ -19089,22 +19118,22 @@ Otherwise, further discussion and support can be found on the %3 or on our %4 se
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.cpp" line="39" />
             <source>PlayStation 3 firmware</source>
-            <translation type="unfinished" />
+            <translation>PlayStation 3 固件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.cpp" line="40" />
             <source>Quickstart</source>
-            <translation type="unfinished" />
+            <translation>快速入门</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.cpp" line="41" />
             <source>FAQ</source>
-            <translation type="unfinished" />
+            <translation>常见问题</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.cpp" line="42" />
             <source>Forums</source>
-            <translation type="unfinished" />
+            <translation>论坛</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.cpp" line="43" />
