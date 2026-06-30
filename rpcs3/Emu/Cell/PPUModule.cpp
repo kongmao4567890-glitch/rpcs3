@@ -24,6 +24,8 @@
 
 #include "Emu/Cell/Modules/StaticHLE.h"
 
+#include "rpcs3qt/cheat_patch_manager.h"
+
 #include <map>
 #include <span>
 #include <set>
@@ -2368,6 +2370,9 @@ bool ppu_load_exec(const ppu_exec_object& elf, bool virtual_load, const std::str
 	{
 		ppu_check_patch_spu_images(_main, seg);
 	}
+
+	// Apply queued cheats after PPU module is loaded
+	g_cheat_engine.apply_queued_cheats();
 
 	// Static HLE patching
 	if (g_cfg.core.hook_functions && !virtual_load)

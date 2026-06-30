@@ -91,7 +91,6 @@ private:
 	void StartPlaytime(bool start_playtime);
 	void UpdatePlaytime();
 	void StopPlaytime();
-	void UpdateCheatPatches();
 
 	void set_language_code(QString language_code);
 

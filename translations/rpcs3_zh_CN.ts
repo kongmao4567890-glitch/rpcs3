@@ -1793,7 +1793,8 @@ If "Background" is selected, the check is done silently in the background and a 
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="232" />
             <source>Enables use of Discord Rich Presence to show what game you are playing on Discord.
 Requires a restart of RPCS3 to completely close the connection.</source>
-            <translation>Enables use 的 Discord Rich Presence 到 显示 什么 游戏 you 是 playing 开 Discord. 需要 a 重启 的 RPCS3 到 completely 关闭 the connection.</translation>
+            <translation>启用 Discord 实时状态以在 Discord 上显示你正在玩的游戏。
+需要重启 RPCS3 才能完全关闭连接。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="233" />
@@ -9379,7 +9380,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="297" />
             <source>Use Window Space</source>
             <comment>Performance Overlay</comment>
-            <translation>Use 窗口 Space</translation>
+            <translation>使用窗口空间</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="298" />
@@ -17027,7 +17028,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3646" />
             <source>Use Window Space</source>
-            <translation>Use 窗口 Space</translation>
+            <translation>使用窗口空间</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3668" />
@@ -17142,12 +17143,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4167" />
             <source>Show Exit Game Confirmation</source>
-            <translation>显示 退出 游戏 确认</translation>
+            <translation>显示退出游戏确认</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4174" />
             <source>Show PKG/PUP Installation Result</source>
-            <translation>显示 PKG/PUP Installation Result</translation>
+            <translation>显示PKG/PUP安装结果</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4181" />
@@ -17177,7 +17178,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4239" />
             <source>Use Discord Rich Presence</source>
-            <translation>使用 Discord Rich Presence</translation>
+            <translation>使用 Discord 实时状态</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4246" />

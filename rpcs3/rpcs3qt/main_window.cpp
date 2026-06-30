@@ -554,28 +554,12 @@ void main_window::Boot(const std::string& path, const std::string& title_id, boo
 	// Show cheat selection dialog before booting (if cheats are available for this game)
 	if (!title_id.empty())
 	{
-		auto& cp_engine = cheat_patch_engine::get();
-		auto cheats = cp_engine.cheats_for_serial(title_id);
+		// Ensure cheatsv2.yml is loaded
+		cheat_storage::get().ensure_v2_loaded();
 
-		// Filter to only cheats matching this serial
-		bool has_cheats = false;
-		for (const auto* g : cheats)
-		{
-			if (g->serials.empty())
-				continue;
-			for (const auto& s : g->serials)
-			{
-				if (s == title_id || s == "All")
-				{
-					has_cheats = true;
-					break;
-				}
-			}
-			if (has_cheats)
-				break;
-		}
-
-		if (has_cheats)
+		// Check if cheats exist for this serial
+		auto cheats = cheat_storage::get().find_by_serial(title_id);
+		if (!cheats.empty())
 		{
 			// Try to get game name from game list
 			std::string game_name;
@@ -3316,7 +3300,7 @@ void main_window::CreateConnects()
 		ui->menuManage->insertAction(ui->actionManage_Game_Patches, act_cheat_patch);
 		connect(act_cheat_patch, &QAction::triggered, this, [this]
 		{
-			cheat_patch_dialog* dlg = cheat_patch_dialog::get_dlg(this);
+			cheat_manager_dialog* dlg = cheat_manager_dialog::get_dlg(this);
 			dlg->show();
 		});
 	}
