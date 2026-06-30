@@ -684,10 +684,19 @@
     <ClCompile Include="rpcs3qt\cheat_manager.cpp">
       <Filter>Gui\cheat manager</Filter>
     </ClCompile>
+    <ClCompile Include="rpcs3qt\cheat_patch_manager.cpp">
+      <Filter>Gui\cheat manager</Filter>
+    </ClCompile>
     <ClCompile Include="QTGeneratedFiles\Debug\moc_cheat_manager.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
+    <ClCompile Include="QTGeneratedFiles\Debug\moc_cheat_patch_manager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
     <ClCompile Include="QTGeneratedFiles\Release\moc_cheat_manager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="QTGeneratedFiles\Release\moc_cheat_patch_manager.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
     <ClCompile Include="QTGeneratedFiles\Debug\moc_pkg_install_dialog.cpp">
@@ -1727,6 +1736,9 @@
       <Filter>Gui\update manager</Filter>
     </CustomBuild>
     <CustomBuild Include="rpcs3qt\cheat_manager.h">
+      <Filter>Gui\cheat manager</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rpcs3qt\cheat_patch_manager.h">
       <Filter>Gui\cheat manager</Filter>
     </CustomBuild>
     <CustomBuild Include="rpcs3qt\pkg_install_dialog.h">
