@@ -125,6 +125,51 @@ if (NOT ANDROID)
     endif()
 
     # Copy icons to executable directory
+    # Build and install translation files (.ts -> .qm)
+    find_program(QT_LRELEASE_EXECUTABLE lrelease)
+    if(NOT QT_LRELEASE_EXECUTABLE)
+        # Try to find lrelease in Qt's bin directory
+        get_filename_component(QT_BIN_DIR "${Qt6_DIR}/../../../bin" ABSOLUTE)
+        find_program(QT_LRELEASE_EXECUTABLE lrelease PATHS "${QT_BIN_DIR}" /usr/lib/qt6/bin)
+    endif()
+    if(QT_LRELEASE_EXECUTABLE)
+        message(STATUS "Found lrelease: ${QT_LRELEASE_EXECUTABLE}")
+        # Create the translations output directory
+        set(TRANSLATIONS_OUTPUT_DIR "$<TARGET_FILE_DIR:rpcs3>/translations")
+        # Compile all .ts files to .qm
+        file(GLOB RPCS3_TS_FILES "${CMAKE_SOURCE_DIR}/translations/*.ts")
+        foreach(TS_FILE ${RPCS3_TS_FILES})
+            get_filename_component(TS_NAME ${TS_FILE} NAME_WE)
+            set(QM_FILE "${CMAKE_BINARY_DIR}/translations/${TS_NAME}.qm")
+            add_custom_command(OUTPUT ${QM_FILE}
+                COMMAND ${CMAKE_COMMAND} -E make_directory "${CMAKE_BINARY_DIR}/translations"
+                COMMAND ${QT_LRELEASE_EXECUTABLE} ${TS_FILE} -qm ${QM_FILE}
+                DEPENDS ${TS_FILE}
+                COMMENT "Compiling translation: ${TS_NAME}.qm")
+            list(APPEND RPCS3_QM_FILES ${QM_FILE})
+        endforeach()
+        add_custom_target(rpcs3_translations ALL DEPENDS ${RPCS3_QM_FILES})
+        add_dependencies(rpcs3 rpcs3_translations)
+        # Copy .qm files to output directory after build
+        add_custom_command(TARGET rpcs3 POST_BUILD
+            COMMAND ${CMAKE_COMMAND} -E copy_directory
+                "${CMAKE_BINARY_DIR}/translations" "${TRANSLATIONS_OUTPUT_DIR}")
+    else()
+        message(WARNING "lrelease not found. Translations will not be compiled.")
+        # Fallback: copy pre-built .qm files if they exist
+        file(GLOB RPCS3_QM_PREBUILT "${CMAKE_SOURCE_DIR}/translations/*.qm")
+        if(RPCS3_QM_PREBUILT)
+            add_custom_command(TARGET rpcs3 POST_BUILD
+                COMMAND ${CMAKE_COMMAND} -E make_directory "$<TARGET_FILE_DIR:rpcs3>/translations"
+                COMMAND ${CMAKE_COMMAND} -E copy_directory
+                    "${CMAKE_SOURCE_DIR}/translations" "$<TARGET_FILE_DIR:rpcs3>/translations"
+                COMMAND ${CMAKE_COMMAND} -E copy_directory
+                    "${CMAKE_SOURCE_DIR}/bin/Icons" "$<TARGET_FILE_DIR:rpcs3>/Icons"
+                COMMAND ${CMAKE_COMMAND} -E copy_directory
+                    "${CMAKE_SOURCE_DIR}/bin/GuiConfigs" "$<TARGET_FILE_DIR:rpcs3>/GuiConfigs")
+        endif()
+    endif()
+
     if(APPLE)
         qt_finalize_target(rpcs3)
         add_custom_command(TARGET rpcs3 POST_BUILD

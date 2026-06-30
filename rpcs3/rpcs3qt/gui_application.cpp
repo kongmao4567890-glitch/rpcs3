@@ -190,7 +190,27 @@ bool gui_application::Init()
 		const auto language = m_gui_settings->GetValue(gui::loc_language).toString();
 		const auto index    = codes.indexOf(language);
 
-		LoadLanguage(index < 0 ? QLocale(QLocale::English).bcp47Name() : ::at32(codes, index));
+		// If no language preference is set, try to detect system locale
+		if (index < 0)
+		{
+			// Try system locale first
+			const QString sys_locale = QLocale().bcp47Name();
+			const auto sys_index = codes.indexOf(sys_locale);
+			if (sys_index >= 0)
+			{
+				LoadLanguage(::at32(codes, sys_index));
+			}
+			else
+			{
+				// Default to Chinese if available, otherwise English
+				const auto zh_index = codes.indexOf(QStringLiteral("zh_CN"));
+				LoadLanguage(zh_index >= 0 ? ::at32(codes, zh_index) : QLocale(QLocale::English).bcp47Name());
+			}
+		}
+		else
+		{
+			LoadLanguage(::at32(codes, index));
+		}
 
 		connect(m_main_window, &main_window::RequestLanguageChange, this, &gui_application::LoadLanguage);
 		connect(m_main_window, &main_window::RequestGlobalStylesheetChange, this, &gui_application::OnChangeStyleSheetRequest);
@@ -317,13 +337,39 @@ void gui_application::SwitchTranslator(const QString& language_code)
 			gui_log.error("Failed to load translation: '%s'", file_path);
 		}
 	}
-	else if (language_code != default_code)
+	else
 	{
-		// show error, but ignore default case "en", since it is handled in source code
-		gui_log.error("No translation file found in: '%s'", file_path);
+		// Also search in local directories relative to the executable
+		const QStringList local_paths = {
+			QCoreApplication::applicationDirPath() + QStringLiteral("/translations/"),
+			QCoreApplication::applicationDirPath() + QStringLiteral("/share/qt6/translations/"),
+			QCoreApplication::applicationDirPath() + QStringLiteral("/"),
+		};
 
-		// reset current language to default "en"
-		set_language_code(default_code);
+		bool loaded = false;
+		for (const QString& local_path : local_paths)
+		{
+			const QString local_file = local_path + QStringLiteral("rpcs3_%1.qm").arg(language_code);
+			if (QFileInfo(local_file).isFile())
+			{
+				if (m_translator.load(local_file))
+				{
+					gui_log.notice("Installing translation: '%s'", local_file);
+					installTranslator(&m_translator);
+					loaded = true;
+					break;
+				}
+			}
+		}
+
+		if (!loaded && language_code != default_code)
+		{
+			// show error, but ignore default case "en", since it is handled in source code
+			gui_log.error("No translation file found in: '%s'", file_path);
+
+			// reset current language to default "en"
+			set_language_code(default_code);
+		}
 	}
 }
 
@@ -369,34 +415,43 @@ QStringList gui_application::GetAvailableLanguageCodes()
 {
 	QStringList language_codes;
 
-	const QString language_path = QLibraryInfo::path(QLibraryInfo::TranslationsPath);
-	gui_log.notice("Checking languages in '%s'", language_path);
+	// Search multiple paths for translation files
+	const QStringList search_paths = {
+		QLibraryInfo::path(QLibraryInfo::TranslationsPath),
+		QCoreApplication::applicationDirPath() + QStringLiteral("/translations"),
+		QCoreApplication::applicationDirPath() + QStringLiteral("/share/qt6/translations"),
+	};
 
-	if (QFileInfo(language_path).isDir())
+	for (const QString& language_path : search_paths)
 	{
-		const QDir dir(language_path);
-		const QStringList filenames = dir.entryList(QStringList("rpcs3_*.qm"));
+		gui_log.notice("Checking languages in '%s'", language_path);
 
-		for (const QString& filename : filenames)
+		if (QFileInfo(language_path).isDir())
 		{
-			QString language_code = filename;                        // "rpcs3_en.qm"
-			language_code.truncate(language_code.lastIndexOf('.'));  // "rpcs3_en"
-			language_code.remove(0, language_code.indexOf('_') + 1); // "en"
+			const QDir dir(language_path);
+			const QStringList filenames = dir.entryList(QStringList("rpcs3_*.qm"));
 
-			if (language_codes.contains(language_code))
+			for (const QString& filename : filenames)
 			{
-				gui_log.error("Found duplicate language '%s' (%s)", language_code, filename);
-			}
-			else
-			{
-				gui_log.notice("Found language '%s' (%s)", language_code, filename);
-				language_codes << language_code;
+				QString language_code = filename;                        // "rpcs3_en.qm"
+				language_code.truncate(language_code.lastIndexOf('.'));  // "rpcs3_en"
+				language_code.remove(0, language_code.indexOf('_') + 1); // "en"
+
+				if (language_codes.contains(language_code))
+				{
+					gui_log.error("Found duplicate language '%s' (%s)", language_code, filename);
+				}
+				else
+				{
+					gui_log.notice("Found language '%s' (%s)", language_code, filename);
+					language_codes << language_code;
+				}
 			}
 		}
-	}
-	else
-	{
-		gui_log.error("Language dir not found: '%s'", language_path);
+		else
+		{
+			gui_log.error("Language dir not found: '%s'", language_path);
+		}
 	}
 
 	return language_codes;
