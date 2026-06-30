@@ -62,17 +62,17 @@ private:
 // ---------------------------------------------------------------------------
 // Cheat manager dialog — browse/activate/import cheats
 // ---------------------------------------------------------------------------
-class cheat_manager_dialog : public QDialog
+class cheat_patch_manager_dialog : public QDialog
 {
 	Q_OBJECT
 public:
-	cheat_manager_dialog(QWidget* parent = nullptr);
-	~cheat_manager_dialog();
+	cheat_patch_manager_dialog(QWidget* parent = nullptr);
+	~cheat_patch_manager_dialog();
 
-	static cheat_manager_dialog* get_dlg(QWidget* parent = nullptr);
+	static cheat_patch_manager_dialog* get_dlg(QWidget* parent = nullptr);
 
-	cheat_manager_dialog(cheat_manager_dialog const&) = delete;
-	void operator=(cheat_manager_dialog const&) = delete;
+	cheat_patch_manager_dialog(cheat_patch_manager_dialog const&) = delete;
+	void operator=(cheat_patch_manager_dialog const&) = delete;
 
 private:
 	void refresh_tree();
@@ -86,7 +86,7 @@ private:
 	QPushButton*   m_btn_import     = nullptr;
 	QPushButton*   m_btn_import_v2  = nullptr;
 
-	static cheat_manager_dialog* s_inst;
+	static cheat_patch_manager_dialog* s_inst;
 };
 
 // ---------------------------------------------------------------------------

@@ -3300,7 +3300,7 @@ void main_window::CreateConnects()
 		ui->menuManage->insertAction(ui->actionManage_Game_Patches, act_cheat_patch);
 		connect(act_cheat_patch, &QAction::triggered, this, [this]
 		{
-			cheat_manager_dialog* dlg = cheat_manager_dialog::get_dlg(this);
+			cheat_patch_manager_dialog* dlg = cheat_patch_manager_dialog::get_dlg(this);
 			dlg->show();
 		});
 	}

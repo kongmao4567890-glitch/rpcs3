@@ -537,15 +537,15 @@ std::vector<std::pair<std::string, const cheat_entry*>> cheat_storage::find_by_s
 }
 
 // ===========================================================================
-// cheat_manager_dialog implementation
+// cheat_patch_manager_dialog implementation
 // ===========================================================================
-cheat_manager_dialog* cheat_manager_dialog::s_inst = nullptr;
+cheat_patch_manager_dialog* cheat_patch_manager_dialog::s_inst = nullptr;
 
-cheat_manager_dialog::cheat_manager_dialog(QWidget* parent)
+cheat_patch_manager_dialog::cheat_patch_manager_dialog(QWidget* parent)
 	: QDialog(parent)
 {
 	setWindowTitle(tr("金手指管理器"));
-	setObjectName("cheat_manager_dialog");
+	setObjectName("cheat_patch_manager_dialog");
 	setMinimumSize(QSize(800, 400));
 
 	auto* layout_main = new QVBoxLayout(this);
@@ -665,15 +665,15 @@ cheat_manager_dialog::cheat_manager_dialog(QWidget* parent)
 	refresh_tree();
 }
 
-cheat_manager_dialog::~cheat_manager_dialog() { s_inst = nullptr; }
+cheat_patch_manager_dialog::~cheat_patch_manager_dialog() { s_inst = nullptr; }
 
-cheat_manager_dialog* cheat_manager_dialog::get_dlg(QWidget* parent)
+cheat_patch_manager_dialog* cheat_patch_manager_dialog::get_dlg(QWidget* parent)
 {
-	if (!s_inst) s_inst = new cheat_manager_dialog(parent);
+	if (!s_inst) s_inst = new cheat_patch_manager_dialog(parent);
 	return s_inst;
 }
 
-void cheat_manager_dialog::refresh_tree()
+void cheat_patch_manager_dialog::refresh_tree()
 {
 	m_tree->clear();
 	QList<QTreeWidgetItem*> items;
@@ -719,7 +719,7 @@ void cheat_manager_dialog::refresh_tree()
 	}
 }
 
-void cheat_manager_dialog::filter_cheats(const QString& game_id, const QString& term)
+void cheat_patch_manager_dialog::filter_cheats(const QString& game_id, const QString& term)
 {
 	const QStringList words = term.split(" ", Qt::SkipEmptyParts);
 	const auto* root = m_tree->invisibleRootItem();
