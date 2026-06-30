@@ -974,11 +974,9 @@ void cheat_patch_dialog::on_item_changed(QTableWidgetItem* item)
 	if (!item)
 		return;
 
-	int col = item->column();
-	if (col != 0)
+	if (item->column() != 0)
 		return;
 
-	int row = item->row();
 	const QString desc = item->data(Qt::UserRole).toString();
 	const bool enabled = item->checkState() == Qt::Checked;
 	m_engine.set_enabled(desc.toStdString(), enabled);
@@ -1099,8 +1097,14 @@ cp_patch_type cp_add_cheat_dialog::patch_type() const
 
 u32 cp_add_cheat_dialog::offset() const
 {
-	try { return static_cast<u32>(std::stoul(m_edt_offset->text().toStdString(), nullptr, 0)); }
-	catch (...) { return 0; }
+	const std::string s = m_edt_offset->text().toStdString();
+	if (s.empty()) return 0;
+	int base = 10;
+	const char* p = s.c_str();
+	if (s.size() >= 2 && s[0] == '0' && (s[1] == 'x' || s[1] == 'X')) { base = 16; p += 2; }
+	char* end = nullptr;
+	unsigned long v = std::strtoul(p, &end, base);
+	return (end == p) ? 0 : static_cast<u32>(v);
 }
 
 u64 cp_add_cheat_dialog::value() const
@@ -1108,8 +1112,14 @@ u64 cp_add_cheat_dialog::value() const
 	const auto t = patch_type();
 	if (t == cp_patch_type::utf8 || t == cp_patch_type::c_utf8)
 		return 0;
-	try { return std::stoull(m_edt_value->text().toStdString(), nullptr, 0); }
-	catch (...) { return 0; }
+	const std::string s = m_edt_value->text().toStdString();
+	if (s.empty()) return 0;
+	int base = 10;
+	const char* p = s.c_str();
+	if (s.size() >= 2 && s[0] == '0' && (s[1] == 'x' || s[1] == 'X')) { base = 16; p += 2; }
+	char* end = nullptr;
+	unsigned long long v = std::strtoull(p, &end, base);
+	return (end == p) ? 0 : static_cast<u64>(v);
 }
 
 QString cp_add_cheat_dialog::str_value() const
