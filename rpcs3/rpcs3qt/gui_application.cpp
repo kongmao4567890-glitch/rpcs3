@@ -323,52 +323,63 @@ void gui_application::SwitchTranslator(const QString& language_code)
 		gui_log.error("Qt translation dir '%s' does not exist", lang_path);
 	}
 
-	const QString file_path = lang_path + QStringLiteral("rpcs3_%1.qm").arg(language_code);
-	if (QFileInfo(file_path).isFile())
+	// Try to load RPCS3 translation from embedded Qt resources first (works on all platforms including macOS)
+	const QString resource_path = QStringLiteral(":/translations/rpcs3_%1.qm").arg(language_code);
+	if (m_translator.load(resource_path))
 	{
-		// load the new translator
-		if (m_translator.load(file_path))
-		{
-			gui_log.notice("Installing translation: '%s'", file_path);
-			installTranslator(&m_translator);
-		}
-		else
-		{
-			gui_log.error("Failed to load translation: '%s'", file_path);
-		}
+		gui_log.notice("Installing embedded translation: '%s'", resource_path);
+		installTranslator(&m_translator);
 	}
 	else
 	{
-		// Also search in local directories relative to the executable
-		const QStringList local_paths = {
-			QCoreApplication::applicationDirPath() + QStringLiteral("/translations/"),
-			QCoreApplication::applicationDirPath() + QStringLiteral("/share/qt6/translations/"),
-			QCoreApplication::applicationDirPath() + QStringLiteral("/"),
-		};
-
-		bool loaded = false;
-		for (const QString& local_path : local_paths)
+		// Fall back to file-based translation loading
+		const QString file_path = lang_path + QStringLiteral("rpcs3_%1.qm").arg(language_code);
+		if (QFileInfo(file_path).isFile())
 		{
-			const QString local_file = local_path + QStringLiteral("rpcs3_%1.qm").arg(language_code);
-			if (QFileInfo(local_file).isFile())
+			// load the new translator
+			if (m_translator.load(file_path))
 			{
-				if (m_translator.load(local_file))
-				{
-					gui_log.notice("Installing translation: '%s'", local_file);
-					installTranslator(&m_translator);
-					loaded = true;
-					break;
-				}
+				gui_log.notice("Installing translation: '%s'", file_path);
+				installTranslator(&m_translator);
+			}
+			else
+			{
+				gui_log.error("Failed to load translation: '%s'", file_path);
 			}
 		}
-
-		if (!loaded && language_code != default_code)
+		else
 		{
-			// show error, but ignore default case "en", since it is handled in source code
-			gui_log.error("No translation file found in: '%s'", file_path);
+			// Also search in local directories relative to the executable
+			const QStringList local_paths = {
+				QCoreApplication::applicationDirPath() + QStringLiteral("/translations/"),
+				QCoreApplication::applicationDirPath() + QStringLiteral("/share/qt6/translations/"),
+				QCoreApplication::applicationDirPath() + QStringLiteral("/"),
+			};
 
-			// reset current language to default "en"
-			set_language_code(default_code);
+			bool loaded = false;
+			for (const QString& local_path : local_paths)
+			{
+				const QString local_file = local_path + QStringLiteral("rpcs3_%1.qm").arg(language_code);
+				if (QFileInfo(local_file).isFile())
+				{
+					if (m_translator.load(local_file))
+					{
+						gui_log.notice("Installing translation: '%s'", local_file);
+						installTranslator(&m_translator);
+						loaded = true;
+						break;
+					}
+				}
+			}
+
+			if (!loaded && language_code != default_code)
+			{
+				// show error, but ignore default case "en", since it is handled in source code
+				gui_log.error("No translation file found in: '%s'", file_path);
+
+				// reset current language to default "en"
+				set_language_code(default_code);
+			}
 		}
 	}
 }
@@ -414,6 +425,9 @@ void gui_application::LoadLanguage(const QString& language_code)
 QStringList gui_application::GetAvailableLanguageCodes()
 {
 	QStringList language_codes;
+
+	// zh_CN is always available since it's embedded in the binary via Qt resources (.qrc)
+	language_codes << QStringLiteral("zh_CN");
 
 	// Search multiple paths for translation files
 	const QStringList search_paths = {
