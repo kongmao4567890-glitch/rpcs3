@@ -24,7 +24,7 @@
 
 #include "Emu/Cell/Modules/StaticHLE.h"
 
-#include "rpcs3qt/cheat_patch_manager.h"
+#include "Utilities/cheat_engine.h"
 
 #include <map>
 #include <span>

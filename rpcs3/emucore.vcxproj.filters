@@ -1041,6 +1041,9 @@
     <ClCompile Include="Emu\Audio\FAudio\faudio_enumerator.cpp">
       <Filter>Emu\Audio\FAudio</Filter>
     </ClCompile>
+    <ClCompile Include="..\Utilities\cheat_engine.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
     <ClCompile Include="..\Utilities\cheat_info.cpp">
       <Filter>Utilities</Filter>
     </ClCompile>
@@ -2330,6 +2333,9 @@
     </ClInclude>
     <ClInclude Include="Emu\Audio\FAudio\faudio_enumerator.h">
       <Filter>Emu\Audio\FAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utilities\cheat_engine.h">
+      <Filter>Utilities</Filter>
     </ClInclude>
     <ClInclude Include="..\Utilities\cheat_info.h">
       <Filter>Utilities</Filter>
