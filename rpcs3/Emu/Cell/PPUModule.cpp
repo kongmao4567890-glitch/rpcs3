@@ -2372,7 +2372,7 @@ bool ppu_load_exec(const ppu_exec_object& elf, bool virtual_load, const std::str
 	}
 
 	// Apply queued cheats after PPU module is loaded
-	g_cheat_engine.apply_queued_cheats();
+	g_cheat_patch_engine.apply_queued_cheats();
 
 	// Static HLE patching
 	if (g_cfg.core.hook_functions && !virtual_load)

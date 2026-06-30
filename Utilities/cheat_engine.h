@@ -100,7 +100,7 @@ private:
 // ---------------------------------------------------------------------------
 // Cheat engine — singleton, manages constant and queued cheats
 // ---------------------------------------------------------------------------
-class cheat_engine
+class cheat_patch_engine
 {
 public:
 	const std::set<cheat_executor>& get_active_constant_cheats() const;
@@ -122,4 +122,4 @@ private:
 	std::set<cheat_executor> m_constant_cheats, m_queued_cheats;
 };
 
-extern cheat_engine g_cheat_engine;
+extern cheat_patch_engine g_cheat_patch_engine;

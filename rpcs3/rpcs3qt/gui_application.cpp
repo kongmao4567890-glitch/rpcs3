@@ -546,7 +546,7 @@ void gui_application::InitializeConnects()
 	{
 		if (Emu.IsRunning())
 		{
-			for (const auto& cheat : g_cheat_engine.get_active_constant_cheats())
+			for (const auto& cheat : g_cheat_patch_engine.get_active_constant_cheats())
 				cheat.execute(false);
 		}
 	});

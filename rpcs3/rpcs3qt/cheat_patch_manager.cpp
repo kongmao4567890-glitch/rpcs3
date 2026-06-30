@@ -637,9 +637,9 @@ cheat_manager_dialog::cheat_manager_dialog(QWidget* parent)
 			if (var_dlg.exec() == QDialog::Rejected) return;
 			var_choices = var_dlg.get_choices();
 		}
-		if (!g_cheat_engine.activate_cheat(game_name, cheat_name, cheat, var_choices))
+		if (!g_cheat_patch_engine.activate_cheat(game_name, cheat_name, cheat, var_choices))
 		{
-			g_cheat_engine.deactivate_cheat(game_name, cheat_name);
+			g_cheat_patch_engine.deactivate_cheat(game_name, cheat_name);
 			item->setBackground(0, QBrush());
 			return;
 		}
@@ -693,7 +693,7 @@ void cheat_manager_dialog::refresh_tree()
 	m_tree->insertTopLevelItems(0, items);
 
 	// Highlight active/queued
-	const auto& constant_cheats = g_cheat_engine.get_active_constant_cheats();
+	const auto& constant_cheats = g_cheat_patch_engine.get_active_constant_cheats();
 	for (const auto& cheat : constant_cheats)
 	{
 		const auto name = cheat.get_name();
@@ -705,7 +705,7 @@ void cheat_manager_dialog::refresh_tree()
 			if (child->text(0).toStdString() == name.second) { child->setCheckState(0, Qt::Checked); break; }
 		}
 	}
-	const auto& queued_cheats = g_cheat_engine.get_queued_cheats();
+	const auto& queued_cheats = g_cheat_patch_engine.get_queued_cheats();
 	for (const auto& cheat : queued_cheats)
 	{
 		const auto name = cheat.get_name();
@@ -830,10 +830,10 @@ cheat_pre_boot_dialog::cheat_pre_boot_dialog(const std::string& serial, const st
 		const auto& cheat = cheats->at(cheat_name);
 
 		bool found = false;
-		for (const auto& c : g_cheat_engine.get_active_constant_cheats()) if (c.is(game_name, cheat_name)) { found = true; break; }
-		for (const auto& c : g_cheat_engine.get_queued_cheats()) if (c.is(game_name, cheat_name)) { found = true; break; }
+		for (const auto& c : g_cheat_patch_engine.get_active_constant_cheats()) if (c.is(game_name, cheat_name)) { found = true; break; }
+		for (const auto& c : g_cheat_patch_engine.get_queued_cheats()) if (c.is(game_name, cheat_name)) { found = true; break; }
 
-		if (found) { g_cheat_engine.deactivate_cheat(game_name, cheat_name); item->setBackground(0, QBrush()); }
+		if (found) { g_cheat_patch_engine.deactivate_cheat(game_name, cheat_name); item->setBackground(0, QBrush()); }
 		else
 		{
 			std::unordered_map<std::string, std::string> var_choices;
@@ -843,7 +843,7 @@ cheat_pre_boot_dialog::cheat_pre_boot_dialog(const std::string& serial, const st
 				if (var_dlg.exec() == QDialog::Rejected) return;
 				var_choices = var_dlg.get_choices();
 			}
-			if (g_cheat_engine.activate_cheat(game_name, cheat_name, cheat, var_choices))
+			if (g_cheat_patch_engine.activate_cheat(game_name, cheat_name, cheat, var_choices))
 				item->setBackground(0, QBrush(QColor(100, 200, 100, 80)));
 		}
 	});

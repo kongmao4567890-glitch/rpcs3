@@ -62,7 +62,7 @@ void fmt_class_string<cheat_inst>::format(std::string& out, u64 arg)
 // ===========================================================================
 // Global cheat engine instance
 // ===========================================================================
-cheat_engine g_cheat_engine;
+cheat_patch_engine g_cheat_patch_engine;
 
 // ===========================================================================
 // cheat_executor implementation
@@ -354,12 +354,12 @@ bool cheat_executor::execute(bool pause) const
 }
 
 // ===========================================================================
-// cheat_engine implementation
+// cheat_patch_engine implementation
 // ===========================================================================
-const std::set<cheat_executor>& cheat_engine::get_active_constant_cheats() const { return m_constant_cheats; }
-const std::set<cheat_executor>& cheat_engine::get_queued_cheats() const { return m_queued_cheats; }
+const std::set<cheat_executor>& cheat_patch_engine::get_active_constant_cheats() const { return m_constant_cheats; }
+const std::set<cheat_executor>& cheat_patch_engine::get_queued_cheats() const { return m_queued_cheats; }
 
-void cheat_engine::clear()
+void cheat_patch_engine::clear()
 {
 	std::lock_guard lock_constant(m_mutex_constant);
 	std::lock_guard lock_queued(m_mutex_queued);
@@ -367,7 +367,7 @@ void cheat_engine::clear()
 	m_queued_cheats.clear();
 }
 
-bool cheat_engine::activate_cheat(const std::string& game_name, const std::string& cheat_name,
+bool cheat_patch_engine::activate_cheat(const std::string& game_name, const std::string& cheat_name,
                                   cheat_entry entry,
                                   std::unordered_map<std::string, std::string> var_choices)
 {
@@ -385,7 +385,7 @@ bool cheat_engine::activate_cheat(const std::string& game_name, const std::strin
 	return ce.execute();
 }
 
-bool cheat_engine::deactivate_cheat(const std::string& game_name, const std::string& cheat_name)
+bool cheat_patch_engine::deactivate_cheat(const std::string& game_name, const std::string& cheat_name)
 {
 	{
 		std::lock_guard lock(m_mutex_constant);
@@ -404,10 +404,10 @@ bool cheat_engine::deactivate_cheat(const std::string& game_name, const std::str
 	return false;
 }
 
-void cheat_engine::apply_queued_cheats()
+void cheat_patch_engine::apply_queued_cheats()
 {
 	for (const auto& cheat : m_queued_cheats)
 		cheat.execute(false);
 }
 
-void cheat_engine::operator()() {}
+void cheat_patch_engine::operator()() {}
