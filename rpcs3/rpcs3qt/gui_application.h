@@ -91,6 +91,7 @@ private:
 	void StartPlaytime(bool start_playtime);
 	void UpdatePlaytime();
 	void StopPlaytime();
+	void UpdateCheatPatches();
 
 	void set_language_code(QString language_code);
 
@@ -108,6 +109,7 @@ private:
 
 	QTimer m_timer;
 	QElapsedTimer m_timer_playtime;
+	QTimer m_cheat_patch_timer;
 
 	std::deque<std::unique_ptr<QSoundEffect>> m_sound_effects{};
 

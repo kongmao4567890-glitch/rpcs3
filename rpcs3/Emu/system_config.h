@@ -382,6 +382,7 @@ struct cfg_root : cfg::node
 		cfg::_bool pause_during_home_menu{this, "Pause Emulation During Home Menu", false, false };
 		cfg::_bool play_music_during_boot{this, "Play music during boot sequence", true, true };
 		cfg::_bool enable_gamemode{ this, "Enable GameMode", false, false };
+		cfg::_bool cheat_patch_auto_apply{ this, "Enable Cheat Patch Auto-Apply", false, true };
 
 	} misc{ this };
 

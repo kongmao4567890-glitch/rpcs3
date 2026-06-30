@@ -26,6 +26,7 @@
 #include "dimensions_dialog.h"
 #include "kamen_rider_dialog.h"
 #include "cheat_manager.h"
+#include "cheat_patch_manager.h"
 #include "patch_manager_dialog.h"
 #include "patch_creator_dialog.h"
 #include "pkg_install_dialog.h"
@@ -3257,6 +3258,19 @@ void main_window::CreateConnects()
 		cheat_manager_dialog* cheat_manager = cheat_manager_dialog::get_dlg(this);
 		cheat_manager->show();
  	});
+
+	// New independent cheat patch manager (supports patch.yml format + custom cheats)
+	{
+		QAction* act_cheat_patch = new QAction(tr("Cheat Patch Manager (patch.yml)"), this);
+		act_cheat_patch->setStatusTip(tr("Open the cheat patch manager to import patch.yml files and add custom cheats"));
+		// Insert into the Manage menu right after actionManage_Cheats
+		ui->menuManage->insertAction(ui->actionManage_Game_Patches, act_cheat_patch);
+		connect(act_cheat_patch, &QAction::triggered, this, [this]
+		{
+			cheat_patch_dialog* dlg = cheat_patch_dialog::get_dlg(this);
+			dlg->show();
+		});
+	}
 
 	connect(ui->actionManage_Game_Patches, &QAction::triggered, this, [this]
 	{

@@ -9,6 +9,7 @@ add_library(rpcs3_ui STATIC
     camera_settings_dialog.cpp
     cg_disasm_window.cpp
     cheat_manager.cpp
+    cheat_patch_manager.cpp
     clans_settings_dialog.cpp
     config_adapter.cpp
     config_checker.cpp

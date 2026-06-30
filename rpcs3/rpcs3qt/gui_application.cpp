@@ -15,6 +15,7 @@
 #include "qt_music_handler.h"
 #include "rpcs3_version.h"
 #include "display_sleep_control.h"
+#include "cheat_patch_manager.h"
 
 #ifdef WITH_DISCORD_RPC
 #include "_discord_utils.h"
@@ -471,6 +472,15 @@ void gui_application::InitializeConnects()
 	connect(this, &gui_application::OnEmulatorStop, this, &gui_application::StopPlaytime);
 	connect(this, &gui_application::OnEmulatorPause, this, &gui_application::StopPlaytime);
 	connect(this, &gui_application::OnEmulatorResume, this, &gui_application::StartPlaytime);
+	connect(&m_cheat_patch_timer, &QTimer::timeout, this, &gui_application::UpdateCheatPatches);
+	connect(this, &gui_application::OnEmulatorRun, this, [this](bool)
+	{
+		// Periodically re-apply enabled cheats while a game is running
+		m_cheat_patch_timer.start(250);
+	});
+	connect(this, &gui_application::OnEmulatorStop, this, [this]() { m_cheat_patch_timer.stop(); });
+	connect(this, &gui_application::OnEmulatorPause, this, [this]() { m_cheat_patch_timer.stop(); });
+	connect(this, &gui_application::OnEmulatorResume, this, [this]() { m_cheat_patch_timer.start(250); });
 	connect(this, &QGuiApplication::applicationStateChanged, this, &gui_application::OnAppStateChanged);
 
 #ifdef WITH_DISCORD_RPC
@@ -1097,6 +1107,14 @@ void gui_application::StopPlaytime()
 	m_persistent_settings->AddPlaytime(serial, m_timer_playtime.restart(), false);
 	m_persistent_settings->SetLastPlayed(serial, QDateTime::currentDateTime().toString(gui::persistent::last_played_date_format), true);
 	m_timer_playtime.invalidate();
+}
+
+void gui_application::UpdateCheatPatches()
+{
+	if (!g_cfg.misc.cheat_patch_auto_apply || !Emu.IsRunning())
+		return;
+
+	cheat_patch_engine::get().apply_cheats();
 }
 
 /*
