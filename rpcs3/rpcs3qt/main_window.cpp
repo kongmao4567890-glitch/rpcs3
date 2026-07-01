@@ -209,7 +209,7 @@ bool main_window::Init([[maybe_unused]] bool with_cli_boot)
 	CreateConnects();
 
 	setMinimumSize(350, minimumSizeHint().height());    // seems fine on win 10
-	setWindowTitle(QString::fromStdString("RPCS3 " + rpcs3::get_verbose_version()));
+	setWindowTitle(QString::fromStdString("九尾猫游戏解说编译 " + rpcs3::get_version().to_string()));
 
 	Q_EMIT RequestGlobalStylesheetChange();
 	ConfigureGuiFromSettings();

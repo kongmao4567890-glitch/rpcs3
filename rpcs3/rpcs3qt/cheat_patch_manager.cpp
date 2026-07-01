@@ -268,7 +268,12 @@ void cheat_storage::ensure_v2_loaded()
 		if (QFileInfo::exists(path))
 		{
 			log_cheat_patch.notice("Loading cheatsv2.yml from: %s", path.toStdString());
-			load_cheatsv2(path.toStdString());
+			if (load_cheatsv2(path.toStdString()))
+			{
+				// Persist loaded cheats so they survive emulator restarts
+				save();
+				log_cheat_patch.success("cheatsv2.yml loaded and persisted to cheats_ncl.yml");
+			}
 			break;
 		}
 	}

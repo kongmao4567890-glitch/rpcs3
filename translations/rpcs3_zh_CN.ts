@@ -176,7 +176,7 @@
         <message>
             <location filename="../rpcs3/rpcs3qt/localized.cpp" line="105" />
             <source>The PS3 Interface (XMB, or VSH)</source>
-            <translation>The PS3 Interface (XMB, 或 VSH)</translation>
+            <translation>PS3 界面（XMB，或 VSH）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized.h" line="25" />
@@ -206,7 +206,7 @@
         <message>
             <location filename="../rpcs3/rpcs3qt/localized.h" line="30" />
             <source>Broadcast Video</source>
-            <translation>Broadcast 视频</translation>
+            <translation>广播视频</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized.h" line="31" />
@@ -221,7 +221,7 @@
         <message>
             <location filename="../rpcs3/rpcs3qt/localized.h" line="33" />
             <source>Home</source>
-            <translation>自制程序</translation>
+            <translation>主页</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized.h" line="34" />
@@ -276,22 +276,22 @@
         <message>
             <location filename="../rpcs3/rpcs3qt/localized.h" line="52" />
             <source>PS3 Game Data</source>
-            <translation>PS3 游戏 Data</translation>
+            <translation>PS3 游戏数据</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized.h" line="53" />
             <source>PS2 Emulator Data</source>
-            <translation>PS2 模拟器 Data</translation>
+            <translation>PS2 模拟器数据</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized.h" line="56" />
             <source>PS3 Save Data</source>
-            <translation>PS3 保存 Data</translation>
+            <translation>PS3 存档数据</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized.h" line="57" />
             <source>PSP Minis Save Data</source>
-            <translation>PSP Minis 保存 Data</translation>
+            <translation>PSP Minis 存档数据</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized.h" line="60" />
@@ -384,7 +384,7 @@
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="326" />
             <source>Input %0 for %1, timeout in %2 %3</source>
-            <translation>Input %0 为 %1, timeout 内 %2 %3</translation>
+            <translation>输入 %0（用于 %1），超时时间 %2 %3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="326" />
@@ -415,7 +415,10 @@
 Please install RPCS3 in a persistent location.
 Current location:
 %0</source>
-            <translation>RPCS3 应该 从不 是 运行 从 a temporary location! Please 安装 RPCS3 内 a persistent location. 当前 location: %0</translation>
+            <translation>RPCS3 绝不应从临时位置运行！
+请将 RPCS3 安装到持久位置。
+当前位置：
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3.cpp" line="1028" />
@@ -423,7 +426,10 @@ Current location:
 Please install RPCS3 in a persistent location.
 Current location:
 %0</source>
-            <translation>RPCS3 应该 从不 是 运行 从 an archive! Please 安装 RPCS3 内 a persistent location. 当前 location: %0</translation>
+            <translation>RPCS3 绝不应从压缩包中运行！
+请将 RPCS3 安装到持久位置。
+当前位置：
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3.cpp" line="1042" />
@@ -431,17 +437,20 @@ Current location:
 Please move RPCS3 to a location not synced by OneDrive.
 Current location:
 %0</source>
-            <translation>RPCS3 应该 从不 是 运行 从 a OneDrive 路径! Please 移动 RPCS3 到 a location 不 已同步 通过 OneDrive. 当前 location: %0</translation>
+            <translation>RPCS3 绝不应从 OneDrive 路径运行！
+请将 RPCS3 移动到未被 OneDrive 同步的位置。
+当前位置：
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3.cpp" line="1167" />
             <source>Invalid command-line arguments!</source>
-            <translation>无效 command-line arguments!</translation>
+            <translation>无效的命令行参数！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3.cpp" line="1167" />
             <source>Cannot perform multiple installations at the same time!</source>
-            <translation>Cannot perform multiple installations at the 相同 时间!</translation>
+            <translation>无法同时执行多个安装！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3.cpp" line="1366" />
@@ -452,7 +461,8 @@ Current location:
             <location filename="../rpcs3/rpcs3.cpp" line="1366" />
             <source>Cannot run no-gui mode without boot target.
 Terminating...</source>
-            <translation>Cannot 运行 否-gui mode 无 启动 target. Terminating...</translation>
+            <translation>没有启动目标，无法以无界面模式运行。
+正在终止...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="134" />
@@ -467,7 +477,7 @@ Terminating...</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="713" />
             <source>Cannot perform SPU capture due to the thread needing manual pausing!</source>
-            <translation>Cannot perform SPU capture due 到 the 线程 needing 手动 暂停中!</translation>
+            <translation>由于线程需要手动暂停，无法执行 SPU 捕获！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="83" />
@@ -492,12 +502,12 @@ Terminating...</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="87" />
             <source>Shift up</source>
-            <translation>Shift 上</translation>
+            <translation>向上移动</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="88" />
             <source>Shift down</source>
-            <translation>Shift 下</translation>
+            <translation>向下移动</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="89" />
@@ -590,7 +600,7 @@ Dial CCW</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="105" />
             <source>Dial Center</source>
-            <translation>Dial 居中</translation>
+            <translation>拨盘居中</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="106" />
@@ -645,23 +655,24 @@ Dial CCW</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="252" />
             <source>Tracking not supported!</source>
-            <translation>Tracking 不 支持!</translation>
+            <translation>不支持追踪！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="252" />
             <source>The PS Move tracking is not yet supported on this operating system.</source>
-            <translation>The PS 移动 tracking 是 不 还 支持 开 此 operating system.</translation>
+            <translation>此操作系统尚不支持 PS Move 追踪。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="85" />
             <source>Failed to connect to RPCN server:
 %0</source>
-            <translation>失败 到 connect 到 RPCN server: %0</translation>
+            <translation>无法连接到 RPCN 服务器：
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="86" />
             <source>Error Connecting to RPCN!</source>
-            <translation>错误 Connecting 到 RPCN!</translation>
+            <translation>连接 RPCN 出错！</translation>
         </message>
     </context>
     <context>
@@ -672,7 +683,10 @@ Dial CCW</source>
 LLE - "Low Level Emulated", function code inside the selected SPRX file will be used for exported firmware functions.
 HLE - "High Level Emulated", alternative emulator code will be used instead for exported firmware functions.
 If chosen wrongly, games will not work! If unsure, leave both lists empty. HLEing all SPRX allows to boot without firmware installed. (experimental)</source>
-            <translation>这些 libraries 是 LLE'd 通过 默认 (下方 列表), selection 将 switch 到 HLE. LLE - "低 Level 模拟", function 代码 内部 the selected SPRX 文件 将 是 used 为 exported firmware functions. HLE - "高 Level 模拟", alternative 模拟器 代码 将 是 used instead 为 exported firmware functions. 如果 chosen wrongly, 游戏 将 不 work! 如果 不确定, leave 两者 列表 空. HLEing 全部 SPRX allows 到 启动 无 firmware 已安装. (experimental)</translation>
+            <translation>这些库默认使用 LLE（下方列表），选择后将切换为 HLE。
+LLE - “低级模拟”，所选 SPRX 文件内的函数代码将用于导出的固件函数。
+HLE - “高级模拟”，将使用替代的模拟器代码来代替导出的固件函数。
+如果选择错误，游戏将无法运行！如果不确定，请将两个列表都留空。将所有 SPRX 设为 HLE 可以在没有安装固件的情况下启动。（实验性）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="24" />
@@ -680,124 +694,143 @@ If chosen wrongly, games will not work! If unsure, leave both lists empty. HLEin
 LLE - "Low Level Emulated", function code inside the selected SPRX file will be used for exported firmware functions.
 HLE - "High Level Emulated", alternative emulator code will be used instead for exported firmware functions.
 If chosen wrongly, games will not work! If unsure, leave both lists empty. HLEing all SPRX allows to boot without firmware installed. (experimental)</source>
-            <translation>这些 libraries 是 HLE'd 通过 默认 (上方 列表), selection 将 switch 到 LLE. LLE - "低 Level 模拟", function 代码 内部 the selected SPRX 文件 将 是 used 为 exported firmware functions. HLE - "高 Level 模拟", alternative 模拟器 代码 将 是 used instead 为 exported firmware functions. 如果 chosen wrongly, 游戏 将 不 work! 如果 不确定, leave 两者 列表 空. HLEing 全部 SPRX allows 到 启动 无 firmware 已安装. (experimental)</translation>
+            <translation>这些库默认使用 HLE（上方列表），选择后将切换为 LLE。
+LLE - “低级模拟”，所选 SPRX 文件内的函数代码将用于导出的固件函数。
+HLE - “高级模拟”，将使用替代的模拟器代码来代替导出的固件函数。
+如果选择错误，游戏将无法运行！如果不确定，请将两个列表都留空。将所有 SPRX 设为 HLE 可以在没有安装固件的情况下启动。（实验性）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="25" />
             <source>Select to LLE. (HLE by default)</source>
-            <translation>Select 到 LLE. (HLE 通过 默认)</translation>
+            <translation>选择以使用 LLE。（默认为 HLE）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="26" />
             <source>Select to HLE. (LLE by default)</source>
-            <translation>Select 到 HLE. (LLE 通过 默认)</translation>
+            <translation>选择以使用 HLE。（默认为 LLE）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="28" />
             <source>Increases the amount of usable system memory to match a DECR console and more.
 Causes some software to behave differently than on retail hardware.</source>
-            <translation>Increases the amount 的 usable system 内存 到 match a DECR console 和 更多. Causes 一些 software 到 behave differently 比 开 retail hardware.</translation>
+            <translation>增加可用系统内存量，使其达到甚至超过 DECR 主机的水平。
+会导致某些软件的行为与零售硬件不同。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="29" />
             <source>Forces RSX pauses on SPU MFC_GETLLAR and SPU MFC_PUTLLUC operations.</source>
-            <translation>Forces RSX pauses 开 SPU MFC_GETLLAR 和 SPU MFC_PUTLLUC operations.</translation>
+            <translation>强制 RSX 在 SPU MFC_GETLLAR 和 SPU MFC_PUTLLUC 操作时暂停。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="30" />
             <source>Accurately processes SPU DMA operations.</source>
-            <translation>精确 进程 SPU DMA operations.</translation>
+            <translation>精确处理 SPU DMA 操作。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="31" />
             <source>Use accurate double-precision FMA instructions in PPU and SPU backends.
 While disabling it might give a decent performance boost if your CPU doesn't support FMA, it may also introduce subtle bugs that otherwise do not occur.
 You shouldn't disable it if your CPU supports FMA.</source>
-            <translation>Use accurate 双精度-precision FMA instructions 内 PPU 和 SPU backends. 当 禁用中 it 可能 give a decent 性能 boost 如果 your CPU doesn't support FMA, it 可以 也 introduce subtle bugs 那个 otherwise 执行 不 occur. You shouldn't 禁用 it 如果 your CPU supports FMA.</translation>
+            <translation>在 PPU 和 SPU 后端使用精确的双精度 FMA 指令。
+如果您的 CPU 不支持 FMA，禁用此选项可能会带来不错的性能提升，但也可能引入原本不会出现的细微错误。
+如果您的 CPU 支持 FMA，则不应禁用此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="32" />
             <source>Legacy option. Fixup result vector values in Non-Java Mode in PPU LLVM.
 If unsure, do not modify this setting.</source>
-            <translation>Legacy 选项. Fixup result 向量 值 内 Non-Java Mode 内 PPU LLVM. 如果 不确定, 执行 不 modify 此 设置.</translation>
+            <translation>遗留选项。修正 PPU LLVM 中非 Java 模式下的结果向量值。
+如果不确定，请勿修改此设置。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="33" />
             <source>Fixup NaN results in vector instructions in PPU backends.
 If unsure, do not modify this setting.</source>
-            <translation>Fixup NaN results 内 向量 instructions 内 PPU backends. 如果 不确定, 执行 不 modify 此 设置.</translation>
+            <translation>修正 PPU 后端中向量指令的 NaN 结果。
+如果不确定，请勿修改此设置。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="34" />
             <source>Stop writing any logs after game startup. Don't use unless you believe it's necessary.</source>
-            <translation>停止 writing 任何 logs 之后 游戏 startup. Don't use unless you believe it's 必要.</translation>
+            <translation>在游戏启动后停止写入任何日志。除非您认为有必要，否则请勿使用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="35" />
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="36" />
             <source>Initializes render target memory using vm memory.</source>
-            <translation>Initializes 渲染 target 内存 using vm 内存.</translation>
+            <translation>使用虚拟机内存初始化渲染目标内存。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="37" />
             <source>Writes depth buffer values to vm memory.</source>
-            <translation>Writes 深度 缓冲区 值 到 vm 内存.</translation>
+            <translation>将深度缓冲区的值写入虚拟机内存。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="38" />
             <source>Obey RSX memory tiling configuration when writing GPU data to vm memory.
 This can fix graphics corruption observed when Read Color or Read Depth options are enabled.</source>
-            <translation>Obey RSX 内存 tiling 配置 当 writing GPU data 到 vm 内存. 此 能 fix graphics corruption observed 当 Read 颜色 或 Read 深度 选项 是 已启用.</translation>
+            <translation>在将 GPU 数据写入虚拟机内存时遵守 RSX 内存平铺配置。
+这可以修复启用读取颜色或读取深度选项时出现的图形损坏。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="39" />
             <source>Disables the loading and saving of shaders from and to the shader cache in the data directory.</source>
-            <translation>Disables the 加载中 和 保存中 的 着色器 从 和 到 the 着色器 缓存 内 the data 目录.</translation>
+            <translation>禁止从数据目录的着色器缓存加载和保存着色器。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="40" />
             <source>Allows the host GPU to synchronize with CELL directly. This incurs a performance penalty, but exposes the true state of GPU objects to the guest CPU. Can help eliminate visual noise and glitching at the cost of performance. Use with caution.</source>
-            <translation>Allows the host GPU 到 synchronize 与 CELL directly. 此 incurs a 性能 penalty, 但 exposes the 真 state 的 GPU objects 到 the guest CPU. 能 help eliminate visual 噪声 和 glitching at the cost 的 性能. Use 与 caution.</translation>
+            <translation>允许主机 GPU 直接与 CELL 同步。这会带来性能损失，但能向客户 CPU 暴露 GPU 对象的真实状态。可以在牺牲性能的情况下帮助消除视觉噪点和故障。请谨慎使用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="41" />
             <source>Forces MSAA to use the host GPU's resolve capabilities for all sampling operations.
 This option incurs a performance penalty as well as the risk of visual artifacts but can yield crisper visuals when MSAA is enabled.</source>
-            <translation>Forces MSAA 到 use the host GPU's resolve capabilities 为 全部 sampling operations. 此 选项 incurs a 性能 penalty 作为 well 作为 the risk 的 visual artifacts 但 能 yield crisper visuals 当 MSAA 是 已启用.</translation>
+            <translation>强制 MSAA 在所有采样操作中使用主机 GPU 的解析能力。
+此选项会带来性能损失以及视觉伪影的风险，但在启用 MSAA 时可以获得更清晰的画面。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="42" />
             <source>Disables the vertex cache.
 Might resolve missing or flickering graphics output.
 May degrade performance.</source>
-            <translation>Disables the 顶点 缓存. 可能 resolve missing 或 flickering graphics output. 可以 degrade 性能.</translation>
+            <translation>禁用顶点缓存。
+可能解决图形输出缺失或闪烁的问题。
+可能会降低性能。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="43" />
             <source>Force host memory management calls to be inlined instead of handled asynchronously.
 This can cause severe performance degradation and stuttering in some games.
 This option is only needed by developers to debug problems with texture cache memory protection.</source>
-            <translation>Force host 内存 management calls 到 是 inlined instead 的 handled asynchronously. 此 能 cause severe 性能 degradation 和 stuttering 内 一些 游戏. 此 选项 是 仅 需要 通过 developers 到 调试 problems 与 纹理 缓存 内存 protection.</translation>
+            <translation>强制主机内存管理调用以内联方式处理，而非异步处理。
+这可能导致某些游戏出现严重的性能下降和卡顿。
+此选项仅供开发者调试纹理缓存内存保护问题使用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="44" />
             <source>Disable SPU GETLLAR spin optimization.
 This can cause severe performance degradation and stuttering in many games.
 This option is only needed for a select number of games.</source>
-            <translation>禁用 SPU GETLLAR spin optimization. 此 能 cause severe 性能 degradation 和 stuttering 内 许多 游戏. 此 选项 是 仅 需要 为 a select 数字 的 游戏.</translation>
+            <translation>禁用 SPU GETLLAR 自旋优化。
+这可能导致许多游戏出现严重的性能下降和卡顿。
+此选项仅适用于少数游戏。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="45" />
             <source>Emulate depth comparison operations where desktop hardware behavior differs from PS3, usually EQUAL comparison modes.
 Fixes excessive shadow flickering and Z-fighting in some games.
 This is most obvious in some games where the Z prepass depth format is different from the rasterization depth format, a scenario that will never work out correctly on compliant desktop hardware.</source>
-            <translation>Emulate 深度 comparison operations 哪里 desktop hardware behavior differs 从 PS3, 通常 EQUAL comparison modes. Fixes excessive 阴影 flickering 和 Z-fighting 内 一些 游戏. 此 是 最多 明显 内 一些 游戏 哪里 the Z prepass 深度 format 是 不同 从 the rasterization 深度 format, a scenario 那个 将 从不 work 外 正确 开 compliant desktop hardware.</translation>
+            <translation>在桌面硬件行为与 PS3 不同（通常是 EQUAL 比较模式）的情况下模拟深度比较操作。
+可修复某些游戏中过度的阴影闪烁和 Z-fighting 问题。
+这在某些 Z 预处理深度格式与光栅化深度格式不同的游戏中最为明显，这种情况在合规的桌面硬件上永远无法正确运行。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="46" />
             <source>Enable SPU RdEventStat spin.
 This increases CPU usage, this setting is beneficial for high-threaded CPUs (12+) with select number of games.</source>
-            <translation>启用 SPU RdEventStat spin. 此 increases CPU usage, 此 设置 是 beneficial 为 高-threaded CPUs (12+) 与 select 数字 的 游戏.</translation>
+            <translation>启用 SPU RdEventStat 自旋。
+这会增加 CPU 使用率，此设置对具有多线程的 CPU（12+）运行少数特定游戏有益。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="47" />
@@ -805,14 +838,19 @@ This increases CPU usage, this setting is beneficial for high-threaded CPUs (12+
 · Precise is the most accurate to PS3 behaviour. Required for accurate visuals in some titles such as Demon's Souls and The Darkness.
 · Approximate is a much faster way to generate occlusion data which may not always match what the PS3 would generate. Works well with most PS3 games.
 · Relaxed changes the synchronization method completely and can greatly improve performance in some games or completely break others.</source>
-            <translation>Changes ZCULL report synchronization behaviour. Experiment 到 find the 最好 选项 为 your 游戏. Approximate mode 是 recommended 为 最多 游戏. · Precise 是 the 最多 accurate 到 PS3 behaviour. 必需 为 accurate visuals 内 一些 标题 此类 作为 Demon's Souls 和 The Darkness. · Approximate 是 a much faster way 到 generate occlusion data 哪个 可以 不 始终 match 什么 the PS3 将 generate. Works well 与 最多 PS3 游戏. · Relaxed changes the synchronization method completely 和 能 greatly improve 性能 内 一些 游戏 或 completely break others.</translation>
+            <translation>更改 ZCULL 报告同步行为。请通过实验为您的游戏找到最佳选项。大多数游戏推荐使用近似模式。
+· 精确模式最接近 PS3 的行为。某些游戏（如《恶魔之魂》和《黑暗》）需要此模式才能获得准确的视觉效果。
+· 近似模式生成遮挡数据的速度要快得多，但可能并不总是与 PS3 生成的数据一致。适用于大多数 PS3 游戏。
+· 宽松模式完全改变了同步方法，可以大幅提高某些游戏的性能，但也可能完全破坏其他游戏。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="48" />
             <source>Limits the maximum number of SPURS threads in each thread group.
 May improve performance in some cases, especially on systems with limited number of hardware threads.
 Limiting the number of threads is likely to cause crashes; it's recommended to keep this at the default value.</source>
-            <translation>限制 the 最大值 数字 的 SPURS 线程 内 每个 线程 group. 可以 improve 性能 内 一些 cases, especially 开 systems 与 limited 数字 的 hardware 线程. Limiting the 数字 的 线程 是 likely 到 cause crashes; it's recommended 到 keep 此 at the 默认 值.</translation>
+            <translation>限制每个线程组中 SPURS 线程的最大数量。
+在某些情况下可能会提高性能，尤其是在硬件线程数量有限的系统上。
+限制线程数量很可能导致崩溃；建议保持默认值。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="49" />
@@ -820,83 +858,102 @@ Limiting the number of threads is likely to cause crashes; it's recommended to k
 'As Host' uses default accuracy of the underlying operating system, while 'All Timers' attempts to improve it.
 'Usleep Only' limits the adjustments to usleep syscall only.
 Can affect performance in unexpected ways.</source>
-            <translation>Changes the sleep period accuracy. '作为 Host' uses 默认 accuracy 的 the underlying operating system, 当 '全部 Timers' attempts 到 improve it. 'Usleep 仅' 限制 the adjustments 到 usleep syscall 仅. 能 affect 性能 内 意外 ways.</translation>
+            <translation>更改休眠周期的精度。
+“作为主机”使用底层操作系统的默认精度，而“所有计时器”则尝试提高精度。
+“仅 Usleep”将调整限制为仅 usleep 系统调用。
+可能以意想不到的方式影响性能。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="50" />
             <source>"Fast" is the least accurate setting, RSX does not emulate atomic FIFO buffer.
 "Atomic" benefits stability greatly in many games with little performance penalty.
 "Atomic &amp; Ordered" is the most accurate but it is the slowest and without much stability benefit in games.</source>
-            <translation>"快速" 是 the 最少 accurate 设置, RSX 执行 不 emulate atomic FIFO 缓冲区. "Atomic" benefits stability greatly 内 许多 游戏 与 little 性能 penalty. "Atomic &amp; Ordered" 是 the 最多 accurate 但 it 是 the slowest 和 无 much stability benefit 内 游戏.</translation>
+            <translation>“快速”是精度最低的设置，RSX 不模拟原子 FIFO 缓冲区。
+“原子”在许多游戏中大幅提升稳定性，且性能损失很小。
+“原子且有序”精度最高，但速度最慢，且对游戏稳定性没有太大帮助。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="51" />
             <source>Adjusts the frequency of vertical blanking signals that the emulator sends.
 Affects timing of events which rely on these signals.</source>
-            <translation>Adjusts the frequency 的 vertical blanking signals 那个 the 模拟器 sends. Affects timing 的 events 哪个 rely 开 这些 signals.</translation>
+            <translation>调整模拟器发送的垂直消隐信号的频率。
+影响依赖这些信号的事件的时序。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="52" />
             <source>Multiplies the rate of VBLANK by 1000/1001 for values like 59.94Hz.
 Known to fix the rhythm game Space Channel 5 Part 2</source>
-            <translation>Multiplies the rate 的 VBLANK 通过 1000/1001 为 值 如 59.94Hz. 已知 到 fix the rhythm 游戏 Space Channel 5 Part 2</translation>
+            <translation>将 VBLANK 频率乘以 1000/1001，以获得 59.94Hz 等值。
+已知可修复节奏游戏《太空频道5 第2部》</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="53" />
             <source>Changes the scale of emulated system time.
 Affects software which uses system time to calculate things such as dynamic timesteps.</source>
-            <translation>Changes the 缩放 的 模拟 system 时间. Affects software 哪个 uses system 时间 到 calculate things 此类 作为 dynamic timesteps.</translation>
+            <translation>更改模拟系统时间的缩放比例。
+影响使用系统时间来计算动态时间步长等内容的软件。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="54" />
             <source>Controls how much time it takes for RSX to start processing after waking up by the Cell processor.
 Increasing wakeup delay improves stability, but very high values can lower RSX/GPU performance.
 It is recommend to adjust this at 20µs to 40µs increments until the best value for optimal stability is reached.</source>
-            <translation>Controls 如何 much 时间 it takes 为 RSX 到 开始 处理中 之后 waking 上 通过 the Cell processor. Increasing wakeup delay improves stability, 但 非常 高 值 能 下方 RSX/GPU 性能. It 是 recommend 到 adjust 此 at 20µs 到 40µs increments 直到 the 最好 值 为 optimal stability 是 reached.</translation>
+            <translation>控制 RSX 被 Cell 处理器唤醒后开始处理所需的时间。
+增加唤醒延迟可提高稳定性，但过高的值会降低 RSX/GPU 性能。
+建议以 20µs 到 40µs 的增量进行调整，直到找到最佳稳定性的值。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="55" />
             <source>Do not change this setting globally.
 Right-click a game in the game list and choose "Configure" instead.</source>
-            <translation>执行 不 change 此 设置 globally. 正确-click a 游戏 内 the 游戏 列表 和 choose "配置" instead.</translation>
+            <translation>请勿全局更改此设置。
+请改为在游戏列表中右键点击游戏并选择“配置”。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="56" />
             <source>Determines how to schedule GPU async compute jobs when using asynchronous streaming.
 Use 'Safe' mode for more spec compliant behavior at the cost of some CPU overhead. This setting works with all devices.
 Use 'Fast' to use a faster but hacky version. This option is internally disabled for NVIDIA GPUs due to causing GPU hangs.</source>
-            <translation>Determines 如何 到 schedule GPU async compute jobs 当 using asynchronous streaming. Use '安全' mode 为 更多 spec compliant behavior at the cost 的 一些 CPU overhead. 此 设置 works 与 全部 devices. Use '快速' 到 use a faster 但 hacky 版本. 此 选项 是 internally 已禁用 为 NVIDIA GPUs due 到 causing GPU hangs.</translation>
+            <translation>决定在使用异步流时如何调度 GPU 异步计算任务。
+使用“安全”模式可获得更符合规范的行为，但会增加一些 CPU 开销。此设置适用于所有设备。
+使用“快速”模式可使用更快但取巧的版本。由于会导致 GPU 挂起，此选项在 NVIDIA GPU 上被内部禁用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="57" />
             <source>Disables Fast Math for MSL shaders, which may violate the IEEE 754 standard.
 Disabling it may fix some artifacts, especially on Apple GPUs, at the cost of performance.</source>
-            <translation>Disables 快速 Math 为 MSL 着色器, 哪个 可以 violate the IEEE 754 标准. 禁用中 it 可以 fix 一些 artifacts, especially 开 Apple GPUs, at the cost 的 性能.</translation>
+            <translation>禁用 MSL 着色器的快速数学运算，这可能违反 IEEE 754 标准。
+禁用此选项可能会修复一些伪影（尤其是在 Apple GPU 上），但会牺牲性能。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="58" />
             <source>When this mode is on, emulation exits when saving and the savestate file is concealed after its load, preventing reuse by RPCS3.
 This mode is like hibernation of emulation: if you don't want to be able to cheat using savestates when playing the game, consider using this mode.
 Do note that the savestate file is not gone completely, just ignored by RPCS3. You can manually relaunch it if needed.</source>
-            <translation>当 此 mode 是 开, 模拟 exits 当 保存中 和 the savestate 文件 是 concealed 之后 its 加载, preventing reuse 通过 RPCS3. 此 mode 是 如 hibernation 的 模拟: 如果 you don't want 到 是 able 到 cheat using savestates 当 playing the 游戏, consider using 此 mode. 执行 备注 那个 the savestate 文件 是 不 gone completely, 仅 ignored 通过 RPCS3. You 能 手动 relaunch it 如果 需要.</translation>
+            <translation>当此模式开启时，模拟在保存时退出，存档文件在加载后被隐藏，以防止被 RPCS3 重复使用。
+此模式类似于模拟的休眠：如果您不希望在玩游戏时使用存档作弊，请考虑使用此模式。
+请注意，存档文件并未完全删除，只是被 RPCS3 忽略。如有需要，您可以手动重新启动它。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="59" />
             <source>When this mode is on, SPU emulation prioritizes savestate compatibility, however, it may reduce performance slightly.
 When this mode is off, some games may not allow making a savestate and show an SPU pause error in the log.</source>
-            <translation>当 此 mode 是 开, SPU 模拟 prioritizes savestate compatibility, 然而, it 可以 reduce 性能 slightly. 当 此 mode 是 关, 一些 游戏 可以 不 允许 making a savestate 和 显示 an SPU 暂停 错误 内 the 日志.</translation>
+            <translation>当此模式开启时，SPU 模拟优先考虑存档兼容性，但可能会略微降低性能。
+当此模式关闭时，某些游戏可能不允许创建存档，并在日志中显示 SPU 暂停错误。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="60" />
             <source>When this mode is on, savestates are loaded and paused on the first frame.
 This allows players to prepare for gameplay without being thrown into the action immediately.</source>
-            <translation>当 此 mode 是 开, savestates 是 已加载 和 已暂停 开 the 第一个 帧. 此 allows players 到 prepare 为 gameplay 无 正在 thrown 进入 the action 立即.</translation>
+            <translation>当此模式开启时，存档将在第一帧加载并暂停。
+这使玩家可以为游戏做好准备，而不必立即投入游戏中。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="61" />
             <source>When enabled, SPU performance is measured at runtime.
 Enable only at a developer's request because when enabled it reduces performance a bit by itself.</source>
-            <translation>当 已启用, SPU 性能 是 measured at runtime. 启用 仅 at a developer's request 因为 当 已启用 it reduces 性能 a bit 通过 itself.</translation>
+            <translation>启用后，将在运行时测量 SPU 性能。
+仅在开发者要求时启用，因为启用后会自行降低一些性能。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="62" />
@@ -904,51 +961,58 @@ Enable only at a developer's request because when enabled it reduces performance
 This yields a massive performance win on NVIDIA cards when the base framerate is low.
 For games with very high framerates, this option can result in worse performance for all GPU vendors.
 </source>
-            <translation>当 已启用, Vulkan 将 try 到 use PCI-e resizable bar 地址 space 为 GPU uploads 的 timing-sensitive data. 此 yields a massive 性能 win 开 NVIDIA cards 当 the base framerate 是 低. 为 游戏 与 非常 高 framerates, 此 选项 能 result 内 更差 性能 为 全部 GPU vendors.</translation>
+            <translation>启用后，Vulkan 将尝试使用 PCI-e 可调整大小栏地址空间来上传对时序敏感的数据。
+当基础帧率较低时，这在 NVIDIA 显卡上可带来巨大的性能提升。
+对于帧率非常高的游戏，此选项可能导致所有 GPU 厂商的性能下降。
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="63" />
             <source>Set the minimum log levels for any log channels.</source>
-            <translation>集合 the 最小值 日志 levels 为 任何 日志 channels.</translation>
+            <translation>为所有日志通道设置最低日志级别。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="67" />
             <source>Cubeb uses a cross-platform approach and supports audio buffering, so it is the recommended option.
 XAudio2 uses native Windows sounds system and is the next best alternative.</source>
-            <translation>Cubeb uses a cross-platform approach 和 supports 音频 buffering, 所以 it 是 the recommended 选项. XAudio2 uses native 窗口 声音 system 和 是 the 下一个 最好 alternative.</translation>
+            <translation>Cubeb 使用跨平台方案并支持音频缓冲，因此是推荐选项。
+XAudio2 使用原生 Windows 音频系统，是次优选择。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="68" />
             <source>Cubeb uses a cross-platform approach and supports audio buffering, so it is the recommended option.
 If it's not available, FAudio could be used instead.</source>
-            <translation>Cubeb uses a cross-platform approach 和 supports 音频 buffering, 所以 it 是 the recommended 选项. 如果 it's 不 可用, FAudio 能 是 used instead.</translation>
+            <translation>Cubeb 使用跨平台方案并支持音频缓冲，因此是推荐选项。
+如果不可用，可以使用 FAudio 作为替代。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="69" />
             <source>Controls which PS3 audio API is used.
 Games use CellAudio, while VSH requires RSXAudio.</source>
-            <translation>Controls 哪个 PS3 音频 API 是 used. 游戏 use CellAudio, 当 VSH 需要 RSXAudio.</translation>
+            <translation>控制使用哪个 PS3 音频 API。
+游戏使用 CellAudio，而 VSH 需要 RSXAudio。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="70" />
             <source>Controls which avport is used to sample audio data from.</source>
-            <translation>Controls 哪个 avport 是 used 到 sample 音频 data 从.</translation>
+            <translation>控制从哪个 AV 端口采样音频数据。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="71" />
             <source>Controls which device is used by audio backend.</source>
-            <translation>Controls 哪个 device 是 used 通过 音频 backend.</translation>
+            <translation>控制音频后端使用哪个设备。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="72" />
             <source>Saves all audio as a raw wave file. If unsure, leave this unchecked.</source>
-            <translation>Saves 全部 音频 作为 a raw wave 文件. 如果 不确定, leave 此 unchecked.</translation>
+            <translation>将所有音频保存为原始波形文件。如果不确定，请保持未选中。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="73" />
             <source>Uses 16-bit audio samples instead of default 32-bit floating point.
 Use with buggy audio drivers if you have no sound or completely broken sound.</source>
-            <translation>Uses 16-bit 音频 samples instead 的 默认 32-bit floating point. Use 与 buggy 音频 drivers 如果 you 有 否 声音 或 completely broken 声音.</translation>
+            <translation>使用 16 位音频采样而非默认的 32 位浮点。
+如果您的音频驱动程序有问题导致没有声音或声音完全损坏，请使用此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="74" />
@@ -956,41 +1020,48 @@ Use with buggy audio drivers if you have no sound or completely broken sound.</s
 Configure this setting if you want to switch between stereo and surround sound.
 Changing these values requires a restart of the game.
 The manual setting will use your selected formats while the automatic setting will let the game choose from all available formats.</source>
-            <translation>Determines the 声音 format 的 the 模拟. 配置 此 设置 如果 you want 到 switch between stereo 和 surround 声音. Changing 这些 值 需要 a 重启 的 the 游戏. The 手动 设置 将 use your selected formats 当 the 自动 设置 将 let the 游戏 choose 从 全部 可用 formats.</translation>
+            <translation>决定模拟的声音格式。
+如果您想在立体声和环绕声之间切换，请配置此设置。
+更改这些值需要重启游戏。
+手动设置将使用您选择的格式，而自动设置将让游戏从所有可用格式中选择。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="75" />
             <source>Determines the sound format of RPCS3.
 Use 'Auto' to let RPCS3 decide the best format based on the audio device and the emulated audio format.</source>
-            <translation>Determines the 声音 format 的 RPCS3. Use '自动' 到 let RPCS3 decide the 最好 format based 开 the 音频 device 和 the 模拟 音频 format.</translation>
+            <translation>决定 RPCS3 的声音格式。
+使用“自动”可让 RPCS3 根据音频设备和模拟的音频格式决定最佳格式。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="76" />
             <source>Controls the overall volume of the emulation.
 Values above 100% might reduce the audio quality.</source>
-            <translation>Controls the overall 音量 的 the 模拟. 值 上方 100% 可能 reduce the 音频 质量.</translation>
+            <translation>控制模拟的整体音量。
+超过 100% 的值可能会降低音频质量。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="77" />
             <source>Enables audio buffering, which reduces crackle/stutter but increases audio latency.</source>
-            <translation>Enables 音频 buffering, 哪个 reduces crackle/stutter 但 increases 音频 latency.</translation>
+            <translation>启用音频缓冲，可减少爆音/卡顿，但会增加音频延迟。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="78" />
             <source>Target buffer duration in milliseconds.
 Higher values make the buffering algorithm's job easier, but may introduce noticeable audio latency.</source>
-            <translation>Target 缓冲区 duration 内 milliseconds. Higher 值 make the buffering algorithm's job easier, 但 可以 introduce noticeable 音频 latency.</translation>
+            <translation>目标缓冲持续时间（以毫秒为单位）。
+较高的值使缓冲算法更容易工作，但可能引入明显的音频延迟。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="79" />
             <source>Enables time stretching - requires buffering to be enabled.
 Reduces crackle/stutter further, but may cause a very noticeable reduction in audio quality on slower CPUs.</source>
-            <translation>Enables 时间 stretching - 需要 buffering 到 是 已启用. Reduces crackle/stutter further, 但 可以 cause a 非常 noticeable reduction 内 音频 质量 开 slower CPUs.</translation>
+            <translation>启用时间拉伸 - 需要先启用缓冲。
+可进一步减少爆音/卡顿，但在较慢的 CPU 上可能导致音频质量明显下降。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="80" />
             <source>Buffer fill level (in percentage) below which time stretching will start.</source>
-            <translation>缓冲区 fill level (内 percentage) 下方 哪个 时间 stretching 将 开始.</translation>
+            <translation>缓冲填充水平（百分比），低于此值时将开始时间拉伸。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="81" />
@@ -998,17 +1069,20 @@ Reduces crackle/stutter further, but may cause a very noticeable reduction in au
 SingStar emulates a SingStar device and should be used with SingStar games.
 Real SingStar should only be used with a REAL SingStar device with SingStar games.
 Rocksmith should be used with a Rocksmith dongle.</source>
-            <translation>标准 应该 是 used 为 最多 游戏. SingStar emulates a SingStar device 和 应该 是 used 与 SingStar 游戏. Real SingStar 应该 仅 是 used 与 a REAL SingStar device 与 SingStar 游戏. Rocksmith 应该 是 used 与 a Rocksmith dongle.</translation>
+            <translation>大多数游戏应使用标准模式。
+SingStar 模拟一个 SingStar 设备，应与 SingStar 游戏一起使用。
+真实 SingStar 仅应与真实的 SingStar 设备和 SingStar 游戏一起使用。
+Rocksmith 应与 Rocksmith 加密狗一起使用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="85" />
             <source>Interpreter (slow). Try this if PPU Recompiler (LLVM) doesn't work.</source>
-            <translation>Interpreter (慢速). Try 此 如果 PPU Recompiler (LLVM) doesn't work.</translation>
+            <translation>解释器（慢速）。如果 PPU 重编译器 (LLVM) 不工作，请尝试此项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="86" />
             <source>Alternative interpreter (slow). May be faster than static interpreter. Try this if PPU Recompiler (LLVM) doesn't work.</source>
-            <translation>Alternative interpreter (慢速). 可以 是 faster 比 static interpreter. Try 此 如果 PPU Recompiler (LLVM) doesn't work.</translation>
+            <translation>备用解释器（慢速）。可能比静态解释器更快。如果 PPU 重编译器 (LLVM) 不工作，请尝试此项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="87" />
@@ -1016,72 +1090,90 @@ Rocksmith should be used with a Rocksmith dongle.</source>
 This is by far the fastest option and should always be used.
 Should you face compatibility issues, fall back to one of the Interpreters and retry.
 If unsure, use this option.</source>
-            <translation>Recompiles 和 缓存 the 游戏's PPU 代码 using the LLVM Recompiler once 之前 运行中 it 为 the 第一个 时间. 此 是 通过 远 the fastest 选项 和 应该 始终 是 used. 应该 you face compatibility issues, fall 后 到 one 的 the Interpreters 和 retry. 如果 不确定, use 此 选项.</translation>
+            <translation>使用 LLVM 重编译器在首次运行前一次性重新编译并缓存游戏的 PPU 代码。
+这是目前最快的选项，应始终使用。
+如果遇到兼容性问题，请回退到其中一种解释器并重试。
+如果不确定，请使用此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="88" />
             <source>Searches the game's directory and precompiles extra PPU and SPU modules during boot.
 If disabled, these modules will only be compiled when needed. Depending on the game, this might interrupt the gameplay unexpectedly and possibly frequently.
 Only disable this if you want to get ingame more quickly.</source>
-            <translation>Searches the 游戏's 目录 和 precompiles 额外 PPU 和 SPU modules 期间 启动. 如果 已禁用, 这些 modules 将 仅 是 已编译 当 需要. Depending 开 the 游戏, 此 可能 interrupt the gameplay unexpectedly 和 possibly 频繁. 仅 禁用 此 如果 you want 到 get 进游戏 更多 快速.</translation>
+            <translation>在启动期间搜索游戏目录并预编译额外的 PPU 和 SPU 模块。
+如果禁用，这些模块将仅在需要时编译。根据游戏的不同，这可能会意外地、甚至频繁地中断游戏。
+仅当您想更快地进入游戏时才禁用此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="89" />
             <source>Interpreter (slow). Try this if SPU Recompiler (LLVM) doesn't work.</source>
-            <translation>Interpreter (慢速). Try 此 如果 SPU Recompiler (LLVM) doesn't work.</translation>
+            <translation>解释器（慢速）。如果 SPU 重编译器 (LLVM) 不工作，请尝试此项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="90" />
             <source>Alternative interpreter (slow). May be faster than static interpreter. Try this if SPU Recompiler (LLVM) doesn't work.</source>
-            <translation>Alternative interpreter (慢速). 可以 是 faster 比 static interpreter. Try 此 如果 SPU Recompiler (LLVM) doesn't work.</translation>
+            <translation>备用解释器（慢速）。可能比静态解释器更快。如果 SPU 重编译器 (LLVM) 不工作，请尝试此项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="91" />
             <source>Recompiles the game's SPU code using the ASMJIT Recompiler.
 This is the fast option with very good compatibility.
 If unsure, use this option.</source>
-            <translation>Recompiles the 游戏's SPU 代码 using the ASMJIT Recompiler. 此 是 the 快速 选项 与 非常 好 compatibility. 如果 不确定, use 此 选项.</translation>
+            <translation>使用 ASMJIT 重编译器重新编译游戏的 SPU 代码。
+这是快速选项，兼容性非常好。
+如果不确定，请使用此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="92" />
             <source>Recompiles and caches the game's SPU code using the LLVM Recompiler before running which adds extra start-up time.
 This is the fastest option with very good compatibility.
 If you experience issues, use the ASMJIT Recompiler.</source>
-            <translation>Recompiles 和 缓存 the 游戏's SPU 代码 using the LLVM Recompiler 之前 运行中 哪个 adds 额外 开始-上 时间. 此 是 the fastest 选项 与 非常 好 compatibility. 如果 you experience issues, use the ASMJIT Recompiler.</translation>
+            <translation>使用 LLVM 重编译器在运行前重新编译并缓存游戏的 SPU 代码，这会增加额外的启动时间。
+这是最快的选项，兼容性非常好。
+如果遇到问题，请使用 ASMJIT 重编译器。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="93" />
             <source>Control accuracy to SPU float vectors processing.
 Fixes bugs in various games at the cost of performance.
 This setting is only applied when SPU Decoder is set to Dynamic or LLVM.</source>
-            <translation>Control accuracy 到 SPU 浮点数 vectors 处理中. Fixes bugs 内 various 游戏 at the cost 的 性能. 此 设置 是 仅 已应用 当 SPU Decoder 是 集合 到 Dynamic 或 LLVM.</translation>
+            <translation>控制 SPU 浮点向量处理的精度。
+以性能为代价修复各种游戏中的错误。
+此设置仅在 SPU 解码器设置为 Dynamic 或 LLVM 时生效。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="94" />
             <source>Control how RPCS3 utilizes the threads of your system.
 Each option heavily depends on the game and on your CPU. It's recommended to try each option to find out which performs the best.
 Changing the thread scheduler is not supported on CPUs with less than 12 threads.</source>
-            <translation>Control 如何 RPCS3 utilizes the 线程 的 your system. 每个 选项 heavily depends 开 the 游戏 和 开 your CPU. It's recommended 到 try 每个 选项 到 find 外 哪个 performs the 最好. Changing the 线程 scheduler 是 不 支持 开 CPUs 与 更少 比 12 线程.</translation>
+            <translation>控制 RPCS3 如何利用您系统的线程。
+每个选项在很大程度上取决于游戏和您的 CPU。建议尝试每个选项以找出性能最佳的。
+线程数少于 12 的 CPU 不支持更改线程调度器。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="95" />
             <source>Try to detect loop conditions in SPU kernels and use them as scheduling hints.
 Improves performance and reduces CPU usage.
 May cause severe audio stuttering in rare cases.</source>
-            <translation>Try 到 detect loop conditions 内 SPU kernels 和 use them 作为 scheduling hints. Improves 性能 和 reduces CPU usage. 可以 cause severe 音频 stuttering 内 rare cases.</translation>
+            <translation>尝试检测 SPU 内核中的循环条件，并将其用作调度提示。
+提高性能并降低 CPU 使用率。
+在极少数情况下可能导致严重的音频卡顿。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="96" />
             <source>This option controls the SPU analyser, particularly the size of compiled units. The Mega and Giga modes may improve performance by tying smaller units together, decreasing the number of compiled units but increasing their size.
 Use the Safe mode for maximum compatibility.</source>
-            <translation>此 选项 controls the SPU analyser, particularly the 大小 的 已编译 units. The Mega 和 Giga modes 可以 improve 性能 通过 tying smaller units together, decreasing the 数字 的 已编译 units 但 increasing their 大小. Use the 安全 mode 为 最大值 compatibility.</translation>
+            <translation>此选项控制 SPU 分析器，特别是编译单元的大小。Mega 和 Giga 模式可以通过将较小的单元绑定在一起来提高性能，减少编译单元的数量但增加其大小。
+使用安全模式可获得最大兼容性。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="97" />
             <source>Some SPU stages are sensitive to race conditions and allowing a limited number at a time helps alleviate performance stalls.
 Setting this to a smaller value might improve performance and reduce stuttering in some games.
 Leave this on auto if performance is negatively affected when setting a small value.</source>
-            <translation>一些 SPU stages 是 sensitive 到 race conditions 和 allowing a limited 数字 at a 时间 helps alleviate 性能 stalls. 设置 此 到 a smaller 值 可能 improve 性能 和 reduce stuttering 内 一些 游戏. Leave 此 开 自动 如果 性能 是 negatively affected 当 设置 a 小 值.</translation>
+            <translation>某些 SPU 阶段对竞态条件敏感，一次只允许有限数量有助于缓解性能停顿。
+将此值设置得更小可能会提高某些游戏的性能并减少卡顿。
+如果设置较小值时性能受到负面影响，请保持自动。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="98" />
@@ -1089,40 +1181,51 @@ Leave this on auto if performance is negatively affected when setting a small va
 Higher values cause a more pronounced effect, but may cause audio or performance issues. A value of 50 or less is recommended.
 This option forces an FPS limit because it's active when framerate is stable.
 The lighter the game is on the hardware, the more power is saved by it. (until the preemption count barrier is reached)</source>
-            <translation>Reduces CPU usage 和 power consumption, improving battery life 开 mobile devices. (0 means 已禁用) Higher 值 cause a 更多 pronounced effect, 但 可以 cause 音频 或 性能 issues. A 值 的 50 或 更少 是 recommended. 此 选项 forces an FPS 限制 因为 it's 活跃 当 framerate 是 稳定. The lighter the 游戏 是 开 the hardware, the 更多 power 是 已保存 通过 it. (直到 the preemption 计数 barrier 是 reached)</translation>
+            <translation>降低 CPU 使用率和功耗，延长移动设备的电池续航。（0 表示禁用）
+较高的值会产生更明显的效果，但可能导致音频或性能问题。建议值为 50 或更低。
+此选项强制 FPS 限制，因为它仅在帧率稳定时激活。
+游戏对硬件的负载越轻，节省的电量就越多。（直到达到抢占计数上限）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="99" />
             <source>Give PPUs an execution advantage when the SPUs are using reservations.
 This setting is recommended only for a few game for improving performance.
 DO NOT use it without being advised to due to potential performance degradation.</source>
-            <translation>Give PPUs an execution advantage 当 the SPUs 是 using reservations. 此 设置 是 recommended 仅 为 a 少数 游戏 为 improving 性能. 执行 不 use it 无 正在 advised 到 due 到 potential 性能 degradation.</translation>
+            <translation>当 SPU 正在使用预留时，给予 PPU 执行优势。
+此设置仅推荐用于少数游戏以提升性能。
+由于可能导致性能下降，未经建议请勿使用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="103" />
             <source>Leave this enabled unless you are a developer.</source>
-            <translation>Leave 此 已启用 unless you 是 a developer.</translation>
+            <translation>除非您是开发者，否则请保持启用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="104" />
             <source>Creates PPU logs.
 Only useful to developers.
 Never use this.</source>
-            <translation>Creates PPU logs. 仅 useful 到 developers. 从不 use 此.</translation>
+            <translation>创建 PPU 日志。
+仅对开发者有用。
+切勿使用此项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="105" />
             <source>Creates SPU logs.
 Only useful to developers.
 Never use this.</source>
-            <translation>Creates SPU logs. 仅 useful 到 developers. 从不 use 此.</translation>
+            <translation>创建 SPU 日志。
+仅对开发者有用。
+切勿使用此项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="106" />
             <source>Creates MFC logs.
 Only useful to developers.
 Never use this.</source>
-            <translation>Creates MFC logs. 仅 useful 到 developers. 从不 use 此.</translation>
+            <translation>创建 MFC 日志。
+仅对开发者有用。
+切勿使用此项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="107" />
@@ -1130,63 +1233,77 @@ Never use this.</source>
 Only used in PPU thread when it's not precise.
 Only useful to developers.
 Never use this.</source>
-            <translation>Sets special MXCSR flags 到 调试 错误 内 SSE operations. 仅 used 内 PPU 线程 当 it's 不 precise. 仅 useful 到 developers. 从不 use 此.</translation>
+            <translation>设置特殊的 MXCSR 标志以调试 SSE 操作中的错误。
+仅在 PPU 线程不精确时使用。
+仅对开发者有用。
+切勿使用此项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="108" />
             <source>Accurately set Saturation Bit values in PPU backends.
 If unsure, do not modify this setting.</source>
-            <translation>精确 集合 饱和度 Bit 值 内 PPU backends. 如果 不确定, 执行 不 modify 此 设置.</translation>
+            <translation>在 PPU 后端精确设置饱和位值。
+如果不确定，请勿修改此设置。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="109" />
             <source>Respect Non-Java Mode Bit values for vector ops in PPU backends.
 If unsure, do not modify this setting.</source>
-            <translation>Respect Non-Java Mode Bit 值 为 向量 ops 内 PPU backends. 如果 不确定, 执行 不 modify 此 设置.</translation>
+            <translation>在 PPU 后端中遵守向量操作的非 Java 模式位值。
+如果不确定，请勿修改此设置。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="110" />
             <source>Accurately set NaN results in vector instructions in PPU backends.
 If unsure, do not modify this setting.</source>
-            <translation>精确 集合 NaN results 内 向量 instructions 内 PPU backends. 如果 不确定, 执行 不 modify 此 设置.</translation>
+            <translation>在 PPU 后端中精确设置向量指令的 NaN 结果。
+如果不确定，请勿修改此设置。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="111" />
             <source>Accurately set FPCC Bits in PPU backends.
 If unsure, do not modify this setting.</source>
-            <translation>精确 集合 FPCC Bits 内 PPU backends. 如果 不确定, 执行 不 modify 此 设置.</translation>
+            <translation>在 PPU 后端中精确设置 FPCC 位。
+如果不确定，请勿修改此设置。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="112" />
             <source>Accurately processes PPU DCBZ instruction.
 In addition, when combined with Accurate SPU DMA, SPU PUT cache line accesses will be processed atomically.</source>
-            <translation>精确 进程 PPU DCBZ instruction. 内 addition, 当 combined 与 Accurate SPU DMA, SPU PUT 缓存 line accesses 将 是 processed atomically.</translation>
+            <translation>精确处理 PPU DCBZ 指令。
+此外，当与精确 SPU DMA 结合使用时，SPU PUT 缓存行访问将以原子方式处理。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="113" />
             <source>Forces delaying any odd MFC command, waits for at least 2 pending commands to execute them in a random order.
 Must be used with either SPU interpreters currently.
 Severely degrades performance! If unsure, don't use this option.</source>
-            <translation>Forces delaying 任何 odd MFC command, waits 为 at 最少 2 待处理 commands 到 执行 them 内 a random order. 必须 是 used 与 任一 SPU interpreters 当前. Severely degrades 性能! 如果 不确定, don't use 此 选项.</translation>
+            <translation>强制延迟任何奇数 MFC 命令，等待至少 2 个待处理命令后以随机顺序执行它们。
+目前必须与 SPU 解释器之一配合使用。
+严重降低性能！如果不确定，请勿使用此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="114" />
             <source>Allows to hook some functions like 'memcpy' replacing them with high-level implementations. May do nothing or break things. Experimental.</source>
-            <translation>Allows 到 hook 一些 functions 如 'memcpy' replacing them 与 高-level implementations. 可以 执行 无 或 break things. Experimental.</translation>
+            <translation>允许挂钩 'memcpy' 等函数，用高级实现替换它们。可能无效或导致问题。实验性功能。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="115" />
             <source>Enables use of classic OpenGL buffers which allows capturing tools to work with RPCS3 e.g RenderDoc.
 Also allows Vulkan to use debug markers for nicer Renderdoc captures.
 If unsure, don't use this option.</source>
-            <translation>Enables use 的 classic OpenGL 缓冲区 哪个 allows capturing tools 到 work 与 RPCS3 e.g RenderDoc. 也 allows Vulkan 到 use 调试 markers 为 nicer Renderdoc captures. 如果 不确定, don't use 此 选项.</translation>
+            <translation>启用经典 OpenGL 缓冲区，允许捕获工具（如 RenderDoc）与 RPCS3 配合使用。
+还允许 Vulkan 使用调试标记以获得更好的 Renderdoc 捕获效果。
+如果不确定，请勿使用此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="116" />
             <source>Only useful when debugging differences in GPU hardware.
 Not necessary for average users.
 If unsure, don't use this option.</source>
-            <translation>仅 useful 当 调试中 differences 内 GPU hardware. 不 必要 为 average users. 如果 不确定, don't use 此 选项.</translation>
+            <translation>仅在调试 GPU 硬件差异时有用。
+普通用户不需要。
+如果不确定，请勿使用此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="117" />
@@ -1194,39 +1311,49 @@ If unsure, don't use this option.</source>
 Will cause severe performance degradation especially with Vulkan.
 Only useful to developers.
 If unsure, don't use this option.</source>
-            <translation>Enables the selected API's inbuilt 调试中 functionality. 将 cause severe 性能 degradation especially 与 Vulkan. 仅 useful 到 developers. 如果 不确定, don't use 此 选项.</translation>
+            <translation>启用所选 API 的内置调试功能。
+会导致严重的性能下降，尤其是在使用 Vulkan 时。
+仅对开发者有用。
+如果不确定，请勿使用此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="118" />
             <source>Provides a graphical overlay of various debugging information.
 If unsure, don't use this option.</source>
-            <translation>Provides a graphical overlay 的 various 调试中 information. 如果 不确定, don't use 此 选项.</translation>
+            <translation>提供各种调试信息的图形叠加层。
+如果不确定，请勿使用此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="119" />
             <source>Provides a graphical overlay with pad input values for player 1.
 This is only shown if the debug overlay is disabled.
 If unsure, don't use this option.</source>
-            <translation>Provides a graphical overlay 与 pad input 值 为 player 1. 此 是 仅 已显示 如果 the 调试 overlay 是 已禁用. 如果 不确定, don't use 此 选项.</translation>
+            <translation>提供玩家 1 手柄输入值的图形叠加层。
+仅在调试叠加层禁用时显示。
+如果不确定，请勿使用此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="120" />
             <source>Provides a graphical overlay with mouse input values.
 This is only shown if the other debug overlays are disabled.
 If unsure, don't use this option.</source>
-            <translation>Provides a graphical overlay 与 鼠标 input 值. 此 是 仅 已显示 如果 the 其他 调试 overlays 是 已禁用. 如果 不确定, don't use 此 选项.</translation>
+            <translation>提供鼠标输入值的图形叠加层。
+仅在其他调试叠加层禁用时显示。
+如果不确定，请勿使用此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="121" />
             <source>Dump game shaders to file. Only useful to developers.
 If unsure, don't use this option.</source>
-            <translation>Dump 游戏 着色器 到 文件. 仅 useful 到 developers. 如果 不确定, don't use 此 选项.</translation>
+            <translation>将游戏着色器转储到文件。仅对开发者有用。
+如果不确定，请勿使用此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="122" />
             <source>Disables running occlusion queries. Minor to moderate performance boost.
 Might introduce issues with broken occlusion e.g missing geometry and extreme pop-in.</source>
-            <translation>Disables 运行中 occlusion queries. 次要 到 moderate 性能 boost. 可能 introduce issues 与 broken occlusion e.g missing geometry 和 extreme pop-内.</translation>
+            <translation>禁用遮挡查询运行。带来轻微到中等的性能提升。
+可能引入遮挡损坏问题，例如几何体缺失和严重的突然出现。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="123" />
@@ -1234,13 +1361,17 @@ Might introduce issues with broken occlusion e.g missing geometry and extreme po
 · Auto is the existing behavior, biased toward depth.
 · Prefer Color keeps the color binding when color-write is enabled and depth-write is not. Fixes missing geometry in some deferred renderers (e.g. Starhawk) at the cost of skipping depth test for that draw.
 · Prefer Depth is the same as Auto for now.</source>
-            <translation>Controls 如何 RPCS3 resolves 渲染 targets 哪里 颜色 和 深度 alias the 相同 内存. 自动 是 recommended 为 最多 游戏. · 自动 是 the existing behavior, biased toward 深度. · Prefer 颜色 keeps the 颜色 binding 当 颜色-write 是 已启用 和 深度-write 是 不. Fixes missing geometry 内 一些 deferred renderers (e.g. Starhawk) at the cost 的 skipping 深度 test 为 那个 draw. · Prefer 深度 是 the 相同 作为 自动 为 现在.</translation>
+            <translation>控制 RPCS3 如何解析颜色和深度别名同一内存的渲染目标。大多数游戏推荐使用自动。
+· 自动是现有行为，偏向深度。
+· 偏好颜色在启用颜色写入且未启用深度写入时保留颜色绑定。以跳过该绘制的深度测试为代价，修复某些延迟渲染器（如 Starhawk）中几何体缺失的问题。
+· 偏好深度目前与自动相同。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="124" />
             <source>Disables all video output and PS3 graphical rendering.
 Its only use case is to evaluate performance on CELL for development.</source>
-            <translation>Disables 全部 视频 output 和 PS3 graphical 渲染. Its 仅 use case 是 到 evaluate 性能 开 CELL 为 development.</translation>
+            <translation>禁用所有视频输出和 PS3 图形渲染。
+其唯一用例是为开发评估 CELL 的性能。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="125" />
@@ -1248,28 +1379,32 @@ Its only use case is to evaluate performance on CELL for development.</source>
 Requires 'Write Color Buffers' option to also be enabled in most cases to avoid missing graphics.
 Significantly degrades performance but is more accurate in some cases.
 This setting overrides the 'GPU texture scaling' option.</source>
-            <translation>Forces 模拟 的 全部 blit 和 图像 manipulation operations 开 the CPU. 需要 'Write 颜色 缓冲区' 选项 到 也 是 已启用 内 最多 cases 到 avoid missing graphics. Significantly degrades 性能 但 是 更多 accurate 内 一些 cases. 此 设置 overrides the 'GPU 纹理 scaling' 选项.</translation>
+            <translation>强制在 CPU 上模拟所有位块传送和图像操作。
+在大多数情况下需要同时启用“写入颜色缓冲区”选项以避免图形缺失。
+显著降低性能，但在某些情况下更准确。
+此设置覆盖“GPU 纹理缩放”选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="126" />
             <source>Disables the custom Vulkan memory allocator and reverts to direct calls to VkAllocateMemory/VkFreeMemory.</source>
-            <translation>Disables the 自定义 Vulkan 内存 allocator 和 reverts 到 direct calls 到 VkAllocateMemory/VkFreeMemory.</translation>
+            <translation>禁用自定义 Vulkan 内存分配器，恢复为直接调用 VkAllocateMemory/VkFreeMemory。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="127" />
             <source>Disables RSX FIFO optimizations completely. Draws are processed as they are received by the DMA puller.</source>
-            <translation>Disables RSX FIFO optimizations completely. Draws 是 processed 作为 they 是 received 通过 the DMA puller.</translation>
+            <translation>完全禁用 RSX FIFO 优化。绘制命令在 DMA 拉取器接收时即进行处理。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="128" />
             <source>Force all texture transfer, scaling and conversion operations on the GPU.
 May cause texture corruption in some cases.</source>
-            <translation>Force 全部 纹理 transfer, scaling 和 conversion operations 开 the GPU. 可以 cause 纹理 corruption 内 一些 cases.</translation>
+            <translation>强制所有纹理传输、缩放和转换操作在 GPU 上执行。
+在某些情况下可能导致纹理损坏。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="129" />
             <source>Forces texture flushing even in situations where it is not necessary/correct. Known to cause visual artifacts, but useful for debugging certain texture cache issues.</source>
-            <translation>Forces 纹理 flushing 甚至 内 situations 哪里 it 是 不 必要/正确. 已知 到 cause visual artifacts, 但 useful 为 调试中 确定 纹理 缓存 issues.</translation>
+            <translation>即使在不需要/不正确的情况下也强制刷新纹理。已知会导致视觉伪影，但对调试某些纹理缓存问题有用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="130" />
@@ -1277,136 +1412,158 @@ May cause texture corruption in some cases.</source>
 Anaglyph uses different colors for each eye, which can then be filtered with certain glasses.
 Side-by-Side is more commonly supported by VR viewer apps.
 Over-Under is closer to the native stereo output, but less commonly supported.</source>
-            <translation>Sets the 3D stereo 渲染 mode (仅 可用 内 自定义 configurations 与 a 默认 分辨率 的 720p). Anaglyph uses 不同 颜色 为 每个 eye, 哪个 能 然后 是 filtered 与 确定 glasses. Side-通过-Side 是 更多 常见 支持 通过 VR viewer apps. 结束-下方 是 closer 到 the native stereo output, 但 更少 常见 支持.</translation>
+            <translation>设置 3D 立体渲染模式（仅在默认分辨率为 720p 的自定义配置中可用）。
+分色法为每只眼睛使用不同颜色，可通过特定眼镜进行过滤。
+并排模式更常见于 VR 查看器应用支持。
+上下模式更接近原生立体输出，但支持较少。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="131" />
             <source>When enabled, PPU atomic operations will operate on entire cache line data, as opposed to a single 64bit block of memory when disabled.
 Numerical values control whether or not to enable the accurate version based on the atomic operation's length.</source>
-            <translation>当 已启用, PPU atomic operations 将 operate 开 entire 缓存 line data, 作为 opposed 到 a single 64bit block 的 内存 当 已禁用. Numerical 值 control whether 或 不 到 启用 the accurate 版本 based 开 the atomic operation's 长度.</translation>
+            <translation>启用后，PPU 原子操作将在整个缓存行数据上执行，而非禁用时的单个 64 位内存块。
+数值控制是否根据原子操作的长度启用精确版本。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="132" />
             <source>Measure certain events and print a chart after the emulator is stopped. Don't enable if not asked to.</source>
-            <translation>Measure 确定 events 和 print a chart 之后 the 模拟器 是 已停止. Don't 启用 如果 不 asked 到.</translation>
+            <translation>测量某些事件并在模拟器停止后打印图表。除非被要求，否则请勿启用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="133" />
             <source>Affects maximum amount of PPU threads running concurrently, the value of 1 has very low compatibility with games.
 2 is the default, if unsure do not modify this setting.</source>
-            <translation>Affects 最大值 amount 的 PPU 线程 运行中 concurrently, the 值 的 1 有 非常 低 compatibility 与 游戏. 2 是 the 默认, 如果 不确定 执行 不 modify 此 设置.</translation>
+            <translation>影响同时运行的 PPU 线程的最大数量，值为 1 时与游戏的兼容性非常低。
+2 为默认值，如果不确定，请勿修改此设置。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="134" />
             <source>Disables use of hardware-native color-space remapping formats such as _sRGB and _SNORM suffixes.
 Disabling this option increases accuracy compared to PS3 but can also introduce some noise due to how the software emulation works.</source>
-            <translation>Disables use 的 hardware-native 颜色-space remapping formats 此类 作为 _sRGB 和 _SNORM suffixes. 禁用中 此 选项 increases accuracy compared 到 PS3 但 能 也 introduce 一些 噪声 due 到 如何 the software 模拟 works.</translation>
+            <translation>禁用硬件原生色彩空间重映射格式，如 _sRGB 和 _SNORM 后缀。
+禁用此选项可提高与 PS3 相比的精度，但由于软件模拟的工作方式，也可能引入一些噪点。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="138" />
             <source>Activate Feral Interactive's GameMode.
 This is a series of CPU and GPU optimizations and can potentially benefit game performance on some systems.</source>
-            <translation>Activate Feral Interactive's GameMode. 此 是 a series 的 CPU 和 GPU optimizations 和 能 potentially benefit 游戏 性能 开 一些 systems.</translation>
+            <translation>激活 Feral Interactive 的 GameMode。
+这是一系列 CPU 和 GPU 优化，可能会在某些系统上提升游戏性能。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="139" />
             <source>This requires Feral Interactive's GameMode to be installed.
 GameMode is a series of CPU and GPU optimizations and can potentially benefit game performance on some systems.
 To install GameMode for your specific Linux distribution, go to the GitHub page:https://github.com/FeralInteractive/gamemode.</source>
-            <translation>此 需要 Feral Interactive's GameMode 到 是 已安装. GameMode 是 a series 的 CPU 和 GPU optimizations 和 能 potentially benefit 游戏 性能 开 一些 systems. 到 安装 GameMode 为 your 特定 Linux distribution, go 到 the GitHub page:https://github.com/FeralInteractive/gamemode.</translation>
+            <translation>这需要安装 Feral Interactive 的 GameMode。
+GameMode 是一系列 CPU 和 GPU 优化，可能会在某些系统上提升游戏性能。
+要为您的特定 Linux 发行版安装 GameMode，请访问 GitHub 页面：https://github.com/FeralInteractive/gamemode。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="140" />
             <source>Automatically close RPCS3 when closing a game, or when a game closes itself.</source>
-            <translation>自动 关闭 RPCS3 当 关闭中 a 游戏, 或 当 a 游戏 closes itself.</translation>
+            <translation>当关闭游戏或游戏自行关闭时，自动关闭 RPCS3。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="141" />
             <source>Automatically pause emulation when RPCS3 loses its focus or the application is inactive in order to save power and reduce CPU usage.
 Do note that emulation pausing in general is not perfect and may not be compatible with all games.
 Although it currently also pauses gameplay, it is not recommended to rely on it as this behavior may be changed in the future and it is not the purpose of this setting.</source>
-            <translation>自动 暂停 模拟 当 RPCS3 loses its focus 或 the application 是 非活跃 内 order 到 保存 power 和 reduce CPU usage. 执行 备注 那个 模拟 暂停中 内 通用 是 不 完美 和 可以 不 是 兼容 与 全部 游戏. 虽然 it 当前 也 pauses gameplay, it 是 不 recommended 到 rely 开 it 作为 此 behavior 可以 是 changed 内 the future 和 it 是 不 the purpose 的 此 设置.</translation>
+            <translation>当 RPCS3 失去焦点或应用程序处于非活动状态时自动暂停模拟，以节省电量和降低 CPU 使用率。
+请注意，模拟暂停总体上并不完美，可能不兼容所有游戏。
+虽然目前它也会暂停游戏，但不建议依赖此功能，因为此行为将来可能会更改，且这也不是此设置的用途。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="142" />
             <source>Automatically puts the game window in fullscreen.
 Double click on the game window or press Alt+Enter to toggle fullscreen and windowed mode.</source>
-            <translation>自动 puts the 游戏 窗口 内 全屏. 双精度 click 开 the 游戏 窗口 或 press Alt+Enter 到 toggle 全屏 和 窗口模式 mode.</translation>
+            <translation>自动将游戏窗口设为全屏。
+双击游戏窗口或按 Alt+Enter 可在全屏和窗口模式之间切换。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="143" />
             <source>Prevent the display from sleeping while a game is running.
 This requires the org.freedesktop.ScreenSaver D-Bus service on Linux.
 This option will be disabled if the current platform does not support display sleep control.</source>
-            <translation>Prevent the display 从 sleeping 当 a 游戏 是 运行中. 此 需要 the org.freedesktop.ScreenSaver D-Bus service 开 Linux. 此 选项 将 是 已禁用 如果 the 当前 platform 执行 不 support display sleep control.</translation>
+            <translation>在游戏运行时防止显示器进入休眠。
+这在 Linux 上需要 org.freedesktop.ScreenSaver D-Bus 服务。
+如果当前平台不支持显示器休眠控制，此选项将被禁用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="144" />
             <source>Configure the game window title.
 Changing this and/or adding the framerate may cause buggy or outdated recording software to not notice RPCS3.</source>
-            <translation>配置 the 游戏 窗口 标题. Changing 此 和/或 添加中 the framerate 可以 cause buggy 或 outdated recording software 到 不 notice RPCS3.</translation>
+            <translation>配置游戏窗口标题。
+更改此项和/或添加帧率可能导致有缺陷或过时的录制软件无法识别 RPCS3。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="145" />
             <source>Automatically resizes the game window on boot.
 This does not change the internal game resolution.</source>
-            <translation>自动 resizes the 游戏 窗口 开 启动. 此 执行 不 change the 内部 游戏 分辨率.</translation>
+            <translation>启动时自动调整游戏窗口大小。
+这不会更改游戏内部分辨率。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="146" />
             <source>Show trophy pop-ups when a trophy is unlocked.</source>
-            <translation>显示 trophy pop-ups 当 a trophy 是 已解锁.</translation>
+            <translation>解锁奖杯时显示奖杯弹出提示。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="147" />
             <source>Show RPCN friend list pop-ups.</source>
-            <translation>显示 RPCN friend 列表 pop-ups.</translation>
+            <translation>显示 RPCN 好友列表弹出提示。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="148" />
             <source>Disables the activation of fullscreen mode per double-click while the game screen is active.
 Check this if you want to play with mouse and keyboard (for example with UCR).</source>
-            <translation>Disables the activation 的 全屏 mode per 双精度-click 当 the 游戏 screen 是 活跃. Check 此 如果 you want 到 play 与 鼠标 和 键盘 (为 example 与 UCR).</translation>
+            <translation>在游戏屏幕激活时，禁用通过双击激活全屏模式。
+如果您想使用鼠标和键盘进行游戏（例如使用 UCR），请勾选此项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="149" />
             <source>Disables keyboard hotkeys such as Ctrl+S, Ctrl+E, Ctrl+R, Ctrl+P while the game screen is active.
 This does not include Ctrl+L (hide and lock mouse) and Alt+Enter (toggle fullscreen).
 Check this if you want to play with mouse and keyboard.</source>
-            <translation>Disables 键盘 hotkeys 此类 作为 Ctrl+S, Ctrl+E, Ctrl+R, Ctrl+P 当 the 游戏 screen 是 活跃. 此 执行 不 include Ctrl+L (隐藏 和 lock 鼠标) 和 Alt+Enter (toggle 全屏). Check 此 如果 you want 到 play 与 鼠标 和 键盘.</translation>
+            <translation>在游戏屏幕激活时，禁用 Ctrl+S、Ctrl+E、Ctrl+R、Ctrl+P 等键盘快捷键。
+这不包括 Ctrl+L（隐藏和锁定鼠标）和 Alt+Enter（切换全屏）。
+如果您想使用鼠标和键盘进行游戏，请勾选此项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="150" />
             <source>Limits the maximum number of threads used for the initial PPU and SPU module compilation.
 Lower this in order to increase performance of other open applications.
 The default uses all available threads.</source>
-            <translation>限制 the 最大值 数字 的 线程 used 为 the initial PPU 和 SPU module compilation. 下方 此 内 order 到 increase 性能 的 其他 打开 applications. The 默认 uses 全部 可用 线程.</translation>
+            <translation>限制初始 PPU 和 SPU 模块编译使用的最大线程数。
+降低此值以提高其他已打开应用程序的性能。
+默认使用所有可用线程。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="151" />
             <source>Shows the mouse cursor when the fullscreen mode is active.
 Currently this may not work every time.</source>
-            <translation>Shows the 鼠标 cursor 当 the 全屏 mode 是 活跃. 当前 此 可以 不 work 每个 时间.</translation>
+            <translation>在全屏模式激活时显示鼠标光标。
+目前这可能并非每次都有效。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="152" />
             <source>Locks the mouse cursor to the center when the fullscreen mode is active.</source>
-            <translation>Locks the 鼠标 cursor 到 the 居中 当 the 全屏 mode 是 活跃.</translation>
+            <translation>在全屏模式激活时将鼠标光标锁定在中心。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="153" />
             <source>Hides the mouse cursor if no mouse movement is detected for the configured time.</source>
-            <translation>Hides the 鼠标 cursor 如果 否 鼠标 movement 是 detected 为 the 已配置 时间.</translation>
+            <translation>如果在配置时间内未检测到鼠标移动，则隐藏鼠标光标。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="154" />
             <source>Shows 'Compiling shaders' hint using the native overlay.</source>
-            <translation>Shows '编译中 着色器' hint using the native overlay.</translation>
+            <translation>使用原生叠加层显示“正在编译着色器”提示。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="155" />
             <source>Shows 'Compiling PPU modules' hint using the native overlay.</source>
-            <translation>Shows '编译中 PPU modules' hint using the native overlay.</translation>
+            <translation>使用原生叠加层显示“正在编译 PPU 模块”提示。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="156" />
@@ -1416,159 +1573,171 @@ Currently this may not work every time.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="157" />
             <source>Shows pressure intensity toggle hint using the native overlay.</source>
-            <translation>Shows 压力 intensity toggle hint using the native overlay.</translation>
+            <translation>使用原生叠加层显示压力强度切换提示。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="158" />
             <source>Shows analog limiter toggle hint using the native overlay.</source>
-            <translation>Shows 模拟 limiter toggle hint using the native overlay.</translation>
+            <translation>使用原生叠加层显示模拟摇杆限制器切换提示。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="159" />
             <source>Shows mouse and keyboard toggle hint using the native overlay.</source>
-            <translation>Shows 鼠标 和 键盘 toggle hint using the native overlay.</translation>
+            <translation>使用原生叠加层显示鼠标和键盘切换提示。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="160" />
             <source>Shows fatal error hints using the native overlay.</source>
-            <translation>Shows 致命 错误 hints using the native overlay.</translation>
+            <translation>使用原生叠加层显示致命错误提示。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="161" />
             <source>Shows screenshot and recording hints using the native overlay.</source>
-            <translation>Shows screenshot 和 recording hints using the native overlay.</translation>
+            <translation>使用原生叠加层显示截图和录制提示。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="162" />
             <source>Enables use of native HUD within the game window that can interact with game controllers.
 When disabled, regular Qt dialogs are used instead.
 Currently, the on-screen keyboard only supports the English key layout.</source>
-            <translation>Enables use 的 native HUD within the 游戏 窗口 那个 能 interact 与 游戏 控制器. 当 已禁用, 常规 Qt 对话框 是 used instead. 当前, the 开-screen 键盘 仅 supports the 英语 key layout.</translation>
+            <translation>启用游戏窗口内可与游戏控制器交互的原生 HUD。
+禁用时，改用常规 Qt 对话框。
+目前，屏幕键盘仅支持英文按键布局。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="163" />
             <source>Enables use of recursive scan on subfolders when scanning games from the selected folder.
 When disabled, games are scanned only on the selected folder.</source>
-            <translation>Enables use 的 recursive scan 开 subfolders 当 scanning 游戏 从 the selected 文件夹. 当 已禁用, 游戏 是 scanned 仅 开 the selected 文件夹.</translation>
+            <translation>从所选文件夹扫描游戏时，启用对子文件夹的递归扫描。
+禁用时，仅扫描所选文件夹中的游戏。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="164" />
             <source>Enables recording with overlays.
 This also affects screenshots.</source>
-            <translation>Enables recording 与 overlays. 此 也 affects screenshots.</translation>
+            <translation>启用带叠加层的录制。
+这也会影响截图。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="165" />
             <source>When enabled, opening the home menu will also pause emulation.
 While most games pause themselves while the home menu is shown, some do not.
 In that case it can be helpful to pause the emulation whenever the home menu is open.</source>
-            <translation>当 已启用, 打开中 the home 菜单 将 也 暂停 模拟. 当 最多 游戏 暂停 themselves 当 the home 菜单 是 已显示, 一些 执行 不. 内 那个 case it 能 是 helpful 到 暂停 the 模拟 whenever the home 菜单 是 打开.</translation>
+            <translation>启用后，打开主菜单时也将暂停模拟。
+虽然大多数游戏在显示主菜单时会自行暂停，但有些不会。
+在这种情况下，每当主菜单打开时暂停模拟可能会有所帮助。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="166" />
             <source>Play music during boot sequence if available.</source>
-            <translation>Play 音乐 期间 启动 sequence 如果 可用.</translation>
+            <translation>如果可用，在启动序列期间播放音乐。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="168" />
             <source>Enables or disables the performance overlay.</source>
-            <translation>Enables 或 disables the 性能 overlay.</translation>
+            <translation>启用或禁用性能叠加层。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="169" />
             <source>Enables or disables the framerate graph.</source>
-            <translation>Enables 或 disables the framerate graph.</translation>
+            <translation>启用或禁用帧率图表。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="170" />
             <source>Enables or disables the frametime graph.</source>
-            <translation>Enables 或 disables the frametime graph.</translation>
+            <translation>启用或禁用帧时间图表。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="171" />
             <source>Sets the amount of datapoints used in the framerate graph.</source>
-            <translation>Sets the amount 的 datapoints used 内 the framerate graph.</translation>
+            <translation>设置帧率图表中使用的数据点数量。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="172" />
             <source>Sets the amount of datapoints used in the frametime graph.</source>
-            <translation>Sets the amount 的 datapoints used 内 the frametime graph.</translation>
+            <translation>设置帧时间图表中使用的数据点数量。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="173" />
             <source>Sets the on-screen position (quadrant) of the performance overlay.</source>
-            <translation>Sets the 开-screen 位置 (quadrant) 的 the 性能 overlay.</translation>
+            <translation>设置性能叠加层的屏幕位置（象限）。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="174" />
             <source>Controls the amount of information displayed on the performance overlay.</source>
-            <translation>Controls the amount 的 information displayed 开 the 性能 overlay.</translation>
+            <translation>控制性能叠加层上显示的信息量。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="175" />
             <source>Sets the time interval in which the performance overlay is being updated (measured in milliseconds).
 Setting this to 16 milliseconds will refresh the performance overlay at roughly 60Hz.
 The performance overlay refresh rate does not affect the frame graph statistics and can only be as fast as the current game allows.</source>
-            <translation>Sets the 时间 interval 内 哪个 the 性能 overlay 是 正在 已更新 (measured 内 milliseconds). 设置 此 到 16 milliseconds 将 refresh the 性能 overlay at 大约 60Hz. The 性能 overlay refresh rate 执行 不 affect the 帧 graph statistics 和 能 仅 是 作为 快速 作为 the 当前 游戏 allows.</translation>
+            <translation>设置性能叠加层更新的时间间隔（以毫秒为单位）。
+将此值设置为 16 毫秒将以大约 60Hz 的频率刷新性能叠加层。
+性能叠加层的刷新率不影响帧图表统计，且速度只能达到当前游戏允许的上限。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="176" />
             <source>Sets the font size of the performance overlay (measured in pixels).</source>
-            <translation>Sets the 字体 大小 的 the 性能 overlay (measured 内 像素).</translation>
+            <translation>设置性能叠加层的字体大小（以像素为单位）。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="177" />
             <source>Sets the opacity of the performance overlay (measured in %).</source>
-            <translation>Sets the 不透明度 的 the 性能 overlay (measured 内 %).</translation>
+            <translation>设置性能叠加层的不透明度（以 % 为单位）。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="178" />
             <source>Sets the horizontal distance to the screen border relative to the screen quadrant (measured in %).</source>
-            <translation>Sets the horizontal distance 到 the screen 边框 relative 到 the screen quadrant (measured 内 %).</translation>
+            <translation>设置相对于屏幕象限到屏幕边框的水平距离（以 % 为单位）。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="179" />
             <source>Sets the vertical distance to the screen border relative to the screen quadrant (measured in %).</source>
-            <translation>Sets the vertical distance 到 the screen 边框 relative 到 the screen quadrant (measured 内 %).</translation>
+            <translation>设置相对于屏幕象限到屏幕边框的垂直距离（以 % 为单位）。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="180" />
             <source>Centers the performance overlay horizontally and overrides the horizontal margin.</source>
-            <translation>Centers the 性能 overlay horizontally 和 overrides the horizontal 边距.</translation>
+            <translation>将性能叠加层水平居中并覆盖水平边距。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="181" />
             <source>Centers the performance overlay vertically and overrides the vertical margin.</source>
-            <translation>Centers the 性能 overlay vertically 和 overrides the vertical 边距.</translation>
+            <translation>将性能叠加层垂直居中并覆盖垂直边距。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="182" />
             <source>Position overlay relative to the full window surface, enabling placement outside game's render area.</source>
-            <translation>位置 overlay relative 到 the 完整 窗口 surface, 启用中 placement 外部 游戏's 渲染 area.</translation>
+            <translation>相对于整个窗口表面定位叠加层，允许放置在游戏渲染区域之外。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="184" />
             <source>Shows a background image during the native shader loading dialog/loading screen.
 By default the used image will be &lt;gamedir&gt;/PS3_GAME/PIC1.PNG.</source>
-            <translation>Shows a background 图像 期间 the native 着色器 加载中 对话框/加载中 screen. 通过 默认 the used 图像 将 是 &lt;gamedir&gt;/PS3_GAME/PIC1.PNG.</translation>
+            <translation>在原生着色器加载对话框/加载屏幕期间显示背景图像。
+默认使用的图像为 &lt;gamedir&gt;/PS3_GAME/PIC1.PNG。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="185" />
             <source>Changes the background image darkening effect strength of the native shader loading dialog.
 This may be used to improve readability and/or aesthetics.</source>
-            <translation>Changes the background 图像 darkening effect strength 的 the native 着色器 加载中 对话框. 此 可以 是 used 到 improve readability 和/或 aesthetics.</translation>
+            <translation>更改原生着色器加载对话框的背景图像变暗效果强度。
+这可用于提高可读性和/或美观度。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="186" />
             <source>Changes the background image blur effect strength of the native shader loading dialog.
 This may be used to improve readability and/or aesthetics.</source>
-            <translation>Changes the background 图像 模糊 effect strength 的 the native 着色器 加载中 对话框. 此 可以 是 used 到 improve readability 和/或 aesthetics.</translation>
+            <translation>更改原生着色器加载对话框的背景图像模糊效果强度。
+这可用于提高可读性和/或美观度。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="190" />
             <source>Vulkan is the fastest renderer. OpenGL is the most accurate renderer.
 If unsure, use Vulkan. Should you have any compatibility issues, fall back to OpenGL.</source>
-            <translation>Vulkan 是 the fastest 渲染器. OpenGL 是 the 最多 accurate 渲染器. 如果 不确定, use Vulkan. 应该 you 有 任何 compatibility issues, fall 后 到 OpenGL.</translation>
+            <translation>Vulkan 是最快的渲染器。OpenGL 是最精确的渲染器。
+如果不确定，请使用 Vulkan。如果遇到兼容性问题，请回退到 OpenGL。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="191" />
@@ -1576,18 +1745,22 @@ If unsure, use Vulkan. Should you have any compatibility issues, fall back to Op
 Leave this on 1280x720. Every PS3 game is compatible with this resolution.
 Only use 1920x1080 if the game supports it.
 Rarely due to emulation bugs some games will only render at low resolutions like 480p.</source>
-            <translation>此 设置 将 是 ignored 如果 the 分辨率 缩放 是 集合 到 anything 其他 比 100%! Leave 此 开 1280x720. 每个 PS3 游戏 是 兼容 与 此 分辨率. 仅 use 1920x1080 如果 the 游戏 supports it. 很少 due 到 模拟 bugs 一些 游戏 将 仅 渲染 at 低 resolutions 如 480p.</translation>
+            <translation>如果分辨率缩放设置为 100% 以外的任何值，此设置将被忽略！
+请保持为 1280x720。每款 PS3 游戏都与此分辨率兼容。
+仅在游戏支持时才使用 1920x1080。
+由于模拟错误，极少数游戏只能在 480p 等低分辨率下渲染。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="192" />
             <source>On multi GPU systems select which GPU to use in RPCS3 when using Vulkan.
 This is not needed when using OpenGL.</source>
-            <translation>开 multi GPU systems select 哪个 GPU 到 use 内 RPCS3 当 using Vulkan. 此 是 不 需要 当 using OpenGL.</translation>
+            <translation>在多 GPU 系统上，选择使用 Vulkan 时 RPCS3 使用哪个 GPU。
+使用 OpenGL 时不需要此设置。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="193" />
             <source>Leave this on 16:9 unless you have a 4:3 monitor.</source>
-            <translation>Leave 此 开 16:9 unless you 有 a 4:3 monitor.</translation>
+            <translation>除非您有 4:3 显示器，否则请保持为 16:9。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="194" />
@@ -1596,21 +1769,29 @@ Using the frame limiter will add extra overhead and slow down the game. However,
 PS3 native should only be used if Auto is not working correctly as it can introduce frame-pacing issues.
 Infinite adds a positive feedback loop which adds another vblank signal per frame allowing more games to be fps limitless.
 Experienced users with need of other frame limits should use the setting "Second Frame Limit" in the configuration file.</source>
-            <translation>关 是 the fastest 选项. Using the 帧 limiter 将 添加 额外 overhead 和 慢速 下 the 游戏. 然而, 一些 游戏 将 crash 如果 the framerate 是 也 高. PS3 native 应该 仅 是 used 如果 自动 是 不 working 正确 作为 it 能 introduce 帧-pacing issues. Infinite adds a positive feedback loop 哪个 adds another vblank signal per 帧 allowing 更多 游戏 到 是 fps limitless. Experienced users 与 需要 的 其他 帧 限制 应该 use the 设置 "Second 帧 限制" 内 the 配置 文件.</translation>
+            <translation>关闭是最快的选项。
+使用帧率限制器会增加额外开销并减慢游戏速度。但是，如果帧率过高，某些游戏会崩溃。
+仅当自动模式无法正常工作时才应使用 PS3 原生模式，因为它可能引入帧间隔问题。
+无限模式添加了一个正反馈循环，每帧添加一个额外的 vblank 信号，使更多游戏可以无 FPS 限制。
+需要其他帧率限制的有经验的用户应使用配置文件中的“第二帧率限制”设置。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="195" />
             <source>Emulate PS3 multisampling layout.
 Can fix some otherwise difficult to solve graphics glitches.
 Low to moderate performance hit depending on your GPU hardware.</source>
-            <translation>Emulate PS3 multisampling layout. 能 fix 一些 otherwise 困难 到 solve graphics glitches. 低 到 moderate 性能 hit depending 开 your GPU hardware.</translation>
+            <translation>模拟 PS3 多重采样布局。
+可以修复一些难以解决的图形故障。
+根据您的 GPU 硬件，性能损失为轻微到中等。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="196" />
             <source>Higher values increase sharpness of textures on sloped surfaces at the cost of GPU resources.
 Modern GPUs can handle this setting just fine, even at 16x.
 Keep this on Automatic if you want to use the original setting used by a real PS3.</source>
-            <translation>Higher 值 increase 锐度 的 纹理 开 sloped surfaces at the cost 的 GPU resources. Modern GPUs 能 handle 此 设置 仅 fine, 甚至 at 16x. Keep 此 开 自动 如果 you want 到 use the original 设置 used 通过 a real PS3.</translation>
+            <translation>较高的值会以 GPU 资源为代价增加倾斜表面上纹理的锐度。
+现代 GPU 可以很好地处理此设置，即使在 16x 时也是如此。
+如果您想使用真实 PS3 使用的原始设置，请保持为自动。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="197" />
@@ -1618,28 +1799,37 @@ Keep this on Automatic if you want to use the original setting used by a real PS
 The base resolution is always 1280x720.
 Set this value to 100% if you want to use the normal Resolution options.
 Values below 100% will usually not improve performance.</source>
-            <translation>Scales the 游戏's 分辨率 通过 the given percentage. The base 分辨率 是 始终 1280x720. 集合 此 值 到 100% 如果 you want 到 use the 正常 分辨率 选项. 值 下方 100% 将 通常 不 improve 性能.</translation>
+            <translation>按给定百分比缩放游戏分辨率。
+基础分辨率始终为 1280x720。
+如果您想使用正常的分辨率选项，请将此值设置为 100%。
+低于 100% 的值通常不会提高性能。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="198" />
             <source>Only framebuffers greater than this size will be upscaled.
 Increasing this value might fix problems with missing graphics when upscaling, especially when Write Color Buffers is enabled.
 If unsure, don't change this option.</source>
-            <translation>仅 framebuffers greater 比 此 大小 将 是 upscaled. Increasing 此 值 可能 fix problems 与 missing graphics 当 upscaling, especially 当 Write 颜色 缓冲区 是 已启用. 如果 不确定, don't change 此 选项.</translation>
+            <translation>仅大于此尺寸的帧缓冲区将被放大。
+增大此值可能会修复放大时图形缺失的问题，尤其是在启用写入颜色缓冲区时。
+如果不确定，请勿更改此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="199" />
             <source>Enable this option if you get missing graphics or broken lighting ingame.
 Might degrade performance and introduce stuttering in some cases.
 Required for Demon's Souls.</source>
-            <translation>启用 此 选项 如果 you get missing graphics 或 broken lighting 进游戏. 可能 degrade 性能 和 introduce stuttering 内 一些 cases. 必需 为 Demon's Souls.</translation>
+            <translation>如果在游戏中遇到图形缺失或光照损坏，请启用此选项。
+在某些情况下可能会降低性能并引入卡顿。
+《恶魔之魂》需要此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="200" />
             <source>Enables vertical synchronization to eliminate tearing.
 Adaptive Mode - Prefers keeping up performance. It may skip frames or even tear to avoid reducing the game's framerate.
 Full Mode - No tearing allowed even if performance is reduced. This mode will by default limit your framerate to the display's refresh rate unless overriden in the driver control panel.</source>
-            <translation>Enables vertical synchronization 到 eliminate tearing. Adaptive Mode - Prefers keeping 上 性能. It 可以 skip 帧 或 甚至 tear 到 avoid reducing the 游戏's framerate. 完整 Mode - 否 tearing 已允许 甚至 如果 性能 是 reduced. 此 mode 将 通过 默认 限制 your framerate 到 the display's refresh rate unless overriden 内 the driver control 面板.</translation>
+            <translation>启用垂直同步以消除画面撕裂。
+自适应模式 - 优先保持性能。它可能会跳帧甚至撕裂以避免降低游戏帧率。
+完整模式 - 即使性能降低也不允许画面撕裂。除非在驱动控制面板中覆盖，否则此模式默认将帧率限制为显示器的刷新率。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="201" />
@@ -1647,70 +1837,86 @@ Full Mode - No tearing allowed even if performance is reduced. This mode will by
 Might result in degraded performance in some games.
 Can resolve rare cases of missing graphics and flickering.
 If unsure, don't use this option.</source>
-            <translation>Enforces strict compliance 到 the API specification. 可能 result 内 degraded 性能 内 一些 游戏. 能 resolve rare cases 的 missing graphics 和 flickering. 如果 不确定, don't use 此 选项.</translation>
+            <translation>强制严格遵守 API 规范。
+可能导致某些游戏性能下降。
+可以解决图形缺失和闪烁的罕见情况。
+如果不确定，请勿使用此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="202" />
             <source>Overrides the aspect ratio and stretches the image to the full display area.</source>
-            <translation>Overrides the aspect ratio 和 stretches the 图像 到 the 完整 display area.</translation>
+            <translation>覆盖宽高比并将图像拉伸到整个显示区域。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="203" />
             <source>Offloads some RSX operations to a secondary thread.
 Improves performance for high-core processors.
 May cause slowdown in weaker CPUs due to the extra worker thread load.</source>
-            <translation>Offloads 一些 RSX operations 到 a 次要 线程. Improves 性能 为 高-core processors. 可以 cause slowdown 内 weaker CPUs due 到 the 额外 worker 线程 加载.</translation>
+            <translation>将一些 RSX 操作卸载到辅助线程。
+提高多核处理器的性能。
+由于额外的工作线程负载，可能导致较弱 CPU 的速度下降。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="205" />
             <source>Disables asynchronous shader compilation.
 Fixes missing graphics while shaders are compiling but introduces severe stuttering or lag.
 Use this if you do not want to deal with graphics pop-in, or for testing before filing any bug reports.</source>
-            <translation>Disables asynchronous 着色器 compilation. Fixes missing graphics 当 着色器 是 编译中 但 introduces severe stuttering 或 lag. Use 此 如果 you 执行 不 want 到 deal 与 graphics pop-内, 或 为 testing 之前 filing 任何 bug reports.</translation>
+            <translation>禁用异步着色器编译。
+修复着色器编译期间图形缺失的问题，但会引入严重的卡顿或延迟。
+如果您不想处理图形突然出现的问题，或在提交任何错误报告之前进行测试，请使用此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="206" />
             <source>This is the recommended option.
 If a shader is not found in the cache, nothing will be rendered for this shader until it has compiled.
 You may experience graphics pop-in.</source>
-            <translation>此 是 the recommended 选项. 如果 a 着色器 是 不 found 内 the 缓存, 无 将 是 rendered 为 此 着色器 直到 it 有 已编译. You 可以 experience graphics pop-内.</translation>
+            <translation>这是推荐选项。
+如果在缓存中找不到着色器，则在编译完成之前不会为此着色器渲染任何内容。
+您可能会遇到图形突然出现的情况。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="207" />
             <source>Hybrid rendering mode.
 If a shader is not found in the cache, the interpreter will be used to render approximated graphics for this shader until it has compiled.</source>
-            <translation>Hybrid 渲染 mode. 如果 a 着色器 是 不 found 内 the 缓存, the interpreter 将 是 used 到 渲染 approximated graphics 为 此 着色器 直到 it 有 已编译.</translation>
+            <translation>混合渲染模式。
+如果在缓存中找不到着色器，则在编译完成之前将使用解释器为此着色器渲染近似图形。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="208" />
             <source>All rendering is handled by the interpreter with no attempt to compile native shaders.
 This mode is very slow and experimental.</source>
-            <translation>全部 渲染 是 handled 通过 the interpreter 与 否 attempt 到 编译 native 着色器. 此 mode 是 非常 慢速 和 experimental.</translation>
+            <translation>所有渲染均由解释器处理，不尝试编译原生着色器。
+此模式非常慢且为实验性。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="209" />
             <source>Number of threads to use for the shader compiler backend.
 Only has an impact when shader mode is set to one of the asynchronous modes.</source>
-            <translation>数字 的 线程 到 use 为 the 着色器 compiler backend. 仅 有 an impact 当 着色器 mode 是 集合 到 one 的 the asynchronous modes.</translation>
+            <translation>用于着色器编译器后端的线程数。
+仅在着色器模式设置为异步模式之一时才有影响。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="210" />
             <source>Controls the precision level of generated shaders. Low precision generates much faster code depending on the hardware, but can sometimes generate minor visual glitches or flicker.</source>
-            <translation>Controls the precision level 的 generated 着色器. 低 precision generates much faster 代码 depending 开 the hardware, 但 能 有时 generate 次要 visual glitches 或 flicker.</translation>
+            <translation>控制生成着色器的精度级别。低精度根据硬件生成更快的代码，但有时会产生轻微的视觉故障或闪烁。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="212" />
             <source>Stream textures to GPU in parallel with 3D rendering using asynchronous compute.
 Can improve performance on more powerful GPUs that have spare headroom.
 Only works with Vulkan renderer and greatly benefits from having MTRSX enabled if you have a capable CPU.</source>
-            <translation>Stream 纹理 到 GPU 内 parallel 与 3D 渲染 using asynchronous compute. 能 improve 性能 开 更多 powerful GPUs 那个 有 spare headroom. 仅 works 与 Vulkan 渲染器 和 greatly benefits 从 有 MTRSX 已启用 如果 you 有 a capable CPU.</translation>
+            <translation>使用异步计算将纹理并行流式传输到 GPU，与 3D 渲染同时进行。
+可以在有剩余性能空间的更强大 GPU 上提高性能。
+仅适用于 Vulkan 渲染器，并且如果您有性能足够的 CPU，启用 MTRSX 可大幅受益。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="213" />
             <source>Controls which fullscreen mode RPCS3 requests from drivers when using Vulkan renderer.
 Automatic will let the driver choose an appropriate mode, while the other options will hint the drivers on whether they should use exclusive or borderless fullscreen.
 Using Prefer borderless fullscreen option can help if you have issues with streaming RPCS3 gameplay or if your system incorrectly enables HDR mode when using fullscreen.</source>
-            <translation>Controls 哪个 全屏 mode RPCS3 requests 从 drivers 当 using Vulkan 渲染器. 自动 将 let the driver choose an appropriate mode, 当 the 其他 选项 将 hint the drivers 开 whether they 应该 use exclusive 或 无边框 全屏. Using Prefer 无边框 全屏 选项 能 help 如果 you 有 issues 与 streaming RPCS3 gameplay 或 如果 your system 不正确 enables HDR mode 当 using 全屏.</translation>
+            <translation>控制使用 Vulkan 渲染器时 RPCS3 向驱动程序请求的全屏模式。
+自动将让驱动程序选择合适的模式，而其他选项将提示驱动程序是否应使用独占或无边框全屏。
+如果您在流式传输 RPCS3 游戏时遇到问题，或者您的系统在使用全屏时错误地启用 HDR 模式，使用偏好无边框全屏选项可能会有所帮助。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="215" />
@@ -1718,165 +1924,184 @@ Using Prefer borderless fullscreen option can help if you have issues with strea
 If the game is rendering at an internal resolution lower than your window resolution, FidelityFX will handle the upscale.
 FidelityFX can cause visual artifacts.
 FidelityFX does not work with stereo 3D output for now.</source>
-            <translation>Final 图像 filtering. Nearest applies 否 filtering, Bilinear smooths the 图像, 和 FidelityFX Super 分辨率 enhances upscaled 图像. 如果 the 游戏 是 渲染 at an 内部 分辨率 下方 比 your 窗口 分辨率, FidelityFX 将 handle the upscale. FidelityFX 能 cause visual artifacts. FidelityFX 执行 不 work 与 stereo 3D output 为 现在.</translation>
+            <translation>最终图像过滤。Nearest 不应用过滤，Bilinear 平滑图像，FidelityFX Super Resolution 增强放大后的图像。
+如果游戏以低于窗口分辨率的内部分辨率渲染，FidelityFX 将处理放大。
+FidelityFX 可能导致视觉伪影。
+FidelityFX 目前不支持立体 3D 输出。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="216" />
             <source>Control the sharpening strength applied by FidelityFX Super Resolution. Higher values will give sharper output but may introduce artifacts.</source>
-            <translation>Control the sharpening strength 已应用 通过 FidelityFX Super 分辨率. Higher 值 将 give sharper output 但 可以 introduce artifacts.</translation>
+            <translation>控制 FidelityFX Super Resolution 应用的锐化强度。较高的值会提供更锐利的输出，但可能引入伪影。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="218" />
             <source>Changes Texture sampling accuracy. (Small changes have a big effect.)
 Avoid using values outside the range of -12 to +12 if you're unsure.
 -3 to +3 is plenty for most usecases</source>
-            <translation>Changes 纹理 sampling accuracy. (小 changes 有 a big effect.) Avoid using 值 外部 the 范围 的 -12 到 +12 如果 you're 不确定. -3 到 +3 是 plenty 为 最多 usecases</translation>
+            <translation>更改纹理采样精度。（微小的变化会产生很大影响。）
+如果不确定，请避免使用 -12 到 +12 范围之外的值。
+-3 到 +3 对大多数用例来说已经足够</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="222" />
             <source>Sets the maximum amount of blocks that the log can display.
 This usually equals the number of lines.
 Set 0 in order to remove the limit.</source>
-            <translation>Sets the 最大值 amount 的 blocks 那个 the 日志 能 display. 此 通常 equals the 数字 的 lines. 集合 0 内 order 到 移除 the 限制.</translation>
+            <translation>设置日志可显示的最大块数。
+这通常等于行数。
+设为 0 以移除限制。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="223" />
             <source>Sets the maximum amount of blocks that the TTY can display.
 This usually equals the number of lines.
 Set 0 in order to remove the limit.</source>
-            <translation>Sets the 最大值 amount 的 blocks 那个 the TTY 能 display. 此 通常 equals the 数字 的 lines. 集合 0 内 order 到 移除 the 限制.</translation>
+            <translation>设置 TTY 可显示的最大块数。
+这通常等于行数。
+设为 0 以移除限制。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="224" />
             <source>Changes the overall look of RPCS3.
 Choose a stylesheet and click Apply to change between styles.</source>
-            <translation>Changes the overall look 的 RPCS3. Choose a stylesheet 和 click 应用 到 change between styles.</translation>
+            <translation>更改 RPCS3 的整体外观。
+选择一个样式表并点击应用以在不同样式之间切换。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="225" />
             <source>Shows the initial welcome screen upon starting RPCS3.</source>
-            <translation>Shows the initial welcome screen upon 启动中 RPCS3.</translation>
+            <translation>在启动 RPCS3 时显示初始欢迎屏幕。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="226" />
             <source>Shows a confirmation dialog when the game window is being closed and when a game was booted while another game is running.</source>
-            <translation>Shows a 确认 对话框 当 the 游戏 窗口 是 正在 已关闭 和 当 a 游戏 曾是 已启动 当 another 游戏 是 运行中.</translation>
+            <translation>当游戏窗口被关闭以及当另一个游戏正在运行时启动游戏时，显示确认对话框。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="227" />
             <source>Shows a dialog when packages and firmware were installed successfully.</source>
-            <translation>Shows a 对话框 当 packages 和 firmware 曾是 已安装 successfully.</translation>
+            <translation>当安装包和固件安装成功时显示对话框。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="228" />
             <source>Shows a dialog when obsolete settings were found.</source>
-            <translation>Shows a 对话框 当 obsolete 设置 曾是 found.</translation>
+            <translation>当发现过时的设置时显示对话框。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="229" />
             <source>Shows a dialog in the game pad configuration when the same button was assigned twice.</source>
-            <translation>Shows a 对话框 内 the 游戏 pad 配置 当 the 相同 按钮 曾是 assigned twice.</translation>
+            <translation>在手柄配置中当同一按钮被分配两次时显示对话框。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="230" />
             <source>Shows a dialog when RPCS3 is ready to restart after an update.</source>
-            <translation>Shows a 对话框 当 RPCS3 是 就绪 到 重启 之后 an 更新.</translation>
+            <translation>当 RPCS3 在更新后准备重启时显示对话框。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="231" />
             <source>Checks if an update is available on startup and asks if you want to update.
 If "Automatic" is selected, the update will run automatically without user confirmation.
 If "Background" is selected, the check is done silently in the background and a new download option is shown in the top right corner of the menu if a new version was found.</source>
-            <translation>Checks 如果 an 更新 是 可用 开 startup 和 asks 如果 you want 到 更新. 如果 "自动" 是 selected, the 更新 将 运行 自动 无 user 确认. 如果 "Background" 是 selected, the check 是 完成 silently 内 the background 和 a 新建 下载 选项 是 已显示 内 the 上 正确 corner 的 the 菜单 如果 a 新建 版本 曾是 found.</translation>
+            <translation>在启动时检查是否有可用更新并询问您是否要更新。
+如果选择“自动”，更新将在无需用户确认的情况下自动运行。
+如果选择“后台”，检查将在后台静默进行，如果发现新版本，菜单右上角会显示新的下载选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="232" />
             <source>Enables use of Discord Rich Presence to show what game you are playing on Discord.
 Requires a restart of RPCS3 to completely close the connection.</source>
-            <translation>启用 Discord 实时状态以在 Discord 上显示你正在玩的游戏。
+            <translation>启用 Discord Rich Presence，以在 Discord 上显示您正在玩的游戏。
 需要重启 RPCS3 才能完全关闭连接。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="233" />
             <source>Tell your friends what you are doing.</source>
-            <translation>Tell your friends 什么 you 是 执行中.</translation>
+            <translation>告诉您的朋友您正在做什么。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="234" />
             <source>Prioritize custom user interface colors over properties set in stylesheet.</source>
-            <translation>Prioritize 自定义 user interface 颜色 结束 properties 集合 内 stylesheet.</translation>
+            <translation>优先使用自定义用户界面颜色而非样式表中设置的属性。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="235" />
             <source>This is the ID used for hardware statistics.
 It should only be reset if you change your hardware configuration or if you copied RPCS3 to another PC.</source>
-            <translation>此 是 the ID used 为 hardware statistics. It 应该 仅 是 reset 如果 you change your hardware 配置 或 如果 you 已复制 RPCS3 到 another PC.</translation>
+            <translation>这是用于硬件统计的 ID。
+仅在更改硬件配置或将 RPCS3 复制到另一台 PC 时才应重置。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="236" />
             <source>Use the game pad that is configured for player 1 to navigate in the GUI.</source>
-            <translation>Use the 游戏 pad 那个 是 已配置 为 player 1 到 navigate 内 the GUI.</translation>
+            <translation>使用为玩家 1 配置的手柄在界面中导航。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="237" />
             <source>Keep control over pad navigation if RPCS3 is not the active window.</source>
-            <translation>Keep control 结束 pad navigation 如果 RPCS3 是 不 the 活跃 窗口.</translation>
+            <translation>即使 RPCS3 不是活动窗口，也保持对手柄导航的控制。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="238" />
             <source>Set the audio volume of the user interface. This does not affect the ingame audio.</source>
-            <translation>集合 the 音频 音量 的 the user interface. 此 执行 不 affect the 进游戏 音频.</translation>
+            <translation>设置用户界面的音频音量。这不影响游戏内音频。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="242" />
             <source>Single-threaded: All pad handlers run on the same thread sequentially.
 Multi-threaded: Each pad handler has its own thread.
 Only use multi-threaded if you can spare the extra threads.</source>
-            <translation>Single-threaded: 全部 pad handlers 运行 开 the 相同 线程 sequentially. Multi-threaded: 每个 pad handler 有 its own 线程. 仅 use multi-threaded 如果 you 能 spare the 额外 线程.</translation>
+            <translation>单线程：所有手柄处理器按顺序在同一线程上运行。
+多线程：每个手柄处理器有自己的线程。
+仅当您可以腾出额外线程时才使用多线程。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="243" />
             <source>Shows all configured pads as always connected ingame even if they are physically disconnected.</source>
-            <translation>Shows 全部 已配置 pads 作为 始终 已连接 进游戏 甚至 如果 they 是 physically 已断开.</translation>
+            <translation>即使物理上已断开连接，也在游戏中显示所有已配置的手柄为始终连接。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="244" />
             <source>Some games support native keyboard input.
 Basic will work in these cases.</source>
-            <translation>一些 游戏 support native 键盘 input. Basic 将 work 内 这些 cases.</translation>
+            <translation>某些游戏支持原生键盘输入。
+在这些情况下，Basic 模式可以工作。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="245" />
             <source>Some games support native mouse input.
 Basic or Raw will work in these cases.</source>
-            <translation>一些 游戏 support native 鼠标 input. Basic 或 Raw 将 work 内 这些 cases.</translation>
+            <translation>某些游戏支持原生鼠标输入。
+在这些情况下，Basic 或 Raw 模式可以工作。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="246" />
             <source>Currently only used for cellMusic emulation.
 Select Qt to use the default output device of your operating system.
 This may not be able to play all audio formats.</source>
-            <translation>当前 仅 used 为 cellMusic 模拟. Select Qt 到 use the 默认 output device 的 your operating system. 此 可以 不 是 able 到 play 全部 音频 formats.</translation>
+            <translation>目前仅用于 cellMusic 模拟。
+选择 Qt 以使用操作系统的默认输出设备。
+这可能无法播放所有音频格式。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="247" />
             <source>Select Qt Camera to use the default camera device of your operating system.</source>
-            <translation>Select Qt Camera 到 use the 默认 camera device 的 your operating system.</translation>
+            <translation>选择 Qt 摄像头以使用操作系统的默认摄像头设备。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="248" />
             <source>Depending on the game, you may need to select a specific camera type.</source>
-            <translation>Depending 开 the 游戏, you 可以 需要 到 select a 特定 camera 类型.</translation>
+            <translation>根据游戏的不同，您可能需要选择特定的摄像头类型。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="249" />
             <source>Flips the camera image either horizontally, vertically, or on both axes.</source>
-            <translation>Flips the camera 图像 任一 horizontally, vertically, 或 开 两者 axes.</translation>
+            <translation>水平、垂直或在两个轴上翻转摄像头图像。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="250" />
             <source>Select the camera that you want to use during gameplay.</source>
-            <translation>Select the camera 那个 you want 到 use 期间 gameplay.</translation>
+            <translation>选择您要在游戏过程中使用的摄像头。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="251" />
@@ -1884,14 +2109,19 @@ This may not be able to play all audio formats.</source>
 Fake: Experimental! This maps Move controls to DS3 controller mappings.
 Mouse: Emulate PSMove with Mouse handler.
 Raw Mouse: Emulate PSMove with Raw Mouse handler.</source>
-            <translation>PlayStation 移动 support. Fake: Experimental! 此 maps 移动 controls 到 DS3 控制器 mappings. 鼠标: Emulate PSMove 与 鼠标 handler. Raw 鼠标: Emulate PSMove 与 Raw 鼠标 handler.</translation>
+            <translation>PlayStation Move 支持。
+Fake：实验性！将 Move 控制映射到 DS3 控制器映射。
+Mouse：使用鼠标处理器模拟 PSMove。
+Raw Mouse：使用原始鼠标处理器模拟 PSMove。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="252" />
             <source>Buzz! support.
 Select 1 or 2 controllers if the game requires Buzz! controllers and you don't have real controllers.
 Select Null if the game has support for DualShock or if you have real Buzz! controllers.</source>
-            <translation>Buzz! support. Select 1 或 2 控制器 如果 the 游戏 需要 Buzz! 控制器 和 you don't 有 real 控制器. Select Null 如果 the 游戏 有 support 为 DualShock 或 如果 you 有 real Buzz! 控制器.</translation>
+            <translation>Buzz! 支持。
+如果游戏需要 Buzz! 控制器而您没有真实控制器，请选择 1 或 2 个控制器。
+如果游戏支持 DualShock 或您有真实的 Buzz! 控制器，请选择 Null。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="253" />
@@ -1899,7 +2129,10 @@ Select Null if the game has support for DualShock or if you have real Buzz! cont
 Select 1 or 2 controllers if the game requires DJ Hero Turntable controllers and you don't have real turntable controllers.
 Select Null if the game has support for DualShock or if you have real turntable controllers.
 A real turntable controller can be used at the same time as an emulated turntable controller.</source>
-            <translation>DJ Hero Turntable 控制器 support. Select 1 或 2 控制器 如果 the 游戏 需要 DJ Hero Turntable 控制器 和 you don't 有 real turntable 控制器. Select Null 如果 the 游戏 有 support 为 DualShock 或 如果 you 有 real turntable 控制器. A real turntable 控制器 能 是 used at the 相同 时间 作为 an 模拟 turntable 控制器.</translation>
+            <translation>DJ Hero 打碟机控制器支持。
+如果游戏需要 DJ Hero 打碟机控制器而您没有真实打碟机控制器，请选择 1 或 2 个控制器。
+如果游戏支持 DualShock 或您有真实的打碟机控制器，请选择 Null。
+真实的打碟机控制器可以与模拟的打碟机控制器同时使用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="254" />
@@ -1907,138 +2140,157 @@ A real turntable controller can be used at the same time as an emulated turntabl
 Select 1 or 2 controllers if the game requires GHL Guitar controllers and you don't have real guitar controllers.
 Select Null if the game has support for DualShock or if you have real guitar controllers.
 A real guitar controller can be used at the same time as an emulated guitar controller.</source>
-            <translation>Guitar Hero Live (GHL) Guitar 控制器 support. Select 1 或 2 控制器 如果 the 游戏 需要 GHL Guitar 控制器 和 you don't 有 real guitar 控制器. Select Null 如果 the 游戏 有 support 为 DualShock 或 如果 you 有 real guitar 控制器. A real guitar 控制器 能 是 used at the 相同 时间 作为 an 模拟 guitar 控制器.</translation>
+            <translation>Guitar Hero Live (GHL) 吉他控制器支持。
+如果游戏需要 GHL 吉他控制器而您没有真实吉他控制器，请选择 1 或 2 个控制器。
+如果游戏支持 DualShock 或您有真实的吉他控制器，请选择 Null。
+真实的吉他控制器可以与模拟的吉他控制器同时使用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="255" />
             <source>Allows pad and keyboard input while the game window is unfocused.</source>
-            <translation>Allows pad 和 键盘 input 当 the 游戏 窗口 是 unfocused.</translation>
+            <translation>允许在游戏窗口未聚焦时进行手柄和键盘输入。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="256" />
             <source>Shows the raw position of the PS Move input.
 This can be very helpful during calibration screens.</source>
-            <translation>Shows the raw 位置 的 the PS 移动 input. 此 能 是 非常 helpful 期间 calibration screens.</translation>
+            <translation>显示 PS Move 输入的原始位置。
+这在校准屏幕期间非常有帮助。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="257" />
             <source>Select up to 3 emulated MIDI devices and their types.</source>
-            <translation>Select 上 到 3 模拟 MIDI devices 和 their 类型.</translation>
+            <translation>选择最多 3 个模拟 MIDI 设备及其类型。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="258" />
             <source>Loads the SDL GameController database for improved gamepad compatibility. Only used in the SDL pad handler.</source>
-            <translation>Loads the SDL GameController database 为 improved 手柄 compatibility. 仅 used 内 the SDL pad handler.</translation>
+            <translation>加载 SDL GameController 数据库以改善手柄兼容性。仅在 SDL 手柄处理器中使用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="259" />
             <source>Enables mouse-based gyro emulation at game startup. It can also be toggled at any time with the associated hotkey.
 Hold the right mouse button to activate gyro input: moving the mouse maps to the X and Z motion axes, and the scroll wheel maps to the Y axis. Release the button to reset the motion values.</source>
-            <translation>Enables 鼠标-based gyro 模拟 at 游戏 startup. It 能 也 是 toggled at 任何 时间 与 the associated hotkey. Hold the 正确 鼠标 按钮 到 activate gyro input: 移动中 the 鼠标 maps 到 the X 和 Z motion axes, 和 the scroll wheel maps 到 the Y axis. Release the 按钮 到 reset the motion 值.</translation>
+            <translation>在游戏启动时启用基于鼠标的陀螺仪模拟。也可随时通过关联的快捷键切换。
+按住鼠标右键激活陀螺仪输入：移动鼠标映射到 X 和 Z 运动轴，滚轮映射到 Y 轴。松开按钮重置运动值。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="261" />
             <source>Locks the native overlay input to the first player.</source>
-            <translation>Locks the native overlay input 到 the 第一个 player.</translation>
+            <translation>将原生叠加层输入锁定到第一个玩家。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="265" />
             <source>If set to Connected, RPCS3 will allow programs to use your internet connection.</source>
-            <translation>如果 集合 到 已连接, RPCS3 将 允许 程序 到 use your internet connection.</translation>
+            <translation>如果设置为已连接，RPCS3 将允许程序使用您的互联网连接。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="266" />
             <source>If set to RPCN, RPCS3 will use the RPCN server as PSN connection if the game is supported.
 If set to Simulated, RPCS3 will try to fake the PSN connection, but any actual attempt at using the PSN functionality may result in errors or crashes.
 Simulated is only available in custom configurations.</source>
-            <translation>如果 集合 到 RPCN, RPCS3 将 use the RPCN server 作为 PSN connection 如果 the 游戏 是 支持. 如果 集合 到 Simulated, RPCS3 将 try 到 fake the PSN connection, 但 任何 actual attempt at using the PSN functionality 可以 result 内 错误 或 crashes. Simulated 是 仅 可用 内 自定义 configurations.</translation>
+            <translation>如果设置为 RPCN，RPCS3 将在游戏受支持时使用 RPCN 服务器作为 PSN 连接。
+如果设置为模拟，RPCS3 将尝试伪造 PSN 连接，但任何实际尝试使用 PSN 功能的操作都可能导致错误或崩溃。
+模拟仅在自定义配置中可用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="267" />
             <source>DNS used to resolve hostnames by applications.</source>
-            <translation>DNS used 到 resolve hostnames 通过 applications.</translation>
+            <translation>应用程序用于解析主机名的 DNS。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="268" />
             <source>DNS Swap List.
 Only available in custom configurations.</source>
-            <translation>DNS Swap 列表. 仅 可用 内 自定义 configurations.</translation>
+            <translation>DNS 替换列表。
+仅在自定义配置中可用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="269" />
             <source>Interface IP Address to bind to.
 Only available in custom configurations.</source>
-            <translation>Interface IP 地址 到 bind 到. 仅 可用 内 自定义 configurations.</translation>
+            <translation>要绑定的接口 IP 地址。
+仅在自定义配置中可用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="270" />
             <source>Enable UPNP.
 This will automatically forward ports bound on 0.0.0.0 if your router has UPNP enabled.</source>
-            <translation>启用 UPNP. 此 将 自动 forward ports bound 开 0.0.0.0 如果 your router 有 UPNP 已启用.</translation>
+            <translation>启用 UPNP。
+如果您的路由器启用了 UPNP，这将自动转发绑定在 0.0.0.0 上的端口。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="271" />
             <source>Derive the MAC address from the PSID.</source>
-            <translation>Derive the MAC 地址 从 the PSID.</translation>
+            <translation>从 PSID 派生 MAC 地址。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="272" />
             <source>Changes the RPCN country.</source>
-            <translation>Changes the RPCN 国家.</translation>
+            <translation>更改 RPCN 国家/地区。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="273" />
             <source>Enable connection to the Clans server.
 Only affects games supporting the Clans feature.</source>
-            <translation>启用 connection 到 the Clans server. 仅 affects 游戏 supporting the Clans feature.</translation>
+            <translation>启用与战队服务器的连接。
+仅影响支持战队功能的游戏。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="277" />
             <source>The console region defines the license area of the PS3.
 Depending on the license area, some games may not work.</source>
-            <translation>The console 区域 defines the license area 的 the PS3. Depending 开 the license area, 一些 游戏 可以 不 work.</translation>
+            <translation>主机区域定义了 PS3 的许可证区域。
+根据许可证区域的不同，某些游戏可能无法运行。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="278" />
             <source>Some games may fail to boot if the system language is not available in the game itself.
 Other games will switch language automatically to what is selected here.
 It is recommended leaving this on a language supported by the game.</source>
-            <translation>一些 游戏 可以 fail 到 启动 如果 the system 语言 是 不 可用 内 the 游戏 itself. 其他 游戏 将 switch 语言 自动 到 什么 是 selected 这里. It 是 recommended leaving 此 开 a 语言 支持 通过 the 游戏.</translation>
+            <translation>如果系统语言在游戏本身中不可用，某些游戏可能无法启动。
+其他游戏会自动切换到此处选择的语言。
+建议保持为游戏支持的语言。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="279" />
             <source>Select the PS3's date format.</source>
-            <translation>Select the PS3's 日期 format.</translation>
+            <translation>选择 PS3 的日期格式。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="280" />
             <source>Select the PS3's time format.</source>
-            <translation>Select the PS3's 时间 format.</translation>
+            <translation>选择 PS3 的时间格式。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="281" />
             <source>Sets the used keyboard layout.
 Currently only US, Japanese and German layouts are fully supported at this moment.</source>
-            <translation>Sets the used 键盘 layout. 当前 仅 US, 日语 和 德语 layouts 是 fully 支持 at 此 moment.</translation>
+            <translation>设置使用的键盘布局。
+目前仅完全支持 US、日语和德语布局。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="282" />
             <source>The button used for enter/accept/confirm in system dialogs.
 Change this to use the Circle button instead, which is the default configuration on Japanese systems and in many Japanese games.
 In these cases having the cross button assigned can often lead to confusion.</source>
-            <translation>The 按钮 used 为 enter/accept/确认 内 system 对话框. Change 此 到 use the Circle 按钮 instead, 哪个 是 the 默认 配置 开 日语 systems 和 内 许多 日语 游戏. 内 这些 cases 有 the cross 按钮 assigned 能 经常 lead 到 confusion.</translation>
+            <translation>系统对话框中用于回车/接受/确认的按钮。
+更改此项以改用圆圈按钮，这是日本系统和许多日本游戏的默认配置。
+在这些情况下，分配叉号按钮通常会导致混淆。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="283" />
             <source>Required for some Homebrew.
 If unsure, do not use this option.</source>
-            <translation>必需 为 一些 Homebrew. 如果 不确定, 执行 不 use 此 选项.</translation>
+            <translation>某些自制软件需要此项。
+如果不确定，请勿使用此选项。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="284" />
             <source>Required for some Homebrew or Game Mods.
 If unsure, do not use this option</source>
-            <translation>必需 为 一些 Homebrew 或 游戏 Mods. 如果 不确定, 执行 不 use 此 选项</translation>
+            <translation>某些自制软件或游戏 Mod 需要此项。
+如果不确定，请勿使用此选项</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="285" />
@@ -2046,175 +2298,179 @@ If unsure, do not use this option</source>
 Games can use the cache folder to temporarily store data outside of system memory. It is not used for long-term storage.
 
 This setting is only available in the global configuration.</source>
-            <translation>自动 removes older 文件 从 磁盘 缓存 开 启动 如果 it grows larger 比 the specified 值. 游戏 能 use the 缓存 文件夹 到 临时 store data 外部 的 system 内存. It 是 不 used 为 long-term storage. 此 设置 是 仅 可用 内 the 全局 配置.</translation>
+            <translation>如果磁盘缓存增长到超过指定值，则在启动时自动从磁盘缓存中移除较旧的文件。
+游戏可以使用缓存文件夹在系统内存之外临时存储数据。它不用于长期存储。
+
+此设置仅在全局配置中可用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="286" />
             <source>Sets the time to be used within the console. This will be applied as an offset that tracks wall clock time.
 Can be reset to current wall clock time by clicking "Set to Now".</source>
-            <translation>Sets the 时间 到 是 used within the console. 此 将 是 已应用 作为 an 偏移 那个 tracks wall clock 时间. 能 是 reset 到 当前 wall clock 时间 通过 clicking "集合 到 现在".</translation>
+            <translation>设置主机内使用的时间。这将作为跟踪墙上时钟时间的偏移量应用。
+可通过点击“设为现在”重置为当前墙上时钟时间。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="291" />
             <source>This controller is disabled and will appear as disconnected to software. Choose another handler to enable it.</source>
-            <translation>此 控制器 是 已禁用 和 将 appear 作为 已断开 到 software. Choose another handler 到 启用 it.</translation>
+            <translation>此控制器已禁用，对软件显示为已断开连接。选择另一个处理器以启用它。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="292" />
             <source>This port is currently assigned to a custom controller by the application and can't be changed.</source>
-            <translation>此 port 是 当前 assigned 到 a 自定义 控制器 通过 the application 和 能't 是 changed.</translation>
+            <translation>此端口当前已由应用程序分配给自定义控制器，无法更改。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="293" />
             <source>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.&lt;br&gt;To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</source>
-            <translation>当 it 是 可能 到 use a 键盘 作为 a pad 内 RPCS3, the use 的 an actual 控制器 是 strongly recommended.&lt;br&gt;到 bind 鼠标 movement 到 a 按钮 或 摇杆, click 开 the desired 按钮 到 activate it, 然后 click 和 hold 当 dragging the 鼠标 到 a direction.</translation>
+            <translation>虽然可以在 RPCS3 中使用键盘作为手柄，但强烈建议使用实际控制器。&lt;br&gt;要将鼠标移动绑定到按钮或摇杆，请点击所需按钮以激活它，然后按住鼠标并拖向某个方向。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="294" />
             <source>In order to use the DualShock 3 handler, you need to install the official DualShock 3 driver first.&lt;br&gt;See the &lt;a %0 href="https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration"&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
-            <translation>内 order 到 use the DualShock 3 handler, you 需要 到 安装 the official DualShock 3 driver 第一个.&lt;br&gt;See the &lt;a %0 href="https://wiki.rpcs3.net/索引.php?标题=Help:Controller_Configuration"&gt;RPCS3 Wiki&lt;/a&gt; 为 instructions.</translation>
+            <translation>要使用 DualShock 3 处理器，您需要先安装官方 DualShock 3 驱动程序。&lt;br&gt;请参阅 &lt;a %0 href="https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration"&gt;RPCS3 Wiki&lt;/a&gt; 获取说明。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="295" />
             <source>In order to use the DualShock 3 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a %0 href="https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration"&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
-            <translation>内 order 到 use the DualShock 3 handler, you 可能 需要 到 添加 udev rules 到 let RPCS3 access the 控制器.&lt;br&gt;See the &lt;a %0 href="https://wiki.rpcs3.net/索引.php?标题=Help:Controller_Configuration"&gt;RPCS3 Wiki&lt;/a&gt; 为 instructions.</translation>
+            <translation>要使用 DualShock 3 处理器，您可能需要添加 udev 规则以让 RPCS3 访问控制器。&lt;br&gt;请参阅 &lt;a %0 href="https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration"&gt;RPCS3 Wiki&lt;/a&gt; 获取说明。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="296" />
             <source>The DualShock 3 handler is recommended for official DualShock 3 controllers.</source>
-            <translation>The DualShock 3 handler 是 recommended 为 official DualShock 3 控制器.</translation>
+            <translation>DualShock 3 处理器推荐用于官方 DualShock 3 控制器。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="297" />
             <source>If you have any issues with the DualShock 4 handler, it might be caused by third-party tools such as DS4Windows. It's recommended that you disable them while using this handler.</source>
-            <translation>如果 you 有 任何 issues 与 the DualShock 4 handler, it 可能 是 caused 通过 third-party tools 此类 作为 DS4Windows. It's recommended 那个 you 禁用 them 当 using 此 handler.</translation>
+            <translation>如果您在使用 DualShock 4 处理器时遇到问题，可能是由于 DS4Windows 等第三方工具造成的。建议您在使用此处理器时禁用这些工具。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="298" />
             <source>In order to use the DualShock 4 handler, you might need to add udev rules to let RPCS3 access the controller.&lt;br&gt;See the &lt;a %0 href="https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration"&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
-            <translation>内 order 到 use the DualShock 4 handler, you 可能 需要 到 添加 udev rules 到 let RPCS3 access the 控制器.&lt;br&gt;See the &lt;a %0 href="https://wiki.rpcs3.net/索引.php?标题=Help:Controller_Configuration"&gt;RPCS3 Wiki&lt;/a&gt; 为 instructions.</translation>
+            <translation>要使用 DualShock 4 处理器，您可能需要添加 udev 规则以让 RPCS3 访问控制器。&lt;br&gt;请参阅 &lt;a %0 href="https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration"&gt;RPCS3 Wiki&lt;/a&gt; 获取说明。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="299" />
             <source>The DualShock 4 handler is recommended for official DualShock 4 controllers.</source>
-            <translation>The DualShock 4 handler 是 recommended 为 official DualShock 4 控制器.</translation>
+            <translation>DualShock 4 处理器推荐用于官方 DualShock 4 控制器。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="300" />
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="301" />
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="302" />
             <source>The DualSense handler is recommended for official DualSense controllers.</source>
-            <translation>The DualSense handler 是 recommended 为 official DualSense 控制器.</translation>
+            <translation>DualSense 处理器推荐用于官方 DualSense 控制器。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="303" />
             <source>The Skateboard handler is recommended for official RIDE skateboard controllers.</source>
-            <translation>The Skateboard handler 是 recommended 为 official RIDE skateboard 控制器.</translation>
+            <translation>Skateboard 处理器推荐用于官方 RIDE 滑板控制器。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="304" />
             <source>The PS Move handler is recommended for official PS Move controllers.</source>
-            <translation>The PS 移动 handler 是 recommended 为 official PS 移动 控制器.</translation>
+            <translation>PS Move 处理器推荐用于官方 PS Move 控制器。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="305" />
             <source>The XInput handler will work with Xbox controllers and many third-party PC-compatible controllers. Pressure sensitive buttons from SCP are supported when SCP's XInput1_3.dll is placed in the main RPCS3 directory. For more details, see the &lt;a %0 href="https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration"&gt;RPCS3 Wiki&lt;/a&gt;.</source>
-            <translation>The XInput handler 将 work 与 Xbox 控制器 和 许多 third-party PC-兼容 控制器. 压力 sensitive 按钮 从 SCP 是 支持 当 SCP's XInput1_3.dll 是 placed 内 the 主 RPCS3 目录. 为 更多 details, see the &lt;a %0 href="https://wiki.rpcs3.net/索引.php?标题=Help:Controller_Configuration"&gt;RPCS3 Wiki&lt;/a&gt;.</translation>
+            <translation>XInput 处理器适用于 Xbox 控制器和许多第三方 PC 兼容控制器。当 SCP 的 XInput1_3.dll 放在 RPCS3 主目录中时，支持来自 SCP 的压力感应按钮。有关更多详细信息，请参阅 &lt;a %0 href="https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration"&gt;RPCS3 Wiki&lt;/a&gt;。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="306" />
             <source>The evdev handler should work with any controller that has Linux support.&lt;br&gt;If your joystick is not being centered properly, read the &lt;a %0 href="https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration"&gt;RPCS3 Wiki&lt;/a&gt; for instructions.</source>
-            <translation>The evdev handler 应该 work 与 任何 控制器 那个 有 Linux support.&lt;br&gt;如果 your 摇杆 是 不 正在 centered 正确, read the &lt;a %0 href="https://wiki.rpcs3.net/索引.php?标题=Help:Controller_Configuration"&gt;RPCS3 Wiki&lt;/a&gt; 为 instructions.</translation>
+            <translation>evdev 处理器应适用于任何有 Linux 支持的控制器。&lt;br&gt;如果您的摇杆无法正确回中，请阅读 &lt;a %0 href="https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration"&gt;RPCS3 Wiki&lt;/a&gt; 获取说明。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="307" />
             <source>The MMJoystick handler should work with almost any controller recognized by Windows. However, it is recommended that you use the more specific handlers if you have a controller that supports them.</source>
-            <translation>The MMJoystick handler 应该 work 与 几乎 任何 控制器 recognized 通过 窗口. 然而, it 是 recommended 那个 you use the 更多 特定 handlers 如果 you 有 a 控制器 那个 supports them.</translation>
+            <translation>MMJoystick 处理器应适用于几乎所有被 Windows 识别的控制器。但是，如果您的控制器支持更具体的处理器，建议使用它们。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="308" />
             <source>The SDL handler supports a variety of controllers across different platforms.</source>
-            <translation>The SDL handler supports a variety 的 控制器 across 不同 platforms.</translation>
+            <translation>SDL 处理器支持跨不同平台的各种控制器。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="310" />
             <source>Resets the sensor orientation when pressed.&lt;br&gt;Toggle the checkbox to enable or disable the orientation feature.&lt;br&gt;Currently only used for PS Move interactions.</source>
-            <translation>Resets the 传感器 orientation 当 pressed.&lt;br&gt;Toggle the checkbox 到 启用 或 禁用 the orientation feature.&lt;br&gt;当前 仅 used 为 PS 移动 interactions.</translation>
+            <translation>按下时重置传感器方向。&lt;br&gt;勾选复选框以启用或禁用方向功能。&lt;br&gt;目前仅用于 PS Move 交互。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="311" />
             <source>Applies the stick multipliers while this special button is pressed.&lt;br&gt;Enable "Toggle" if you want to toggle the analog limiter on button press instead.&lt;br&gt;If no button has been assigned, the stick multipliers are always applied.</source>
-            <translation>Applies the stick multipliers 当 此 special 按钮 是 pressed.&lt;br&gt;启用 "Toggle" 如果 you want 到 toggle the 模拟 limiter 开 按钮 press instead.&lt;br&gt;如果 否 按钮 有 已 assigned, the stick multipliers 是 始终 已应用.</translation>
+            <translation>按住此特殊按钮时应用摇杆倍率。&lt;br&gt;如果您想在按下按钮时切换模拟摇杆限制器，请启用"切换"。&lt;br&gt;如果未分配按钮，则始终应用摇杆倍率。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="312" />
             <source>Controls the intensity of pressure sensitive buttons while this special button is pressed.&lt;br&gt;Enable "Toggle" if you want to toggle the intensity on button press instead.&lt;br&gt;Use the percentage to change how hard you want to press a button.</source>
-            <translation>Controls the intensity 的 压力 sensitive 按钮 当 此 special 按钮 是 pressed.&lt;br&gt;启用 "Toggle" 如果 you want 到 toggle the intensity 开 按钮 press instead.&lt;br&gt;Use the percentage 到 change 如何 困难 you want 到 press a 按钮.</translation>
+            <translation>按住此特殊按钮时控制压力感应按钮的强度。&lt;br&gt;如果您想在按下按钮时切换强度，请启用"切换"。&lt;br&gt;使用百分比来更改您想要按下按钮的力度。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="313" />
             <source>Controls the deadzone of pressure sensitive buttons. It determines how far the button has to be pressed until it is recognized by the game. The resulting range will be projected onto the full button sensitivity range.</source>
-            <translation>Controls the 死区 的 压力 sensitive 按钮. It determines 如何 远 the 按钮 有 到 是 pressed 直到 it 是 recognized 通过 the 游戏. The resulting 范围 将 是 projected onto the 完整 按钮 灵敏度 范围.</translation>
+            <translation>控制压力感应按钮的死区。它决定按钮需要按下多远才会被游戏识别。由此产生的范围将映射到完整的按钮灵敏度范围。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="314" />
             <source>The actual DualShock 3's stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. You can use the squircle values to modify the stick input if your sticks can't reach the corners of that range. A value of 0 does not apply any so called squircling. A value of 4000 is usually recommended.</source>
-            <translation>The actual DualShock 3's stick 范围 是 不 circular 但 formed 如 a 圆角 square (或 squircle) 哪个 represents the 最大值 范围 的 the 模拟 sticks. You 能 use the squircle 值 到 modify the stick input 如果 your sticks 能't reach the corners 的 那个 范围. A 值 的 0 执行 不 应用 任何 所以 called squircling. A 值 的 4000 是 通常 recommended.</translation>
+            <translation>实际 DualShock 3 的摇杆范围不是圆形的，而是类似于圆角方形（或称 squircle），这代表了模拟摇杆的最大范围。如果您的摇杆无法到达该范围的角落，可以使用 squircle 值来修改摇杆输入。值为 0 时不应用任何所谓的 squircling。通常推荐值为 4000。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="315" />
             <source>The stick multipliers can be used to change the sensitivity of your stick movements.&lt;br&gt;The default setting is 1 and represents normal input.</source>
-            <translation>The stick multipliers 能 是 used 到 change the 灵敏度 的 your stick movements.&lt;br&gt;The 默认 设置 是 1 和 represents 正常 input.</translation>
+            <translation>摇杆倍率可用于更改摇杆移动的灵敏度。&lt;br&gt;默认设置为 1，代表正常输入。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="316" />
             <source>A stick's deadzone determines how far the stick has to be moved until it is fully recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience. Movement inside the deadzone is simulated using the anti-deadzone slider (default is 13%), so don't worry if there is still movement shown in the emulated stick preview.</source>
-            <translation>A stick's 死区 determines 如何 远 the stick 有 到 是 已移动 直到 it 是 fully recognized 通过 the 游戏. The resulting 范围 将 是 projected onto the 完整 input 范围 内 order 到 give you a 平滑 experience. Movement 内部 the 死区 是 simulated using the anti-死区 slider (默认 是 13%), 所以 don't worry 如果 那里 是 仍然 movement 已显示 内 the 模拟 stick preview.</translation>
+            <translation>摇杆的死区决定摇杆需要移动多远才能被游戏完全识别。由此产生的范围将映射到完整的输入范围，以提供流畅的体验。死区内的移动使用反死区滑块（默认为 13%）进行模拟，因此如果在模拟摇杆预览中仍显示移动，不必担心。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="317" />
             <source>The PS3 activates two motors (large and small) to handle controller vibrations.&lt;br&gt;You can enable, disable or even switch these signals for the currently selected pad here.&lt;br&gt;The game sends values from 0-255 to activate the motors.&lt;br&gt;Any value smaller or equal the threshold will be set to 0. This is 63 by default for pad handlers other than DualShock3 in order to emulate the DualShock3's behavior.</source>
-            <translation>The PS3 activates two 马达 (大 和 小) 到 handle 控制器 vibrations.&lt;br&gt;You 能 启用, 禁用 或 甚至 switch 这些 signals 为 the 当前 selected pad 这里.&lt;br&gt;The 游戏 sends 值 从 0-255 到 activate the 马达.&lt;br&gt;任何 值 smaller 或 equal the 阈值 将 是 集合 到 0. 此 是 63 通过 默认 为 pad handlers 其他 比 DualShock3 内 order 到 emulate the DualShock3's behavior.</translation>
+            <translation>PS3 激活两个马达（大和小）来处理控制器振动。&lt;br&gt;您可以在此处为当前选择的手柄启用、禁用甚至切换这些信号。&lt;br&gt;游戏发送 0-255 的值来激活马达。&lt;br&gt;任何小于或等于阈值的值将被设为 0。对于 DualShock3 以外的手柄处理器，默认值为 63，以模拟 DualShock3 的行为。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="318" />
             <source>Use this to configure the gamepad motion controls.</source>
-            <translation>Use 此 到 配置 the 手柄 motion controls.</translation>
+            <translation>使用此项来配置手柄体感控制。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="319" />
             <source>The emulated stick values (red dots) in the stick preview represent the actual stick positions as they will be visible to the game. The actual DualShock 3's stick range is not circular but formed like a rounded square (or squircle) which represents the maximum range of the emulated sticks. The blue regular dots represent the raw stick values (including stick multipliers) before they are converted for ingame usage.</source>
-            <translation>The 模拟 stick 值 (red dots) 内 the stick preview represent the actual stick positions 作为 they 将 是 可见 到 the 游戏. The actual DualShock 3's stick 范围 是 不 circular 但 formed 如 a 圆角 square (或 squircle) 哪个 represents the 最大值 范围 的 the 模拟 sticks. The blue 常规 dots represent the raw stick 值 (including stick multipliers) 之前 they 是 converted 为 进游戏 usage.</translation>
+            <translation>摇杆预览中的模拟摇杆值（红点）代表摇杆的实际位置，即游戏将看到的位置。实际 DualShock 3 的摇杆范围不是圆形的，而是类似于圆角方形（或称 squircle），代表模拟摇杆的最大范围。蓝色常规点代表转换用于游戏之前的原始摇杆值（包括摇杆倍率）。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="320" />
             <source>A trigger's deadzone determines how far the trigger has to be moved until it is recognized by the game. The resulting range will be projected onto the full input range in order to give you a smooth experience.</source>
-            <translation>A 扳机's 死区 determines 如何 远 the 扳机 有 到 是 已移动 直到 it 是 recognized 通过 the 游戏. The resulting 范围 将 是 projected onto the 完整 input 范围 内 order 到 give you a 平滑 experience.</translation>
+            <translation>扳机的死区决定扳机需要移动多远才会被游戏识别。由此产生的范围将映射到完整的输入范围，以提供流畅的体验。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="321" />
             <source>With keyboards, you are inevitably restricted to 8 stick directions (4 straight + 4 diagonal). Furthermore, the stick will jump to the maximum value of the chosen direction immediately when a key is pressed. The stick interpolation can be used to work-around both of these issues by smoothening out these directional changes. The lower the value, the longer you have to press or release a key until the maximum amplitude is reached.</source>
-            <translation>与 keyboards, you 是 inevitably restricted 到 8 stick directions (4 straight + 4 diagonal). 此外, the stick 将 jump 到 the 最大值 值 的 the chosen direction 立即 当 a key 是 pressed. The stick interpolation 能 是 used 到 work-大约 两者 的 这些 issues 通过 smoothening 外 这些 directional changes. The 下方 the 值, the longer you 有 到 press 或 release a key 直到 the 最大值 amplitude 是 reached.</translation>
+            <translation>使用键盘时，您不可避免地只能使用 8 个摇杆方向（4 个直向 + 4 个对角线）。此外，按下按键时摇杆会立即跳到所选方向的最大值。摇杆插值可以通过平滑这些方向变化来解决这两个问题。值越低，您需要按住或释放按键更长时间才能达到最大幅度。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="322" />
             <source>The mouse deadzones represent the games' own deadzones on the x and y axes. Games usually enforce their own deadzones to filter out small unwanted stick movements. In consequence, mouse input feels unintuitive since it relies on immediate responsiveness. You can change these values temporarily during gameplay in order to find out the optimal values for your game (Alt+T and Alt+Y for x, Alt+U and Alt+I for y).</source>
-            <translation>The 鼠标 deadzones represent the 游戏' own deadzones 开 the x 和 y axes. 游戏 通常 enforce their own deadzones 到 filter 外 小 unwanted stick movements. 内 consequence, 鼠标 input feels unintuitive 因为 it relies 开 immediate responsiveness. You 能 change 这些 值 临时 期间 gameplay 内 order 到 find 外 the optimal 值 为 your 游戏 (Alt+T 和 Alt+Y 为 x, Alt+U 和 Alt+I 为 y).</translation>
+            <translation>鼠标死区代表游戏自身在 x 和 y 轴上的死区。游戏通常会强制执行自己的死区以过滤掉不需要的小幅摇杆移动。因此，鼠标输入感觉不够直观，因为它依赖于即时响应。您可以在游戏过程中临时更改这些值，以找出适合您游戏的最佳值（Alt+T 和 Alt+Y 用于 x，Alt+U 和 Alt+I 用于 y）。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="323" />
             <source>The mouse acceleration can be used to amplify your mouse movements on the x and y axes. Increase these values if your mouse movements feel too slow while playing a game. You can change these values temporarily during gameplay in order to find out the optimal values (Alt+G and Alt+H for x, Alt+J and Alt+K for y). Keep in mind that modern mice usually provide different modes and settings that can be used to change mouse movement speeds as well.</source>
-            <translation>The 鼠标 acceleration 能 是 used 到 amplify your 鼠标 movements 开 the x 和 y axes. Increase 这些 值 如果 your 鼠标 movements feel 也 慢速 当 playing a 游戏. You 能 change 这些 值 临时 期间 gameplay 内 order 到 find 外 the optimal 值 (Alt+G 和 Alt+H 为 x, Alt+J 和 Alt+K 为 y). Keep 内 mind 那个 modern mice 通常 provide 不同 modes 和 设置 那个 能 是 used 到 change 鼠标 movement speeds 作为 well.</translation>
+            <translation>鼠标加速度可用于放大您在 x 和 y 轴上的鼠标移动。如果在玩游戏时鼠标移动感觉太慢，请增大这些值。您可以在游戏过程中临时更改这些值，以找出最佳值（Alt+G 和 Alt+H 用于 x，Alt+J 和 Alt+K 用于 y）。请记住，现代鼠标通常提供不同的模式和设置，也可用于更改鼠标移动速度。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="324" />
             <source>The mouse movement mode determines how the mouse movement is translated to pad input.&lt;br&gt;Use the relative mode for traditional mouse movement.&lt;br&gt;Use the absolute mode to use the mouse's distance to the center of the screen as input value.</source>
-            <translation>The 鼠标 movement mode determines 如何 the 鼠标 movement 是 translated 到 pad input.&lt;br&gt;Use the relative mode 为 traditional 鼠标 movement.&lt;br&gt;Use the absolute mode 到 use the 鼠标's distance 到 the 居中 的 the screen 作为 input 值.</translation>
+            <translation>鼠标移动模式决定鼠标移动如何转换为手柄输入。&lt;br&gt;使用相对模式进行传统鼠标移动。&lt;br&gt;使用绝对模式以鼠标到屏幕中心的距离作为输入值。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/tooltips.h" line="325" />
             <source>Left-click: remap this button.&lt;br&gt;Shift + Left-click: add an additional button mapping.&lt;br&gt;Ctrl + Left-click: Create a combo by adding a button to the last mapping.&lt;br&gt;Alt + Left-click: differentiate between trigger press and release (only XInput for now).&lt;br&gt;Right-click: clear this button mapping.</source>
-            <translation>左-click: remap 此 按钮.&lt;br&gt;Shift + 左-click: 添加 an 附加 按钮 mapping.&lt;br&gt;Ctrl + 左-click: 创建 a combo 通过 添加中 a 按钮 到 the 最后一个 mapping.&lt;br&gt;Alt + 左-click: differentiate between 扳机 press 和 release (仅 XInput 为 现在).&lt;br&gt;正确-click: 清晰 此 按钮 mapping.</translation>
+            <translation>左键单击：重新映射此按钮。&lt;br&gt;Shift + 左键单击：添加额外的按钮映射。&lt;br&gt;Ctrl + 左键单击：通过将按钮添加到最后一个映射来创建组合键。&lt;br&gt;Alt + 左键单击：区分扳机按下和释放（目前仅支持 XInput）。&lt;br&gt;右键单击：清除此按钮映射。</translation>
         </message>
     </context>
     <context>
@@ -2283,7 +2539,7 @@ Can be reset to current wall clock time by clicking "Set to Now".</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/about_dialog.cpp" line="18" />
             <source>RPCS3 Version: %1</source>
-            <translation>RPCS3 版本: %1</translation>
+            <translation>RPCS3 版本：%1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/about_dialog.cpp" line="19" />
@@ -2291,7 +2547,10 @@ Can be reset to current wall clock time by clicking "Set to Now".</source>
 It is written in C++ for Windows, Linux, FreeBSD and MacOS, funded with %0.
 Our developers and contributors are always working hard to ensure this project is the best that it can be.
 There are still plenty of implementations to make and optimizations to do.</source>
-            <translation>RPCS3 是 an 打开-source Sony PlayStation 3 模拟器 和 调试器. It 是 written 内 C++ 为 窗口, Linux, FreeBSD 和 MacOS, funded 与 %0. Our developers 和 contributors 是 始终 working 困难 到 ensure 此 project 是 the 最好 那个 it 能 是. 那里 是 仍然 plenty 的 implementations 到 make 和 optimizations 到 执行.</translation>
+            <translation>RPCS3 是一款开源的索尼 PlayStation 3 模拟器和调试器。
+它使用 C++ 编写，可在 Windows、Linux、FreeBSD 和 MacOS 上运行，由 %0 提供资金支持。
+我们的开发者和贡献者始终在努力工作，确保本项目做到尽善尽美。
+目前仍有大量功能有待实现和优化。</translation>
         </message>
     </context>
     <context>
@@ -2299,12 +2558,12 @@ There are still plenty of implementations to make and optimizations to do.</sour
         <message>
             <location filename="../rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="102" />
             <source>Anaglyph Settings</source>
-            <translation>Anaglyph 设置</translation>
+            <translation>分色设置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="137" />
             <source>Apply Custom Matrices</source>
-            <translation>应用 自定义 Matrices</translation>
+            <translation>应用自定义矩阵</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="145" />
@@ -2354,12 +2613,12 @@ There are still plenty of implementations to make and optimizations to do.</sour
         <message>
             <location filename="../rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="191" />
             <source>Left matrix</source>
-            <translation>左 matrix</translation>
+            <translation>左侧矩阵</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="192" />
             <source>Right matrix</source>
-            <translation>正确 matrix</translation>
+            <translation>右侧矩阵</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/anaglyph_settings_dialog.cpp" line="195" />
@@ -2408,7 +2667,8 @@ There are still plenty of implementations to make and optimizations to do.</sour
             <location filename="../rpcs3/rpcs3qt/auto_pause_settings_dialog.cpp" line="18" />
             <source>To use auto pause: enter the ID(s) of a function or a system call.
 Restart of the game is required to apply. You can enable/disable this in the settings.</source>
-            <translation>到 use 自动 暂停: enter the ID(s) 的 a function 或 a system call. 重启 的 the 游戏 是 必需 到 应用. You 能 启用/禁用 此 内 the 设置.</translation>
+            <translation>要使用自动暂停：请输入函数或系统调用的 ID。
+需要重启游戏才能应用。您可以在设置中启用/禁用此功能。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/auto_pause_settings_dialog.cpp" line="22" />
@@ -2443,7 +2703,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
         <message>
             <location filename="../rpcs3/rpcs3qt/auto_pause_settings_dialog.cpp" line="49" />
             <source>Auto Pause Manager</source>
-            <translation>自动 暂停 Manager</translation>
+            <translation>自动暂停管理器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/auto_pause_settings_dialog.cpp" line="132" />
@@ -2481,17 +2741,17 @@ Restart of the game is required to apply. You can enable/disable this in the set
         <message>
             <location filename="../rpcs3/rpcs3qt/basic_mouse_settings_dialog.cpp" line="25" />
             <source>Configure Basic Mouse Handler</source>
-            <translation>配置 Basic 鼠标 Handler</translation>
+            <translation>配置基本鼠标处理器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/basic_mouse_settings_dialog.cpp" line="48" />
             <source>Confirm Reset</source>
-            <translation>确认 Reset</translation>
+            <translation>确认重置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/basic_mouse_settings_dialog.cpp" line="48" />
             <source>Reset all settings?</source>
-            <translation>Reset 全部 设置?</translation>
+            <translation>重置所有设置？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/basic_mouse_settings_dialog.cpp" line="91" />
@@ -2510,48 +2770,48 @@ Restart of the game is required to apply. You can enable/disable this in the set
         <message>
             <location filename="../rpcs3/rpcs3qt/breakpoint_list.cpp" line="129" />
             <source>Interpreters-Only Feature!</source>
-            <translation>Interpreters-仅 Feature!</translation>
+            <translation>仅解释器功能！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/breakpoint_list.cpp" line="129" />
             <source>Cannot set breakpoints on non-interpreter decoders.</source>
-            <translation>Cannot 集合 breakpoints 开 non-interpreter decoders.</translation>
+            <translation>无法在非解释器解码器上设置断点。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/breakpoint_list.cpp" line="139" />
             <location filename="../rpcs3/rpcs3qt/breakpoint_list.cpp" line="184" />
             <source>Invalid Memory For Breakpoints!</source>
-            <translation>无效 内存 为 Breakpoints!</translation>
+            <translation>断点的内存无效！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/breakpoint_list.cpp" line="139" />
             <source>Cannot set breakpoints on non-SPU executable memory!</source>
-            <translation>Cannot 集合 breakpoints 开 non-SPU executable 内存!</translation>
+            <translation>无法在非 SPU 可执行内存上设置断点！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/breakpoint_list.cpp" line="178" />
             <source>Unimplemented Breakpoints For Thread Type!</source>
-            <translation>Unimplemented Breakpoints 为 线程 类型!</translation>
+            <translation>该线程类型未实现断点功能！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/breakpoint_list.cpp" line="178" />
             <source>Cannot set breakpoints on a thread not an PPU/SPU currently, sorry.</source>
-            <translation>Cannot 集合 breakpoints 开 a 线程 不 an PPU/SPU 当前, sorry.</translation>
+            <translation>抱歉，目前无法在非 PPU/SPU 的线程上设置断点。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/breakpoint_list.cpp" line="184" />
             <source>Cannot set breakpoints on non-executable memory!</source>
-            <translation>Cannot 集合 breakpoints 开 non-executable 内存!</translation>
+            <translation>无法在不可执行的内存上设置断点！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/breakpoint_list.cpp" line="199" />
             <source>Unknown error while setting breakpoint!</source>
-            <translation>未知 错误 当 设置 breakpoint!</translation>
+            <translation>设置断点时发生未知错误！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/breakpoint_list.cpp" line="199" />
             <source>Failed to set breakpoints.</source>
-            <translation>失败 到 集合 breakpoints.</translation>
+            <translation>设置断点失败。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/breakpoint_list.cpp" line="220" />
@@ -2579,7 +2839,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
         <message>
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.ui" line="14" />
             <source>Camera Settings</source>
-            <translation>Camera 设置</translation>
+            <translation>摄像头设置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.ui" line="22" />
@@ -2589,7 +2849,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
         <message>
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.ui" line="28" />
             <source>No handlers found</source>
-            <translation>否 handlers found</translation>
+            <translation>未找到处理器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.ui" line="38" />
@@ -2599,7 +2859,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
         <message>
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.ui" line="44" />
             <source>No cameras found</source>
-            <translation>否 cameras found</translation>
+            <translation>未找到摄像头</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.ui" line="54" />
@@ -2609,7 +2869,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
         <message>
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.ui" line="60" />
             <source>No settings found</source>
-            <translation>否 设置 found</translation>
+            <translation>未找到设置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.ui" line="72" />
@@ -2619,19 +2879,19 @@ Restart of the game is required to apply. You can enable/disable this in the set
         <message>
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="320" />
             <source>Camera permissions denied!</source>
-            <translation>Camera permissions 已拒绝!</translation>
+            <translation>摄像头权限被拒绝！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="320" />
             <source>RPCS3 has no permissions to access cameras on this device.</source>
-            <translation>RPCS3 有 否 permissions 到 access cameras 开 此 device.</translation>
+            <translation>RPCS3 没有权限访问此设备上的摄像头。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="364" />
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="451" />
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="657" />
             <source>Camera not available</source>
-            <translation>Camera 不 可用</translation>
+            <translation>摄像头不可用</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="364" />
@@ -2639,7 +2899,8 @@ Restart of the game is required to apply. You can enable/disable this in the set
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="657" />
             <source>The selected camera is not available.
 It might be blocked by another application.</source>
-            <translation>The selected camera 是 不 可用. It 可能 是 blocked 通过 another application.</translation>
+            <translation>所选摄像头不可用。
+它可能被其他应用程序占用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/camera_settings_dialog.cpp" line="390" />
@@ -2672,12 +2933,12 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/cg_disasm_window.cpp" line="80" />
             <source>Select Cg program object</source>
-            <translation>Select Cg 程序 object</translation>
+            <translation>选择 Cg 程序对象</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cg_disasm_window.cpp" line="80" />
             <source>Cg program objects (*.fpo;*.vpo);;</source>
-            <translation>Cg 程序 objects (*.fpo;*.vpo);;</translation>
+            <translation>Cg 程序对象 (*.fpo;*.vpo);;</translation>
         </message>
     </context>
     <context>
@@ -2685,22 +2946,22 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="994" />
             <source>Error converting value</source>
-            <translation>错误 converting 值</translation>
+            <translation>转换值时出错</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="994" />
             <source>Couldn't convert the search value you typed to the integer type you selected</source>
-            <translation>Couldn't convert the search 值 you typed 到 the 整数 类型 you selected</translation>
+            <translation>无法将您输入的搜索值转换为所选的整数类型</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="1004" />
             <source>Nothing found</source>
-            <translation>无 found</translation>
+            <translation>未找到任何内容</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="1011" />
             <source>Too many entries to display (%0)</source>
-            <translation>也 许多 entries 到 display (%0)</translation>
+            <translation>要显示的条目太多（%0）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="1072" />
@@ -2745,7 +3006,7 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="1080" />
             <source>Float 32 bits</source>
-            <translation>浮点数 32 bits</translation>
+            <translation>浮点数 32 位</translation>
         </message>
     </context>
     <context>
@@ -2753,7 +3014,7 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="784" />
             <source>Cheat Patch Manager</source>
-            <translation>作弊补丁管理器</translation>
+            <translation>金手指补丁管理器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="792" />
@@ -2779,7 +3040,7 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="796" />
             <source>When checked, all enabled cheats are continuously re-applied to memory while a game is running.</source>
-            <translation>当 checked, 全部 已启用 cheats 是 持续地 re-已应用 到 内存 当 a 游戏 是 运行中.</translation>
+            <translation>勾选后，游戏运行时所有已启用的金手指将不断重新应用到内存中。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="810" />
@@ -2824,7 +3085,7 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="911" />
             <source>YAML files (*.yml *.yaml);;All files (*)</source>
-            <translation>YAML 文件 (*.yml *.yaml);;全部 文件 (*)</translation>
+            <translation>YAML 文件 (*.yml *.yaml);;所有文件 (*)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="918" />
@@ -2840,7 +3101,7 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="923" />
             <source>Failed to import cheats. Check log for details.</source>
-            <translation>失败 到 导入 cheats. Check 日志 为 details.</translation>
+            <translation>导入金手指失败。请查看日志了解详情。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="942" />
@@ -2850,7 +3111,7 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="942" />
             <source>Name cannot be empty.</source>
-            <translation>名称 cannot 是 空.</translation>
+            <translation>名称不能为空。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="955" />
@@ -2867,13 +3128,13 @@ It might be blocked by another application.</source>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="969" />
             <source>Applied %n cheat group(s).</source>
             <translation>
-                <numerusform>已应用 %n cheat group(s).</numerusform>
+                <numerusform>已应用 %n 个金手指组。</numerusform>
             </translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="1003" />
             <source>Delete Custom Cheat</source>
-            <translation>删除 自定义 Cheat</translation>
+            <translation>删除自定义金手指</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="1013" />
@@ -2891,12 +3152,12 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="142" />
             <source>Clans: Add Server</source>
-            <translation>Clans: 添加 Server</translation>
+            <translation>战队：添加服务器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="148" />
             <source>Description:</source>
-            <translation>描述:</translation>
+            <translation>描述：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="150" />
@@ -2906,12 +3167,12 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="169" />
             <source>Missing Description!</source>
-            <translation>Missing 描述!</translation>
+            <translation>缺少描述！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="169" />
             <source>You must enter a description!</source>
-            <translation>You 必须 enter a 描述!</translation>
+            <translation>您必须输入描述！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="174" />
@@ -2921,7 +3182,7 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="174" />
             <source>You must enter a hostname for the server!</source>
-            <translation>You 必须 enter a hostname 为 the server!</translation>
+            <translation>您必须输入服务器的主机名！</translation>
         </message>
     </context>
     <context>
@@ -2929,7 +3190,7 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="17" />
             <source>Clans Configuration</source>
-            <translation>Clans 配置</translation>
+            <translation>战队配置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="22" />
@@ -2955,17 +3216,17 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="87" />
             <source>You already have a server with this description &amp; hostname in the list.</source>
-            <translation>You 已经 有 a server 与 此 描述 &amp; hostname 内 the 列表.</translation>
+            <translation>列表中已存在具有此描述和主机名的服务器。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="113" />
             <source>Cannot Delete</source>
-            <translation>Cannot 删除</translation>
+            <translation>无法删除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/clans_settings_dialog.cpp" line="113" />
             <source>This server cannot be deleted.</source>
-            <translation>此 server cannot 是 已删除.</translation>
+            <translation>此服务器无法被删除。</translation>
         </message>
     </context>
     <context>
@@ -2973,7 +3234,7 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/config_checker.cpp" line="23" />
             <source>Config Checker</source>
-            <translation>配置 Checker</translation>
+            <translation>配置检查器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/config_checker.cpp" line="39" />
@@ -2983,36 +3244,39 @@ It might be blocked by another application.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/config_checker.cpp" line="42" />
             <source>Database + Global Configuration</source>
-            <translation>Database + 全局 配置</translation>
+            <translation>数据库 + 全局配置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/config_checker.cpp" line="80" />
             <source>The configuration seems to match the default config.</source>
-            <translation>The 配置 seems 到 match the 默认 配置.</translation>
+            <translation>配置似乎与默认配置匹配。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/config_checker.cpp" line="84" />
             <source>Config database settings are marked with an * in front of the name.
 Some settings seem to deviate from the default config:</source>
-            <translation>配置 database 设置 是 marked 与 an * 内 前 的 the 名称. 一些 设置 seem 到 deviate 从 the 默认 配置:</translation>
+            <translation>配置数据库设置在名称前标有 * 号。
+某些设置似乎与默认配置不同：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/config_checker.cpp" line="91" />
             <source>Found config.
 It seems to match the default config.</source>
-            <translation>Found 配置. It seems 到 match the 默认 配置.</translation>
+            <translation>找到配置。
+它似乎与默认配置匹配。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/config_checker.cpp" line="95" />
             <source>Found config.
 Some settings seem to deviate from the default config:</source>
-            <translation>Found 配置. 一些 设置 seem 到 deviate 从 the 默认 配置:</translation>
+            <translation>找到配置。
+某些设置似乎与默认配置不同：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/config_checker.cpp" line="129" />
             <location filename="../rpcs3/rpcs3qt/config_checker.cpp" line="195" />
             <source>Cannot find any config!</source>
-            <translation>Cannot find 任何 配置!</translation>
+            <translation>找不到任何配置！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/config_checker.cpp" line="149" />
@@ -3028,7 +3292,7 @@ Some settings seem to deviate from the default config:</source>
             <location filename="../rpcs3/rpcs3qt/config_checker.cpp" line="178" />
             <location filename="../rpcs3/rpcs3qt/config_checker.cpp" line="187" />
             <source>Failed to apply database config!</source>
-            <translation>失败 到 应用 database 配置!</translation>
+            <translation>应用数据库配置失败！</translation>
         </message>
     </context>
     <context>
@@ -3036,7 +3300,7 @@ Some settings seem to deviate from the default config:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/config_database.cpp" line="94" />
             <source>Downloading Config Database</source>
-            <translation>下载中 配置 Database</translation>
+            <translation>正在下载配置数据库</translation>
         </message>
     </context>
     <context>
@@ -3044,7 +3308,7 @@ Some settings seem to deviate from the default config:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/content_integrity.cpp" line="49" />
             <source>Downloading database</source>
-            <translation>下载中 database</translation>
+            <translation>正在下载数据库</translation>
         </message>
     </context>
     <context>
@@ -3067,7 +3331,7 @@ Some settings seem to deviate from the default config:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="1054" />
             <source>Leave empty for all games</source>
-            <translation>Leave 空 为 全部 游戏</translation>
+            <translation>留空表示所有游戏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/cheat_patch_manager.cpp" line="1058" />
@@ -3105,7 +3369,7 @@ Some settings seem to deviate from the default config:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_add_bp_window.cpp" line="20" />
             <source>Add a breakpoint</source>
-            <translation>添加 a breakpoint</translation>
+            <translation>添加断点</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_add_bp_window.cpp" line="26" />
@@ -3120,17 +3384,17 @@ Some settings seem to deviate from the default config:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_add_bp_window.cpp" line="41" />
             <source>Memory Read</source>
-            <translation>内存 Read</translation>
+            <translation>内存读取</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_add_bp_window.cpp" line="42" />
             <source>Memory Write</source>
-            <translation>内存 Write</translation>
+            <translation>内存写入</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_add_bp_window.cpp" line="43" />
             <source>Memory Read&amp;Write</source>
-            <translation>内存 Read&amp;Write</translation>
+            <translation>内存读取和写入</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_add_bp_window.cpp" line="45" />
@@ -3164,12 +3428,12 @@ Some settings seem to deviate from the default config:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="58" />
             <source>Debugger [Press F1 for Help]</source>
-            <translation>调试器 [Press F1 为 Help]</translation>
+            <translation>调试器 [按 F1 获取帮助]</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="95" />
             <source>Choose a thread</source>
-            <translation>Choose a 线程</translation>
+            <translation>选择一个线程</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="101" />
@@ -3200,7 +3464,7 @@ Some settings seem to deviate from the default config:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="274" />
             <source>Breakpoint Settings</source>
-            <translation>Breakpoint 设置</translation>
+            <translation>断点设置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="277" />
@@ -3211,7 +3475,8 @@ Some settings seem to deviate from the default config:</source>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="280" />
             <source>When set: a breakpoint hit will pause the emulation instead of the current thread.
 Applies on all breakpoints in all threads regardless if set before or after changing this setting.</source>
-            <translation>当 集合: a breakpoint hit 将 暂停 the 模拟 instead 的 the 当前 线程. Applies 开 全部 breakpoints 内 全部 线程 不管 如果 集合 之前 或 之后 changing 此 设置.</translation>
+            <translation>设置后：命中断点将暂停模拟，而非仅暂停当前线程。
+适用于所有线程中的所有断点，无论是在更改此设置之前还是之后设置的。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="285" />
@@ -3223,7 +3488,7 @@ Applies on all breakpoints in all threads regardless if set before or after chan
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="319" />
             <source>Debugger Guide &amp; Shortcuts</source>
-            <translation>调试器 Guide &amp; Shortcuts</translation>
+            <translation>调试器指南和快捷键</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="321" />
@@ -3251,7 +3516,30 @@ Key Down: Scroll one instruction downwards. (address is incremented)
 Key Page-Up: Scroll upwards with steps count equal to the viewed instruction count.
 Key Page-Down: Scroll downwards with steps count equal to the viewed instruction count.
 Double-click: Set breakpoints.</source>
-            <translation>Keys Ctrl+G: Go 到 typed 地址. Keys Ctrl+B: 打开 breakpoints 设置. Keys Ctrl+C: 复制 instruction contents. Keys Ctrl+F: Find 线程. Keys Alt+S: Capture SPU 图像 的 selected SPU 或 generalized form 当 used 从 PPU. Keys Alt+S: Launch a 内存 viewer pointed 到 the 当前 RSX semaphores location 当 used 从 RSX. Keys Alt+R: 加载 最后一个 已保存 SPU state capture. Keys Alt+F5: 显示 the SPU disassmebler 对话框. Key D: SPU MFC commands logger, MFC 调试 设置 必须 是 已启用. Key D: 也 PPU calling history logger, interpreter 和 non-zero call history 大小 必须 是 used. Key E: Instruction Editor: click 开 the instruction you want 到 modify, 然后 press E. Key F: Dedicated floating point mode switch 为 SPU 线程. Key R: Registers Editor 为 selected 线程. Key N: 显示 下一个 instruction the 线程 将 执行 之后 marked instruction, 执行 无 如果 target 是 不 predictable. Key M: 显示 the 内存 Viewer 与 initial 地址 pointing 到 the marked instruction. Key I: 显示 RSX method detail. Key F10: Perform step-结束 开 instructions. (skip function calls) Key F11: Perform single-stepping 开 instructions. Key F1: 显示 此 help 对话框. Key 上: Scroll one instruction upwards. (地址 是 decremented) Key 下: Scroll one instruction downwards. (地址 是 incremented) Key Page-上: Scroll upwards 与 steps 计数 equal 到 the viewed instruction 计数. Key Page-下: Scroll downwards 与 steps 计数 equal 到 the viewed instruction 计数. 双精度-click: 集合 breakpoints.</translation>
+            <translation>键 Ctrl+G：跳转到输入的地址。
+键 Ctrl+B：打开断点设置。
+键 Ctrl+C：复制指令内容。
+键 Ctrl+F：查找线程。
+键 Alt+S：从 PPU 使用时捕获所选 SPU 或广义形式的 SPU 镜像。
+键 Alt+S：从 RSX 使用时启动指向当前 RSX 信号量位置的内存查看器。
+键 Alt+R：加载上次保存的 SPU 状态捕获。
+键 Alt+F5：显示 SPU 反汇编对话框。
+键 D：SPU MFC 命令记录器，必须启用 MFC 调试设置。
+键 D：也是 PPU 调用历史记录器，必须使用解释器和非零调用历史记录大小。
+键 E：指令编辑器：点击要修改的指令，然后按 E。
+键 F：SPU 线程的专用浮点模式切换。
+键 R：所选线程的寄存器编辑器。
+键 N：显示线程在标记指令后将执行的下一条指令，如果目标不可预测则无效。
+键 M：显示内存查看器，初始地址指向标记的指令。
+键 I：显示 RSX 方法详情。
+键 F10：对指令执行步过。（跳过函数调用）
+键 F11：对指令执行单步进入。
+键 F1：显示此帮助对话框。
+键上方向键：向上滚动一条指令。（地址递减）
+键下方向键：向下滚动一条指令。（地址递增）
+键 Page-Up：向上滚动，步数等于查看的指令数。
+键 Page-Down：向下滚动，步数等于查看的指令数。
+双击：设置断点。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="499" />
@@ -3272,7 +3560,7 @@ Double-click: Set breakpoints.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="1133" />
             <source>HwPPU[%0]: Hardware PPU Thread #%1</source>
-            <translation>HwPPU[%0]: Hardware PPU 线程 #%1</translation>
+            <translation>HwPPU[%0]：硬件 PPU 线程 #%1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="1321" />
@@ -3288,7 +3576,7 @@ Double-click: Set breakpoints.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="1342" />
             <source>Source Address: </source>
-            <translation>Source 地址:</translation>
+            <translation>源地址：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="1345" />
@@ -3298,17 +3586,17 @@ Double-click: Set breakpoints.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="1825" />
             <source>Show in Memory Viewer</source>
-            <translation>显示 内 内存 Viewer</translation>
+            <translation>在内存查看器中显示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="1839" />
             <source>No Selection</source>
-            <translation>否 Selection</translation>
+            <translation>未选择</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="1839" />
             <source>Please select a hex value first.</source>
-            <translation>Please select a 十六进制 值 第一个.</translation>
+            <translation>请先选择一个十六进制值。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="1848" />
@@ -3344,7 +3632,7 @@ Double-click: Set breakpoints.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="583" />
             <source>Active Dimensions Figures:</source>
-            <translation>活跃 Dimensions Figures:</translation>
+            <translation>活动的 Dimensions 玩偶：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="627" />
@@ -3369,7 +3657,7 @@ Double-click: Set breakpoints.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="643" />
             <source>Unknown Figure</source>
-            <translation>未知 Figure</translation>
+            <translation>未知玩偶</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="648" />
@@ -3381,7 +3669,7 @@ Double-click: Set breakpoints.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="708" />
             <source>Select Dimensions File</source>
-            <translation>Select Dimensions 文件</translation>
+            <translation>选择 Dimensions 文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="708" />
@@ -3391,24 +3679,26 @@ Double-click: Set breakpoints.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="746" />
             <source>Failed to open the figure file!</source>
-            <translation>失败 到 打开 the figure 文件!</translation>
+            <translation>无法打开玩偶文件！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="746" />
             <source>Failed to open the figure file(%1)!
 File may already be in use on the base.</source>
-            <translation>失败 到 打开 the figure 文件(%1)! 文件 可以 已经 是 内 use 开 the base.</translation>
+            <translation>无法打开玩偶文件（%1）！
+文件可能已在基座上使用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="753" />
             <source>Failed to read the figure file!</source>
-            <translation>失败 到 read the figure 文件!</translation>
+            <translation>无法读取玩偶文件！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="753" />
             <source>Failed to read the figure file(%1)!
 File was too small.</source>
-            <translation>失败 到 read the figure 文件(%1)! 文件 曾是 也 小.</translation>
+            <translation>无法读取玩偶文件（%1）！
+文件太小。</translation>
         </message>
     </context>
     <context>
@@ -3439,17 +3729,17 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="33" />
             <source>PPU Address: 0x00000000, LS Address: 0x00000, Segment Size: 0x00000, Flags: 0x0</source>
-            <translation>PPU 地址: 0x00000000, LS 地址: 0x00000, Segment 大小: 0x00000, Flags: 0x0</translation>
+            <translation>PPU 地址：0x00000000，LS 地址：0x00000，段大小：0x00000，标志：0x0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="54" />
             <source>Add new segment</source>
-            <translation>添加 新建 segment</translation>
+            <translation>添加新段</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="59" />
             <source>Remove segment</source>
-            <translation>移除 segment</translation>
+            <translation>移除段</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="64" />
@@ -3464,7 +3754,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="69" />
             <source>Segment Size:</source>
-            <translation>Segment 大小:</translation>
+            <translation>段大小：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="73" />
@@ -3484,7 +3774,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="128" />
             <source>Segment Size</source>
-            <translation>Segment 大小</translation>
+            <translation>段大小</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="129" />
@@ -3508,23 +3798,24 @@ File was too small.</source>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="153" />
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="167" />
             <source>Failed To Add Segment</source>
-            <translation>失败 到 添加 Segment</translation>
+            <translation>添加段失败</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="135" />
             <source>Segment parameters are incorrect:
 %1</source>
-            <translation>Segment parameters 是 不正确: %1</translation>
+            <translation>段参数不正确：
+%1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="141" />
             <source>SPU segment size must be 4 bytes aligned.</source>
-            <translation>SPU segment 大小 必须 是 4 bytes aligned.</translation>
+            <translation>SPU 段大小必须 4 字节对齐。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="147" />
             <source>SPU segment range is invalid.</source>
-            <translation>SPU segment 范围 是 无效.</translation>
+            <translation>SPU 段范围无效。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="153" />
@@ -3535,12 +3826,13 @@ File was too small.</source>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="167" />
             <source>SPU segment overlaps with previous SPU segment(s)
 </source>
-            <translation>SPU segment overlaps 与 上一个 SPU segment(s)</translation>
+            <translation>SPU 段与先前的 SPU 段重叠
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="172" />
             <source>PPU Address: 0x%0, LS Address: 0x%1, Segment Size: 0x%2, Flags: 0x%3</source>
-            <translation>PPU 地址: 0x%0, LS 地址: 0x%1, Segment 大小: 0x%2, Flags: 0x%3</translation>
+            <translation>PPU 地址：0x%0，LS 地址：0x%1，段大小：0x%2，标志：0x%3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/elf_memory_dumping_dialog.cpp" line="206" />
@@ -3586,7 +3878,8 @@ Error: %1</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="154" />
             <source>Failed to load database config:
 Error: %1</source>
-            <translation>失败 到 加载 database 配置: 错误: %1</translation>
+            <translation>加载数据库配置失败：
+错误：%1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="187" />
@@ -3609,7 +3902,12 @@ Consider that a correction might render them invalid for other versions of RPCS3
 
 Do you wish to let the program correct them for you?
 This change will only be final when you save the config.</source>
-            <translation>Your 配置 文件 contained one 或 更多 unrecognized 值 为 设置. Their 默认 值 将 是 used 直到 they 是 corrected. Consider 那个 a correction 可能 渲染 them 无效 为 其他 版本 的 RPCS3. 执行 you wish 到 let the 程序 正确 them 为 you? 此 change 将 仅 是 final 当 you 保存 the 配置.</translation>
+            <translation>您的配置文件包含一个或多个无法识别的设置值。
+在更正之前将使用其默认值。
+请注意，更正可能使其在其他版本的 RPCS3 中无效。
+
+您是否希望程序为您更正它们？
+此更改仅在保存配置后才会最终生效。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1031" />
@@ -3651,7 +3949,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1047" />
             <source>Disable Video Output</source>
             <comment>Video renderer</comment>
-            <translation>禁用 视频 Output</translation>
+            <translation>禁用视频输出</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1048" />
@@ -3681,7 +3979,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1057" />
             <source>Async Recompiler with Shader Interpreter</source>
             <comment>Shader Mode</comment>
-            <translation>Async Recompiler 与 着色器 Interpreter</translation>
+            <translation>异步重编译器与着色器解释器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1058" />
@@ -3831,13 +4129,13 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1102" />
             <source>Prefer Color</source>
             <comment>Framebuffer Aliasing Heuristic Bias</comment>
-            <translation>Prefer 颜色</translation>
+            <translation>偏好颜色</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1103" />
             <source>Prefer Depth</source>
             <comment>Framebuffer Aliasing Heuristic Bias</comment>
-            <translation>Prefer 深度</translation>
+            <translation>偏好深度</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1109" />
@@ -3879,13 +4177,13 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1120" />
             <source>FidelityFX Super Resolution 1</source>
             <comment>Output Scaling Mode</comment>
-            <translation>FidelityFX Super 分辨率 1</translation>
+            <translation>FidelityFX 超级分辨率 1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1126" />
             <source>Disable Audio Output</source>
             <comment>Audio renderer</comment>
-            <translation>禁用 音频 Output</translation>
+            <translation>禁用音频输出</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1128" />
@@ -3999,19 +4297,19 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1174" />
             <source>Flip horizontally</source>
             <comment>Camera flip</comment>
-            <translation>翻转 horizontally</translation>
+            <translation>水平翻转</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1175" />
             <source>Flip vertically</source>
             <comment>Camera flip</comment>
-            <translation>翻转 vertically</translation>
+            <translation>垂直翻转</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1176" />
             <source>Flip both axes</source>
             <comment>Camera flip</comment>
-            <translation>翻转 两者 axes</translation>
+            <translation>翻转两个轴</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1182" />
@@ -4107,13 +4405,13 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1221" />
             <source>1 controller (1-4 players)</source>
             <comment>Buzz handler</comment>
-            <translation>1 控制器 (1-4 players)</translation>
+            <translation>1 个控制器（1-4 名玩家）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1222" />
             <source>2 controllers (5-7 players)</source>
             <comment>Buzz handler</comment>
-            <translation>2 控制器 (5-7 players)</translation>
+            <translation>2 个控制器（5-7 名玩家）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1228" />
@@ -4185,19 +4483,19 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1259" />
             <source>As Host</source>
             <comment>Sleep timers accuracy</comment>
-            <translation>作为 Host</translation>
+            <translation>作为主机</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1260" />
             <source>Usleep Only</source>
             <comment>Sleep timers accuracy</comment>
-            <translation>Usleep 仅</translation>
+            <translation>仅 Usleep</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1261" />
             <source>All Timers</source>
             <comment>Sleep timers accuracy</comment>
-            <translation>全部 Timers</translation>
+            <translation>所有计时器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1267" />
@@ -4269,7 +4567,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1289" />
             <source>Show 1% Low And Average</source>
             <comment>Perf Graph Detail Level</comment>
-            <translation>显示 1% 低 和 Average</translation>
+            <translation>显示 1% 最低帧率和平均帧率</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1290" />
@@ -4341,13 +4639,13 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1321" />
             <source>Enter with circle</source>
             <comment>Enter button assignment</comment>
-            <translation>Enter 与 circle</translation>
+            <translation>使用圆圈键确认</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1322" />
             <source>Enter with cross</source>
             <comment>Enter button assignment</comment>
-            <translation>Enter 与 cross</translation>
+            <translation>使用叉号键确认</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1328" />
@@ -4401,7 +4699,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1341" />
             <source>Dolby Digital 5.1 Ch.</source>
             <comment>Audio format flag</comment>
-            <translation>Dolby 数字 5.1 Ch.</translation>
+            <translation>Dolby Digital 5.1 声道</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1342" />
@@ -4521,7 +4819,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1381" />
             <source>Europe, Oceania, Middle East, Russia</source>
             <comment>License Area</comment>
-            <translation>Europe, Oceania, 中间 East, Russia</translation>
+            <translation>欧洲、大洋洲、中东、俄罗斯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1382" />
@@ -4635,7 +4933,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1420" />
             <source>Portuguese (Portugal)</source>
             <comment>System Language</comment>
-            <translation>葡萄牙语 (Portugal)</translation>
+            <translation>葡萄牙语（葡萄牙）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1421" />
@@ -4653,13 +4951,13 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1423" />
             <source>Chinese (Traditional)</source>
             <comment>System Language</comment>
-            <translation>中文 (Traditional)</translation>
+            <translation>中文（繁体）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1424" />
             <source>Chinese (Simplified)</source>
             <comment>System Language</comment>
-            <translation>中文 (Simplified)</translation>
+            <translation>中文（简体）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1425" />
@@ -4701,7 +4999,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1431" />
             <source>Portuguese (Brazil)</source>
             <comment>System Language</comment>
-            <translation>葡萄牙语 (Brazil)</translation>
+            <translation>葡萄牙语（巴西）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1432" />
@@ -4725,7 +5023,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1442" />
             <source>Japanese keyboard (Kana state)</source>
             <comment>Keyboard Type</comment>
-            <translation>日语 键盘 (Kana state)</translation>
+            <translation>日语键盘（假名状态）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1443" />
@@ -4761,7 +5059,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1448" />
             <source>Portuguese keyboard (Portugal)</source>
             <comment>Keyboard Type</comment>
-            <translation>葡萄牙语 键盘 (Portugal)</translation>
+            <translation>葡萄牙语键盘（葡萄牙）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1449" />
@@ -4809,37 +5107,37 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1456" />
             <source>Chinese keyboard (Traditional)</source>
             <comment>Keyboard Type</comment>
-            <translation>中文 键盘 (Traditional)</translation>
+            <translation>中文键盘（繁体）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1457" />
             <source>Chinese keyboard (Simplified)</source>
             <comment>Keyboard Type</comment>
-            <translation>中文 键盘 (Simplified)</translation>
+            <translation>中文键盘（简体）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1458" />
             <source>French keyboard (Switzerland)</source>
             <comment>Keyboard Type</comment>
-            <translation>法语 键盘 (Switzerland)</translation>
+            <translation>法语键盘（瑞士）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1459" />
             <source>German keyboard (Switzerland)</source>
             <comment>Keyboard Type</comment>
-            <translation>德语 键盘 (Switzerland)</translation>
+            <translation>德语键盘（瑞士）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1460" />
             <source>French keyboard (Canada)</source>
             <comment>Keyboard Type</comment>
-            <translation>法语 键盘 (Canada)</translation>
+            <translation>法语键盘（加拿大）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1461" />
             <source>French keyboard (Belgium)</source>
             <comment>Keyboard Type</comment>
-            <translation>法语 键盘 (Belgium)</translation>
+            <translation>法语键盘（比利时）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1462" />
@@ -4851,7 +5149,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1463" />
             <source>Portuguese keyboard (Brazil)</source>
             <comment>Keyboard Type</comment>
-            <translation>葡萄牙语 键盘 (Brazil)</translation>
+            <translation>葡萄牙语键盘（巴西）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1464" />
@@ -4869,13 +5167,13 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1471" />
             <source>Prefer borderless fullscreen</source>
             <comment>Exclusive Fullscreen Mode</comment>
-            <translation>Prefer 无边框 全屏</translation>
+            <translation>偏好无边框全屏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1472" />
             <source>Prefer exclusive fullscreen</source>
             <comment>Exclusive Fullscreen Mode</comment>
-            <translation>Prefer exclusive 全屏</translation>
+            <translation>偏好独占全屏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1478" />
@@ -4887,7 +5185,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1479" />
             <source>Side-by-side</source>
             <comment>3D Display Mode</comment>
-            <translation>Side-通过-side</translation>
+            <translation>并排</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1480" />
@@ -4941,7 +5239,7 @@ This change will only be final when you save the config.</source>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1488" />
             <source>Anaglyph Custom</source>
             <comment>3D Display Mode</comment>
-            <translation>Anaglyph 自定义</translation>
+            <translation>自定义分色</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emu_settings.cpp" line="1494" />
@@ -5011,27 +5309,27 @@ This change will only be final when you save the config.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="609" />
             <source>Configure Emulated Logitech G27 Wheel</source>
-            <translation>配置 模拟 Logitech G27 Wheel</translation>
+            <translation>配置模拟 Logitech G27 方向盘</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="637" />
             <source>Confirm Reset</source>
-            <translation>确认 Reset</translation>
+            <translation>确认重置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="637" />
             <source>Reset all?</source>
-            <translation>Reset 全部?</translation>
+            <translation>全部重置？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="648" />
             <source>Warning: Force feedback output were meant for Logitech G27, on stronger wheels please adjust force strength accordingly in your wheel software.</source>
-            <translation>警告: Force feedback output 曾是 meant 为 Logitech G27, 开 stronger wheels please adjust force strength accordingly 内 your wheel software.</translation>
+            <translation>警告：力反馈输出是为 Logitech G27 设计的，在更强的方向盘上请在方向盘软件中相应调整力度。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="653" />
             <source>Note: Please DO NOT map your wheel onto gamepads, only map it here. If your wheel was mapped onto gamepads, go to gamepad settings and unmap it. If you used vJoy to map your wheel onto a gamepad before for RPCS3, undo that.</source>
-            <translation>备注: Please 执行 不 映射 your wheel onto 手柄, 仅 映射 it 这里. 如果 your wheel 曾是 mapped onto 手柄, go 到 手柄 设置 和 unmap it. 如果 you used vJoy 到 映射 your wheel onto a 手柄 之前 为 RPCS3, undo 那个.</translation>
+            <translation>注意：请勿将方向盘映射到手柄上，只能在此处映射。如果您的方向盘已映射到手柄，请前往手柄设置取消映射。如果您之前使用 vJoy 将方向盘映射到手柄以用于 RPCS3，请撤销该操作。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="657" />
@@ -5051,7 +5349,7 @@ This change will only be final when you save the config.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="668" />
             <source>Steering Axis (Default)</source>
-            <translation>Steering Axis (默认)</translation>
+            <translation>转向轴（默认）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="669" />
@@ -5068,12 +5366,14 @@ This change will only be final when you save the config.</source>
             <source>Selects the direction encoding used for force feedback effects on the host wheel.
 Steering Axis is SDL's recommended encoding for steering wheels and the safest default.
 Switch to Cartesian or Polar only if your wheel reports no force feedback with the default.</source>
-            <translation>Selects the direction encoding used 为 force feedback effects 开 the host wheel. Steering Axis 是 SDL's recommended encoding 为 steering wheels 和 the safest 默认. Switch 到 Cartesian 或 Polar 仅 如果 your wheel reports 否 force feedback 与 the 默认.</translation>
+            <translation>选择用于主机方向盘力反馈效果的方向编码。
+转向轴是 SDL 推荐的方向盘编码，也是最安全的默认设置。
+仅当您的方向盘在默认设置下无力反馈时，才切换到笛卡尔或极坐标。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="677" />
             <source>Compatibility limit:</source>
-            <translation>Compatibility 限制:</translation>
+            <translation>兼容性限制：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="680" />
@@ -5098,12 +5398,12 @@ Switch to Cartesian or Polar only if your wheel reports no force feedback with t
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="690" />
             <source>Use the device with the following mapping for force feedback:</source>
-            <translation>Use the device 与 the following mapping 为 force feedback:</translation>
+            <translation>使用具有以下映射的设备进行力反馈：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="691" />
             <source>Use the device with the following mapping for LED:</source>
-            <translation>Use the device 与 the following mapping 为 LED:</translation>
+            <translation>使用具有以下映射的设备进行 LED：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_logitech_g27_settings_dialog.cpp" line="705" />
@@ -5121,42 +5421,42 @@ Switch to Cartesian or Polar only if your wheel reports no force feedback with t
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="60" />
             <source>Confirm Reset</source>
-            <translation>确认 Reset</translation>
+            <translation>确认重置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="60" />
             <source>Reset all buttons of all players?</source>
-            <translation>Reset 全部 按钮 的 全部 players?</translation>
+            <translation>重置所有玩家的所有按钮？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="77" />
             <source>Configure Emulated Buzz</source>
-            <translation>配置 模拟 Buzz</translation>
+            <translation>配置模拟 Buzz</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="81" />
             <source>Configure Emulated Turntable</source>
-            <translation>配置 模拟 Turntable</translation>
+            <translation>配置模拟打碟机</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="85" />
             <source>Configure Emulated GHLtar</source>
-            <translation>配置 模拟 GHLtar</translation>
+            <translation>配置模拟 GHL 吉他</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="89" />
             <source>Configure Emulated USIO</source>
-            <translation>配置 模拟 USIO</translation>
+            <translation>配置模拟 USIO</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="93" />
             <source>Configure Emulated PS Move (Real)</source>
-            <translation>配置 模拟 PS 移动 (Real)</translation>
+            <translation>配置模拟 PS Move（真实）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="97" />
             <source>Configure Emulated PS Move (Fake)</source>
-            <translation>配置 模拟 PS 移动 (Fake)</translation>
+            <translation>配置模拟 PS Move（模拟）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="101" />
@@ -5166,23 +5466,24 @@ Switch to Cartesian or Polar only if your wheel reports no force feedback with t
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="105" />
             <source>Configure Emulated GunCon 3</source>
-            <translation>配置 模拟 GunCon 3</translation>
+            <translation>配置模拟 GunCon 3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="109" />
             <source>Configure Emulated Top Shot Elite</source>
-            <translation>配置 模拟 上 Shot Elite</translation>
+            <translation>配置模拟 Top Shot Elite</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="113" />
             <source>Configure Emulated Top Shot Fearmaster</source>
-            <translation>配置 模拟 上 Shot Fearmaster</translation>
+            <translation>配置模拟 Top Shot Fearmaster</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="248" />
             <source>Press the "Combo" button in combination with any of the other combo buttons to trigger their related PS Move button.
 This can be useful if your device does not have enough regular buttons.</source>
-            <translation>Press the "Combo" 按钮 内 combination 与 任何 的 the 其他 combo 按钮 到 扳机 their related PS 移动 按钮. 此 能 是 useful 如果 your device 执行 不 有 enough 常规 按钮.</translation>
+            <translation>按住"组合"按钮的同时按下其他任意组合按钮，可触发其相关的 PS Move 按钮。
+如果您的设备没有足够的常规按钮，此功能会很有用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="404" />
@@ -5202,17 +5503,17 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="415" />
             <source>External Device</source>
-            <translation>外部 Device</translation>
+            <translation>外部设备</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="416" />
             <source>Select an external device to emulate.</source>
-            <translation>Select an 外部 device 到 emulate.</translation>
+            <translation>选择要模拟的外部设备。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="511" />
             <source>Current Basic Mouse Config</source>
-            <translation>当前 Basic 鼠标 配置</translation>
+            <translation>当前基本鼠标配置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/emulated_pad_settings_dialog.cpp" line="529" />
@@ -5230,17 +5531,17 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/fatal_error_dialog.cpp" line="38" />
             <source>HOW TO REPORT ERRORS:</source>
-            <translation>如何 到 REPORT 错误:</translation>
+            <translation>如何报告错误：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/fatal_error_dialog.cpp" line="39" />
             <source>Please, don't send incorrect reports. Thanks for understanding.</source>
-            <translation>Please, don't send 不正确 reports. Thanks 为 understanding.</translation>
+            <translation>请不要发送错误的报告。感谢您的理解。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/fatal_error_dialog.cpp" line="49" />
             <source>RPCS3: Fatal Error</source>
-            <translation>RPCS3: 致命 错误</translation>
+            <translation>RPCS3：致命错误</translation>
         </message>
     </context>
     <context>
@@ -5253,7 +5554,7 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="417" />
             <source>Filter by Series:</source>
-            <translation>Filter 通过 Series:</translation>
+            <translation>按系列筛选：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="418" />
@@ -5283,7 +5584,7 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="508" />
             <source>Figure Number:</source>
-            <translation>Figure 数字:</translation>
+            <translation>玩偶编号：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="510" />
@@ -5304,22 +5605,22 @@ This can be useful if your device does not have enough regular buttons.</source>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="563" />
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="569" />
             <source>Error converting value</source>
-            <translation>错误 converting 值</translation>
+            <translation>转换值时出错</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="563" />
             <source>Figure number entered is invalid!</source>
-            <translation>Figure 数字 entered 是 无效!</translation>
+            <translation>输入的玩偶编号无效！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="569" />
             <source>Series number entered is invalid!</source>
-            <translation>Series 数字 entered 是 无效!</translation>
+            <translation>输入的系列编号无效！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="582" />
             <source>Create Figure File</source>
-            <translation>创建 Figure 文件</translation>
+            <translation>创建玩偶文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="582" />
@@ -5329,13 +5630,14 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="589" />
             <source>Failed to create figure file!</source>
-            <translation>失败 到 创建 figure 文件!</translation>
+            <translation>无法创建玩偶文件！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="589" />
             <source>Failed to create figure file:
 %1</source>
-            <translation>失败 到 创建 figure 文件: %1</translation>
+            <translation>无法创建玩偶文件：
+%1</translation>
         </message>
     </context>
     <context>
@@ -5343,7 +5645,7 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/find_dialog.cpp" line="11" />
             <source>Find string</source>
-            <translation>Find 字符串</translation>
+            <translation>查找字符串</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/find_dialog.cpp" line="14" />
@@ -5401,7 +5703,7 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.cpp" line="232" />
             <source>Downloading Database</source>
-            <translation>下载中 Database</translation>
+            <translation>正在下载数据库</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="155" />
@@ -5411,7 +5713,7 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="155" />
             <source>Games that can be properly played from start to finish</source>
-            <translation>游戏 那个 能 是 正确 played 从 开始 到 finish</translation>
+            <translation>可以从头到尾正常游玩的游戏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="156" />
@@ -5421,7 +5723,7 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="156" />
             <source>Games that either can't be finished, have serious glitches or have insufficient performance</source>
-            <translation>游戏 那个 任一 能't 是 已完成, 有 serious glitches 或 有 insufficient 性能</translation>
+            <translation>无法通关、有严重故障或性能不足的游戏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="157" />
@@ -5431,7 +5733,7 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="157" />
             <source>Games that display image but don't make it past the menus</source>
-            <translation>游戏 那个 display 图像 但 don't make it past the 菜单</translation>
+            <translation>能显示画面但无法通过菜单的游戏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="158" />
@@ -5441,7 +5743,7 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="158" />
             <source>Games that display a black screen with a framerate on the window's title</source>
-            <translation>游戏 那个 display a black screen 与 a framerate 开 the 窗口's 标题</translation>
+            <translation>显示黑屏但窗口标题中有帧率的游戏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="159" />
@@ -5451,17 +5753,17 @@ This can be useful if your device does not have enough regular buttons.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="159" />
             <source>Games that don't initialize properly, not loading at all and/or crashing the emulator</source>
-            <translation>游戏 那个 don't initialize 正确, 不 加载中 at 全部 和/或 crashing the 模拟器</translation>
+            <translation>无法正确初始化、完全不加载和/或导致模拟器崩溃的游戏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="160" />
             <source>No results found</source>
-            <translation>否 results found</translation>
+            <translation>未找到结果</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="160" />
             <source>There is no entry for this game or application in the compatibility database yet.</source>
-            <translation>那里 是 否 entry 为 此 游戏 或 application 内 the compatibility database 还.</translation>
+            <translation>兼容性数据库中尚无此游戏或应用程序的条目。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="161" />
@@ -5472,7 +5774,8 @@ This can be useful if your device does not have enough regular buttons.</source>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="161" />
             <source>Right click here and download the current database.
 Make sure you are connected to the internet.</source>
-            <translation>正确 click 这里 和 下载 the 当前 database. Make 确定 you 是 已连接 到 the internet.</translation>
+            <translation>在此处右键单击并下载当前数据库。
+请确保您已连接到互联网。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="162" />
@@ -5482,7 +5785,7 @@ Make sure you are connected to the internet.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_compatibility.h" line="162" />
             <source>Downloading the compatibility database. Please wait...</source>
-            <translation>下载中 the compatibility database. Please wait...</translation>
+            <translation>正在下载兼容性数据库。请稍候...</translation>
         </message>
     </context>
     <context>
@@ -5540,7 +5843,8 @@ Path: %0
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="173" />
             <source>%0 selected games: %1 Disc Game - %2 not Disc Game
 </source>
-            <translation>%0 selected 游戏: %1 Disc 游戏 - %2 不 Disc 游戏</translation>
+            <translation>%0 个已选游戏：%1 个光盘游戏 - %2 个非光盘游戏
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="176" />
@@ -5575,7 +5879,10 @@ Disc Game Info:
 Game Data Info:
 Total size: %0
 </source>
-            <translation>游戏 Data 信息: 总计 大小: %0</translation>
+            <translation>
+游戏数据信息：
+总大小：%0
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="233" />
@@ -5583,7 +5890,10 @@ Total size: %0
 Emulator Data Info:
 Caches size: %0
 </source>
-            <translation>模拟器 Data 信息: 缓存 大小: %0</translation>
+            <translation>
+模拟器数据信息：
+缓存大小：%0
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="234" />
@@ -5595,25 +5905,29 @@ Caches size: %0
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="235" />
             <source>Savestates size: %0
 </source>
-            <translation>Savestates 大小: %0</translation>
+            <translation>存档大小：%0
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="236" />
             <source>Captures size: %0
 </source>
-            <translation>Captures 大小: %0</translation>
+            <translation>捕获大小：%0
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="237" />
             <source>Recordings size: %0
 </source>
-            <translation>Recordings 大小: %0</translation>
+            <translation>录像大小：%0
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="238" />
             <source>Screenshots size: %0
 </source>
-            <translation>Screenshots 大小: %0</translation>
+            <translation>截图大小：%0
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="242" />
@@ -5625,57 +5939,61 @@ Current free disk space: %0
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="257" />
             <source>Remove title from game list (Disc Game path is not removed!)</source>
-            <translation>移除 标题 从 游戏 列表 (Disc 游戏 路径 是 不 已移除!)</translation>
+            <translation>从游戏列表中移除标题（光盘游戏路径不会被移除！）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="258" />
             <source>Remove caches and custom configs</source>
-            <translation>移除 缓存 和 自定义 configs</translation>
+            <translation>移除缓存和自定义配置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="259" />
             <source>Remove icons and shortcuts</source>
-            <translation>移除 图标 和 shortcuts</translation>
+            <translation>移除图标和快捷方式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="260" />
             <source>Remove savestates</source>
-            <translation>移除 savestates</translation>
+            <translation>移除存档</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="261" />
             <source>Remove captures</source>
-            <translation>移除 captures</translation>
+            <translation>移除捕获</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="262" />
             <source>Remove recordings</source>
-            <translation>移除 recordings</translation>
+            <translation>移除录像</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="263" />
             <source>Remove screenshots</source>
-            <translation>移除 screenshots</translation>
+            <translation>移除截图</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="269" />
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="275" />
             <source>Title located under auto-detection VFS "games" folder cannot be removed</source>
-            <translation>标题 located 下方 自动-detection VFS "游戏" 文件夹 cannot 是 已移除</translation>
+            <translation>位于自动检测 VFS "games" 文件夹下的标题无法被移除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="288" />
             <source>
 Permanently remove %0 and selected (optional) contents from drive?
 </source>
-            <translation>永久 移除 %0 和 selected (可选) contents 从 驱动器?</translation>
+            <translation>
+是否从驱动器中永久移除 %0 和所选（可选）内容？
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="293" />
             <source>
 Permanently remove selected (optional) contents from drive?
 </source>
-            <translation>永久 移除 selected (可选) contents 从 驱动器?</translation>
+            <translation>
+是否从驱动器中永久移除所选（可选）内容？
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="299" />
@@ -5685,7 +6003,7 @@ Permanently remove selected (optional) contents from drive?
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1317" />
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1357" />
             <source>Confirm Removal</source>
-            <translation>确认 Removal</translation>
+            <translation>确认移除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="350" />
@@ -5696,7 +6014,8 @@ Permanently remove selected (optional) contents from drive?
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="351" />
             <source>Failed to remove %0 from drive!
 Caches and custom configs have been left intact.</source>
-            <translation>失败 到 移除 %0 从 驱动器! 缓存 和 自定义 configs 有 已 左 intact.</translation>
+            <translation>无法从驱动器中移除 %0！
+缓存和自定义配置保持不变。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="352" />
@@ -5711,12 +6030,12 @@ Caches and custom configs have been left intact.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="386" />
             <source>Select package or rap file to check</source>
-            <translation>Select package 或 rap 文件 到 check</translation>
+            <translation>选择要检查的 package 或 rap 文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="387" />
             <source>All relevant (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;Package files (*.pkg *.PKG);;Rap files (*.rap *.RAP);;Edat files (*.edat *.EDAT);;All files (*.*)</source>
-            <translation>全部 relevant (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;Package 文件 (*.pkg *.PKG);;Rap 文件 (*.rap *.RAP);;Edat 文件 (*.edat *.EDAT);;全部 文件 (*.*)</translation>
+            <translation>所有相关文件 (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;Package 文件 (*.pkg *.PKG);;Rap 文件 (*.rap *.RAP);;Edat 文件 (*.edat *.EDAT);;所有文件 (*.*)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="465" />
@@ -5725,7 +6044,11 @@ Caches and custom configs have been left intact.</source>
 No match found on '%0' DB or game corrupted:
  - File: %1
  - Hash: %2</source>
-            <translation>游戏 check 不 PASSED 否 match found 开 '%0' DB 或 游戏 corrupted: - 文件: %1 - Hash: %2</translation>
+            <translation>游戏检查未通过
+
+在 '%0' 数据库中未找到匹配项或游戏已损坏：
+ - 文件：%1
+ - 哈希：%2</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="473" />
@@ -5735,39 +6058,50 @@ Match found on '%0' DB:
  - File: %1
  - Hash: %2
  - Game: %3</source>
-            <translation>游戏 check PASSED Match found 开 '%0' DB: - 文件: %1 - Hash: %2 - 游戏: %3</translation>
+            <translation>游戏检查通过
+
+在 '%0' 数据库中找到匹配项：
+ - 文件：%1
+ - 哈希：%2
+ - 游戏：%3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="480" />
             <source>Error parsing '%0' DB or DB not existing:
  - File: %1
  - Hash: %2</source>
-            <translation>错误 解析中 '%0' DB 或 DB 不 existing: - 文件: %1 - Hash: %2</translation>
+            <translation>解析 '%0' 数据库出错或数据库不存在：
+ - 文件：%1
+ - 哈希：%2</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="505" />
             <source>Hash calculation failed!
 
 Integrity check aborted</source>
-            <translation>Hash calculation 失败! Integrity check aborted</translation>
+            <translation>哈希计算失败！
+
+完整性检查已中止</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="510" />
             <source>Integrity check completed!
 
 %0</source>
-            <translation>Integrity check 已完成! %0</translation>
+            <translation>完整性检查完成！
+
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="521" />
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="526" />
             <source>Game Integrity</source>
-            <translation>游戏 Integrity</translation>
+            <translation>游戏完整性</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="531" />
             <source>File Hash Calculation</source>
-            <translation>文件 Hash Calculation</translation>
+            <translation>文件哈希计算</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="531" />
@@ -5799,7 +6133,8 @@ Integrity check aborted</source>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="595" />
             <source>
   VFS disk usage: %0%1</source>
-            <translation>VFS 磁盘 usage: %0%1</translation>
+            <translation>
+  VFS 磁盘使用量：%0%1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="597" />
@@ -5810,7 +6145,7 @@ Integrity check aborted</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="603" />
             <source>Disk usage</source>
-            <translation>磁盘 usage</translation>
+            <translation>磁盘使用量</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="633" />
@@ -5821,7 +6156,7 @@ Integrity check aborted</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="634" />
             <source>Removal of %0 not allowed due to %1 title is running!</source>
-            <translation>Removal 的 %0 不 已允许 due 到 %1 标题 是 运行中!</translation>
+            <translation>不允许移除 %0，因为 %1 标题正在运行！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="640" />
@@ -5832,7 +6167,7 @@ Integrity check aborted</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="656" />
             <source>Removal of %0 not allowed due to emulator is running!</source>
-            <translation>Removal 的 %0 不 已允许 due 到 模拟器 是 运行中!</translation>
+            <translation>不允许移除 %0，因为模拟器正在运行！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="720" />
@@ -5850,7 +6185,8 @@ Integrity check aborted</source>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="734" />
             <source>Remove custom gamepad configuration?
 Your configuration will revert to the global pad settings.</source>
-            <translation>移除 自定义 手柄 配置? Your 配置 将 revert 到 the 全局 pad 设置.</translation>
+            <translation>移除自定义手柄配置？
+您的配置将恢复为全局手柄设置。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="735" />
@@ -5861,7 +6197,7 @@ Your configuration will revert to the global pad settings.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="761" />
             <source>Failed to completely remove gamepad configuration directory!</source>
-            <translation>失败 到 completely 移除 手柄 配置 目录!</translation>
+            <translation>无法完全移除手柄配置目录！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1172" />
@@ -5872,34 +6208,35 @@ Your configuration will revert to the global pad settings.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1238" />
             <source>Confirm Creation</source>
-            <translation>确认 Creation</translation>
+            <translation>确认创建</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1238" />
             <source>Create LLVM cache?</source>
-            <translation>创建 LLVM 缓存?</translation>
+            <translation>创建 LLVM 缓存？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1259" />
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1270" />
             <source>LLVM Cache Batch Creation</source>
-            <translation>LLVM 缓存 Batch Creation</translation>
+            <translation>LLVM 缓存批量创建</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1259" />
             <source>No titles found</source>
-            <translation>否 标题 found</translation>
+            <translation>未找到标题</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1268" />
             <source>Creating all LLVM caches</source>
-            <translation>创建中 全部 LLVM 缓存</translation>
+            <translation>正在创建所有 LLVM 缓存</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1283" />
             <source>%0
 Progress: %1/%2 caches compiled</source>
-            <translation>%0 Progress: %1/%2 缓存 已编译</translation>
+            <translation>%0
+进度：已编译 %1/%2 个缓存</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1317" />
@@ -5910,7 +6247,7 @@ Progress: %1/%2 caches compiled</source>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1336" />
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1340" />
             <source>Custom Configuration Batch Removal</source>
-            <translation>自定义 配置 Batch Removal</translation>
+            <translation>自定义配置批量移除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1336" />
@@ -5922,39 +6259,39 @@ Progress: %1/%2 caches compiled</source>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1589" />
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1636" />
             <source>No files found</source>
-            <translation>否 文件 found</translation>
+            <translation>未找到文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1340" />
             <source>Removing all custom configurations</source>
-            <translation>移除中 全部 自定义 configurations</translation>
+            <translation>正在移除所有自定义配置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1345" />
             <source>%0/%1 custom configurations cleared</source>
-            <translation>%0/%1 自定义 configurations cleared</translation>
+            <translation>已清除 %0/%1 个自定义配置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1376" />
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1380" />
             <source>Custom Gamepad Configuration Batch Removal</source>
-            <translation>自定义 手柄 配置 Batch Removal</translation>
+            <translation>自定义手柄配置批量移除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1380" />
             <source>Removing all custom gamepad configurations</source>
-            <translation>移除中 全部 自定义 手柄 configurations</translation>
+            <translation>正在移除所有自定义手柄配置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1385" />
             <source>%0/%1 custom gamepad configurations cleared</source>
-            <translation>%0/%1 自定义 手柄 configurations cleared</translation>
+            <translation>已清除 %0/%1 个自定义手柄配置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1418" />
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1422" />
             <source>Shader Cache Batch Removal</source>
-            <translation>着色器 缓存 Batch Removal</translation>
+            <translation>着色器缓存批量移除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1422" />
@@ -5964,13 +6301,13 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1427" />
             <source>%0/%1 shader caches cleared</source>
-            <translation>%0/%1 着色器 缓存 cleared</translation>
+            <translation>已清除 %0/%1 个着色器缓存</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1460" />
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1464" />
             <source>PPU Cache Batch Removal</source>
-            <translation>PPU 缓存 Batch Removal</translation>
+            <translation>PPU 缓存批量移除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1464" />
@@ -5980,13 +6317,13 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1469" />
             <source>%0/%1 PPU caches cleared</source>
-            <translation>%0/%1 PPU 缓存 cleared</translation>
+            <translation>已清除 %0/%1 个 PPU 缓存</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1503" />
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1507" />
             <source>SPU Cache Batch Removal</source>
-            <translation>SPU 缓存 Batch Removal</translation>
+            <translation>SPU 缓存批量移除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1507" />
@@ -5996,13 +6333,13 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1512" />
             <source>%0/%1 SPU caches cleared</source>
-            <translation>%0/%1 SPU 缓存 cleared</translation>
+            <translation>已清除 %0/%1 个 SPU 缓存</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1546" />
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1550" />
             <source>HDD1 Cache Batch Removal</source>
-            <translation>HDD1 缓存 Batch Removal</translation>
+            <translation>HDD1 缓存批量移除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1550" />
@@ -6012,13 +6349,13 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1555" />
             <source>%0/%1 HDD1 caches cleared</source>
-            <translation>%0/%1 HDD1 缓存 cleared</translation>
+            <translation>已清除 %0/%1 个 HDD1 缓存</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1589" />
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1593" />
             <source>Cache Batch Removal</source>
-            <translation>缓存 Batch Removal</translation>
+            <translation>缓存批量移除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1593" />
@@ -6028,7 +6365,7 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1598" />
             <source>%0/%1 caches cleared</source>
-            <translation>%0/%1 缓存 cleared</translation>
+            <translation>已清除 %0/%1 个缓存</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1636" />
@@ -6039,7 +6376,7 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1642" />
             <source>Removing all contents</source>
-            <translation>移除中 全部 contents</translation>
+            <translation>正在移除所有内容</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1647" />
@@ -6054,12 +6391,12 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1687" />
             <source>Successfully created shortcut(s).</source>
-            <translation>Successfully 已创建 shortcut(s).</translation>
+            <translation>成功创建快捷方式。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="1691" />
             <source>Failed to create one or more shortcuts!</source>
-            <translation>失败 到 创建 one 或 更多 shortcuts!</translation>
+            <translation>创建一个或多个快捷方式失败！</translation>
         </message>
     </context>
     <context>
@@ -6067,17 +6404,17 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="74" />
             <source>&amp;Reboot with Database + Global Configuration</source>
-            <translation>&amp;Reboot 与 Database + 全局 配置</translation>
+            <translation>使用数据库 + 全局配置重启 (&amp;R)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="74" />
             <source>&amp;Reboot with Global Configuration</source>
-            <translation>&amp;Reboot 与 全局 配置</translation>
+            <translation>使用全局配置重启 (&amp;R)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="75" />
             <source>&amp;Boot with Database + Global Configuration</source>
-            <translation>&amp;启动 与 Database + 全局 配置</translation>
+            <translation>使用数据库 + 全局配置启动 (&amp;B)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="75" />
@@ -6097,7 +6434,7 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="86" />
             <source>&amp;Reboot with Custom Configuration</source>
-            <translation>&amp;Reboot 与 自定义 配置</translation>
+            <translation>使用自定义配置重启 (&amp;R)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="87" />
@@ -6107,7 +6444,7 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="104" />
             <source>&amp;Reboot with Default Configuration</source>
-            <translation>&amp;Reboot 与 默认 配置</translation>
+            <translation>使用默认配置重启 (&amp;R)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="105" />
@@ -6117,12 +6454,12 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="114" />
             <source>&amp;Reboot with Manually Selected Configuration</source>
-            <translation>&amp;Reboot 与 手动 Selected 配置</translation>
+            <translation>使用手动选择的配置重启 (&amp;R)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="115" />
             <source>&amp;Boot with Manually Selected Configuration</source>
-            <translation>&amp;启动 与 手动 Selected 配置</translation>
+            <translation>使用手动选择的配置启动 (&amp;B)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="119" />
@@ -6132,32 +6469,32 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="138" />
             <source>&amp;Reboot with last SaveState</source>
-            <translation>&amp;Reboot 与 最后一个 SaveState</translation>
+            <translation>使用上一个存档重启 (&amp;R)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="139" />
             <source>&amp;Boot with last SaveState</source>
-            <translation>&amp;启动 与 最后一个 SaveState</translation>
+            <translation>使用上一个存档启动 (&amp;B)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="150" />
             <source>&amp;Choose SaveState to reboot</source>
-            <translation>&amp;Choose SaveState 到 reboot</translation>
+            <translation>选择要重启的存档 (&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="151" />
             <source>&amp;Choose SaveState to boot</source>
-            <translation>&amp;Choose SaveState 到 启动</translation>
+            <translation>选择要启动的存档 (&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="164" />
             <source>&amp;Create Custom Configuration From Database Settings</source>
-            <translation>&amp;创建 自定义 配置 从 Database 设置</translation>
+            <translation>从数据库设置创建自定义配置 (&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="166" />
             <source>&amp;Change Custom Configuration</source>
-            <translation>&amp;Change 自定义 配置</translation>
+            <translation>更改自定义配置 (&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="167" />
@@ -6172,7 +6509,7 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="171" />
             <source>&amp;Change Custom Gamepad Configuration</source>
-            <translation>&amp;Change 自定义 手柄 配置</translation>
+            <translation>更改自定义手柄配置 (&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="172" />
@@ -6187,13 +6524,13 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="193" />
             <source>&amp;Manage Game Patches</source>
-            <translation>&amp;Manage 游戏 Patches</translation>
+            <translation>管理游戏补丁 (&amp;M)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="198" />
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="816" />
             <source>&amp;Create LLVM Cache</source>
-            <translation>&amp;创建 LLVM 缓存</translation>
+            <translation>创建 LLVM 缓存 (&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="201" />
@@ -6247,49 +6584,49 @@ Progress: %1/%2 caches compiled</source>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="280" />
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="871" />
             <source>&amp;Remove Savestates</source>
-            <translation>&amp;移除 Savestates</translation>
+            <translation>移除存档 (&amp;R)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="295" />
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="884" />
             <source>&amp;Manage Game</source>
-            <translation>&amp;Manage 游戏</translation>
+            <translation>管理游戏 (&amp;M)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="298" />
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="887" />
             <source>&amp;Create Desktop Shortcut</source>
-            <translation>&amp;创建 Desktop Shortcut</translation>
+            <translation>创建桌面快捷方式 (&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="305" />
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="897" />
             <source>&amp;Create Start Menu Shortcut</source>
-            <translation>&amp;创建 开始 菜单 Shortcut</translation>
+            <translation>创建开始菜单快捷方式 (&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="307" />
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="899" />
             <source>&amp;Create Launchpad Shortcut</source>
-            <translation>&amp;创建 Launchpad Shortcut</translation>
+            <translation>创建 Launchpad 快捷方式 (&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="309" />
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="901" />
             <source>&amp;Create Application Menu Shortcut</source>
-            <translation>&amp;创建 Application 菜单 Shortcut</translation>
+            <translation>创建应用程序菜单快捷方式 (&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="319" />
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="914" />
             <source>&amp;Create Steam Shortcut (Steam must be closed)</source>
-            <translation>&amp;创建 Steam Shortcut (Steam 必须 是 已关闭)</translation>
+            <translation>创建 Steam 快捷方式（必须关闭 Steam） (&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="319" />
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="914" />
             <source>&amp;Create Steam Shortcut</source>
-            <translation>&amp;创建 Steam Shortcut</translation>
+            <translation>创建 Steam 快捷方式 (&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="330" />
@@ -6305,13 +6642,13 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="336" />
             <source>&amp;Edit Tooltip Notes</source>
-            <translation>&amp;编辑 Tooltip 备注</translation>
+            <translation>编辑工具提示备注 (&amp;E)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="337" />
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="959" />
             <source>&amp;Reset Time Played</source>
-            <translation>&amp;Reset 时间 Played</translation>
+            <translation>重置游玩时间 (&amp;R)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="342" />
@@ -6331,7 +6668,7 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="350" />
             <source>&amp;Replace Custom Icon</source>
-            <translation>&amp;Replace 自定义 图标</translation>
+            <translation>替换自定义图标 (&amp;R)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="351" />
@@ -6341,7 +6678,7 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="356" />
             <source>&amp;Import Hover Gif</source>
-            <translation>&amp;导入 Hover Gif</translation>
+            <translation>导入悬停 Gif (&amp;I)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="357" />
@@ -6351,37 +6688,37 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="358" />
             <source>&amp;Remove Hover Gif</source>
-            <translation>&amp;移除 Hover Gif</translation>
+            <translation>移除悬停 Gif (&amp;R)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="363" />
             <source>&amp;Import Custom Shader Loading Background</source>
-            <translation>&amp;导入 自定义 着色器 加载中 Background</translation>
+            <translation>导入自定义着色器加载背景 (&amp;I)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="364" />
             <source>&amp;Replace Custom Shader Loading Background</source>
-            <translation>&amp;Replace 自定义 着色器 加载中 Background</translation>
+            <translation>替换自定义着色器加载背景 (&amp;R)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="365" />
             <source>&amp;Remove Custom Shader Loading Background</source>
-            <translation>&amp;移除 自定义 着色器 加载中 Background</translation>
+            <translation>移除自定义着色器加载背景 (&amp;R)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="394" />
             <source>Select Custom Icon</source>
-            <translation>Select 自定义 图标</translation>
+            <translation>选择自定义图标</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="397" />
             <source>Select Custom Hover Gif</source>
-            <translation>Select 自定义 Hover Gif</translation>
+            <translation>选择自定义悬停 Gif</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="400" />
             <source>Select Custom Shader Loading Background</source>
-            <translation>Select 自定义 着色器 加载中 Background</translation>
+            <translation>选择自定义着色器加载背景</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="403" />
@@ -6396,17 +6733,17 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="416" />
             <source>Remove Custom Hover Gif of %0?</source>
-            <translation>移除 自定义 Hover Gif 的 %0?</translation>
+            <translation>移除 %0 的自定义悬停 Gif？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="419" />
             <source>Remove Custom Shader Loading Background of %0?</source>
-            <translation>移除 自定义 着色器 加载中 Background 的 %0?</translation>
+            <translation>移除 %0 的自定义着色器加载背景？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="424" />
             <source>Confirm Removal</source>
-            <translation>确认 Removal</translation>
+            <translation>确认移除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="429" />
@@ -6432,7 +6769,7 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="504" />
             <source>&amp;Open Disc Game Folder</source>
-            <translation>&amp;打开 Disc 游戏 文件夹</translation>
+            <translation>打开光盘游戏文件夹 (&amp;O)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="520" />
@@ -6457,27 +6794,27 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="554" />
             <source>&amp;Open Data Folder</source>
-            <translation>&amp;打开 Data 文件夹</translation>
+            <translation>打开数据文件夹 (&amp;O)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="563" />
             <source>&amp;Open Savestates Folder</source>
-            <translation>&amp;打开 Savestates 文件夹</translation>
+            <translation>打开存档文件夹 (&amp;O)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="572" />
             <source>&amp;Open Captures Folder</source>
-            <translation>&amp;打开 Captures 文件夹</translation>
+            <translation>打开捕获文件夹 (&amp;O)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="581" />
             <source>&amp;Open Recordings Folder</source>
-            <translation>&amp;打开 Recordings 文件夹</translation>
+            <translation>打开录像文件夹 (&amp;O)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="590" />
             <source>&amp;Open Screenshots Folder</source>
-            <translation>&amp;打开 Screenshots 文件夹</translation>
+            <translation>打开截图文件夹 (&amp;O)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="598" />
@@ -6507,13 +6844,13 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="634" />
             <source>&amp;Check Game Compatibility</source>
-            <translation>&amp;Check 游戏 Compatibility</translation>
+            <translation>检查游戏兼容性 (&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="638" />
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="988" />
             <source>&amp;Disk Usage</source>
-            <translation>&amp;磁盘 Usage</translation>
+            <translation>磁盘使用量 (&amp;D)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="645" />
@@ -6532,12 +6869,15 @@ Progress: %1/%2 caches compiled</source>
 %1
 
 You can clear the line in order to use the original title.</source>
-            <translation>%0 %1 You 能 清晰 the line 内 order 到 use the original 标题.</translation>
+            <translation>%0
+%1
+
+您可以清空此行以使用原始标题。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="757" />
             <source>Edit Tooltip Notes</source>
-            <translation>编辑 Tooltip 备注</translation>
+            <translation>编辑工具提示备注</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="757" />
@@ -6550,36 +6890,38 @@ You can clear the line in order to use the original title.</source>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="776" />
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="962" />
             <source>Confirm Reset</source>
-            <translation>确认 Reset</translation>
+            <translation>确认重置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="776" />
             <source>Reset time played?
 
 %0 [%1]</source>
-            <translation>Reset 时间 played? %0 [%1]</translation>
+            <translation>重置游玩时间？
+
+%0 [%1]</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="890" />
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="905" />
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="917" />
             <source>Confirm Creation</source>
-            <translation>确认 Creation</translation>
+            <translation>确认创建</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="890" />
             <source>Create desktop shortcut?</source>
-            <translation>创建 desktop shortcut?</translation>
+            <translation>创建桌面快捷方式？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="905" />
             <source>Create shortcut?</source>
-            <translation>创建 shortcut?</translation>
+            <translation>创建快捷方式？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="917" />
             <source>Create Steam shortcut?</source>
-            <translation>创建 Steam shortcut?</translation>
+            <translation>创建 Steam 快捷方式？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="931" />
@@ -6599,7 +6941,7 @@ You can clear the line in order to use the original title.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="962" />
             <source>Reset time played?</source>
-            <translation>Reset 时间 played?</translation>
+            <translation>重置游玩时间？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="979" />
@@ -6622,7 +6964,7 @@ You can clear the line in order to use the original title.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="124" />
             <source>Loading games, please wait...</source>
-            <translation>加载中 游戏, please wait...</translation>
+            <translation>正在加载游戏，请稍候...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="124" />
@@ -6641,7 +6983,10 @@ You can clear the line in order to use the original title.</source>
 Falling back to local database.
 
 %0</source>
-            <translation>失败 到 retrieve the 在线 compatibility database! Falling 后 到 本地 database. %0</translation>
+            <translation>获取在线兼容性数据库失败！
+回退到本地数据库。
+
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="223" />
@@ -6649,7 +6994,10 @@ Falling back to local database.
 Falling back to local database.
 
 %0</source>
-            <translation>失败 到 retrieve the 在线 配置 database! Falling 后 到 本地 database. %0</translation>
+            <translation>获取在线配置数据库失败！
+回退到本地数据库。
+
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="261" />
@@ -6689,17 +7037,17 @@ Falling back to local database.
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="268" />
             <source>PlayStation Move</source>
-            <translation>PlayStation 移动</translation>
+            <translation>PlayStation Move</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="269" />
             <source>Supported Resolutions</source>
-            <translation>支持 Resolutions</translation>
+            <translation>支持的分辨率</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="270" />
             <source>Sound Formats</source>
-            <translation>声音 Formats</translation>
+            <translation>声音格式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="271" />
@@ -6709,12 +7057,12 @@ Falling back to local database.
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="272" />
             <source>Last Played</source>
-            <translation>最后一个 Played</translation>
+            <translation>上次游玩</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="273" />
             <source>Time Played</source>
-            <translation>时间 Played</translation>
+            <translation>游戏时间</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="274" />
@@ -6724,7 +7072,7 @@ Falling back to local database.
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="275" />
             <source>Space On Disk</source>
-            <translation>Space 开 磁盘</translation>
+            <translation>磁盘空间</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="285" />
@@ -6744,7 +7092,7 @@ Falling back to local database.
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="288" />
             <source>Show Firmwares</source>
-            <translation>显示 Firmwares</translation>
+            <translation>显示固件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="289" />
@@ -6764,42 +7112,42 @@ Falling back to local database.
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="292" />
             <source>Show PlayStation Move</source>
-            <translation>显示 PlayStation 移动</translation>
+            <translation>显示 PlayStation Move</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="293" />
             <source>Show Supported Resolutions</source>
-            <translation>显示 支持 Resolutions</translation>
+            <translation>显示支持的分辨率</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="294" />
             <source>Show Sound Formats</source>
-            <translation>显示 声音 Formats</translation>
+            <translation>显示声音格式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="295" />
             <source>Show Parental Levels</source>
-            <translation>显示 Parental Levels</translation>
+            <translation>显示家长控制级别</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="296" />
             <source>Show Last Played</source>
-            <translation>显示 最后一个 Played</translation>
+            <translation>显示上次游玩</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="297" />
             <source>Show Time Played</source>
-            <translation>显示 时间 Played</translation>
+            <translation>显示游玩时间</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="298" />
             <source>Show Compatibility</source>
-            <translation>显示 Compatibility</translation>
+            <translation>显示兼容性</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_frame.cpp" line="299" />
             <source>Show Space On Disk</source>
-            <translation>显示 Space 开 磁盘</translation>
+            <translation>显示磁盘空间</translation>
         </message>
     </context>
     <context>
@@ -6852,7 +7200,7 @@ Notes:
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_table.cpp" line="400" />
             <source>Never played</source>
-            <translation>从不 played</translation>
+            <translation>从未游玩</translation>
         </message>
     </context>
     <context>
@@ -6860,23 +7208,23 @@ Notes:
         <message>
             <location filename="../rpcs3/rpcs3qt/gs_frame.cpp" line="492" />
             <source>Recording saved: %0</source>
-            <translation>Recording 已保存: %0</translation>
+            <translation>录像已保存：%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gs_frame.cpp" line="567" />
             <location filename="../rpcs3/rpcs3qt/gs_frame.cpp" line="580" />
             <source>Recording not possible</source>
-            <translation>Recording 不 可能</translation>
+            <translation>无法录制</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gs_frame.cpp" line="593" />
             <source>Recording started</source>
-            <translation>Recording 已开始</translation>
+            <translation>录像已开始</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gs_frame.cpp" line="1114" />
             <source>Screenshot saved: %0</source>
-            <translation>Screenshot 已保存: %0</translation>
+            <translation>截图已保存：%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gs_frame.cpp" line="1213" />
@@ -6886,7 +7234,7 @@ Notes:
         <message>
             <location filename="../rpcs3/rpcs3qt/gs_frame.cpp" line="1214" />
             <source>Do you really want to exit the game?&lt;br&gt;&lt;br&gt;Any unsaved progress will be lost!&lt;br&gt;</source>
-            <translation>执行 you really want 到 退出 the 游戏?&lt;br&gt;&lt;br&gt;任何 unsaved progress 将 是 lost!&lt;br&gt;</translation>
+            <translation>您真的要退出游戏吗？&lt;br&gt;&lt;br&gt;任何未保存的进度都将丢失！&lt;br&gt;</translation>
         </message>
     </context>
     <context>
@@ -6894,7 +7242,7 @@ Notes:
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="108" />
             <source>Experimental Build Warning</source>
-            <translation>Experimental Build 警告</translation>
+            <translation>实验性构建警告</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="113" />
@@ -6904,12 +7252,17 @@ We recommend to download and use the official build from the %0.
 
 Build origin: %1
 Do you wish to use this build anyway?</source>
-            <translation>Please understand 那个 此 build 是 不 an official RPCS3 release. 此 build contains changes 那个 可以 break 游戏, 或 甚至 &lt;b&gt;damage&lt;/b&gt; your data. We recommend 到 下载 和 use the official build 从 the %0. Build origin: %1 执行 you wish 到 use 此 build 无论如何?</translation>
+            <translation>请理解此构建不是官方 RPCS3 版本。
+此构建包含可能破坏游戏甚至&lt;b&gt;损坏&lt;/b&gt;您数据的更改。
+我们建议您从 %0 下载并使用官方构建。
+
+构建来源：%1
+您是否仍要使用此构建？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="120" />
             <source>RPCS3 website</source>
-            <translation>RPCS3 网站</translation>
+            <translation>RPCS3 官网</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="133" />
@@ -6921,7 +7274,9 @@ Do you wish to use this build anyway?</source>
             <source>Querying for Vulkan-compatible devices is taking too long. This is usually caused by malfunctioning graphics drivers, reinstalling them could fix the issue.
 
 Selecting ignore starts the emulator without Vulkan support.</source>
-            <translation>Querying 为 Vulkan-兼容 devices 是 taking 也 long. 此 是 通常 caused 通过 malfunctioning graphics drivers, reinstalling them 能 fix the issue. Selecting ignore starts the 模拟器 无 Vulkan support.</translation>
+            <translation>查询 Vulkan 兼容设备耗时过长。这通常由显卡驱动程序故障引起，重新安装可能解决问题。
+
+选择忽略将在没有 Vulkan 支持的情况下启动模拟器。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="149" />
@@ -6933,7 +7288,8 @@ Selecting ignore starts the emulator without Vulkan support.</source>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="150" />
             <source>Vulkan is not supported on this Mac.
 No graphics will be rendered.</source>
-            <translation>Vulkan 是 不 支持 开 此 Mac. 否 graphics 将 是 rendered.</translation>
+            <translation>此 Mac 不支持 Vulkan。
+不会渲染任何图形。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="227" />
@@ -6941,18 +7297,22 @@ No graphics will be rendered.</source>
 Some games will crash.
 
 Please increase the limit before running RPCS3.</source>
-            <translation>The 当前 限制 的 最大值 文件 descriptors 是 也 低. 一些 游戏 将 crash. Please increase the 限制 之前 运行中 RPCS3.</translation>
+            <translation>当前最大文件描述符限制过低。
+某些游戏会崩溃。
+
+请在运行 RPCS3 之前增大此限制。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="875" />
             <source>Stopping emulator took too long.
 Some thread has probably deadlocked. Aborting.</source>
-            <translation>停止中 模拟器 took 也 long. 一些 线程 有 probably deadlocked. Aborting.</translation>
+            <translation>停止模拟器耗时过长。
+某个线程可能已死锁。正在中止。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="888" />
             <source>PS3 Game/Application Is Unresponsive</source>
-            <translation>PS3 游戏/Application 是 Unresponsive</translation>
+            <translation>PS3 游戏/应用程序无响应</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="892" />
@@ -6962,18 +7322,19 @@ Some thread has probably deadlocked. Aborting.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="893" />
             <source>Keep Waiting</source>
-            <translation>Keep 等待中</translation>
+            <translation>继续等待</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="895" />
             <source>Waiting for %0 second(s) already to stop emulation without success.
 Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
-            <translation>等待中 为 %0 second(s) 已经 到 停止 模拟 无 成功. Keep 等待中 或 terminate RPCS3 unsafely at your own risk?</translation>
+            <translation>已等待 %0 秒仍未成功停止模拟。
+继续等待还是自行承担风险不安全地终止 RPCS3？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="934" />
             <source>Creating Save-State / Do Not Close RPCS3</source>
-            <translation>创建中 保存-State / 执行 不 关闭 RPCS3</translation>
+            <translation>正在创建存档 / 请勿关闭 RPCS3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="934" />
@@ -6983,7 +7344,7 @@ Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="934" />
             <source>Hide Progress</source>
-            <translation>隐藏 Progress</translation>
+            <translation>隐藏进度</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="939" />
@@ -6993,7 +7354,7 @@ Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_application.cpp" line="998" />
             <source>If Stuck, Report To Developers</source>
-            <translation>如果 Stuck, Report 到 Developers</translation>
+            <translation>如果卡住，请向开发者报告</translation>
         </message>
     </context>
     <context>
@@ -7001,7 +7362,7 @@ Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_settings.cpp" line="200" />
             <source>Don't show again</source>
-            <translation>Don't 显示 again</translation>
+            <translation>不再显示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_settings.cpp" line="253" />
@@ -7011,22 +7372,22 @@ Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_settings.cpp" line="254" />
             <source>Performing this action will close the current game.&lt;br&gt;Do you really want to continue?&lt;br&gt;&lt;br&gt;Any unsaved progress will be lost!&lt;br&gt;</source>
-            <translation>Performing 此 action 将 关闭 the 当前 游戏.&lt;br&gt;执行 you really want 到 continue?&lt;br&gt;&lt;br&gt;任何 unsaved progress 将 是 lost!&lt;br&gt;</translation>
+            <translation>执行此操作将关闭当前游戏。&lt;br&gt;您真的要继续吗？&lt;br&gt;&lt;br&gt;任何未保存的进度都将丢失！&lt;br&gt;</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_settings.cpp" line="258" />
             <source>Booting another game will close the current game.&lt;br&gt;Do you really want to boot another game?&lt;br&gt;&lt;br&gt;Any unsaved progress will be lost!&lt;br&gt;</source>
-            <translation>启动 another 游戏 将 关闭 the 当前 游戏.&lt;br&gt;执行 you really want 到 启动 another 游戏?&lt;br&gt;&lt;br&gt;任何 unsaved progress 将 是 lost!&lt;br&gt;</translation>
+            <translation>启动另一个游戏将关闭当前游戏。&lt;br&gt;您真的要启动另一个游戏吗？&lt;br&gt;&lt;br&gt;任何未保存的进度都将丢失！&lt;br&gt;</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_settings.cpp" line="262" />
             <source>Exit RPCS3?</source>
-            <translation>退出 RPCS3?</translation>
+            <translation>退出 RPCS3？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/gui_settings.cpp" line="263" />
             <source>A game is currently running. Do you really want to close RPCS3?&lt;br&gt;&lt;br&gt;Any unsaved progress will be lost!&lt;br&gt;</source>
-            <translation>A 游戏 是 当前 运行中. 执行 you really want 到 关闭 RPCS3?&lt;br&gt;&lt;br&gt;任何 unsaved progress 将 是 lost!&lt;br&gt;</translation>
+            <translation>游戏当前正在运行。您真的要关闭 RPCS3 吗？&lt;br&gt;&lt;br&gt;任何未保存的进度都将丢失！&lt;br&gt;</translation>
         </message>
     </context>
     <context>
@@ -7035,7 +7396,8 @@ Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
             <location filename="../rpcs3/headless_application.cpp" line="155" />
             <source>Stopping emulator took too long.
 Some thread has probably deadlocked. Aborting.</source>
-            <translation>停止中 模拟器 took 也 long. 一些 线程 有 probably deadlocked. Aborting.</translation>
+            <translation>停止模拟器耗时过长。
+某个线程可能已死锁。正在中止。</translation>
         </message>
     </context>
     <context>
@@ -7048,12 +7410,12 @@ Some thread has probably deadlocked. Aborting.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="733" />
             <source>Active Infinity Figures:</source>
-            <translation>活跃 Infinity Figures:</translation>
+            <translation>活动的 Infinity 玩偶：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="736" />
             <source>Play Set/Power Disc</source>
-            <translation>Play 集合/Power Disc</translation>
+            <translation>游戏套装/能量盘</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="738" />
@@ -7114,7 +7476,7 @@ Some thread has probably deadlocked. Aborting.</source>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="795" />
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="887" />
             <source>Unknown Figure</source>
-            <translation>未知 Figure</translation>
+            <translation>未知玩偶</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="800" />
@@ -7125,7 +7487,7 @@ Some thread has probably deadlocked. Aborting.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="850" />
             <source>Select Infinity File</source>
-            <translation>Select Infinity 文件</translation>
+            <translation>选择 Infinity 文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="850" />
@@ -7135,24 +7497,26 @@ Some thread has probably deadlocked. Aborting.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="866" />
             <source>Failed to open the figure file!</source>
-            <translation>失败 到 打开 the figure 文件!</translation>
+            <translation>无法打开玩偶文件！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="866" />
             <source>Failed to open the figure file(%1)!
 File may already be in use on the base.</source>
-            <translation>失败 到 打开 the figure 文件(%1)! 文件 可以 已经 是 内 use 开 the base.</translation>
+            <translation>无法打开玩偶文件（%1）！
+文件可能已在基座上使用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="873" />
             <source>Failed to read the figure file!</source>
-            <translation>失败 到 read the figure 文件!</translation>
+            <translation>无法读取玩偶文件！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/infinity_dialog.cpp" line="873" />
             <source>Failed to read the figure file(%1)!
 File was too small.</source>
-            <translation>失败 到 read the figure 文件(%1)! 文件 曾是 也 小.</translation>
+            <translation>无法读取玩偶文件（%1）！
+文件太小。</translation>
         </message>
     </context>
     <context>
@@ -7160,7 +7524,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="25" />
             <source>Edit instruction</source>
-            <translation>编辑 instruction</translation>
+            <translation>编辑指令</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="39" />
@@ -7190,12 +7554,12 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="65" />
             <source>Block Info:  </source>
-            <translation>Block 信息:</translation>
+            <translation>块信息：  </translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="78" />
             <source>For SPUs Group</source>
-            <translation>为 SPUs Group</translation>
+            <translation>用于 SPU 组</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="114" />
@@ -7206,17 +7570,17 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="114" />
             <source>Failed to parse PPU instruction.</source>
-            <translation>失败 到 解析 PPU instruction.</translation>
+            <translation>无法解析 PPU 指令。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="124" />
             <source>Failed to patch PPU instruction.</source>
-            <translation>失败 到 patch PPU instruction.</translation>
+            <translation>无法修补 PPU 指令。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/instruction_editor_dialog.cpp" line="163" />
             <source>Could not parse instruction.</source>
-            <translation>能 不 解析 instruction.</translation>
+            <translation>无法解析指令。</translation>
         </message>
     </context>
     <context>
@@ -7229,7 +7593,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/ipc_settings_dialog.cpp" line="25" />
             <source>Enable IPC Server</source>
-            <translation>启用 IPC Server</translation>
+            <translation>启用 IPC 服务器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ipc_settings_dialog.cpp" line="27" />
@@ -7239,12 +7603,12 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/ipc_settings_dialog.cpp" line="52" />
             <source>Invalid port</source>
-            <translation>无效 port</translation>
+            <translation>无效端口</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ipc_settings_dialog.cpp" line="52" />
             <source>The server port must be an integer in the range 1025 - 65535!</source>
-            <translation>The server port 必须 是 an 整数 内 the 范围 1025 - 65535!</translation>
+            <translation>服务器端口必须是 1025 - 65535 范围内的整数！</translation>
         </message>
     </context>
     <context>
@@ -7267,23 +7631,24 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="203" />
             <source>Create Kamen Rider File</source>
-            <translation>创建 Kamen Rider 文件</translation>
+            <translation>创建假面骑士文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="203" />
             <source>Kamen Rider Object (*.bin);;All Files (*)</source>
-            <translation>Kamen Rider Object (*.bin);;全部 文件 (*)</translation>
+            <translation>假面骑士对象 (*.bin);;所有文件 (*)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="212" />
             <source>Failed to create kamen rider file!</source>
-            <translation>失败 到 创建 kamen rider 文件!</translation>
+            <translation>无法创建假面骑士文件！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="212" />
             <source>Failed to create kamen rider file:
 %1</source>
-            <translation>失败 到 创建 kamen rider 文件: %1</translation>
+            <translation>无法创建假面骑士文件：
+%1</translation>
         </message>
     </context>
     <context>
@@ -7296,7 +7661,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="278" />
             <source>Active Kamen Riders:</source>
-            <translation>活跃 Kamen Riders:</translation>
+            <translation>活动的假面骑士：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="289" />
@@ -7321,34 +7686,36 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="361" />
             <source>Select Kamen Rider File</source>
-            <translation>Select Kamen Rider 文件</translation>
+            <translation>选择假面骑士文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="361" />
             <source>Kamen Rider (*.bin);;All Files (*)</source>
-            <translation>Kamen Rider (*.bin);;全部 文件 (*)</translation>
+            <translation>假面骑士 (*.bin);;所有文件 (*)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="377" />
             <source>Failed to open the kamen rider file!</source>
-            <translation>失败 到 打开 the kamen rider 文件!</translation>
+            <translation>无法打开假面骑士文件！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="377" />
             <source>Failed to open the kamen rider file(%1)!
 File may already be in use on the portal.</source>
-            <translation>失败 到 打开 the kamen rider 文件(%1)! 文件 可以 已经 是 内 use 开 the portal.</translation>
+            <translation>无法打开假面骑士文件（%1）！
+文件可能已在传送门上使用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="384" />
             <source>Failed to read the kamen rider file!</source>
-            <translation>失败 到 read the kamen rider 文件!</translation>
+            <translation>无法读取假面骑士文件！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="384" />
             <source>Failed to read the kamen rider file(%1)!
 File was too small.</source>
-            <translation>失败 到 read the kamen rider 文件(%1)! 文件 曾是 也 小.</translation>
+            <translation>无法读取假面骑士文件（%1）！
+文件太小。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kamen_rider_dialog.cpp" line="413" />
@@ -7461,7 +7828,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="239" />
             <source>Light Weight Mutexes</source>
-            <translation>浅 Weight Mutexes</translation>
+            <translation>轻量级互斥锁</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="240" />
@@ -7482,7 +7849,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="243" />
             <source>Light Weight Condition Variables</source>
-            <translation>浅 Weight Condition Variables</translation>
+            <translation>轻量级条件变量</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="244" />
@@ -7512,7 +7879,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="250" />
             <source>SPU Thread Groups</source>
-            <translation>SPU 线程 Groups</translation>
+            <translation>SPU 线程组</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="251" />
@@ -7542,7 +7909,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/kernel_explorer.cpp" line="853" />
             <source>Display Buffers</source>
-            <translation>Display 缓冲区</translation>
+            <translation>显示缓冲区</translation>
         </message>
     </context>
     <context>
@@ -7655,12 +8022,12 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.cpp" line="30" />
             <source>Left Stick X-Axis</source>
-            <translation>左 Stick X-Axis</translation>
+            <translation>左摇杆 X 轴</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.cpp" line="31" />
             <source>Left Stick Y-Axis</source>
-            <translation>左 Stick Y-Axis</translation>
+            <translation>左摇杆 Y 轴</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.cpp" line="32" />
@@ -7685,12 +8052,12 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.cpp" line="36" />
             <source>Right Stick X-Axis</source>
-            <translation>正确 Stick X-Axis</translation>
+            <translation>右摇杆 X 轴</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.cpp" line="37" />
             <source>Right Stick Y-Axis</source>
-            <translation>正确 Stick Y-Axis</translation>
+            <translation>右摇杆 Y 轴</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.cpp" line="39" />
@@ -7797,28 +8164,32 @@ File was too small.</source>
             <source>You have earned a bronze trophy.
 %0</source>
             <comment>Trophy text</comment>
-            <translation>You 有 earned a bronze trophy. %0</translation>
+            <translation>您获得了一枚铜杯。
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="43" />
             <source>You have earned a silver trophy.
 %0</source>
             <comment>Trophy text</comment>
-            <translation>You 有 earned a silver trophy. %0</translation>
+            <translation>您获得了一枚银杯。
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="44" />
             <source>You have earned a gold trophy.
 %0</source>
             <comment>Trophy text</comment>
-            <translation>You 有 earned a gold trophy. %0</translation>
+            <translation>您获得了一枚金杯。
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="45" />
             <source>You have earned a platinum trophy.
 %0</source>
             <comment>Trophy text</comment>
-            <translation>You 有 earned a platinum trophy. %0</translation>
+            <translation>您获得了一枚白金杯。
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="46" />
@@ -7828,7 +8199,7 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="47" />
             <source>Compiling PPU Modules</source>
-            <translation>编译中 PPU Modules</translation>
+            <translation>正在编译 PPU 模块</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="48" />
@@ -7912,7 +8283,7 @@ File was too small.</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="61" />
             <source>[Enter Text]</source>
             <comment>OSK Dialog</comment>
-            <translation>[Enter 文本]</translation>
+            <translation>[输入文本]</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="62" />
@@ -7930,13 +8301,13 @@ File was too small.</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="64" />
             <source>Select photo to import</source>
             <comment>Media dialog</comment>
-            <translation>Select photo 到 导入</translation>
+            <translation>选择要导入的照片</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="65" />
             <source>No media found.</source>
             <comment>Media dialog</comment>
-            <translation>否 media found.</translation>
+            <translation>未找到媒体。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="66" />
@@ -7960,75 +8331,77 @@ File was too small.</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="69" />
             <source>Pressure intensity mode of player %0 disabled</source>
             <comment>Pressure intensity toggled off</comment>
-            <translation>压力 intensity mode 的 player %0 已禁用</translation>
+            <translation>玩家 %0 的压力强度模式已禁用</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="70" />
             <source>Pressure intensity mode of player %0 enabled</source>
             <comment>Pressure intensity toggled on</comment>
-            <translation>压力 intensity mode 的 player %0 已启用</translation>
+            <translation>玩家 %0 的压力强度模式已启用</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="71" />
             <source>Analog limiter of player %0 disabled</source>
             <comment>Analog limiter toggled off</comment>
-            <translation>模拟 limiter 的 player %0 已禁用</translation>
+            <translation>玩家 %0 的模拟摇杆限制器已禁用</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="72" />
             <source>Analog limiter of player %0 enabled</source>
             <comment>Analog limiter toggled on</comment>
-            <translation>模拟 limiter 的 player %0 已启用</translation>
+            <translation>玩家 %0 的模拟摇杆限制器已启用</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="73" />
             <source>Mouse and keyboard are now used as emulated devices.</source>
             <comment>Mouse and keyboard emulated</comment>
-            <translation>鼠标 和 键盘 是 现在 used 作为 模拟 devices.</translation>
+            <translation>鼠标和键盘现在用作模拟设备。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="74" />
             <source>Mouse and keyboard are now used as pad.</source>
             <comment>Mouse and keyboard pad</comment>
-            <translation>鼠标 和 键盘 是 现在 used 作为 pad.</translation>
+            <translation>鼠标和键盘现在用作手柄。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="75" />
             <source>ERROR: Game data is corrupted. The application will continue.</source>
             <comment>Game Error</comment>
-            <translation>错误: 游戏 data 是 corrupted. The application 将 continue.</translation>
+            <translation>错误：游戏数据已损坏。应用程序将继续运行。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="76" />
             <source>ERROR: HDD boot game is corrupted. The application will continue.</source>
             <comment>Game Error</comment>
-            <translation>错误: HDD 启动 游戏 是 corrupted. The application 将 continue.</translation>
+            <translation>错误：硬盘启动游戏已损坏。应用程序将继续运行。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="77" />
             <source>ERROR: Game data is corrupted. The application will be terminated.</source>
             <comment>Game Error</comment>
-            <translation>错误: 游戏 data 是 corrupted. The application 将 是 terminated.</translation>
+            <translation>错误：游戏数据已损坏。应用程序将被终止。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="78" />
             <source>ERROR: HDD boot game is corrupted. The application will be terminated.</source>
             <comment>Game Error</comment>
-            <translation>错误: HDD 启动 游戏 是 corrupted. The application 将 是 terminated.</translation>
+            <translation>错误：硬盘启动游戏已损坏。应用程序将被终止。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="79" />
             <source>ERROR: Not enough available space. The application will continue.
 Space needed: %0 KB</source>
             <comment>Game Error</comment>
-            <translation>错误: 不 enough 可用 space. The application 将 continue. Space 需要: %0 KB</translation>
+            <translation>错误：可用空间不足。应用程序将继续运行。
+所需空间：%0 KB</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="80" />
             <source>ERROR: Not enough available space. The application will be terminated.
 Space needed: %0 KB</source>
             <comment>Game Error</comment>
-            <translation>错误: 不 enough 可用 space. The application 将 是 terminated. Space 需要: %0 KB</translation>
+            <translation>错误：可用空间不足。应用程序将被终止。
+所需空间：%0 KB</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="81" />
@@ -8042,7 +8415,9 @@ Space needed: %0 KB</source>
 
 Please remove the game data for this title.</source>
             <comment>Game Error</comment>
-            <translation>那里 有 已 an 错误! Please 移除 the 游戏 data 为 此 标题.</translation>
+            <translation>发生错误！
+
+请移除此标题的游戏数据。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="83" />
@@ -8050,26 +8425,29 @@ Please remove the game data for this title.</source>
 
 Please reinstall the HDD boot game.</source>
             <comment>Game Error</comment>
-            <translation>那里 有 已 an 错误! Please reinstall the HDD 启动 游戏.</translation>
+            <translation>发生错误！
+
+请重新安装硬盘启动游戏。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="84" />
             <source>Not enough space to create HDD boot game.
 Space Needed: %0 KB</source>
             <comment>HDD Game Check Error</comment>
-            <translation>不 enough space 到 创建 HDD 启动 游戏. Space 需要: %0 KB</translation>
+            <translation>空间不足，无法创建硬盘启动游戏。
+所需空间：%0 KB</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="85" />
             <source>HDD boot game %0 is corrupt!</source>
             <comment>HDD Game Check Error</comment>
-            <translation>HDD 启动 游戏 %0 是 corrupt!</translation>
+            <translation>硬盘启动游戏 %0 已损坏！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="86" />
             <source>HDD boot game %0 could not be found!</source>
             <comment>HDD Game Check Error</comment>
-            <translation>HDD 启动 游戏 %0 能 不 是 found!</translation>
+            <translation>找不到硬盘启动游戏 %0！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="87" />
@@ -8082,19 +8460,20 @@ Space Needed: %0 KB</source>
             <source>Not enough space to create game data.
 Space Needed: %0 KB</source>
             <comment>Gamedata Check Error</comment>
-            <translation>不 enough space 到 创建 游戏 data. Space 需要: %0 KB</translation>
+            <translation>空间不足，无法创建游戏数据。
+所需空间：%0 KB</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="89" />
             <source>The game data in %0 is corrupt!</source>
             <comment>Gamedata Check Error</comment>
-            <translation>The 游戏 data 内 %0 是 corrupt!</translation>
+            <translation>%0 中的游戏数据已损坏！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="90" />
             <source>The game data in %0 could not be found!</source>
             <comment>Gamedata Check Error</comment>
-            <translation>The 游戏 data 内 %0 能 不 是 found!</translation>
+            <translation>找不到 %0 中的游戏数据！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="91" />
@@ -8107,98 +8486,112 @@ Space Needed: %0 KB</source>
             <source>The resource is temporarily unavailable.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>The resource 是 临时 不可用. (%0)</translation>
+            <translation>资源暂时不可用。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="93" />
             <source>Invalid argument or flag.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>无效 argument 或 flag. (%0)</translation>
+            <translation>无效的参数或标志。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="94" />
             <source>The feature is not yet implemented.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>The feature 是 不 还 implemented. (%0)</translation>
+            <translation>该功能尚未实现。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="95" />
             <source>Memory allocation failed.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>内存 allocation 失败. (%0)</translation>
+            <translation>内存分配失败。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="96" />
             <source>The resource with the specified identifier does not exist.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>The resource 与 the specified identifier 执行 不 exist. (%0)</translation>
+            <translation>具有指定标识符的资源不存在。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="97" />
             <source>The file does not exist.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>The 文件 执行 不 exist. (%0)</translation>
+            <translation>文件不存在。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="98" />
             <source>The file is in an unrecognized format / The file is not a valid ELF file.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>The 文件 是 内 an unrecognized format / The 文件 是 不 a 有效 ELF 文件. (%0)</translation>
+            <translation>文件格式无法识别 / 文件不是有效的 ELF 文件。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="99" />
             <source>Resource deadlock is avoided.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>Resource deadlock 是 avoided. (%0)</translation>
+            <translation>资源死锁已被避免。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="100" />
             <source>Operation not permitted.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>Operation 不 允许. (%0)</translation>
+            <translation>操作不允许。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="101" />
             <source>The device or resource is busy.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>The device 或 resource 是 忙碌. (%0)</translation>
+            <translation>设备或资源正忙。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="102" />
             <source>The operation is timed out.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>The operation 是 timed 外. (%0)</translation>
+            <translation>操作已超时。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="103" />
             <source>The operation is aborted.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>The operation 是 aborted. (%0)</translation>
+            <translation>操作已中止。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="104" />
             <source>Invalid memory access.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>无效 内存 access. (%0)</translation>
+            <translation>无效的内存访问。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="105" />
             <source>State of the target thread is invalid.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>State 的 the target 线程 是 无效. (%0)</translation>
+            <translation>目标线程的状态无效。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="106" />
@@ -8212,7 +8605,8 @@ Space Needed: %0 KB</source>
             <source>Shortage of the kernel resources.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>Shortage 的 the kernel resources. (%0)</translation>
+            <translation>内核资源不足。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="108" />
@@ -8226,56 +8620,64 @@ Space Needed: %0 KB</source>
             <source>Operation cancelled.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>Operation 已取消. (%0)</translation>
+            <translation>操作已取消。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="110" />
             <source>Entry already exists.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>Entry 已经 exists. (%0)</translation>
+            <translation>条目已存在。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="111" />
             <source>Port is already connected.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>Port 是 已经 已连接. (%0)</translation>
+            <translation>端口已连接。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="112" />
             <source>Port is not connected.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>Port 是 不 已连接. (%0)</translation>
+            <translation>端口未连接。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="113" />
             <source>Failure in authorizing SELF. Program authentication fail.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>失败 内 authorizing SELF. 程序 authentication fail. (%0)</translation>
+            <translation>授权 SELF 失败。程序认证失败。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="114" />
             <source>The file is not MSELF.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>The 文件 是 不 MSELF. (%0)</translation>
+            <translation>文件不是 MSELF。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="115" />
             <source>System version error.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>System 版本 错误. (%0)</translation>
+            <translation>系统版本错误。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="116" />
             <source>Fatal system error occurred while authorizing SELF. SELF auth failure.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>致命 system 错误 occurred 当 authorizing SELF. SELF auth 失败. (%0)</translation>
+            <translation>授权 SELF 时发生致命系统错误。SELF 认证失败。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="117" />
@@ -8290,14 +8692,16 @@ Space Needed: %0 KB</source>
             <source>Math range violation.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>Math 范围 violation. (%0)</translation>
+            <translation>数学范围违规。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="119" />
             <source>Illegal multi-byte sequence in input.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>非法 multi-byte sequence 内 input. (%0)</translation>
+            <translation>输入中存在非法的多字节序列。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="120" />
@@ -8311,7 +8715,8 @@ Space Needed: %0 KB</source>
             <source>Syscall was interrupted.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>Syscall 曾是 interrupted. (%0)</translation>
+            <translation>系统调用被中断。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="122" />
@@ -8325,21 +8730,24 @@ Space Needed: %0 KB</source>
             <source>Too many links.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>也 许多 links. (%0)</translation>
+            <translation>链接过多。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="124" />
             <source>File table overflow.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>文件 table overflow. (%0)</translation>
+            <translation>文件表溢出。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="125" />
             <source>No space left on device.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>否 space 左 开 device. (%0)</translation>
+            <translation>设备上没有剩余空间。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="126" />
@@ -8361,21 +8769,24 @@ Space Needed: %0 KB</source>
             <source>Read-only filesystem.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>Read-仅 filesystem. (%0)</translation>
+            <translation>只读文件系统。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="129" />
             <source>Illegal seek.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>非法 seek. (%0)</translation>
+            <translation>非法定位。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="130" />
             <source>Arg list too long.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>Arg 列表 也 long. (%0)</translation>
+            <translation>参数列表过长。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="131" />
@@ -8390,14 +8801,16 @@ Space Needed: %0 KB</source>
             <source>Invalid file descriptor.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>无效 文件 descriptor. (%0)</translation>
+            <translation>无效的文件描述符。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="133" />
             <source>Filesystem mounting failed.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>Filesystem mounting 失败. (%0)</translation>
+            <translation>文件系统挂载失败。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="134" />
@@ -8411,7 +8824,8 @@ Space Needed: %0 KB</source>
             <source>No device.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>否 device. (%0)</translation>
+            <translation>无设备。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="136" />
@@ -8425,49 +8839,56 @@ Space Needed: %0 KB</source>
             <source>No such device or IO.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>否 此类 device 或 IO. (%0)</translation>
+            <translation>无此设备或 IO。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="138" />
             <source>Cross-device link error.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>Cross-device link 错误. (%0)</translation>
+            <translation>跨设备链接错误。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="139" />
             <source>Bad Message.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>坏 Message. (%0)</translation>
+            <translation>错误的消息。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="140" />
             <source>In progress.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>内 progress. (%0)</translation>
+            <translation>进行中。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="141" />
             <source>Message size error.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>Message 大小 错误. (%0)</translation>
+            <translation>消息大小错误。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="142" />
             <source>Name too long.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>名称 也 long. (%0)</translation>
+            <translation>名称过长。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="143" />
             <source>No lock.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>否 lock. (%0)</translation>
+            <translation>无锁。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="144" />
@@ -8488,7 +8909,8 @@ Space Needed: %0 KB</source>
             <source>File-system specific error.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>文件-system 特定 错误. (%0)</translation>
+            <translation>文件系统特定错误。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="147" />
@@ -8503,21 +8925,24 @@ Space Needed: %0 KB</source>
             <source>Filesystem not mounted.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>Filesystem 不 已挂载. (%0)</translation>
+            <translation>文件系统未挂载。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="149" />
             <source>Not SData.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>不 SData. (%0)</translation>
+            <translation>不是 SData。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="150" />
             <source>Incorrect version in sys_load_param.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>不正确 版本 内 sys_load_param. (%0)</translation>
+            <translation>sys_load_param 中的版本不正确。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="151" />
@@ -8525,32 +8950,34 @@ Space Needed: %0 KB</source>
             <source>Pointer is null.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>指针 是 null. (%0)</translation>
+            <translation>指针为空。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="153" />
             <source>An error has occurred.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>An 错误 有 occurred. (%0)</translation>
+            <translation>发生错误。
+(%0)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="154" />
             <source>On Screen Keyboard</source>
             <comment>OSK Dialog</comment>
-            <translation>开 Screen 键盘</translation>
+            <translation>屏幕键盘</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="155" />
             <source>The Home Menu can't be opened while the On Screen Keyboard is busy!</source>
             <comment>OSK Dialog</comment>
-            <translation>The Home 菜单 能't 是 已打开 当 the 开 Screen 键盘 是 忙碌!</translation>
+            <translation>屏幕键盘忙碌时无法打开主菜单！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="156" />
             <source>Error - Save data corrupted</source>
             <comment>Savedata Error</comment>
-            <translation>错误 - 保存 data corrupted</translation>
+            <translation>错误 - 存档数据已损坏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="157" />
@@ -8562,7 +8989,7 @@ Space Needed: %0 KB</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="158" />
             <source>Error - Save data cannot be found</source>
             <comment>Savedata Error</comment>
-            <translation>错误 - 保存 data cannot 是 found</translation>
+            <translation>错误 - 找不到存档数据</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="159" />
@@ -8570,31 +8997,33 @@ Space Needed: %0 KB</source>
 
 Space needed: %0 KB</source>
             <comment>Savedata Error</comment>
-            <translation>错误 - Insufficient free space Space 需要: %0 KB</translation>
+            <translation>错误 - 可用空间不足
+
+所需空间：%0 KB</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="160" />
             <source>There is no saved data.</source>
             <comment>Savedata entry info</comment>
-            <translation>那里 是 否 已保存 data.</translation>
+            <translation>没有存档数据。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="161" />
             <source>New Saved Data</source>
             <comment>Savedata Dialog</comment>
-            <translation>新建 已保存 Data</translation>
+            <translation>新存档数据</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="162" />
             <source>Select to create a new entry</source>
             <comment>Savedata Dialog</comment>
-            <translation>Select 到 创建 a 新建 entry</translation>
+            <translation>选择以创建新条目</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="163" />
             <source>Do you want to save this data?</source>
             <comment>Savedata Dialog</comment>
-            <translation>执行 you want 到 保存 此 data?</translation>
+            <translation>您要保存此数据吗？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="164" />
@@ -8602,7 +9031,9 @@ Space needed: %0 KB</source>
 
 %0</source>
             <comment>Savedata entry info</comment>
-            <translation>执行 you really want 到 删除 此 data? %0</translation>
+            <translation>您真的要删除此数据吗？
+
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="165" />
@@ -8610,7 +9041,9 @@ Space needed: %0 KB</source>
 
 %0</source>
             <comment>Savedata entry info</comment>
-            <translation>Successfully 已移除 data! %0</translation>
+            <translation>成功移除数据！
+
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="166" />
@@ -8618,7 +9051,9 @@ Space needed: %0 KB</source>
 
 %0</source>
             <comment>Savedata entry info</comment>
-            <translation>删除 此 data? %0</translation>
+            <translation>删除此数据？
+
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="167" />
@@ -8626,7 +9061,9 @@ Space needed: %0 KB</source>
 
 %0</source>
             <comment>Savedata entry info</comment>
-            <translation>加载 此 data? %0</translation>
+            <translation>加载此数据？
+
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="168" />
@@ -8634,7 +9071,9 @@ Space needed: %0 KB</source>
 
 %0</source>
             <comment>Savedata entry info</comment>
-            <translation>执行 you want 到 overwrite the 已保存 data? %0</translation>
+            <translation>您要覆盖存档数据吗？
+
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="169" />
@@ -8651,13 +9090,14 @@ Space needed: %0 KB</source>
             <source>Start [%0] on the PS Vita system.
 If you have not installed [%0], go to [Remote Play] on the PS Vita system and start [Cross-Controller] from the LiveArea™ screen.</source>
             <comment>Cross-Controller message</comment>
-            <translation>开始 [%0] 开 the PS Vita system. 如果 you 有 不 已安装 [%0], go 到 [远程 Play] 开 the PS Vita system 和 开始 [Cross-控制器] 从 the LiveArea™ screen.</translation>
+            <translation>在 PS Vita 系统上启动 [%0]。
+如果您尚未安装 [%0]，请前往 PS Vita 系统上的 [远程游玩] 并从 LiveArea™ 屏幕启动 [交叉控制器]。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="172" />
             <source>If your system software version on the PS Vita system is earlier than 1.80, you must update the system software to the latest version.</source>
             <comment>Cross-Controller firmware message</comment>
-            <translation>如果 your system software 版本 开 the PS Vita system 是 earlier 比 1.80, you 必须 更新 the system software 到 the latest 版本.</translation>
+            <translation>如果您的 PS Vita 系统上的系统软件版本早于 1.80，您必须将系统软件更新到最新版本。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="173" />
@@ -8675,7 +9115,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="175" />
             <source>Add Friend</source>
             <comment>RECVMESSAGE_DIALOG</comment>
-            <translation>添加 Friend</translation>
+            <translation>添加好友</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="176" />
@@ -8693,7 +9133,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="178" />
             <source>Select Message To Send</source>
             <comment>SENDMESSAGE_DIALOG</comment>
-            <translation>Select Message 到 Send</translation>
+            <translation>选择要发送的消息</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="179" />
@@ -8705,7 +9145,7 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="180" />
             <source>Add Friend</source>
             <comment>SENDMESSAGE_DIALOG</comment>
-            <translation>添加 Friend</translation>
+            <translation>添加好友</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="181" />
@@ -8713,7 +9153,9 @@ If you have not installed [%0], go to [Remote Play] on the PS Vita system and st
 
 Subject:</source>
             <comment>SENDMESSAGE_DIALOG</comment>
-            <translation>Send message 到 %0 ? Subject:</translation>
+            <translation>向 %0 发送消息？
+
+主题：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="182" />
@@ -8721,7 +9163,9 @@ Subject:</source>
 
 Subject:</source>
             <comment>SENDMESSAGE_DIALOG</comment>
-            <translation>Send invite 到 %0 ? Subject:</translation>
+            <translation>向 %0 发送邀请？
+
+主题：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="183" />
@@ -8729,17 +9173,19 @@ Subject:</source>
 
 Subject:</source>
             <comment>SENDMESSAGE_DIALOG</comment>
-            <translation>Send friend request 到 %0 ? Subject:</translation>
+            <translation>向 %0 发送好友请求？
+
+主题：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="184" />
             <source>Received an invite from %0</source>
-            <translation>Received an invite 从 %0</translation>
+            <translation>收到来自 %0 的邀请</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="185" />
             <source>Received a message from %0</source>
-            <translation>Received a message 从 %0</translation>
+            <translation>收到来自 %0 的消息</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="186" />
@@ -8754,57 +9200,57 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="188" />
             <source>RPCN: Invalid Input (Wrong Host/Port)</source>
-            <translation>RPCN: 无效 Input (错误 Host/Port)</translation>
+            <translation>RPCN：无效输入（主机/端口错误）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="189" />
             <source>RPCN Connection Error: WolfSSL Error</source>
-            <translation>RPCN Connection 错误: WolfSSL 错误</translation>
+            <translation>RPCN 连接错误：WolfSSL 错误</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="190" />
             <source>RPCN Connection Error: Resolve Error</source>
-            <translation>RPCN Connection 错误: Resolve 错误</translation>
+            <translation>RPCN 连接错误：解析错误</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="191" />
             <source>RPCN Connection Error: Failed to bind to given binding IP</source>
-            <translation>RPCN Connection 错误: 失败 到 bind 到 given binding IP</translation>
+            <translation>RPCN 连接错误：无法绑定到指定的绑定 IP</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="192" />
             <source>RPCN Connection Error</source>
-            <translation>RPCN Connection 错误</translation>
+            <translation>RPCN 连接错误</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="193" />
             <source>RPCN Login Error: Identification Error</source>
-            <translation>RPCN Login 错误: Identification 错误</translation>
+            <translation>RPCN 登录错误：身份识别错误</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="194" />
             <source>RPCN Login Error: User Already Logged In</source>
-            <translation>RPCN Login 错误: User 已经 Logged 内</translation>
+            <translation>RPCN 登录错误：用户已登录</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="195" />
             <source>RPCN Login Error: Invalid Username</source>
-            <translation>RPCN Login 错误: 无效 Username</translation>
+            <translation>RPCN 登录错误：用户名无效</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="196" />
             <source>RPCN Login Error: Invalid Password</source>
-            <translation>RPCN Login 错误: 无效 Password</translation>
+            <translation>RPCN 登录错误：密码无效</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="197" />
             <source>RPCN Login Error: Invalid Token</source>
-            <translation>RPCN Login 错误: 无效 Token</translation>
+            <translation>RPCN 登录错误：令牌无效</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="198" />
             <source>RPCN Misc Error: Protocol Version Error (outdated RPCS3?)</source>
-            <translation>RPCN Misc 错误: Protocol 版本 错误 (outdated RPCS3?)</translation>
+            <translation>RPCN 杂项错误：协议版本错误（RPCS3 过时？）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="199" />
@@ -8814,7 +9260,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="200" />
             <source>Successfully logged on RPCN!</source>
-            <translation>Successfully logged 开 RPCN!</translation>
+            <translation>已成功登录 RPCN！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="201" />
@@ -8826,30 +9272,30 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="202" />
             <source>RPCN: Friend added: %0</source>
             <comment>RCPN Friends</comment>
-            <translation>RPCN: Friend 已添加: %0</translation>
+            <translation>RPCN：已添加好友：%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="203" />
             <source>RPCN: Friend removed: %0</source>
             <comment>RCPN Friends</comment>
-            <translation>RPCN: Friend 已移除: %0</translation>
+            <translation>RPCN：已移除好友：%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="204" />
             <source>RPCN: %0 logged in</source>
             <comment>RCPN Friends</comment>
-            <translation>RPCN: %0 logged 内</translation>
+            <translation>RPCN：%0 已登录</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="205" />
             <source>RPCN: %0 logged out</source>
             <comment>RCPN Friends</comment>
-            <translation>RPCN: %0 logged 外</translation>
+            <translation>RPCN：%0 已登出</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="206" />
             <source>Home Menu</source>
-            <translation>Home 菜单</translation>
+            <translation>主菜单</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="207" />
@@ -8869,7 +9315,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="210" />
             <source>Pending Friend Requests</source>
-            <translation>待处理 Friend Requests</translation>
+            <translation>待处理的好友请求</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="211" />
@@ -8906,21 +9352,27 @@ Subject:</source>
             <source>Block this user?
 
 %0</source>
-            <translation>Block 此 user? %0</translation>
+            <translation>屏蔽此用户？
+
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="218" />
             <source>Unblock this user?
 
 %0</source>
-            <translation>Unblock 此 user? %0</translation>
+            <translation>取消屏蔽此用户？
+
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="219" />
             <source>Remove this user?
 
 %0</source>
-            <translation>移除 此 user? %0</translation>
+            <translation>移除此用户？
+
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="220" />
@@ -8936,7 +9388,9 @@ Subject:</source>
             <source>Cancel Request?
 
 %0</source>
-            <translation>取消 Request? %0</translation>
+            <translation>取消请求？
+
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="222" />
@@ -8980,7 +9434,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="229" />
             <source>Discard the current settings' changes?</source>
-            <translation>Discard the 当前 设置' changes?</translation>
+            <translation>放弃当前设置的更改？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="230" />
@@ -9007,7 +9461,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="234" />
             <source>Audio Backend</source>
             <comment>Audio</comment>
-            <translation>音频 Backend</translation>
+            <translation>音频后端</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="235" />
@@ -9019,7 +9473,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="236" />
             <source>Desired Audio Buffer Duration</source>
             <comment>Audio</comment>
-            <translation>Desired 音频 缓冲区 Duration</translation>
+            <translation>所需音频缓冲持续时间</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="237" />
@@ -9101,31 +9555,31 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="250" />
             <source>Background Input Enabled</source>
             <comment>Input</comment>
-            <translation>Background Input 已启用</translation>
+            <translation>后台输入已启用</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="251" />
             <source>Keep Pads Connected</source>
             <comment>Input</comment>
-            <translation>Keep Pads 已连接</translation>
+            <translation>保持手柄连接</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="252" />
             <source>Show PS Move Cursor</source>
             <comment>Input</comment>
-            <translation>显示 PS 移动 Cursor</translation>
+            <translation>显示 PS Move 光标</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="253" />
             <source>Camera Flip</source>
             <comment>Input</comment>
-            <translation>Camera 翻转</translation>
+            <translation>摄像头翻转</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="254" />
             <source>Pad Handler Mode</source>
             <comment>Input</comment>
-            <translation>手柄处理程序模式</translation>
+            <translation>手柄处理器模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="255" />
@@ -9137,13 +9591,13 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="256" />
             <source>Fake PS Move Rotation Cone (Horizontal)</source>
             <comment>Input</comment>
-            <translation>Fake PS 移动 Rotation Cone (Horizontal)</translation>
+            <translation>模拟 PS Move 旋转锥（水平）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="257" />
             <source>Fake PS Move Rotation Cone (Vertical)</source>
             <comment>Input</comment>
-            <translation>Fake PS 移动 Rotation Cone (Vertical)</translation>
+            <translation>模拟 PS Move 旋转锥（垂直）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="258" />
@@ -9154,13 +9608,13 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="259" />
             <source>Preferred SPU Threads</source>
             <comment>Advanced</comment>
-            <translation>首选 SPU 线程</translation>
+            <translation>首选 SPU 线程数</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="260" />
             <source>Max Power Saving CPU-Preemptions</source>
             <comment>Advanced</comment>
-            <translation>Max Power 保存中 CPU-Preemptions</translation>
+            <translation>最大节能 CPU 抢占数</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="261" />
@@ -9178,19 +9632,19 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="263" />
             <source>Handle RSX Memory Tiling</source>
             <comment>Advanced</comment>
-            <translation>Handle RSX 内存 Tiling</translation>
+            <translation>处理 RSX 内存平铺</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="264" />
             <source>Max SPURS Threads</source>
             <comment>Advanced</comment>
-            <translation>Max SPURS 线程</translation>
+            <translation>SPURS 线程最大数</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="265" />
             <source>Driver Wake-Up Delay</source>
             <comment>Advanced</comment>
-            <translation>Driver Wake-上 Delay</translation>
+            <translation>驱动唤醒延迟</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="266" />
@@ -9207,78 +9661,78 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="268" />
             <source>Overlays</source>
-            <translation>覆盖层</translation>
+            <translation>叠加层</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="269" />
             <source>Show Trophy Popups</source>
             <comment>Overlays</comment>
-            <translation>显示 Trophy Popups</translation>
+            <translation>显示奖杯弹出提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="270" />
             <source>Show RPCN Popups</source>
             <comment>Overlays</comment>
-            <translation>显示 RPCN Popups</translation>
+            <translation>显示 RPCN 弹出提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="271" />
             <source>Show Shader Compilation Hint</source>
             <comment>Overlays</comment>
-            <translation>显示 着色器 Compilation Hint</translation>
+            <translation>显示着色器编译提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="272" />
             <source>Show PPU Compilation Hint</source>
             <comment>Overlays</comment>
-            <translation>显示 PPU Compilation Hint</translation>
+            <translation>显示 PPU 编译提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="273" />
             <source>Show Autosave/Autoload Hint</source>
             <comment>Overlays</comment>
-            <translation>显示 Autosave/Autoload Hint</translation>
+            <translation>显示自动保存/自动加载提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="274" />
             <source>Show Pressure Intensity Toggle Hint</source>
             <comment>Overlays</comment>
-            <translation>显示 压力 Intensity Toggle Hint</translation>
+            <translation>显示压力强度切换提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="275" />
             <source>Show Analog Limiter Toggle Hint</source>
             <comment>Overlays</comment>
-            <translation>显示 模拟 Limiter Toggle Hint</translation>
+            <translation>显示模拟摇杆限制器切换提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="276" />
             <source>Show Mouse And Keyboard Toggle Hint</source>
             <comment>Overlays</comment>
-            <translation>显示 鼠标 和 键盘 Toggle Hint</translation>
+            <translation>显示鼠标和键盘切换提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="277" />
             <source>Show Fatal Error Hints</source>
             <comment>Overlays</comment>
-            <translation>显示 致命 错误 Hints</translation>
+            <translation>显示致命错误提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="278" />
             <source>Record With Overlays</source>
             <comment>Overlays</comment>
-            <translation>Record 与 Overlays</translation>
+            <translation>录制时包含叠加层</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="279" />
             <source>Play music during boot sequence.</source>
             <comment>Overlays</comment>
-            <translation>Play 音乐 期间 启动 sequence.</translation>
+            <translation>在启动序列期间播放音乐。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="280" />
             <source>Performance Overlay</source>
-            <translation>性能覆盖层</translation>
+            <translation>性能叠加层</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="281" />
@@ -9290,13 +9744,13 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="282" />
             <source>Enable Framerate Graph</source>
             <comment>Performance Overlay</comment>
-            <translation>启用 Framerate Graph</translation>
+            <translation>启用帧率图表</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="283" />
             <source>Enable Frametime Graph</source>
             <comment>Performance Overlay</comment>
-            <translation>启用 Frametime Graph</translation>
+            <translation>启用帧时间图表</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="284" />
@@ -9332,7 +9786,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="289" />
             <source>Metrics Update Interval</source>
             <comment>Performance Overlay</comment>
-            <translation>Metrics 更新 Interval</translation>
+            <translation>指标更新间隔</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="290" />
@@ -9344,25 +9798,25 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="291" />
             <source>Center Horizontally</source>
             <comment>Performance Overlay</comment>
-            <translation>居中 Horizontally</translation>
+            <translation>水平居中</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="292" />
             <source>Center Vertically</source>
             <comment>Performance Overlay</comment>
-            <translation>居中 Vertically</translation>
+            <translation>垂直居中</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="293" />
             <source>Horizontal Margin</source>
             <comment>Performance Overlay</comment>
-            <translation>Horizontal 边距</translation>
+            <translation>水平边距</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="294" />
             <source>Vertical Margin</source>
             <comment>Performance Overlay</comment>
-            <translation>Vertical 边距</translation>
+            <translation>垂直边距</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="295" />
@@ -9391,31 +9845,31 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="299" />
             <source>Debug Overlay</source>
             <comment>Debug</comment>
-            <translation>调试 Overlay</translation>
+            <translation>调试叠加层</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="300" />
             <source>Input Debug Overlay</source>
             <comment>Debug</comment>
-            <translation>Input 调试 Overlay</translation>
+            <translation>输入调试叠加层</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="301" />
             <source>Mouse Debug Overlay</source>
             <comment>Debug</comment>
-            <translation>鼠标 调试 Overlay</translation>
+            <translation>鼠标调试叠加层</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="302" />
             <source>Disable Video Output</source>
             <comment>Debug</comment>
-            <translation>禁用 视频 Output</translation>
+            <translation>禁用视频输出</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="303" />
             <source>Texture LOD Bias Addend</source>
             <comment>Debug</comment>
-            <translation>纹理 LOD Bias Addend</translation>
+            <translation>纹理 LOD 偏移附加值</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="304" />
@@ -9430,42 +9884,42 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="306" />
             <source>Save Emulation State</source>
-            <translation>保存 模拟 State</translation>
+            <translation>保存模拟状态</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="307" />
             <source>Save Emulation State And Exit</source>
-            <translation>保存 模拟 State 和 退出</translation>
+            <translation>保存模拟状态并退出</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="308" />
             <source>Reload Last Emulation State</source>
-            <translation>Reload 最后一个 模拟 State</translation>
+            <translation>重新加载上一个模拟状态</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="309" />
             <source>Reload Second-To-Last Emulation State</source>
-            <translation>Reload Second-到-最后一个 模拟 State</translation>
+            <translation>重新加载倒数第二个模拟状态</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="310" />
             <source>Reload Third-To-Last Emulation State</source>
-            <translation>Reload Third-到-最后一个 模拟 State</translation>
+            <translation>重新加载倒数第三个模拟状态</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="311" />
             <source>Reload Fourth-To-Last Emulation State</source>
-            <translation>Reload Fourth-到-最后一个 模拟 State</translation>
+            <translation>重新加载倒数第四个模拟状态</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="312" />
             <source>Toggle Fullscreen</source>
-            <translation>Toggle 全屏</translation>
+            <translation>切换全屏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="313" />
             <source>Start/Stop Recording</source>
-            <translation>开始/停止 Recording</translation>
+            <translation>开始/停止录制</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="314" />
@@ -9480,27 +9934,27 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="316" />
             <source>Locked trophy: %0</source>
-            <translation>已锁定 trophy: %0</translation>
+            <translation>已锁定奖杯：%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="317" />
             <source>Hidden trophy</source>
-            <translation>已隐藏 trophy</translation>
+            <translation>隐藏奖杯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="318" />
             <source>This trophy is hidden</source>
-            <translation>此 trophy 是 已隐藏</translation>
+            <translation>此奖杯已隐藏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="319" />
             <source>Show hidden trophies</source>
-            <translation>显示 已隐藏 trophies</translation>
+            <translation>显示隐藏奖杯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="320" />
             <source>Hide hidden trophies</source>
-            <translation>隐藏 已隐藏 trophies</translation>
+            <translation>隐藏隐藏奖杯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="321" />
@@ -9535,19 +9989,19 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="326" />
             <source>Audio muted</source>
             <comment>Audio</comment>
-            <translation>音频 muted</translation>
+            <translation>音频已静音</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="327" />
             <source>Audio unmuted</source>
             <comment>Audio</comment>
-            <translation>音频 unmuted</translation>
+            <translation>音频已取消静音</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="328" />
             <source>Volume changed to %0</source>
             <comment>Audio</comment>
-            <translation>音量 changed 到 %0</translation>
+            <translation>音量已更改为 %0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="329" />
@@ -9592,12 +10046,12 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="337" />
             <source>Stopping. Please wait...</source>
-            <translation>停止中. Please wait...</translation>
+            <translation>正在停止。请稍候...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="338" />
             <source>Creating savestate. Please wait...</source>
-            <translation>创建中 savestate. Please wait...</translation>
+            <translation>正在创建存档。请稍候...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="339" />
@@ -9617,12 +10071,12 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="342" />
             <source>Loading PPU Modules...</source>
-            <translation>加载中 PPU Modules...</translation>
+            <translation>正在加载 PPU 模块...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="343" />
             <source>Compiling PPU Modules...</source>
-            <translation>编译中 PPU Modules...</translation>
+            <translation>正在编译 PPU 模块...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="344" />
@@ -9637,12 +10091,12 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="346" />
             <source>Building SPU Cache...</source>
-            <translation>Building SPU 缓存...</translation>
+            <translation>正在构建 SPU 缓存...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="347" />
             <source>Press and hold the START button to resume</source>
-            <translation>Press 和 hold the 开始 按钮 到 继续</translation>
+            <translation>按住 START 按钮以继续</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="348" />
@@ -9652,27 +10106,27 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="349" />
             <source>The PS3 application has likely crashed, you can close it.</source>
-            <translation>The PS3 application 有 likely crashed, you 能 关闭 it.</translation>
+            <translation>PS3 应用程序可能已崩溃，您可以关闭它。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="350" />
             <source>SaveState failed: Game saving is in progress, wait until finished.</source>
-            <translation>SaveState 失败: 游戏 保存中 是 内 progress, wait 直到 已完成.</translation>
+            <translation>存档失败：游戏正在保存中，请等待完成。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="351" />
             <source>SaveState failed: VDEC-based video/cutscenes are in order, wait for them to end or enable libvdec.sprx.</source>
-            <translation>SaveState 失败: VDEC-based 视频/cutscenes 是 内 order, wait 为 them 到 end 或 启用 libvdec.sprx.</translation>
+            <translation>存档失败：VDEC 视频过场动画正在进行，请等待其结束或启用 libvdec.sprx。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="352" />
             <source>SaveState failed: Failed to lock SPU state, enabling SPU-Compatible mode may fix it.</source>
-            <translation>SaveState 失败: 失败 到 lock SPU state, 启用中 SPU-兼容 mode 可以 fix it.</translation>
+            <translation>存档失败：无法锁定 SPU 状态，启用 SPU 兼容模式可能解决此问题。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="353" />
             <source>SaveState failed: Failed to lock SPU state, using SPU ASMJIT will fix it.</source>
-            <translation>SaveState 失败: 失败 到 lock SPU state, using SPU ASMJIT 将 fix it.</translation>
+            <translation>存档失败：无法锁定 SPU 状态，使用 SPU ASMJIT 可解决此问题。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="354" />
@@ -9705,7 +10159,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="309" />
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="315" />
             <source>All user channels</source>
-            <translation>全部 user channels</translation>
+            <translation>所有用户频道</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="158" />
@@ -9726,7 +10180,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="259" />
             <source>Show in Memory Viewer</source>
-            <translation>显示 内 内存 Viewer</translation>
+            <translation>在内存查看器中显示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="267" />
@@ -9746,7 +10200,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="281" />
             <source>Stack Mode (TTY)</source>
-            <translation>栈 Mode (TTY)</translation>
+            <translation>堆栈模式 (TTY)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="289" />
@@ -9796,22 +10250,22 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="342" />
             <source>Stack Mode (Log)</source>
-            <translation>栈 Mode (日志)</translation>
+            <translation>堆栈模式 (日志)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="350" />
             <source>Stack Cell Errors</source>
-            <translation>栈 Cell 错误</translation>
+            <translation>堆叠 Cell 错误</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="358" />
             <source>Show Thread Prefix</source>
-            <translation>显示 线程 Prefix</translation>
+            <translation>显示线程前缀</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="366" />
             <source>Print Log/TTY while hidden</source>
-            <translation>Print 日志/TTY 当 已隐藏</translation>
+            <translation>隐藏时打印日志/TTY</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="378" />
@@ -9821,27 +10275,27 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="408" />
             <source>Jump to the selected hexadecimal address from the log text on the debugger.</source>
-            <translation>Jump 到 the selected hexadecimal 地址 从 the 日志 文本 开 the 调试器.</translation>
+            <translation>从调试器上的日志文本跳转到所选的十六进制地址。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="409" />
             <source>Show the thread that corresponds to the thread ID from the log text on the debugger.</source>
-            <translation>显示 the 线程 那个 corresponds 到 the 线程 ID 从 the 日志 文本 开 the 调试器.</translation>
+            <translation>从调试器上的日志文本中显示与线程 ID 对应的线程。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="410" />
             <source>Jump to the selected hexadecimal address from the log text on the memory viewer.</source>
-            <translation>Jump 到 the selected hexadecimal 地址 从 the 日志 文本 开 the 内存 viewer.</translation>
+            <translation>从内存查看器上的日志文本跳转到所选的十六进制地址。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="434" />
             <source>Jump to the selected hexadecimal address from the TTY text on the debugger.</source>
-            <translation>Jump 到 the selected hexadecimal 地址 从 the TTY 文本 开 the 调试器.</translation>
+            <translation>从调试器上的 TTY 文本跳转到所选的十六进制地址。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_frame.cpp" line="435" />
             <source>Jump to the selected hexadecimal address from the TTY text on the memory viewer.</source>
-            <translation>Jump 到 the selected hexadecimal 地址 从 the TTY 文本 开 the 内存 viewer.</translation>
+            <translation>从内存查看器上的 TTY 文本跳转到所选的十六进制地址。</translation>
         </message>
     </context>
     <context>
@@ -9849,7 +10303,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_level_dialog.cpp" line="17" />
             <source>Configure minimum log levels</source>
-            <translation>配置 最小值 日志 levels</translation>
+            <translation>配置最低日志级别</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_level_dialog.cpp" line="30" />
@@ -9922,7 +10376,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="77" />
             <source>Log Viewer%0</source>
-            <translation>日志 Viewer%0</translation>
+            <translation>日志查看器%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="83" />
@@ -9942,12 +10396,12 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="86" />
             <source>&amp;Save filtered log</source>
-            <translation>&amp;保存 filtered 日志</translation>
+            <translation>保存筛选后的日志 (&amp;S)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="87" />
             <source>&amp;Filter log%0</source>
-            <translation>&amp;Filter 日志%0</translation>
+            <translation>筛选日志 (&amp;F)%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="88" />
@@ -9957,12 +10411,12 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="89" />
             <source>&amp;Check config</source>
-            <translation>&amp;Check 配置</translation>
+            <translation>检查配置 (&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="91" />
             <source>&amp;Show Timestamps</source>
-            <translation>&amp;显示 Timestamps</translation>
+            <translation>显示时间戳 (&amp;S)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="95" />
@@ -9972,7 +10426,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="99" />
             <source>&amp;Last actions only</source>
-            <translation>&amp;最后一个 actions 仅</translation>
+            <translation>仅显示最后的操作 (&amp;L)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="104" />
@@ -10012,7 +10466,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="164" />
             <source>Select log file</source>
-            <translation>Select 日志 文件</translation>
+            <translation>选择日志文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="164" />
@@ -10028,12 +10482,12 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="211" />
             <source>Filter log</source>
-            <translation>Filter 日志</translation>
+            <translation>筛选日志</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="211" />
             <source>Enter text</source>
-            <translation>Enter 文本</translation>
+            <translation>输入文本</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="221" />
@@ -10043,7 +10497,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="221" />
             <source>Enter text (comma separated)</source>
-            <translation>Enter 文本 (comma separated)</translation>
+            <translation>输入文本（以逗号分隔）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="274" />
@@ -10073,7 +10527,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="446" />
             <source>Cannot find any game boot!</source>
-            <translation>Cannot find 任何 游戏 启动!</translation>
+            <translation>找不到任何游戏启动！</translation>
         </message>
     </context>
     <context>
@@ -10101,7 +10555,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="168" />
             <source>Boot Recent</source>
-            <translation>启动 Recent</translation>
+            <translation>启动最近的</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="179" />
@@ -10116,7 +10570,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="203" />
             <source>Boot Recent Savestate</source>
-            <translation>启动 Recent Savestate</translation>
+            <translation>启动最近的存档</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="233" />
@@ -10141,7 +10595,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="264" />
             <source>Emulated Devices</source>
-            <translation>模拟 Devices</translation>
+            <translation>模拟设备</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="299" />
@@ -10156,7 +10610,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="311" />
             <source>Portals and Gates</source>
-            <translation>Portals 和 Gates</translation>
+            <translation>传送门和闸门</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="320" />
@@ -10166,7 +10620,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="328" />
             <source>Packages/Raps/Edats</source>
-            <translation>包/Raps/Edats</translation>
+            <translation>PKG/RAP/EDAT 文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="352" />
@@ -10176,7 +10630,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="378" />
             <source>View</source>
-            <translation>视图</translation>
+            <translation>查看</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="382" />
@@ -10186,12 +10640,12 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="396" />
             <source>Game List View</source>
-            <translation>游戏 列表 View</translation>
+            <translation>游戏列表视图</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="403" />
             <source>Game List in Grid Mode</source>
-            <translation>游戏 列表 内 Grid Mode</translation>
+            <translation>网格模式下的游戏列表</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="409" />
@@ -10216,7 +10670,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="484" />
             <source>Show tool bar</source>
-            <translation>显示 tool bar</translation>
+            <translation>显示工具栏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="523" />
@@ -10226,7 +10680,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="528" />
             <source>Boot Test</source>
-            <translation>启动 Test</translation>
+            <translation>启动测试</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="533" />
@@ -10236,17 +10690,17 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="538" />
             <source>Boot Savestate</source>
-            <translation>启动 Savestate</translation>
+            <translation>启动存档</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="543" />
             <source>Install Packages/Raps/Edats</source>
-            <translation>安装 Packages/Raps/Edats</translation>
+            <translation>安装 PKG/RAP/EDAT 文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="546" />
             <source>Install application from a .pkg file</source>
-            <translation>安装 application 从 a .pkg 文件</translation>
+            <translation>从 .pkg 文件安装应用程序</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="551" />
@@ -10256,7 +10710,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="554" />
             <source>Install firmware from PS3UPDAT.PUP</source>
-            <translation>安装 firmware 从 PS3UPDAT.PUP</translation>
+            <translation>从 PS3UPDAT.PUP 安装固件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="566" />
@@ -10286,7 +10740,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="592" />
             <source>Send Open System Menu CMD</source>
-            <translation>Send 打开 System 菜单 CMD</translation>
+            <translation>发送打开系统菜单命令</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="597" />
@@ -10306,7 +10760,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="608" />
             <source>Configure graphics</source>
-            <translation>配置 graphics</translation>
+            <translation>配置图形</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="613" />
@@ -10319,7 +10773,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="619" />
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1107" />
             <source>Configure controls</source>
-            <translation>配置 controls</translation>
+            <translation>配置控制</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="624" />
@@ -10339,7 +10793,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="635" />
             <source>Configure Input/Output</source>
-            <translation>配置 Input/Output</translation>
+            <translation>配置输入/输出</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="640" />
@@ -10349,7 +10803,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="643" />
             <source>Configure system</source>
-            <translation>配置 system</translation>
+            <translation>配置系统</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="648" />
@@ -10359,7 +10813,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="651" />
             <source>Configure Network settings</source>
-            <translation>配置 Network 设置</translation>
+            <translation>配置网络设置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="656" />
@@ -10369,7 +10823,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="659" />
             <source>Configure advanced emulator settings</source>
-            <translation>配置 advanced 模拟器 设置</translation>
+            <translation>配置高级模拟器设置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="664" />
@@ -10409,12 +10863,12 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="694" />
             <source>Exit RPCS3, move the log file to a custom location</source>
-            <translation>退出 RPCS3, 移动 the 日志 文件 到 a 自定义 location</translation>
+            <translation>退出 RPCS3，将日志文件移动到自定义位置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="697" />
             <source>Exit the application and save the log to a user-defined location</source>
-            <translation>退出 the application 和 保存 the 日志 到 a user-defined location</translation>
+            <translation>退出应用程序并将日志保存到用户定义的位置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="702" />
@@ -10429,7 +10883,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="708" />
             <source>Exit the application.</source>
-            <translation>退出 the application.</translation>
+            <translation>退出应用程序。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="716" />
@@ -10439,7 +10893,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="719" />
             <source>Manage save data</source>
-            <translation>Manage 保存 data</translation>
+            <translation>管理存档数据</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="727" />
@@ -10484,12 +10938,12 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="772" />
             <source>Decrypt PS3 Binaries</source>
-            <translation>解密 PS3 Binaries</translation>
+            <translation>解密 PS3 二进制文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="777" />
             <source>Extract MSELF</source>
-            <translation>解包 MSELF</translation>
+            <translation>解压 MSELF</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="782" />
@@ -10504,7 +10958,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="790" />
             <source>Extract files from special .tar files inside PS3UPDAT.PUP</source>
-            <translation>Extract 文件 从 special .tar 文件 内部 PS3UPDAT.PUP</translation>
+            <translation>从 PS3UPDAT.PUP 内的特殊 .tar 文件中解压文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="798" />
@@ -10524,7 +10978,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="814" />
             <source>To ensure continued improvements of RPCS3, become a part of our Patreon group!</source>
-            <translation>到 ensure continued improvements 的 RPCS3, become a part 的 our Patreon group!</translation>
+            <translation>为确保 RPCS3 的持续改进，请加入我们的 Patreon 群组！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="819" />
@@ -10544,17 +10998,17 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="840" />
             <source>Show Tool Bar</source>
-            <translation>显示 Tool Bar</translation>
+            <translation>显示工具栏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="848" />
             <source>Show Game Compatibility</source>
-            <translation>显示 游戏 Compatibility</translation>
+            <translation>显示游戏兼容性</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="853" />
             <source>Refresh Game List</source>
-            <translation>Refresh 游戏 列表</translation>
+            <translation>刷新游戏列表</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="861" />
@@ -10569,17 +11023,17 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="871" />
             <source>Download Integrity Database</source>
-            <translation>下载 Integrity Database</translation>
+            <translation>下载完整性数据库</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="876" />
             <source>Download Compatibility Database</source>
-            <translation>下载 Compatibility Database</translation>
+            <translation>下载兼容性数据库</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="881" />
             <source>Download Config Database</source>
-            <translation>下载 配置 Database</translation>
+            <translation>下载配置数据库</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="886" />
@@ -10589,7 +11043,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="891" />
             <source>View Welcome Dialog</source>
-            <translation>View Welcome 对话框</translation>
+            <translation>查看欢迎对话框</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="896" />
@@ -10606,7 +11060,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="909" />
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1524" />
             <source>List Freeze</source>
-            <translation>列表 Freeze</translation>
+            <translation>列表冻结</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="917" />
@@ -10631,7 +11085,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="955" />
             <source>List Mode</source>
-            <translation>列表 Mode</translation>
+            <translation>列表模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="963" />
@@ -10656,7 +11110,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="991" />
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3531" />
             <source>Disc Games</source>
-            <translation>Disc 游戏</translation>
+            <translation>光盘游戏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="999" />
@@ -10680,7 +11134,7 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1023" />
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3535" />
             <source>Home</source>
-            <translation>自制程序</translation>
+            <translation>主页</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1031" />
@@ -10734,7 +11188,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1119" />
             <source>Toggle fullscreen</source>
-            <translation>Toggle 全屏</translation>
+            <translation>切换全屏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1128" />
@@ -10744,7 +11198,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1131" />
             <source>Switch to list mode</source>
-            <translation>Switch 到 列表 mode</translation>
+            <translation>切换到列表模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1140" />
@@ -10754,7 +11208,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1143" />
             <source>Switch to grid mode</source>
-            <translation>Switch 到 grid mode</translation>
+            <translation>切换到网格模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1152" />
@@ -10785,12 +11239,12 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1183" />
             <source>Show Hidden Entries</source>
-            <translation>显示 已隐藏 Entries</translation>
+            <translation>显示隐藏的条目</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1188" />
             <source>Open RSX Capture</source>
-            <translation>打开 RSX Capture</translation>
+            <translation>打开 RSX 捕获</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1193" />
@@ -10800,7 +11254,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1201" />
             <source>Show Title Bars</source>
-            <translation>显示 标题 Bars</translation>
+            <translation>显示标题栏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1206" />
@@ -10810,12 +11264,12 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1211" />
             <source>Remove Custom Configurations</source>
-            <translation>移除 自定义 Configurations</translation>
+            <translation>移除自定义配置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1216" />
             <source>Remove Custom Gamepad Configurations</source>
-            <translation>移除 自定义 手柄 Configurations</translation>
+            <translation>移除自定义手柄配置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1221" />
@@ -10845,12 +11299,12 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1246" />
             <source>Remove Savestates</source>
-            <translation>移除 Savestates</translation>
+            <translation>移除存档</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1251" />
             <source>Clean up Game List</source>
-            <translation>Clean 上 游戏 列表</translation>
+            <translation>清理游戏列表</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1256" />
@@ -10890,32 +11344,32 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1294" />
             <source>Remove Firmware Cache</source>
-            <translation>移除 Firmware 缓存</translation>
+            <translation>移除固件缓存</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1299" />
             <source>Create Firmware Cache</source>
-            <translation>创建 Firmware 缓存</translation>
+            <translation>创建固件缓存</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1307" />
             <source>Create RSX Capture</source>
-            <translation>创建 RSX Capture</translation>
+            <translation>创建 RSX 捕获</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1315" />
             <source>Create Savestate</source>
-            <translation>创建 Savestate</translation>
+            <translation>创建存档</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1323" />
             <source>Stop And Create Savestate</source>
-            <translation>停止 和 创建 Savestate</translation>
+            <translation>停止并创建存档</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1328" />
             <source>Game Patches</source>
-            <translation>游戏 Patches</translation>
+            <translation>游戏补丁</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1336" />
@@ -10930,7 +11384,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1344" />
             <source>Configure Clans</source>
-            <translation>配置 Clans</translation>
+            <translation>配置战队</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1349" />
@@ -10985,12 +11439,12 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1415" />
             <source>Check Config</source>
-            <translation>Check 配置</translation>
+            <translation>检查配置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1420" />
             <source>Keyboard Shortcuts</source>
-            <translation>键盘 Shortcuts</translation>
+            <translation>键盘快捷键</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1428" />
@@ -11020,7 +11474,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1453" />
             <source>PS Move (Fake)</source>
-            <translation>PS 移动 (Fake)</translation>
+            <translation>PS Move（模拟）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1458" />
@@ -11035,12 +11489,12 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1468" />
             <source>Top Shot Elite</source>
-            <translation>上 Shot Elite</translation>
+            <translation>Top Shot Elite</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1473" />
             <source>Top Shot Fearmaster</source>
-            <translation>上 Shot Fearmaster</translation>
+            <translation>Top Shot Fearmaster</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1478" />
@@ -11050,7 +11504,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1483" />
             <source>Basic Mouse</source>
-            <translation>Basic 鼠标</translation>
+            <translation>基本鼠标</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1488" />
@@ -11065,7 +11519,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1498" />
             <source>PS Move Tracker</source>
-            <translation>PS 移动 Tracker</translation>
+            <translation>PS Move 追踪器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1503" />
@@ -11086,17 +11540,17 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1537" />
             <source>Prefer Game Data Icons</source>
-            <translation>Prefer 游戏 Data 图标</translation>
+            <translation>优先使用游戏数据图标</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1542" />
             <source>Music Player</source>
-            <translation>音乐 Player</translation>
+            <translation>音乐播放器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1547" />
             <source>Sound Effects</source>
-            <translation>声音 Effects</translation>
+            <translation>音效</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1552" />
@@ -11116,7 +11570,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1573" />
             <source>Play Hover Music</source>
-            <translation>Play Hover 音乐</translation>
+            <translation>播放悬停音乐</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1578" />
@@ -11140,12 +11594,12 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="2161" />
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3798" />
             <source>Play</source>
-            <translation>播放</translation>
+            <translation>运行</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="227" />
             <source>&amp;Play Last Played Game</source>
-            <translation>&amp;Play 最后一个 Played 游戏</translation>
+            <translation>播放上次运行的游戏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="347" />
@@ -11156,7 +11610,8 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="348" />
             <source>Commercial games require the firmware (PS3UPDAT.PUP file) to be installed.
 &lt;br&gt;For information about how to obtain the required firmware read the &lt;a %0 href="https://rpcs3.net/quickstart"&gt;quickstart guide&lt;/a&gt;.</source>
-            <translation>Commercial 游戏 需要 the firmware (PS3UPDAT.PUP 文件) 到 是 已安装. &lt;br&gt;为 information 大约 如何 到 obtain the 必需 firmware read the &lt;a %0 href="https://rpcs3.net/quickstart"&gt;quickstart guide&lt;/a&gt;.</translation>
+            <translation>商业游戏需要安装固件（PS3UPDAT.PUP 文件）。
+&lt;br&gt;有关如何获取所需固件的信息，请阅读&lt;a %0 href="https://rpcs3.net/quickstart"&gt;快速入门指南&lt;/a&gt;。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="354" />
@@ -11166,32 +11621,32 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="483" />
             <source>No bootable content was found.</source>
-            <translation>否 bootable content 曾是 found.</translation>
+            <translation>未找到可启动的内容。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="486" />
             <source>Disc could not be mounted properly. Make sure the disc is not in the dev_hdd0/game folder.</source>
-            <translation>Disc 能 不 是 已挂载 正确. Make 确定 the disc 是 不 内 the dev_hdd0/游戏 文件夹.</translation>
+            <translation>光盘无法正确挂载。请确保光盘不在 dev_hdd0/game 文件夹中。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="489" />
             <source>The selected file or folder is invalid or corrupted.</source>
-            <translation>The selected 文件 或 文件夹 是 无效 或 corrupted.</translation>
+            <translation>所选文件或文件夹无效或已损坏。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="492" />
             <source>The virtual dev_bdvd folder does not exist or is not empty.</source>
-            <translation>The virtual dev_bdvd 文件夹 执行 不 exist 或 是 不 空.</translation>
+            <translation>虚拟 dev_bdvd 文件夹不存在或非空。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="495" />
             <source>Additional content could not be installed.</source>
-            <translation>附加 content 能 不 是 已安装.</translation>
+            <translation>无法安装附加内容。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="498" />
             <source>Digital content could not be decrypted. This is usually caused by a missing or invalid license (RAP) file.</source>
-            <translation>数字 content 能 不 是 decrypted. 此 是 通常 caused 通过 a missing 或 无效 license (RAP) 文件.</translation>
+            <translation>无法解密数字内容。通常是由于缺少或无效的许可证（RAP）文件所致。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="501" />
@@ -11201,32 +11656,32 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="504" />
             <source>This disc type is not supported yet.</source>
-            <translation>此 disc 类型 是 不 支持 还.</translation>
+            <translation>暂不支持此光盘类型。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="507" />
             <source>Savestate data is corrupted or it's not an RPCS3 savestate.</source>
-            <translation>Savestate data 是 corrupted 或 it's 不 an RPCS3 savestate.</translation>
+            <translation>存档数据已损坏，或者不是 RPCS3 的存档。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="510" />
             <source>Savestate versioning data differs from your RPCS3 build.</source>
-            <translation>Savestate versioning data differs 从 your RPCS3 build.</translation>
+            <translation>存档版本数据与您的 RPCS3 版本不一致。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="513" />
             <source>A game or PS3 application is still running or has yet to be fully stopped.</source>
-            <translation>A 游戏 或 PS3 application 是 仍然 运行中 或 有 还 到 是 fully 已停止.</translation>
+            <translation>游戏或 PS3 应用程序仍在运行，或尚未完全停止。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="516" />
             <source>The game or PS3 application needs a more recent firmware version.</source>
-            <translation>The 游戏 或 PS3 application 需要 a 更多 recent firmware 版本.</translation>
+            <translation>游戏或 PS3 应用程序需要更高版本的固件。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="519" />
             <source>Could not find any configuration for this game in the database.</source>
-            <translation>能 不 find 任何 配置 为 此 游戏 内 the database.</translation>
+            <translation>在数据库中找不到此游戏的任何配置。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="527" />
@@ -11236,7 +11691,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="530" />
             <source>&lt;br /&gt;&lt;br /&gt;For information on setting up the emulator and dumping your PS3 games, read the &lt;a %0 href="https://rpcs3.net/quickstart"&gt;quickstart guide&lt;/a&gt;.</source>
-            <translation>&lt;br /&gt;&lt;br /&gt;为 information 开 设置 上 the 模拟器 和 dumping your PS3 游戏, read the &lt;a %0 href="https://rpcs3.net/quickstart"&gt;quickstart guide&lt;/a&gt;.</translation>
+            <translation>&lt;br /&gt;&lt;br /&gt;有关设置模拟器和转储 PS3 游戏的信息，请阅读&lt;a %0 href="https://rpcs3.net/quickstart"&gt;快速入门指南&lt;/a&gt;。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="533" />
@@ -11252,32 +11707,32 @@ Subject:</source>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="624" />
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="672" />
             <source>Select (S)ELF To Boot</source>
-            <translation>Select (S)ELF 到 启动</translation>
+            <translation>选择要启动的 (S)ELF</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="624" />
             <source>(S)ELF files (*BOOT.BIN *.elf *.self);;ELF files (BOOT.BIN *.elf);;SELF files (EBOOT.BIN *.self);;BOOT files (*BOOT.BIN);;BIN files (*.bin);;ISO files (*.iso);;All executable files (*.SAVESTAT.zst *.SAVESTAT.gz *.SAVESTAT *.sprx *.SPRX *.self *.SELF *.bin *.BIN *.prx *.PRX *.elf *.ELF *.o *.O);;All files (*.*)</source>
-            <translation>(S)ELF 文件 (*启动.BIN *.elf *.self);;ELF 文件 (启动.BIN *.elf);;SELF 文件 (EBOOT.BIN *.self);;启动 文件 (*启动.BIN);;BIN 文件 (*.bin);;ISO 文件 (*.iso);;全部 executable 文件 (*.SAVESTAT.zst *.SAVESTAT.gz *.SAVESTAT *.sprx *.SPRX *.self *.SELF *.bin *.BIN *.prx *.PRX *.elf *.ELF *.o *.O);;全部 文件 (*.*)</translation>
+            <translation>(S)ELF 文件 (*BOOT.BIN *.elf *.self);;ELF 文件 (BOOT.BIN *.elf);;SELF 文件 (EBOOT.BIN *.self);;BOOT 文件 (*BOOT.BIN);;BIN 文件 (*.bin);;ISO 文件 (*.iso);;所有可执行文件 (*.SAVESTAT.zst *.SAVESTAT.gz *.SAVESTAT *.sprx *.SPRX *.self *.SELF *.bin *.BIN *.prx *.PRX *.elf *.ELF *.o *.O);;所有文件 (*.*)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="672" />
             <source>(S)ELF files (*.elf *.self);;ELF files (*.elf);;SELF files (*.self);;All files (*.*)</source>
-            <translation>(S)ELF 文件 (*.elf *.self);;ELF 文件 (*.elf);;SELF 文件 (*.self);;全部 文件 (*.*)</translation>
+            <translation>(S)ELF 文件 (*.elf *.self);;ELF 文件 (*.elf);;SELF 文件 (*.self);;所有文件 (*.*)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="704" />
             <source>Select Savestate To Boot</source>
-            <translation>Select Savestate 到 启动</translation>
+            <translation>选择要启动的存档</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="704" />
             <source>Savestate files (*.SAVESTAT *.SAVESTAT.zst *.SAVESTAT.gz);;All files (*.*)</source>
-            <translation>Savestate 文件 (*.SAVESTAT *.SAVESTAT.zst *.SAVESTAT.gz);;全部 文件 (*.*)</translation>
+            <translation>存档文件 (*.SAVESTAT *.SAVESTAT.zst *.SAVESTAT.gz);;所有文件 (*.*)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="735" />
             <source>Select Game Folder</source>
-            <translation>Select 游戏 文件夹</translation>
+            <translation>选择游戏文件夹</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="763" />
@@ -11303,22 +11758,22 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="882" />
             <source>Select packages and/or rap files to install</source>
-            <translation>Select packages 和/或 rap 文件 到 安装</translation>
+            <translation>选择要安装的 package 和/或 rap 文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="883" />
             <source>All relevant (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;Package files (*.pkg *.PKG);;Rap files (*.rap *.RAP);;Edat files (*.edat *.EDAT);;All files (*.*)</source>
-            <translation>全部 relevant (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;Package 文件 (*.pkg *.PKG);;Rap 文件 (*.rap *.RAP);;Edat 文件 (*.edat *.EDAT);;全部 文件 (*.*)</translation>
+            <translation>所有相关文件 (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;Package 文件 (*.pkg *.PKG);;Rap 文件 (*.rap *.RAP);;Edat 文件 (*.edat *.EDAT);;所有文件 (*.*)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1076" />
             <source>RPCS3 Package Installer</source>
-            <translation>RPCS3 包安装器</translation>
+            <translation>RPCS3 安装包安装器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1076" />
             <source>Installing package, please wait...</source>
-            <translation>安装中 package, please wait...</translation>
+            <translation>正在安装安装包，请稍候...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1076" />
@@ -11338,7 +11793,9 @@ Subject:</source>
             <source>Installing package (%0/%1), please wait...
 
 %2</source>
-            <translation>安装中 package (%0/%1), please wait... %2</translation>
+            <translation>正在安装安装包（%0/%1），请稍候...
+
+%2</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1284" />
@@ -11350,7 +11807,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1284" />
             <source>Successfully installed software from package(s)!</source>
-            <translation>Successfully 已安装 software 从 package(s)!</translation>
+            <translation>已成功从安装包安装软件！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1332" />
@@ -11365,7 +11822,10 @@ Subject:</source>
 Update is for version %1, but you have version %2.
 
 Tried to install: %3</source>
-            <translation>Package cannot 是 已安装 开 上 的 the 当前 data. 更新 是 为 版本 %1, 但 you 有 版本 %2. Tried 到 安装: %3</translation>
+            <translation>无法在当前数据上安装安装包。
+更新适用于版本 %1，但您的版本为 %2。
+
+尝试安装：%3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1337" />
@@ -11373,7 +11833,10 @@ Tried to install: %3</source>
 Update is for version %1, but you don't have any data installed.
 
 Tried to install: %2</source>
-            <translation>Package cannot 是 已安装 开 上 的 the 当前 data. 更新 是 为 版本 %1, 但 you don't 有 任何 data 已安装. Tried 到 安装: %2</translation>
+            <translation>无法在当前数据上安装安装包。
+更新适用于版本 %1，但您尚未安装任何数据。
+
+尝试安装：%2</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1343" />
@@ -11383,7 +11846,7 @@ Tried to install: %2</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1343" />
             <source>no data installed</source>
-            <translation>否 data 已安装</translation>
+            <translation>未安装任何数据</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1344" />
@@ -11391,7 +11854,10 @@ Tried to install: %2</source>
 Update is for unknown version, but you have version %1.
 
 Tried to install: %2</source>
-            <translation>Package cannot 是 已安装 开 上 的 the 当前 data. 更新 是 为 未知 版本, 但 you 有 版本 %1. Tried 到 安装: %2</translation>
+            <translation>无法在当前数据上安装安装包。
+更新适用于未知版本，但您的版本为 %1。
+
+尝试安装：%2</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1357" />
@@ -11404,35 +11870,38 @@ Tried to install: %2</source>
 %1!
 This is very likely caused by external interference from a faulty anti-virus software.
 Please add RPCS3 to your anti-virus' whitelist or use better anti-virus software.</source>
-            <translation>失败 到 安装 software 从 package: %1! 此 是 非常 likely caused 通过 外部 interference 从 a faulty anti-virus software. Please 添加 RPCS3 到 your anti-virus' whitelist 或 use 更好 anti-virus software.</translation>
+            <translation>无法从安装包安装软件：
+%1！
+这很可能是由于有缺陷的杀毒软件的外部干扰所致。
+请将 RPCS3 添加到杀毒软件的白名单中，或使用更好的杀毒软件。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1370" />
             <source>Select MSELF To extract</source>
-            <translation>Select MSELF 到 extract</translation>
+            <translation>选择要解压的 MSELF</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1370" />
             <source>All mself files (*.mself *.MSELF);;All files (*.*)</source>
-            <translation>全部 mself 文件 (*.mself *.MSELF);;全部 文件 (*.*)</translation>
+            <translation>所有 mself 文件 (*.mself *.MSELF);;所有文件 (*.*)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1377" />
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1436" />
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1461" />
             <source>Extraction Directory</source>
-            <translation>Extraction 目录</translation>
+            <translation>解压目录</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1397" />
             <source>Select PS3UPDAT.PUP To Install</source>
-            <translation>Select PS3UPDAT.PUP 到 安装</translation>
+            <translation>选择要安装的 PS3UPDAT.PUP</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1397" />
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1429" />
             <source>PS3 update file (PS3UPDAT.PUP);;All pup files (*.pup *.PUP);;All files (*.*)</source>
-            <translation>PS3 更新 文件 (PS3UPDAT.PUP);;全部 pup 文件 (*.pup *.PUP);;全部 文件 (*.*)</translation>
+            <translation>PS3 更新文件 (PS3UPDAT.PUP);;所有 pup 文件 (*.pup *.PUP);;所有文件 (*.*)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1401" />
@@ -11445,17 +11914,17 @@ Please add RPCS3 to your anti-virus' whitelist or use better anti-virus software
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1401" />
             <source>Install firmware: %1?</source>
-            <translation>安装 firmware: %1?</translation>
+            <translation>安装固件：%1？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1429" />
             <source>Select PS3UPDAT.PUP To extract</source>
-            <translation>Select PS3UPDAT.PUP 到 extract</translation>
+            <translation>选择要解压的 PS3UPDAT.PUP</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1454" />
             <source>Select TAR To extract</source>
-            <translation>Select TAR 到 extract</translation>
+            <translation>选择要解压的 TAR</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1454" />
@@ -11477,47 +11946,47 @@ Please wait...</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1493" />
             <source>The following TAR file(s) could not be extracted:</source>
-            <translation>The following TAR 文件(s) 能 不 是 extracted:</translation>
+            <translation>无法解压以下 TAR 文件：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1510" />
             <source>TAR extraction failed</source>
-            <translation>TAR extraction 失败</translation>
+            <translation>TAR 解压失败</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1522" />
             <source>Firmware Installation Failed</source>
-            <translation>Firmware Installation 失败</translation>
+            <translation>固件安装失败</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1529" />
             <source>Firmware installation failed: The provided path is empty.</source>
-            <translation>Firmware installation 失败: The provided 路径 是 空.</translation>
+            <translation>固件安装失败：提供的路径为空。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1551" />
             <source>Firmware installation failed: The selected firmware file couldn't be opened.</source>
-            <translation>Firmware installation 失败: The selected firmware 文件 couldn't 是 已打开.</translation>
+            <translation>固件安装失败：无法打开所选固件文件。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1562" />
             <source>Firmware installation failed: The provided file is empty.</source>
-            <translation>Firmware installation 失败: The provided 文件 是 空.</translation>
+            <translation>固件安装失败：提供的文件为空。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1568" />
             <source>Firmware installation failed: The provided file is not a PUP file.</source>
-            <translation>Firmware installation 失败: The provided 文件 是 不 a PUP 文件.</translation>
+            <translation>固件安装失败：提供的文件不是 PUP 文件。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1574" />
             <source>Firmware installation failed: The provided file is incomplete. Try redownloading it.</source>
-            <translation>Firmware installation 失败: The provided 文件 是 未完成. Try redownloading it.</translation>
+            <translation>固件安装失败：提供的文件不完整。请尝试重新下载。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1589" />
             <source>Firmware installation failed: The provided file is corrupted.</source>
-            <translation>Firmware installation 失败: The provided 文件 是 corrupted.</translation>
+            <translation>固件安装失败：提供的文件已损坏。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1595" />
@@ -11525,95 +11994,103 @@ Please wait...</source>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1663" />
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1684" />
             <source>Firmware installation failed: The provided file's contents are corrupted.</source>
-            <translation>Firmware installation 失败: The provided 文件's contents 是 corrupted.</translation>
+            <translation>固件安装失败：提供的文件内容已损坏。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1617" />
             <source>Firmware installation failed: Couldn't retrieve available disk space.</source>
-            <translation>Firmware installation 失败: Couldn't retrieve 可用 磁盘 space.</translation>
+            <translation>固件安装失败：无法获取可用磁盘空间。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1624" />
             <source>Firmware installation failed: Out of disk space.</source>
-            <translation>Firmware installation 失败: 外 的 磁盘 space.</translation>
+            <translation>固件安装失败：磁盘空间不足。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1637" />
             <source>Firmware extraction failed: VFS mounting failed.</source>
-            <translation>Firmware extraction 失败: VFS mounting 失败.</translation>
+            <translation>固件解压失败：VFS 挂载失败。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1644" />
             <source>Firmware installation failed: Firmware contents could not be extracted.</source>
-            <translation>Firmware installation 失败: Firmware contents 能 不 是 extracted.</translation>
+            <translation>固件安装失败：无法解压固件内容。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1689" />
             <source>Old firmware detected.
 The newest firmware version is %1 and you are trying to install version %2
 Continue installation?</source>
-            <translation>旧 firmware detected. The newest firmware 版本 是 %1 和 you 是 trying 到 安装 版本 %2 Continue installation?</translation>
+            <translation>检测到旧版固件。
+最新固件版本为 %1，而您尝试安装的版本为 %2。
+是否继续安装？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1699" />
             <source>Firmware of version %1 has already been installed.
 Overwrite current installation with version %2?</source>
-            <translation>Firmware 的 版本 %1 有 已经 已 已安装. Overwrite 当前 installation 与 版本 %2?</translation>
+            <translation>版本为 %1 的固件已经安装。
+是否用版本 %2 覆盖当前安装？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1714" />
             <source>Installing firmware version %1
 Please wait...</source>
-            <translation>安装中 firmware 版本 %1 Please wait...</translation>
+            <translation>正在安装固件版本 %1
+请稍候...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1748" />
             <source>Firmware installation failed: Firmware could not be decompressed</source>
-            <translation>Firmware installation 失败: Firmware 能 不 是 decompressed</translation>
+            <translation>固件安装失败：无法解压固件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1757" />
             <source>The firmware contents could not be extracted.
 This is very likely caused by external interference from a faulty anti-virus software.
 Please add RPCS3 to your anti-virus' whitelist or use better anti-virus software.</source>
-            <translation>The firmware contents 能 不 是 extracted. 此 是 非常 likely caused 通过 外部 interference 从 a faulty anti-virus software. Please 添加 RPCS3 到 your anti-virus' whitelist 或 use 更好 anti-virus software.</translation>
+            <translation>无法解压固件内容。
+这很可能是由于有缺陷的杀毒软件的外部干扰所致。
+请将 RPCS3 添加到杀毒软件的白名单中，或使用更好的杀毒软件。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1829" />
             <source>Successfully installed PS3 firmware and LLE Modules!</source>
-            <translation>Successfully 已安装 PS3 firmware 和 LLE Modules!</translation>
+            <translation>已成功安装 PS3 固件和 LLE 模块！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1845" />
             <source>Select binary files</source>
-            <translation>Select 二进制 文件</translation>
+            <translation>选择二进制文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1845" />
             <source>All Binaries (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN files (*.bin *.BIN);;SELF files (*.self *.SELF);;SPRX files (*.sprx *.SPRX);;SDAT/EDAT files (*.sdat *.SDAT *.edat *.EDAT);;All files (*.*)</source>
-            <translation>全部 Binaries (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN 文件 (*.bin *.BIN);;SELF 文件 (*.self *.SELF);;SPRX 文件 (*.sprx *.SPRX);;SDAT/EDAT 文件 (*.sdat *.SDAT *.edat *.EDAT);;全部 文件 (*.*)</translation>
+            <translation>所有二进制文件 (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN 文件 (*.bin *.BIN);;SELF 文件 (*.self *.SELF);;SPRX 文件 (*.sprx *.SPRX);;SDAT/EDAT 文件 (*.sdat *.SDAT *.edat *.EDAT);;所有文件 (*.*)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1869" />
             <source>Hint: KLIC (KLicense key) is a 16-byte long string. (32 hexadecimal characters, can be prefixed with "KLIC=0x" from the log message)
 And is logged with some sceNpDrm* functions when the game/application which owns "%0" is running.</source>
-            <translation>Hint: KLIC (KLicense key) 是 a 16-byte long 字符串. (32 hexadecimal characters, 能 是 prefixed 与 "KLIC=0x" 从 the 日志 message) 和 是 logged 与 一些 sceNpDrm* functions 当 the 游戏/application 哪个 owns "%0" 是 运行中.</translation>
+            <translation>提示：KLIC（KLicense 密钥）是一个 16 字节长的字符串。（32 个十六进制字符，可带有日志消息中的 "KLIC=0x" 前缀）
+当拥有 "%0" 的游戏/应用程序运行时，它会随某些 sceNpDrm* 函数一起被记录到日志中。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1877" />
             <source>Enter KLIC of %0</source>
-            <translation>Enter KLIC 的 %0</translation>
+            <translation>输入 %0 的 KLIC</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1878" />
             <source>Decryption failed with provided KLIC.
 %0</source>
-            <translation>Decryption 失败 与 provided KLIC. %0</translation>
+            <translation>使用提供的 KLIC 解密失败。
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="1878" />
             <source>Hexadecimal value.</source>
-            <translation>Hexadecimal 值.</translation>
+            <translation>十六进制值。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="2031" />
@@ -11661,27 +12138,27 @@ And is logged with some sceNpDrm* functions when the game/application which owns
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="2517" />
             <source>Precompile caches</source>
-            <translation>Precompile 缓存</translation>
+            <translation>预编译缓存</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="2519" />
             <source>Add desktop shortcut(s)</source>
-            <translation>添加 desktop shortcut(s)</translation>
+            <translation>添加桌面快捷方式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="2521" />
             <source>Add Start menu shortcut(s)</source>
-            <translation>添加 开始 菜单 shortcut(s)</translation>
+            <translation>添加开始菜单快捷方式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="2523" />
             <source>Add dock shortcut(s)</source>
-            <translation>添加 dock shortcut(s)</translation>
+            <translation>添加 dock 快捷方式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="2525" />
             <source>Add launcher shortcut(s)</source>
-            <translation>添加 launcher shortcut(s)</translation>
+            <translation>添加启动器快捷方式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="2528" />
@@ -11689,59 +12166,63 @@ And is logged with some sceNpDrm* functions when the game/application which owns
 Would you like to precompile caches and install shortcuts to the installed software? (%2 new software detected)
 
 </source>
-            <translation>%1 将 you 如 到 precompile 缓存 和 安装 shortcuts 到 the 已安装 software? (%2 新建 software detected)</translation>
+            <translation>%1
+是否要预编译缓存并为已安装的软件创建快捷方式？（检测到 %2 个新软件）
+
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="2543" />
             <source>Add Steam Shortcut(s) (Steam must be closed)</source>
-            <translation>添加 Steam Shortcut(s) (Steam 必须 是 已关闭)</translation>
+            <translation>添加 Steam 快捷方式（必须关闭 Steam）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="2543" />
             <source>Add Steam shortcut(s)</source>
-            <translation>添加 Steam shortcut(s)</translation>
+            <translation>添加 Steam 快捷方式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="2727" />
             <source>Select a folder containing one or more games</source>
-            <translation>Select a 文件夹 containing one 或 更多 游戏</translation>
+            <translation>选择包含一个或多个游戏的文件夹</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="2745" />
             <source>Select ISO files to add</source>
-            <translation>Select ISO 文件 到 添加</translation>
+            <translation>选择要添加的 ISO 文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="2846" />
             <source>Failed to locate log</source>
-            <translation>失败 到 locate 日志</translation>
+            <translation>无法定位日志</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="2846" />
             <source>Failed to locate log files.
 Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created without permission issues.</source>
-            <translation>失败 到 locate 日志 文件. Make 确定 那个 RPCS3.日志 和 RPCS3.日志.gz 是 writable 和 能 是 已创建 无 permission issues.</translation>
+            <translation>无法定位日志文件。
+请确保 RPCS3.log 和 RPCS3.log.gz 可写入，且创建时不会出现权限问题。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="2903" />
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="2926" />
             <source>Select RPCS3's log saving location (saving %0)</source>
-            <translation>Select RPCS3's 日志 保存中 location (保存中 %0)</translation>
+            <translation>选择 RPCS3 日志的保存位置（正在保存 %0）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3019" />
             <source>Select Disc Game Folder</source>
-            <translation>Select Disc 游戏 文件夹</translation>
+            <translation>选择光盘游戏文件夹</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3030" />
             <source>Failed to insert disc</source>
-            <translation>失败 到 insert disc</translation>
+            <translation>无法插入光盘</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3030" />
             <source>Make sure that the emulation is running and that the selected path belongs to a valid disc game.</source>
-            <translation>Make 确定 那个 the 模拟 是 运行中 和 那个 the selected 路径 belongs 到 a 有效 disc 游戏.</translation>
+            <translation>请确保模拟正在运行，且所选路径属于有效的光盘游戏。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3182" />
@@ -11751,7 +12232,7 @@ Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created withou
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3182" />
             <source>You need to stop the emulator before editing Clans connection information!</source>
-            <translation>You 需要 到 停止 the 模拟器 之前 编辑中 Clans connection information!</translation>
+            <translation>在编辑战队连接信息之前，您需要停止模拟器！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3264" />
@@ -11761,12 +12242,12 @@ Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created withou
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3265" />
             <source>Open the cheat patch manager to import patch.yml files and add custom cheats</source>
-            <translation>打开 the cheat patch manager 到 导入 patch.yml 文件 和 添加 自定义 cheats</translation>
+            <translation>打开金手指补丁管理器以导入 patch.yml 文件并添加自定义金手指</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3334" />
             <source>Select rpcs3.log or config.yml</source>
-            <translation>Select rpcs3.日志 或 配置.yml</translation>
+            <translation>选择 rpcs3.log 或 config.yml</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3334" />
@@ -11776,7 +12257,7 @@ Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created withou
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3345" />
             <source>Weird file!</source>
-            <translation>Weird 文件!</translation>
+            <translation>异常文件！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3345" />
@@ -11784,7 +12265,10 @@ Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created withou
 %0
 
 Check anyway?</source>
-            <translation>此 文件 seems 到 有 an 意外 类型: %0 Check 无论如何?</translation>
+            <translation>此文件似乎具有意外的类型：
+%0
+
+是否仍然检查？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3377" />
@@ -11800,24 +12284,25 @@ Check anyway?</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3548" />
             <source>Auto-updater</source>
-            <translation>自动-updater</translation>
+            <translation>自动更新程序</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3548" />
             <source>The auto-updater isn't available for your OS currently.</source>
-            <translation>The 自动-updater isn't 可用 为 your OS 当前.</translation>
+            <translation>自动更新程序目前不适用于您的操作系统。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3976" />
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="4016" />
             <source>Confirm Removal</source>
-            <translation>确认 Removal</translation>
+            <translation>确认移除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3976" />
             <source>Remove invalid game paths from game list?
 Undetectable games (zombies) as well as corrupted games will be removed from the game list file (games.yml)</source>
-            <translation>移除 无效 游戏 路径 从 游戏 列表? Undetectable 游戏 (zombies) 作为 well 作为 corrupted 游戏 将 是 已移除 从 the 游戏 列表 文件 (游戏.yml)</translation>
+            <translation>是否从游戏列表中移除无效的游戏路径？
+无法检测的游戏（僵尸游戏）以及损坏的游戏将从游戏列表文件（games.yml）中移除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="4006" />
@@ -11832,7 +12317,7 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="4016" />
             <source>Remove firmware cache?</source>
-            <translation>移除 firmware 缓存?</translation>
+            <translation>是否移除固件缓存？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="4200" />
@@ -11842,12 +12327,12 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="4200" />
             <source>Could not find any new software.</source>
-            <translation>能 不 find 任何 新建 software.</translation>
+            <translation>找不到任何新软件。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="4204" />
             <source>Successfully added software to game list from path(s)!</source>
-            <translation>Successfully 已添加 software 到 游戏 列表 从 路径(s)!</translation>
+            <translation>已成功从路径将软件添加到游戏列表！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="4379" />
@@ -11860,12 +12345,12 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="69" />
             <source>Memory Viewer Of %0</source>
-            <translation>内存 Viewer 的 %0</translation>
+            <translation>%0 的内存查看器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="70" />
             <source>Memory Viewer Of RSX[0x55555555]</source>
-            <translation>内存 Viewer 的 RSX[0x55555555]</translation>
+            <translation>RSX[0x55555555] 的内存查看器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="71" />
@@ -11875,7 +12360,7 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="90" />
             <source>Memory Viewer Options</source>
-            <translation>内存 Viewer 选项</translation>
+            <translation>内存查看器选项</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="94" />
@@ -11900,7 +12385,7 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="171" />
             <source>Raw Image Preview Options</source>
-            <translation>Raw 图像 Preview 选项</translation>
+            <translation>原始图像预览选项</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="175" />
@@ -11921,12 +12406,13 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="211" />
             <source>View
 image</source>
-            <translation>View 图像</translation>
+            <translation>查看
+图像</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="289" />
             <source>Memory Search</source>
-            <translation>内存 Search</translation>
+            <translation>内存搜索</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="296" />
@@ -11947,7 +12433,8 @@ image</source>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="304" />
             <source>When using string mode, the characters' case will not matter both in string and in memory.
 Warning: this may reduce performance of the search.</source>
-            <translation>当 using 字符串 mode, the characters' case 将 不 matter 两者 内 字符串 和 内 内存. 警告: 此 可以 reduce 性能 的 the search.</translation>
+            <translation>使用字符串模式时，字符串和内存中字符的大小写将被忽略。
+警告：这可能会降低搜索性能。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="308" />
@@ -11958,7 +12445,7 @@ Warning: this may reduce performance of the search.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="309" />
             <source>Deselect All Modes</source>
-            <translation>Deselect 全部 Modes</translation>
+            <translation>取消选择所有模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="310" />
@@ -11968,7 +12455,7 @@ Warning: this may reduce performance of the search.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="311" />
             <source>HEX bytes/integer</source>
-            <translation>十六进制 bytes/整数</translation>
+            <translation>十六进制字节/整数</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="312" />
@@ -11998,7 +12485,12 @@ Double: reinterpret the string as 64-bit precision floating point value. Values 
 Float: reinterpret the string as 32-bit precision floating point value. Values are searched for exact representation, meaning -0 != 0.
 Instruction: search an instruction contains the text of the string.
 RegEx: search an instruction containing text that matches the regular expression input.</source>
-            <translation>字符串: search the 内存 为 the specified 字符串. 十六进制 bytes/整数: search the 内存 为 hexadecimal 值. Spaces, commas, "0x", "0X", "\x", "h", "H" ensure separation 的 bytes 但 they 是 不 强制. 双精度: reinterpret the 字符串 作为 64-bit precision floating point 值. 值 是 searched 为 exact representation, meaning -0 != 0. 浮点数: reinterpret the 字符串 作为 32-bit precision floating point 值. 值 是 searched 为 exact representation, meaning -0 != 0. Instruction: search an instruction contains the 文本 的 the 字符串. RegEx: search an instruction containing 文本 那个 matches the 常规 expression input.</translation>
+            <translation>字符串：在内存中搜索指定的字符串。
+十六进制字节/整数：在内存中搜索十六进制值。空格、逗号、"0x"、"0X"、"\x"、"h"、"H" 可用于分隔字节，但并非必需。
+双精度：将字符串重新解释为 64 位精度浮点值。搜索时会查找精确表示，即 -0 != 0。
+浮点数：将字符串重新解释为 32 位精度浮点值。搜索时会查找精确表示，即 -0 != 0。
+指令：搜索包含该字符串文本的指令。
+正则表达式：搜索包含与输入正则表达式匹配文本的指令。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="327" />
@@ -12010,7 +12502,9 @@ RegEx: search an instruction containing text that matches the regular expression
             <source>
 SPU Instruction: Search an SPU instruction contains the text of the string. For searching instructions within embedded SPU images.
 Tip: SPU floats are commented along forming instructions.</source>
-            <translation>SPU Instruction: Search an SPU instruction contains the 文本 的 the 字符串. 为 searching instructions within embedded SPU 图像. Tip: SPU floats 是 commented along forming instructions.</translation>
+            <translation>
+SPU 指令：搜索包含该字符串文本的 SPU 指令。用于在嵌入式 SPU 镜像中搜索指令。
+提示：SPU 浮点数会被注释并形成指令。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/memory_viewer_panel.cpp" line="357" />
@@ -12051,7 +12545,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="418" />
             <source>Figure Number:</source>
-            <translation>Figure 数字:</translation>
+            <translation>玩偶编号：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="427" />
@@ -12066,17 +12560,17 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="451" />
             <source>Error converting value</source>
-            <translation>错误 converting 值</translation>
+            <translation>转换值时出错</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="451" />
             <source>Figure number entered is invalid!</source>
-            <translation>Figure 数字 entered 是 无效!</translation>
+            <translation>输入的玩偶编号无效！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="464" />
             <source>Create Figure File</source>
-            <translation>创建 Figure 文件</translation>
+            <translation>创建玩偶文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="464" />
@@ -12086,13 +12580,14 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="473" />
             <source>Failed to create minifig file!</source>
-            <translation>失败 到 创建 minifig 文件!</translation>
+            <translation>无法创建 minifig 文件！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="473" />
             <source>Failed to create minifig file:
 %1</source>
-            <translation>失败 到 创建 minifig 文件: %1</translation>
+            <translation>无法创建 minifig 文件：
+%1</translation>
         </message>
     </context>
     <context>
@@ -12115,7 +12610,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="545" />
             <source>Pick up and Place</source>
-            <translation>Pick 上 和 Place</translation>
+            <translation>拾取并放置</translation>
         </message>
     </context>
     <context>
@@ -12151,12 +12646,12 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/music_player_dialog.ui" line="14" />
             <source>Music Player</source>
-            <translation>音乐 Player</translation>
+            <translation>音乐播放器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/music_player_dialog.ui" line="35" />
             <source>Select file</source>
-            <translation>Select 文件</translation>
+            <translation>选择文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/music_player_dialog.ui" line="131" />
@@ -12166,12 +12661,12 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/music_player_dialog.cpp" line="41" />
             <source>Select audio file</source>
-            <translation>Select 音频 文件</translation>
+            <translation>选择音频文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/music_player_dialog.cpp" line="41" />
             <source>Audio files (*.mp3;*.wav;*.aac;*.ogg;*.flac;*.m4a;*.alac);;All files (*.*)</source>
-            <translation>音频 文件 (*.mp3;*.wav;*.aac;*.ogg;*.flac;*.m4a;*.alac);;全部 文件 (*.*)</translation>
+            <translation>音频文件 (*.mp3;*.wav;*.aac;*.ogg;*.flac;*.m4a;*.alac);;所有文件 (*.*)</translation>
         </message>
     </context>
     <context>
@@ -12190,7 +12685,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_led_settings_dialog.ui" line="39" />
             <source>Select color</source>
-            <translation>Select 颜色</translation>
+            <translation>选择颜色</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_led_settings_dialog.ui" line="49" />
@@ -12200,27 +12695,27 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_led_settings_dialog.ui" line="55" />
             <source>Enable player LED</source>
-            <translation>启用 player LED</translation>
+            <translation>启用玩家指示灯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_led_settings_dialog.ui" line="65" />
             <source>In-game battery status</source>
-            <translation>内-游戏 battery 状态</translation>
+            <translation>游戏内电池状态</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_led_settings_dialog.ui" line="71" />
             <source>Blink LED when battery is low</source>
-            <translation>Blink LED 当 battery 是 低</translation>
+            <translation>电量低时闪烁指示灯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_led_settings_dialog.ui" line="78" />
             <source>Use LED as a battery indicator</source>
-            <translation>Use LED 作为 a battery indicator</translation>
+            <translation>使用指示灯作为电量指示器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_led_settings_dialog.ui" line="88" />
             <source>LED battery indicator brightness</source>
-            <translation>LED battery indicator 亮度</translation>
+            <translation>指示灯电量指示器亮度</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_led_settings_dialog.ui" line="94" />
@@ -12455,7 +12950,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="787" />
             <source>Pressure Sensitivity Mode</source>
-            <translation>压力 灵敏度 Mode</translation>
+            <translation>压力感应模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="812" />
@@ -12472,7 +12967,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="891" />
             <source>Trigger Thresholds</source>
-            <translation>扳机 Thresholds</translation>
+            <translation>扳机阈值</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="948" />
@@ -12502,7 +12997,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1043" />
             <source>Mouse Acceleration</source>
-            <translation>鼠标 Acceleration</translation>
+            <translation>鼠标加速度</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1061" />
@@ -12524,7 +13019,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1197" />
             <source>Mouse Movement Mode</source>
-            <translation>鼠标 Movement Mode</translation>
+            <translation>鼠标移动模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1271" />
@@ -12629,7 +13124,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1756" />
             <source>Battery status and LED</source>
-            <translation>Battery 状态 和 LED</translation>
+            <translation>电池状态和指示灯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="1796" />
@@ -12703,7 +13198,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2209" />
             <source>Home</source>
-            <translation>自制程序</translation>
+            <translation>主页</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2240" />
@@ -12718,7 +13213,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2333" />
             <source>Squircle Values</source>
-            <translation>Squircle 值</translation>
+            <translation>圆形修正值</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2351" />
@@ -12744,12 +13239,12 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2508" />
             <source>Analog Stick Deadzones</source>
-            <translation>模拟 Stick Deadzones</translation>
+            <translation>摇杆死区</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2543" />
             <source>Analog Stick Anti-Deadzones</source>
-            <translation>模拟 Stick Anti-Deadzones</translation>
+            <translation>摇杆反死区</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.ui" line="2578" />
@@ -12784,7 +13279,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="153" />
             <source>Filter Noise</source>
-            <translation>Filter 噪声</translation>
+            <translation>过滤噪声</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="178" />
@@ -12814,7 +13309,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="183" />
             <source>PS Move Navigation</source>
-            <translation>PS 移动 Navigation</translation>
+            <translation>PS Move 导航控制器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="184" />
@@ -12830,12 +13325,12 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="186" />
             <source>Top Shot Elite</source>
-            <translation>上 Shot Elite</translation>
+            <translation>Top Shot Elite</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="187" />
             <source>Top Shot Fearmaster</source>
-            <translation>上 Shot Fearmaster</translation>
+            <translation>Top Shot Fearmaster</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="188" />
@@ -12845,37 +13340,37 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="189" />
             <source>Copilot for Player 1</source>
-            <translation>Copilot 为 Player 1</translation>
+            <translation>玩家 1 的副驾驶</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="190" />
             <source>Copilot for Player 2</source>
-            <translation>Copilot 为 Player 2</translation>
+            <translation>玩家 2 的副驾驶</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="191" />
             <source>Copilot for Player 3</source>
-            <translation>Copilot 为 Player 3</translation>
+            <translation>玩家 3 的副驾驶</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="192" />
             <source>Copilot for Player 4</source>
-            <translation>Copilot 为 Player 4</translation>
+            <translation>玩家 4 的副驾驶</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="193" />
             <source>Copilot for Player 5</source>
-            <translation>Copilot 为 Player 5</translation>
+            <translation>玩家 5 的副驾驶</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="194" />
             <source>Copilot for Player 6</source>
-            <translation>Copilot 为 Player 6</translation>
+            <translation>玩家 6 的副驾驶</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="195" />
             <source>Copilot for Player 7</source>
-            <translation>Copilot 为 Player 7</translation>
+            <translation>玩家 7 的副驾驶</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="218" />
@@ -12901,7 +13396,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1706" />
             <source>No Device Detected</source>
-            <translation>否 Device Detected</translation>
+            <translation>未检测到设备</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1817" />
@@ -12961,7 +13456,7 @@ Tip: SPU floats are commented along forming instructions.</source>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1862" />
             <source>PS Move Navigation</source>
             <comment>PS Move Navigation Controller</comment>
-            <translation>PS 移动 Navigation</translation>
+            <translation>PS Move 导航控制器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1867" />
@@ -12979,13 +13474,13 @@ Tip: SPU floats are commented along forming instructions.</source>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1877" />
             <source>Top Shot Elite</source>
             <comment>Top Shot Elite Controller</comment>
-            <translation>上 Shot Elite</translation>
+            <translation>Top Shot Elite</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1882" />
             <source>Top Shot Fearmaster</source>
             <comment>Top Shot Fearmaster Controller</comment>
-            <translation>上 Shot Fearmaster</translation>
+            <translation>Top Shot Fearmaster</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1887" />
@@ -13021,13 +13516,13 @@ Tip: SPU floats are commented along forming instructions.</source>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1919" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1931" />
             <source>Strum Up</source>
-            <translation>Strum 上</translation>
+            <translation>向上扫弦</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1920" />
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1932" />
             <source>Strum Down</source>
-            <translation>Strum 下</translation>
+            <translation>向下扫弦</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1921" />
@@ -13044,12 +13539,12 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1933" />
             <source>Pickup Switch Up</source>
-            <translation>Pickup Switch 上</translation>
+            <translation>拾音器开关向上</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1934" />
             <source>Pickup Switch Down</source>
-            <translation>Pickup Switch 下</translation>
+            <translation>拾音器开关向下</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1937" />
@@ -13109,7 +13604,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1968" />
             <source>Double Bass Pedal</source>
-            <translation>双精度 Bass Pedal</translation>
+            <translation>双踩踏板</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1969" />
@@ -13119,7 +13614,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1997" />
             <source>Choose a unique name</source>
-            <translation>Choose a 唯一 名称</translation>
+            <translation>选择一个唯一的名称</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="1998" />
@@ -13136,17 +13631,17 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2007" />
             <source>Name cannot be empty</source>
-            <translation>名称 cannot 是 空</translation>
+            <translation>名称不能为空</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2012" />
             <source>Must choose a name without '.'</source>
-            <translation>必须 choose a 名称 无 '.'</translation>
+            <translation>必须选择不带 '.' 的名称</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2017" />
             <source>Please choose a non-existing name</source>
-            <translation>Please choose a non-existing 名称</translation>
+            <translation>请选择一个不存在的名称</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2036" />
@@ -13168,7 +13663,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2040" />
             <source>Do you really want to remove the configuration '%0'?</source>
-            <translation>执行 you really want 到 移除 the 配置 '%0'?</translation>
+            <translation>您真的要移除配置 '%0' 吗？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2049" />
@@ -13184,7 +13679,8 @@ Tip: SPU floats are commented along forming instructions.</source>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2064" />
             <source>Removed configuration '%0'.
 The selected configuration is now '%1'.</source>
-            <translation>已移除 配置 '%0'. The selected 配置 是 现在 '%1'.</translation>
+            <translation>已移除配置 '%0'。
+当前选择的配置为 '%1'。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2077" />
@@ -13194,7 +13690,7 @@ The selected configuration is now '%1'.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2221" />
             <source>The %0 button or combo &lt;b&gt;%1&lt;/b&gt; of &lt;b&gt;Player %2&lt;/b&gt; was assigned at least twice.&lt;br&gt;Please consider adjusting the configuration.&lt;br&gt;&lt;br&gt;Continue anyway?&lt;br&gt;</source>
-            <translation>The %0 按钮 或 combo &lt;b&gt;%1&lt;/b&gt; 的 &lt;b&gt;Player %2&lt;/b&gt; 曾是 assigned at 最少 twice.&lt;br&gt;Please consider adjusting the 配置.&lt;br&gt;&lt;br&gt;Continue 无论如何?&lt;br&gt;</translation>
+            <translation>&lt;b&gt;玩家 %2&lt;/b&gt; 的 %0 按钮或组合键 &lt;b&gt;%1&lt;/b&gt; 至少被分配了两次。&lt;br&gt;请考虑调整配置。&lt;br&gt;&lt;br&gt;是否仍然继续？&lt;br&gt;</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2268" />
@@ -13250,7 +13746,7 @@ The selected configuration is now '%1'.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2293" />
             <source>Default Null Device</source>
-            <translation>默认 Null Device</translation>
+            <translation>默认空设备</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2295" />
@@ -13336,7 +13832,7 @@ The selected configuration is now '%1'.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.ui" line="113" />
             <source>Patch Version</source>
-            <translation>Patch 版本</translation>
+            <translation>补丁版本</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.ui" line="131" />
@@ -13356,7 +13852,7 @@ The selected configuration is now '%1'.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.ui" line="152" />
             <source>Patch Name</source>
-            <translation>Patch 名称</translation>
+            <translation>补丁名称</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.ui" line="159" />
@@ -13377,42 +13873,42 @@ The selected configuration is now '%1'.</source>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.ui" line="180" />
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="392" />
             <source>Valid Patch</source>
-            <translation>有效 Patch</translation>
+            <translation>有效补丁</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="137" />
             <source>&amp;Add Instruction</source>
-            <translation>&amp;添加 Instruction</translation>
+            <translation>添加指令 (&amp;A)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="147" />
             <source>&amp;Add Instruction Above</source>
-            <translation>&amp;添加 Instruction 上方</translation>
+            <translation>在上方添加指令 (&amp;A)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="153" />
             <source>&amp;Add Instruction Below</source>
-            <translation>&amp;添加 Instruction 下方</translation>
+            <translation>在下方添加指令 (&amp;A)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="167" />
             <source>&amp;Move Instruction(s) Up</source>
-            <translation>&amp;移动 Instruction(s) 上</translation>
+            <translation>向上移动指令 (&amp;M)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="179" />
             <source>&amp;Move Instruction(s) Down</source>
-            <translation>&amp;移动 Instruction(s) 下</translation>
+            <translation>向下移动指令 (&amp;M)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="188" />
             <source>&amp;Remove Instruction(s)</source>
-            <translation>&amp;移除 Instruction(s)</translation>
+            <translation>移除指令 (&amp;R)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="197" />
             <source>&amp;Clear Table</source>
-            <translation>&amp;清晰 Table</translation>
+            <translation>清空表格 (&amp;C)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="248" />
@@ -13423,28 +13919,30 @@ The selected configuration is now '%1'.</source>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="248" />
             <source>The patch offset is invalid.
 The offset has to be a hexadecimal number with 8 digits at most.</source>
-            <translation>The patch 偏移 是 无效. The 偏移 有 到 是 a hexadecimal 数字 与 8 digits at 最多.</translation>
+            <translation>补丁偏移无效。
+偏移必须是最多 8 位数字的十六进制数。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="398" />
             <source>Validation Failed</source>
-            <translation>Validation 失败</translation>
+            <translation>验证失败</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="456" />
             <source>Patch invalid!</source>
-            <translation>Patch 无效!</translation>
+            <translation>补丁无效！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="456" />
             <source>The patch validation failed.
 The export of invalid patches is not allowed.</source>
-            <translation>The patch validation 失败. The 导出 的 无效 patches 是 不 已允许.</translation>
+            <translation>补丁验证失败。
+不允许导出无效的补丁。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="460" />
             <source>Select Patch File</source>
-            <translation>Select Patch 文件</translation>
+            <translation>选择补丁文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="460" />
@@ -13454,7 +13952,7 @@ The export of invalid patches is not allowed.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="525" />
             <source>Instruction %0: Type '%1' is invalid!</source>
-            <translation>Instruction %0: 类型 '%1' 是 无效!</translation>
+            <translation>指令 %0：类型 '%1' 无效！</translation>
         </message>
     </context>
     <context>
@@ -13473,7 +13971,7 @@ The export of invalid patches is not allowed.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.ui" line="45" />
             <source>Only show owned games</source>
-            <translation>仅 显示 owned 游戏</translation>
+            <translation>仅显示拥有的游戏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.ui" line="106" />
@@ -13508,7 +14006,7 @@ The export of invalid patches is not allowed.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.ui" line="219" />
             <source>Patch Version</source>
-            <translation>Patch 版本</translation>
+            <translation>补丁版本</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.ui" line="241" />
@@ -13523,7 +14021,7 @@ The export of invalid patches is not allowed.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.ui" line="288" />
             <source>Configurable Values</source>
-            <translation>Configurable 值</translation>
+            <translation>可配置值</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.ui" line="294" />
@@ -13534,35 +14032,38 @@ The export of invalid patches is not allowed.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="240" />
             <source>Incompatible patches detected</source>
-            <translation>不兼容 patches detected</translation>
+            <translation>检测到不兼容的补丁</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="241" />
             <source>Some of your patches are not compatible with the current version of RPCS3's Patch Manager.
 
 Make sure that all the patches located in "%0" contain the proper formatting that is required for the Patch Manager Version %1.</source>
-            <translation>一些 的 your patches 是 不 兼容 与 the 当前 版本 的 RPCS3's Patch Manager. Make 确定 那个 全部 the patches located 内 "%0" contain the proper formatting 那个 是 必需 为 the Patch Manager 版本 %1.</translation>
+            <translation>您的某些补丁与当前版本的 RPCS3 补丁管理器不兼容。
+
+请确保位于 "%0" 中的所有补丁包含补丁管理器版本 %1 所需的正确格式。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="883" />
             <source>Show Patch File</source>
-            <translation>显示 Patch 文件</translation>
+            <translation>显示补丁文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="894" />
             <source>Remove Patch</source>
-            <translation>移除 Patch</translation>
+            <translation>移除补丁</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="898" />
             <source>Remove Patch?</source>
-            <translation>移除 Patch?</translation>
+            <translation>移除补丁？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="899" />
             <source>Do you really want to remove the selected patch?
 This action is immediate and irreversible!</source>
-            <translation>执行 you really want 到 移除 the selected patch? 此 action 是 immediate 和 irreversible!</translation>
+            <translation>您真的要移除所选补丁吗？
+此操作立即生效且不可撤销！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="910" />
@@ -13572,7 +14073,7 @@ This action is immediate and irreversible!</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="910" />
             <source>The patch was successfully removed!</source>
-            <translation>The patch 曾是 successfully 已移除!</translation>
+            <translation>补丁已成功移除！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="916" />
@@ -13617,7 +14118,7 @@ This action is immediate and irreversible!</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1025" />
             <source>What do you want to do with the patch file?</source>
-            <translation>什么 执行 you want 到 执行 与 the patch 文件?</translation>
+            <translation>您想如何处理补丁文件？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1026" />
@@ -13645,7 +14146,7 @@ Log:
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1067" />
             <source>None of the found %0 patches were imported.%1</source>
-            <translation>无 的 the found %0 patches 曾是 imported.%1</translation>
+            <translation>找到的 %0 个补丁均未导入。%1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1072" />
@@ -13656,12 +14157,13 @@ Log:
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1072" />
             <source>Imported %0/%1 patches to:
 %2%3</source>
-            <translation>Imported %0/%1 patches 到: %2%3</translation>
+            <translation>已将 %0/%1 个补丁导入到：
+%2%3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1078" />
             <source>Import failed</source>
-            <translation>导入 失败</translation>
+            <translation>导入失败</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1078" />
@@ -13669,17 +14171,20 @@ Log:
 
 Log:
 %0</source>
-            <translation>The patch 文件 能 不 是 imported. 日志: %0</translation>
+            <translation>无法导入补丁文件。
+
+日志：
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1083" />
             <source>Validation successful</source>
-            <translation>Validation 成功</translation>
+            <translation>验证成功</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1083" />
             <source>The patch file passed the validation.</source>
-            <translation>The patch 文件 passed the validation.</translation>
+            <translation>补丁文件通过了验证。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1093" />
@@ -13687,7 +14192,7 @@ Log:
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1319" />
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1324" />
             <source>Validation failed</source>
-            <translation>Validation 失败</translation>
+            <translation>验证失败</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1093" />
@@ -13695,23 +14200,26 @@ Log:
 
 Log:
 %0</source>
-            <translation>错误 曾是 found 内 the patch 文件. 日志: %0</translation>
+            <translation>补丁文件中发现错误。
+
+日志：
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1097" />
             <source>Errors were found in the patch file.</source>
-            <translation>错误 曾是 found 内 the patch 文件.</translation>
+            <translation>补丁文件中发现错误。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1099" />
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1325" />
             <source>To see the error log, please click "Show Details".</source>
-            <translation>到 see the 错误 日志, please click "显示 Details".</translation>
+            <translation>要查看错误日志，请点击"显示详情"。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1166" />
             <source>Downloading latest patches</source>
-            <translation>下载中 latest patches</translation>
+            <translation>正在下载最新补丁</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1209" />
@@ -13722,24 +14230,26 @@ Log:
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1209" />
             <source>Your patch file is already up to date.</source>
-            <translation>Your patch 文件 是 已经 上 到 日期.</translation>
+            <translation>您的补丁文件已是最新。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1224" />
             <source>Update patches?</source>
-            <translation>更新 patches?</translation>
+            <translation>更新补丁？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1224" />
             <source>New patches are available.
 
 Do you want to update?</source>
-            <translation>新建 patches 是 可用. 执行 you want 到 更新?</translation>
+            <translation>有新补丁可用。
+
+您要更新吗？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1310" />
             <source>Your patch file is now up to date</source>
-            <translation>Your patch 文件 是 现在 上 到 日期</translation>
+            <translation>您的补丁文件现在已是最新</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1319" />
@@ -13747,17 +14257,20 @@ Do you want to update?</source>
 
 Log:
 %0</source>
-            <translation>错误 曾是 found 内 the 已下载 patch 文件. 日志: %0</translation>
+            <translation>下载的补丁文件中发现错误。
+
+日志：
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="1323" />
             <source>Errors were found in the downloaded patch file.</source>
-            <translation>错误 曾是 found 内 the 已下载 patch 文件.</translation>
+            <translation>下载的补丁文件中发现错误。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.h" line="38" />
             <source>All titles - Warning: These patches apply to all games!</source>
-            <translation>全部 标题 - 警告: 这些 patches 应用 到 全部 游戏!</translation>
+            <translation>所有标题 - 警告：这些补丁将应用于所有游戏！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.h" line="39" />
@@ -13820,7 +14333,7 @@ Log:
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="134" />
             <source>Can not install packages. The following packages seem to be corrupt:</source>
-            <translation>能 不 安装 packages. The following packages seem 到 是 corrupt:</translation>
+            <translation>无法安装安装包。以下安装包似乎已损坏：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="148" />
@@ -13835,75 +14348,78 @@ Log:
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="183" />
             <source>Move selected item up</source>
-            <translation>移动 selected item 上</translation>
+            <translation>上移所选项目</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="188" />
             <source>Move selected item down</source>
-            <translation>移动 selected item 下</translation>
+            <translation>下移所选项目</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="199" />
             <source>We found a package bundled with the game.
 Do you want to install this package?</source>
-            <translation>We found a package bundled 与 the 游戏. 执行 you want 到 安装 此 package?</translation>
+            <translation>我们发现了一个与游戏捆绑的安装包。
+您要安装此安装包吗？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="200" />
             <source>Do you want to install this package?</source>
-            <translation>执行 you want 到 安装 此 package?</translation>
+            <translation>您要安装此安装包吗？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="202" />
             <source>We found multiple packages bundled with the game.
 Reorder and/or exclude them if needed, then click "Install" to proceed.</source>
-            <translation>We found multiple packages bundled 与 the 游戏. Reorder 和/或 exclude them 如果 需要, 然后 click "安装" 到 proceed.</translation>
+            <translation>我们发现游戏捆绑了多个安装包。
+如有需要，可重新排序和/或排除它们，然后点击“安装”继续。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="203" />
             <source>You are about to install multiple packages.
 Reorder and/or exclude them if needed, then click "Install" to proceed.</source>
-            <translation>You 是 大约 到 安装 multiple packages. Reorder 和/或 exclude them 如果 需要, 然后 click "安装" 到 proceed.</translation>
+            <translation>您即将安装多个安装包。
+如有需要，可重新排序和/或排除它们，然后点击“安装”继续。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="205" />
             <source>Would you like to precompile caches and install shortcuts to the installed software?</source>
-            <translation>将 you 如 到 precompile 缓存 和 安装 shortcuts 到 the 已安装 software?</translation>
+            <translation>是否要预编译缓存并为已安装的软件创建快捷方式？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="207" />
             <source>Precompile caches</source>
-            <translation>Precompile 缓存</translation>
+            <translation>预编译缓存</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="211" />
             <source>Add desktop shortcut(s)</source>
-            <translation>添加 desktop shortcut(s)</translation>
+            <translation>添加桌面快捷方式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="215" />
             <source>Add Start menu shortcut(s)</source>
-            <translation>添加 开始 菜单 shortcut(s)</translation>
+            <translation>添加开始菜单快捷方式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="217" />
             <source>Add dock shortcut(s)</source>
-            <translation>添加 dock shortcut(s)</translation>
+            <translation>添加 dock 快捷方式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="219" />
             <source>Add launcher shortcut(s)</source>
-            <translation>添加 launcher shortcut(s)</translation>
+            <translation>添加启动器快捷方式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="235" />
             <source>Add Steam Shortcut(s) (Steam must be closed)</source>
-            <translation>添加 Steam Shortcut(s) (Steam 必须 是 已关闭)</translation>
+            <translation>添加 Steam 快捷方式（必须关闭 Steam）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="235" />
             <source>Add Steam shortcut(s)</source>
-            <translation>添加 Steam shortcut(s)</translation>
+            <translation>添加 Steam 快捷方式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="269" />
@@ -13923,7 +14439,7 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="20" />
             <source>PS Move Tracker Settings</source>
-            <translation>PS 移动 Tracker 设置</translation>
+            <translation>PS Move 追踪器设置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="30" />
@@ -13984,7 +14500,7 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="261" />
             <source>View</source>
-            <translation>视图</translation>
+            <translation>查看</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="285" />
@@ -13994,17 +14510,17 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="291" />
             <source>Filter Small Contours</source>
-            <translation>Filter 小 Contours</translation>
+            <translation>过滤小轮廓</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="298" />
             <source>Freeze Frame</source>
-            <translation>Freeze 帧</translation>
+            <translation>冻结帧</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="305" />
             <source>Show All Contours</source>
-            <translation>显示 全部 Contours</translation>
+            <translation>显示所有轮廓</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="312" />
@@ -14107,17 +14623,17 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/raw_mouse_settings_dialog.cpp" line="22" />
             <source>Configure Raw Mouse Handler</source>
-            <translation>配置 Raw 鼠标 Handler</translation>
+            <translation>配置原始鼠标处理器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/raw_mouse_settings_dialog.cpp" line="48" />
             <source>Confirm Reset</source>
-            <translation>确认 Reset</translation>
+            <translation>确认重置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/raw_mouse_settings_dialog.cpp" line="48" />
             <source>Reset settings of all players?</source>
-            <translation>Reset 设置 的 全部 players?</translation>
+            <translation>重置所有玩家的设置？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/raw_mouse_settings_dialog.cpp" line="107" />
@@ -14138,7 +14654,7 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/raw_mouse_settings_dialog.cpp" line="279" />
             <source>Mouse Acceleration</source>
-            <translation>鼠标 Acceleration</translation>
+            <translation>鼠标加速度</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/raw_mouse_settings_dialog.cpp" line="295" />
@@ -14151,7 +14667,7 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.ui" line="14" />
             <source>Recording Settings</source>
-            <translation>Recording 设置</translation>
+            <translation>录制设置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.ui" line="24" />
@@ -14213,7 +14729,7 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.ui" line="152" />
             <source>Group of Pictures Size</source>
-            <translation>Group 的 Pictures 大小</translation>
+            <translation>图像组大小</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.ui" line="164" />
@@ -14283,22 +14799,22 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.cpp" line="314" />
             <source>Video Codec:</source>
-            <translation>视频 Codec:</translation>
+            <translation>视频编解码器：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.cpp" line="315" />
             <source>Video Bitrate:</source>
-            <translation>视频 Bitrate:</translation>
+            <translation>视频比特率：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.cpp" line="316" />
             <source>Audio Codec:</source>
-            <translation>音频 Codec:</translation>
+            <translation>音频编解码器：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.cpp" line="317" />
             <source>Audio Bitrate:</source>
-            <translation>音频 Bitrate:</translation>
+            <translation>音频比特率：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recording_settings_dialog.cpp" line="318" />
@@ -14336,12 +14852,12 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/recvmessage_dialog_frame.cpp" line="73" />
             <source>Error receiving a message!</source>
-            <translation>错误 receiving a message!</translation>
+            <translation>接收消息时出错！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/recvmessage_dialog_frame.cpp" line="73" />
             <source>You must select a message!</source>
-            <translation>You 必须 select a message!</translation>
+            <translation>您必须选择一条消息！</translation>
         </message>
     </context>
     <context>
@@ -14349,19 +14865,19 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/register_editor_dialog.cpp" line="166" />
             <source>Error parsing register value!</source>
-            <translation>错误 解析中 register 值!</translation>
+            <translation>解析寄存器值时出错！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/register_editor_dialog.cpp" line="195" />
             <location filename="../rpcs3/rpcs3qt/register_editor_dialog.cpp" line="217" />
             <source>Lose reservation on OK</source>
-            <translation>Lose reservation 开 确定</translation>
+            <translation>确定时释放预留</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/register_editor_dialog.cpp" line="195" />
             <location filename="../rpcs3/rpcs3qt/register_editor_dialog.cpp" line="217" />
             <source>Reservation is inactive</source>
-            <translation>Reservation 是 非活跃</translation>
+            <translation>预留未激活</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/register_editor_dialog.cpp" line="423" />
@@ -14372,7 +14888,8 @@ Required disk space: %3</source>
             <location filename="../rpcs3/rpcs3qt/register_editor_dialog.cpp" line="423" />
             <source>This value could not be converted.
 No changes were made.</source>
-            <translation>此 值 能 不 是 converted. 否 changes 曾是 made.</translation>
+            <translation>此值无法转换。
+未作任何更改。</translation>
         </message>
     </context>
     <context>
@@ -14406,12 +14923,12 @@ No changes were made.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="183" />
             <source>Create Account</source>
-            <translation>创建 Account</translation>
+            <translation>创建账户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="184" />
             <source>Edit Account</source>
-            <translation>编辑 Account</translation>
+            <translation>编辑账户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="185" />
@@ -14431,7 +14948,7 @@ No changes were made.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="239" />
             <source>You already have a server with this description &amp; hostname in the list.</source>
-            <translation>You 已经 有 a server 与 此 描述 &amp; hostname 内 the 列表.</translation>
+            <translation>列表中已存在具有此描述和主机名的服务器。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="265" />
@@ -14442,7 +14959,13 @@ Note that these restrictions apply:
 - Username can only contain a-z A-Z 0-9 '-' '_'
 - Username is case sensitive
 </source>
-            <translation>Please enter your username. 备注 那个 这些 restrictions 应用: - Username 必须 是 between 3 和 16 characters - Username 能 仅 contain a-z A-Z 0-9 '-' '_' - Username 是 case sensitive</translation>
+            <translation>请输入您的用户名。
+
+请注意以下限制：
+- 用户名长度必须在 3 到 16 个字符之间
+- 用户名只能包含 a-z A-Z 0-9 '-' '_'
+- 用户名区分大小写
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="276" />
@@ -14460,7 +14983,11 @@ Note that these restrictions apply:
 - Your email won't be used for anything beyond sending you this token or the password reset token.
 
 </source>
-            <translation>An email 地址 是 必需, please 备注: - A 有效 email 是 需要 到 receive the token 那个 validates your account. - Your email won't 是 used 为 anything beyond sending you 此 token 或 the password reset token.</translation>
+            <translation>需要电子邮箱地址，请注意：
+- 需要有效的邮箱以接收用于验证您账户的令牌。
+- 您的邮箱不会用于发送此令牌或密码重置令牌以外的任何用途。
+
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="292" />
@@ -14474,27 +15001,31 @@ Note that these restrictions apply:
 -Email:%1
 
 Is this correct?</source>
-            <translation>You 是 大约 到 创建 an account 与: -Username:%0 -Email:%1 是 此 正确?</translation>
+            <translation>您将创建以下账户：
+-用户名：%0
+-邮箱：%1
+
+是否正确？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="307" />
             <source>An account with that username already exists!</source>
-            <translation>An account 与 那个 username 已经 exists!</translation>
+            <translation>该用户名的账户已存在！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="308" />
             <source>This email provider is banned!</source>
-            <translation>此 email provider 是 banned!</translation>
+            <translation>此邮箱提供商已被禁用！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="309" />
             <source>An account with that email already exists!</source>
-            <translation>An account 与 那个 email 已经 exists!</translation>
+            <translation>该邮箱的账户已存在！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="310" />
             <source>Unknown creation error!</source>
-            <translation>未知 creation 错误!</translation>
+            <translation>未知的创建错误！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="311" />
@@ -14504,13 +15035,14 @@ Is this correct?</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="313" />
             <source>Error Creating Account!</source>
-            <translation>错误 创建中 Account!</translation>
+            <translation>创建账户时出错！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="313" />
             <source>Failed to create the account:
 %0</source>
-            <translation>失败 到 创建 the account: %0</translation>
+            <translation>创建账户失败：
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="322" />
@@ -14519,28 +15051,33 @@ Your account authentification was saved.
 Now all you need is to enter the token that was sent to your email.
 You can skip this step by leaving it empty and entering it later in the Edit Account section too.
 </source>
-            <translation>Your account 有 已 已创建 successfully! Your account authentification 曾是 已保存. 现在 全部 you 需要 是 到 enter the token 那个 曾是 sent 到 your email. You 能 skip 此 step 通过 leaving it 空 和 entering it 稍后 内 the 编辑 Account section 也.</translation>
+            <translation>您的账户已成功创建！
+您的账户认证信息已保存。
+现在您只需输入发送到您邮箱的令牌。
+您也可以留空跳过此步骤，稍后在“编辑账户”部分再输入。
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="354" />
             <source>Failed to authentify to RPCN:
 %0</source>
-            <translation>失败 到 authentify 到 RPCN: %0</translation>
+            <translation>向 RPCN 认证失败：
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="355" />
             <source>Error authentifying to RPCN!</source>
-            <translation>错误 authentifying 到 RPCN!</translation>
+            <translation>向 RPCN 认证时出错！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="359" />
             <source>RPCN Account Valid!</source>
-            <translation>RPCN Account 有效!</translation>
+            <translation>RPCN 账户有效！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="359" />
             <source>Your account is valid!</source>
-            <translation>Your account 是 有效!</translation>
+            <translation>您的账户有效！</translation>
         </message>
     </context>
     <context>
@@ -14548,7 +15085,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="732" />
             <source>RPCN: Edit Account</source>
-            <translation>RPCN: 编辑 Account</translation>
+            <translation>RPCN：编辑账户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="742" />
@@ -14563,7 +15100,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="747" />
             <source>Set Password</source>
-            <translation>集合 Password</translation>
+            <translation>设置密码</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="748" />
@@ -14583,7 +15120,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="754" />
             <source>Delete Account</source>
-            <translation>删除 Account</translation>
+            <translation>删除账户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="755" />
@@ -14598,12 +15135,12 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="791" />
             <source>RPCN Password Saved</source>
-            <translation>RPCN Password 已保存</translation>
+            <translation>RPCN 密码已保存</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="791" />
             <source>Your password was saved successfully!</source>
-            <translation>Your password 曾是 已保存 successfully!</translation>
+            <translation>您的密码已成功保存！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="816" />
@@ -14613,56 +15150,56 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="816" />
             <source>You need to enter a username and a password!</source>
-            <translation>You 需要 到 enter a username 和 a password!</translation>
+            <translation>您需要输入用户名和密码！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="822" />
             <source>Invalid Username</source>
-            <translation>无效 Username</translation>
+            <translation>无效的用户名</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="822" />
             <source>Username must be between 3 and 16 characters and can only contain '-', '_' or alphanumeric characters.</source>
-            <translation>Username 必须 是 between 3 和 16 characters 和 能 仅 contain '-', '_' 或 alphanumeric characters.</translation>
+            <translation>用户名长度必须在 3 到 16 个字符之间，且只能包含“-”、“_”或字母数字字符。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="828" />
             <source>Invalid Token</source>
-            <translation>无效 Token</translation>
+            <translation>无效的令牌</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="828" />
             <source>The token you have received should be 16 characters long and contain only 0-9 A-F.</source>
-            <translation>The token you 有 received 应该 是 16 characters long 和 contain 仅 0-9 A-F.</translation>
+            <translation>您收到的令牌应为 16 个字符长，且只包含 0-9 A-F。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="858" />
             <source>The server has no email verification and doesn't need a token!</source>
-            <translation>The server 有 否 email verification 和 doesn't 需要 a token!</translation>
+            <translation>服务器没有邮箱验证，不需要令牌！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="859" />
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="905" />
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="947" />
             <source>A database related error happened on the server!</source>
-            <translation>A database related 错误 happened 开 the server!</translation>
+            <translation>服务器上发生了与数据库相关的错误！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="860" />
             <source>You can only ask for a token mail once every 24 hours!</source>
-            <translation>You 能 仅 ask 为 a token mail once 每个 24 hours!</translation>
+            <translation>您每 24 小时只能请求一次令牌邮件！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="861" />
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="907" />
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="949" />
             <source>The mail couldn't be sent successfully!</source>
-            <translation>The mail couldn't 是 sent successfully!</translation>
+            <translation>邮件发送失败！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="862" />
             <source>The username/password pair is invalid!</source>
-            <translation>The username/password pair 是 无效!</translation>
+            <translation>用户名/密码组合无效！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="863" />
@@ -14673,13 +15210,14 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="865" />
             <source>Error Sending Token!</source>
-            <translation>错误 Sending Token!</translation>
+            <translation>发送令牌时出错！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="865" />
             <source>Failed to send the token:
 %0</source>
-            <translation>失败 到 send the token: %0</translation>
+            <translation>发送令牌失败：
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="869" />
@@ -14689,12 +15227,12 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="869" />
             <source>Your token was successfully resent to the email associated with your account!</source>
-            <translation>Your token 曾是 successfully resent 到 the email associated 与 your account!</translation>
+            <translation>您的令牌已成功重新发送到与您账户关联的邮箱！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="874" />
             <source>Please confirm your username:</source>
-            <translation>Please 确认 your username:</translation>
+            <translation>请确认您的用户名：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="881" />
@@ -14705,29 +15243,30 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="881" />
             <source>Do you already have a reset password token?
 Note that the reset password token is different from the email verification token.</source>
-            <translation>执行 you 已经 有 a reset password token? 备注 那个 the reset password token 是 不同 从 the email verification token.</translation>
+            <translation>您是否已有密码重置令牌？
+请注意，密码重置令牌与邮箱验证令牌不同。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="886" />
             <source>Please enter the email you used to create the account:</source>
-            <translation>Please enter the email you used 到 创建 the account:</translation>
+            <translation>请输入您创建账户时使用的邮箱：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="904" />
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="946" />
             <source>The server has no email verification and doesn't support password changes!</source>
-            <translation>The server 有 否 email verification 和 doesn't support password changes!</translation>
+            <translation>服务器没有邮箱验证，不支持密码更改！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="906" />
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="948" />
             <source>You can only ask for a reset password token once every 24 hours!</source>
-            <translation>You 能 仅 ask 为 a reset password token once 每个 24 hours!</translation>
+            <translation>您每 24 小时只能请求一次密码重置令牌！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="908" />
             <source>The username/email pair is invalid!</source>
-            <translation>The username/email pair 是 无效!</translation>
+            <translation>用户名/邮箱组合无效！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="909" />
@@ -14737,13 +15276,14 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="911" />
             <source>Error Sending Password Reset Token!</source>
-            <translation>错误 Sending Password Reset Token!</translation>
+            <translation>发送密码重置令牌时出错！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="911" />
             <source>Failed to send the password reset token:
 %0</source>
-            <translation>失败 到 send the password reset token: %0</translation>
+            <translation>发送密码重置令牌失败：
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="915" />
@@ -14753,7 +15293,7 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="915" />
             <source>The reset password token has successfully been sent!</source>
-            <translation>The reset password token 有 successfully 已 sent!</translation>
+            <translation>密码重置令牌已成功发送！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="921" />
@@ -14763,23 +15303,24 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="928" />
             <source>Please enter your new password:</source>
-            <translation>Please enter your 新建 password:</translation>
+            <translation>请输入您的新密码：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="950" />
             <source>The username/token pair is invalid!</source>
-            <translation>The username/token pair 是 无效!</translation>
+            <translation>用户名/令牌组合无效！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="953" />
             <source>Error Sending Password Reset Token</source>
-            <translation>错误 Sending Password Reset Token</translation>
+            <translation>发送密码重置令牌时出错</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="953" />
             <source>Failed to change the password:
 %0</source>
-            <translation>失败 到 change the password: %0</translation>
+            <translation>更改密码失败：
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="959" />
@@ -14789,17 +15330,17 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="959" />
             <source>Your password has been successfully changed!</source>
-            <translation>Your password 有 已 successfully changed!</translation>
+            <translation>您的密码已成功更改！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="972" />
             <source>Account Not Configured</source>
-            <translation>Account 不 已配置</translation>
+            <translation>账户未配置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="972" />
             <source>Please configure your account in the settings before deleting it.</source>
-            <translation>Please 配置 your account 内 the 设置 之前 删除中 it.</translation>
+            <translation>请在删除前先在设置中配置您的账户。</translation>
         </message>
     </context>
     <context>
@@ -14807,12 +15348,12 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="393" />
             <source>RPCN: Add Server</source>
-            <translation>RPCN: 添加 Server</translation>
+            <translation>RPCN：添加服务器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="399" />
             <source>Description:</source>
-            <translation>描述:</translation>
+            <translation>描述：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="401" />
@@ -14822,12 +15363,12 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="420" />
             <source>Missing Description!</source>
-            <translation>Missing 描述!</translation>
+            <translation>缺少描述！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="420" />
             <source>You must enter a description!</source>
-            <translation>You 必须 enter a 描述!</translation>
+            <translation>您必须输入描述！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="425" />
@@ -14837,7 +15378,7 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="425" />
             <source>You must enter a hostname for the server!</source>
-            <translation>You 必须 enter a hostname 为 the server!</translation>
+            <translation>您必须输入服务器的主机名！</translation>
         </message>
     </context>
     <context>
@@ -14855,12 +15396,12 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="565" />
             <source>Enter your email a second time:</source>
-            <translation>Enter your email a second 时间:</translation>
+            <translation>再次输入您的邮箱：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="586" />
             <source>Wrong Input</source>
-            <translation>错误 Input</translation>
+            <translation>输入错误</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="586" />
@@ -14875,17 +15416,17 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="592" />
             <source>You need to enter an email!</source>
-            <translation>You 需要 到 enter an email!</translation>
+            <translation>您需要输入邮箱！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="599" />
             <source>Invalid Email</source>
-            <translation>无效 Email</translation>
+            <translation>无效的邮箱</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="599" />
             <source>You need to enter a valid email!</source>
-            <translation>You 需要 到 enter a 有效 email!</translation>
+            <translation>您需要输入有效的邮箱！</translation>
         </message>
     </context>
     <context>
@@ -14903,12 +15444,12 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="507" />
             <source>Enter your password a second time:</source>
-            <translation>Enter your password a second 时间:</translation>
+            <translation>再次输入您的密码：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="529" />
             <source>Wrong Input</source>
-            <translation>错误 Input</translation>
+            <translation>输入错误</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="529" />
@@ -14923,7 +15464,7 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="535" />
             <source>You need to enter a password!</source>
-            <translation>You 需要 到 enter a password!</translation>
+            <translation>您需要输入密码！</translation>
         </message>
     </context>
     <context>
@@ -14941,14 +15482,16 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="647" />
             <source>Invalid Token</source>
-            <translation>无效 Token</translation>
+            <translation>无效的令牌</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="647" />
             <source>The token appears to be invalid:
 -Token should be 16 characters long
 -Token should only contain 0-9 and A-F</source>
-            <translation>The token appears 到 是 无效: -Token 应该 是 16 characters long -Token 应该 仅 contain 0-9 和 A-F</translation>
+            <translation>令牌似乎无效：
+-令牌应为 16 个字符长
+-令牌应只包含 0-9 和 A-F</translation>
         </message>
     </context>
     <context>
@@ -14971,17 +15514,17 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="472" />
             <source>You must enter a username!</source>
-            <translation>You 必须 enter a username!</translation>
+            <translation>您必须输入用户名！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="477" />
             <source>Invalid Username!</source>
-            <translation>无效 Username!</translation>
+            <translation>无效的用户名！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="477" />
             <source>Please enter a valid username!</source>
-            <translation>Please enter a 有效 username!</translation>
+            <translation>请输入有效的用户名！</translation>
         </message>
     </context>
     <context>
@@ -14989,7 +15532,7 @@ Note that the reset password token is different from the email verification toke
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="670" />
             <source>Confirm Account Deletion</source>
-            <translation>确认 Account Deletion</translation>
+            <translation>确认删除账户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="675" />
@@ -14999,12 +15542,17 @@ Important:
 Deleting your account will blacklist your username and email for 3 months.
 To confirm, type your username below and click "Yes".
 </source>
-            <translation>是 you 确定 you want 到 删除 RPCN account "%1"? 重要: 删除中 your account 将 blacklist your username 和 email 为 3 months. 到 确认, 类型 your username 下方 和 click "是".</translation>
+            <translation>您确定要删除 RPCN 账户“%1”吗？
+
+重要提示：
+删除账户会将您的用户名和邮箱列入黑名单 3 个月。
+如需确认，请在下方输入您的用户名并点击“是”。
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="682" />
             <source>Type your username to confirm</source>
-            <translation>类型 your username 到 确认</translation>
+            <translation>输入您的用户名以确认</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="684" />
@@ -15019,38 +15567,39 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="714" />
             <source>Invalid login or password.</source>
-            <translation>无效 login 或 password.</translation>
+            <translation>无效的登录名或密码。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="715" />
             <source>Cannot delete a currently logged-in account.</source>
-            <translation>Cannot 删除 a 当前 logged-内 account.</translation>
+            <translation>无法删除当前已登录的账户。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="716" />
             <source>An unknown error occurred.</source>
-            <translation>An 未知 错误 occurred.</translation>
+            <translation>发生未知错误。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="718" />
             <source>Deletion Failed</source>
-            <translation>Deletion 失败</translation>
+            <translation>删除失败</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="718" />
             <source>Failed to delete the account:
 %1</source>
-            <translation>失败 到 删除 the account: %1</translation>
+            <translation>删除账户失败：
+%1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="723" />
             <source>Account Deleted</source>
-            <translation>Account 已删除</translation>
+            <translation>账户已删除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="723" />
             <source>Your account has been successfully deleted.</source>
-            <translation>Your account 有 已 successfully 已删除.</translation>
+            <translation>您的账户已成功删除。</translation>
         </message>
     </context>
     <context>
@@ -15058,12 +15607,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1074" />
             <source>RPCN: Friends - Logged in as %0</source>
-            <translation>RPCN: Friends - Logged 内 作为 %0</translation>
+            <translation>RPCN：好友 - 已登录为 %0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1078" />
             <source>RPCN: Friends - %0 (Not logged in)</source>
-            <translation>RPCN: Friends - %0 (不 logged 内)</translation>
+            <translation>RPCN：好友 - %0（未登录）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1082" />
@@ -15078,7 +15627,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1098" />
             <source>Add Friend</source>
-            <translation>添加 Friend</translation>
+            <translation>添加好友</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1103" />
@@ -15099,63 +15648,64 @@ To confirm, type your username below and click "Yes".
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1140" />
             <source>Failed to authentify to RPCN:
 %0</source>
-            <translation>失败 到 authentify 到 RPCN: %0</translation>
+            <translation>向 RPCN 认证失败：
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1141" />
             <source>Error authentifying to RPCN!</source>
-            <translation>错误 authentifying 到 RPCN!</translation>
+            <translation>向 RPCN 认证时出错！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1206" />
             <source>&amp;Remove Friend</source>
-            <translation>&amp;移除 Friend</translation>
+            <translation>&amp;移除好友</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1212" />
             <source>Error removing a friend!</source>
-            <translation>错误 移除中 a friend!</translation>
+            <translation>移除好友时出错！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1212" />
             <source>An error occurred while trying to remove a friend!</source>
-            <translation>An 错误 occurred 当 trying 到 移除 a friend!</translation>
+            <translation>尝试移除好友时发生错误！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1216" />
             <source>Friend removed!</source>
-            <translation>Friend 已移除!</translation>
+            <translation>好友已移除！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1216" />
             <source>You've successfully removed a friend!</source>
-            <translation>You've successfully 已移除 a friend!</translation>
+            <translation>您已成功移除好友！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1239" />
             <source>&amp;Cancel Request</source>
-            <translation>&amp;取消 Request</translation>
+            <translation>&amp;取消请求</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1245" />
             <source>Error cancelling friend request!</source>
-            <translation>错误 取消中 friend request!</translation>
+            <translation>取消好友请求时出错！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1245" />
             <source>An error occurred while trying to cancel friend request!</source>
-            <translation>An 错误 occurred 当 trying 到 取消 friend request!</translation>
+            <translation>尝试取消好友请求时发生错误！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1249" />
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1280" />
             <source>Friend request cancelled!</source>
-            <translation>Friend request 已取消!</translation>
+            <translation>好友请求已取消！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1249" />
             <source>You've successfully cancelled the friend request!</source>
-            <translation>You've successfully 已取消 the friend request!</translation>
+            <translation>您已成功取消好友请求！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1260" />
@@ -15171,27 +15721,27 @@ To confirm, type your username below and click "Yes".
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1267" />
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1341" />
             <source>Friend added!</source>
-            <translation>Friend 已添加!</translation>
+            <translation>好友已添加！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1267" />
             <source>You've successfully added a friend!</source>
-            <translation>You've successfully 已添加 a friend!</translation>
+            <translation>您已成功添加好友！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1276" />
             <source>Error rejecting friend request!</source>
-            <translation>错误 rejecting friend request!</translation>
+            <translation>拒绝好友请求时出错！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1276" />
             <source>An error occurred while trying to reject the friend request!</source>
-            <translation>An 错误 occurred 当 trying 到 reject the friend request!</translation>
+            <translation>尝试拒绝好友请求时发生错误！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1280" />
             <source>You've successfully rejected the friend request!</source>
-            <translation>You've successfully 已拒绝 the friend request!</translation>
+            <translation>您已成功拒绝好友请求！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1300" />
@@ -15201,7 +15751,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1322" />
             <source>Add a friend</source>
-            <translation>添加 a friend</translation>
+            <translation>添加好友</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1322" />
@@ -15211,57 +15761,57 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1335" />
             <source>Error validating username!</source>
-            <translation>错误 validating username!</translation>
+            <translation>验证用户名时出错！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1335" />
             <source>The username you entered is invalid!</source>
-            <translation>The username you entered 是 无效!</translation>
+            <translation>您输入的用户名无效！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1341" />
             <source>Friend was successfully added!</source>
-            <translation>Friend 曾是 successfully 已添加!</translation>
+            <translation>好友已成功添加！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1369" />
             <source>The specified username does not exist.</source>
-            <translation>The specified username 执行 不 exist.</translation>
+            <translation>指定的用户名不存在。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1370" />
             <source>You cannot add yourself as a friend.</source>
-            <translation>You cannot 添加 yourself 作为 a friend.</translation>
+            <translation>您不能添加自己为好友。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1371" />
             <source>You or the other user have the other blocked.</source>
-            <translation>You 或 the 其他 user 有 the 其他 blocked.</translation>
+            <translation>您或对方已拉黑对方。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1372" />
             <source>You are already friends with this user.</source>
-            <translation>You 是 已经 friends 与 此 user.</translation>
+            <translation>您已经与此用户是好友。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1373" />
             <source>A database error occurred. Please try again later.</source>
-            <translation>A database 错误 occurred. Please try again 稍后.</translation>
+            <translation>发生数据库错误。请稍后重试。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1374" />
             <source>An unexpected error occurred.</source>
-            <translation>An 意外 错误 occurred.</translation>
+            <translation>发生意外错误。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1380" />
             <source>Failed to send the friend request.</source>
-            <translation>失败 到 send the friend request.</translation>
+            <translation>发送好友请求失败。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="1385" />
             <source>Friend Request Failed</source>
-            <translation>Friend Request 失败</translation>
+            <translation>好友请求失败</translation>
         </message>
     </context>
     <context>
@@ -15295,7 +15845,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rpcn_settings_dialog.cpp" line="132" />
             <source>You need to stop the emulator before editing RPCN account information!</source>
-            <translation>You 需要 到 停止 the 模拟器 之前 编辑中 RPCN account information!</translation>
+            <translation>编辑 RPCN 账户信息前需要先停止模拟器！</translation>
         </message>
     </context>
     <context>
@@ -15334,12 +15884,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rsx_debugger.cpp" line="76" />
             <source>Break on:</source>
-            <translation>Break 开:</translation>
+            <translation>断点条件：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rsx_debugger.cpp" line="112" />
             <source>Captured Frame</source>
-            <translation>Captured 帧</translation>
+            <translation>捕获的帧</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rsx_debugger.cpp" line="113" />
@@ -15384,12 +15934,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/rsx_debugger.cpp" line="135" />
             <source>Stencil Buffer</source>
-            <translation>Stencil 缓冲区</translation>
+            <translation>模板缓冲区</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rsx_debugger.cpp" line="149" />
             <source>Texture Index or Address / Format Override</source>
-            <translation>纹理 索引 或 地址 / Format Override</translation>
+            <translation>纹理索引或地址 / 格式覆盖</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/rsx_debugger.cpp" line="221" />
@@ -15422,7 +15972,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_info_dialog.cpp" line="12" />
             <source>Save Data Information</source>
-            <translation>保存 Data Information</translation>
+            <translation>存档数据信息</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_info_dialog.cpp" line="21" />
@@ -15466,17 +16016,17 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_list_dialog.cpp" line="25" />
             <source>Save Data Interface (Delete)</source>
-            <translation>保存 Data Interface (删除)</translation>
+            <translation>存档数据界面（删除）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_list_dialog.cpp" line="29" />
             <source>Save Data Interface (Load)</source>
-            <translation>保存 Data Interface (加载)</translation>
+            <translation>存档数据界面（加载）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_list_dialog.cpp" line="33" />
             <source>Save Data Interface (Save)</source>
-            <translation>保存 Data Interface (保存)</translation>
+            <translation>存档数据界面（保存）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_list_dialog.cpp" line="49" />
@@ -15496,7 +16046,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_list_dialog.cpp" line="49" />
             <source>Entry Notes</source>
-            <translation>Entry 备注</translation>
+            <translation>条目备注</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_list_dialog.cpp" line="56" />
@@ -15506,7 +16056,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_list_dialog.cpp" line="68" />
             <source>Save New Entry</source>
-            <translation>保存 新建 Entry</translation>
+            <translation>保存新条目</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_list_dialog.cpp" line="79" />
@@ -15516,12 +16066,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_list_dialog.cpp" line="127" />
             <source>Currently Selected: None</source>
-            <translation>当前 Selected: 无</translation>
+            <translation>当前选择：无</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_data_list_dialog.cpp" line="132" />
             <source>Currently Selected: </source>
-            <translation>当前 Selected:</translation>
+            <translation>当前选择：</translation>
         </message>
     </context>
     <context>
@@ -15550,17 +16100,17 @@ To confirm, type your username below and click "Yes".
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="99" />
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="673" />
             <source>Select an item to view details</source>
-            <translation>Select an item 到 view details</translation>
+            <translation>选择一个条目以查看详情</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="109" />
             <source>Delete Selection</source>
-            <translation>删除 Selection</translation>
+            <translation>删除所选</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="111" />
             <source>View Folder</source>
-            <translation>View 文件夹</translation>
+            <translation>查看文件夹</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="208" />
@@ -15570,12 +16120,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="209" />
             <source>Title &amp; Subtitle</source>
-            <translation>标题 &amp; Subtitle</translation>
+            <translation>标题和副标题</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="210" />
             <source>Last Modified</source>
-            <translation>最后一个 Modified</translation>
+            <translation>最后修改</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="211" />
@@ -15590,12 +16140,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="246" />
             <source>Loading save data</source>
-            <translation>加载中 保存 data</translation>
+            <translation>正在加载存档数据</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="246" />
             <source>Loading save data, please wait...</source>
-            <translation>加载中 保存 data, please wait...</translation>
+            <translation>正在加载存档数据，请稍候...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="246" />
@@ -15612,13 +16162,14 @@ To confirm, type your username below and click "Yes".
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="566" />
             <source>Are you sure you want to delete:
 %1?</source>
-            <translation>是 you 确定 you want 到 删除: %1?</translation>
+            <translation>您确定要删除：
+%1 吗？</translation>
         </message>
         <message numerus="yes">
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="590" />
             <source>Are you sure you want to delete these %n items?</source>
             <translation>
-                <numerusform>是 you 确定 you want 到 删除 这些 %n items?</numerusform>
+                <numerusform>您确定要删除这 %n 个条目吗？</numerusform>
             </translation>
         </message>
         <message>
@@ -15639,7 +16190,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="700" />
             <source>Last modified: %1</source>
-            <translation>最后一个 modified: %1</translation>
+            <translation>最后修改：%1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/save_manager_dialog.cpp" line="701" />
@@ -15671,7 +16222,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="127" />
             <source>Choose Game</source>
-            <translation>Choose 游戏</translation>
+            <translation>选择游戏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="132" />
@@ -15747,48 +16298,48 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="272" />
             <source>Show Savestates</source>
-            <translation>显示 Savestates</translation>
+            <translation>显示存档状态</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="490" />
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="551" />
             <source>&amp;Open Savestate Directory</source>
-            <translation>&amp;打开 Savestate 目录</translation>
+            <translation>&amp;打开存档状态目录</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="491" />
             <source>&amp;Boot Savestate</source>
-            <translation>&amp;启动 Savestate</translation>
+            <translation>&amp;启动存档状态</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="492" />
             <source>&amp;Delete Savestate</source>
-            <translation>&amp;删除 Savestate</translation>
+            <translation>&amp;删除存档状态</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="517" />
             <source>Confirm Deletion</source>
-            <translation>确认 Deletion</translation>
+            <translation>确认删除</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="517" />
             <source>Delete savestate '%0'?</source>
-            <translation>删除 savestate '%0'?</translation>
+            <translation>删除存档状态“%0”？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="528" />
             <source>Deletion Failed!</source>
-            <translation>Deletion 失败!</translation>
+            <translation>删除失败！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="528" />
             <source>Failed to delete savestate '%0'!</source>
-            <translation>失败 到 删除 savestate '%0'!</translation>
+            <translation>删除存档状态“%0”失败！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="550" />
             <source>&amp;Remove All Savestates</source>
-            <translation>&amp;移除 全部 Savestates</translation>
+            <translation>&amp;移除所有存档状态</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="560" />
@@ -15799,7 +16350,8 @@ To confirm, type your username below and click "Yes".
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="560" />
             <source>Are you sure you want to delete the savestates for:
 %0?</source>
-            <translation>是 you 确定 you want 到 删除 the savestates 为: %0?</translation>
+            <translation>您确定要删除以下游戏的存档状态吗：
+%0？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="577" />
@@ -15809,12 +16361,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="647" />
             <source>Loading savestates</source>
-            <translation>加载中 savestates</translation>
+            <translation>正在加载存档状态</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="647" />
             <source>Loading savestates, please wait...</source>
-            <translation>加载中 savestates, please wait...</translation>
+            <translation>正在加载存档状态，请稍候...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/savestate_manager_dialog.cpp" line="647" />
@@ -15837,17 +16389,17 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/screenshot_manager_dialog.cpp" line="37" />
             <source>Sort by Game</source>
-            <translation>Sort 通过 游戏</translation>
+            <translation>按游戏排序</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/screenshot_manager_dialog.cpp" line="38" />
             <source>Sort by Date</source>
-            <translation>Sort 通过 日期</translation>
+            <translation>按日期排序</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/screenshot_manager_dialog.cpp" line="43" />
             <source>All Screenshots</source>
-            <translation>全部 Screenshots</translation>
+            <translation>所有截图</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/screenshot_manager_dialog.cpp" line="44" />
@@ -15873,12 +16425,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/screenshot_manager_dialog.cpp" line="60" />
             <source>Filter Type</source>
-            <translation>Filter 类型</translation>
+            <translation>筛选类型</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/screenshot_manager_dialog.cpp" line="65" />
             <source>Filter Game</source>
-            <translation>Filter 游戏</translation>
+            <translation>筛选游戏</translation>
         </message>
     </context>
     <context>
@@ -15896,7 +16448,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/screenshot_preview.cpp" line="37" />
             <source>&amp;Open file location</source>
-            <translation>&amp;打开 文件 location</translation>
+            <translation>&amp;打开文件位置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/screenshot_preview.cpp" line="40" />
@@ -15906,7 +16458,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/screenshot_preview.cpp" line="43" />
             <source>&amp;Stretch to size</source>
-            <translation>&amp;Stretch 到 大小</translation>
+            <translation>&amp;拉伸到大小</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/screenshot_preview.cpp" line="48" />
@@ -15919,7 +16471,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/sendmessage_dialog_frame.cpp" line="41" />
             <source>Choose friend to message:</source>
-            <translation>Choose friend 到 message:</translation>
+            <translation>选择好友发送消息：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/sendmessage_dialog_frame.cpp" line="52" />
@@ -15934,12 +16486,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/sendmessage_dialog_frame.cpp" line="71" />
             <source>Error sending a message!</source>
-            <translation>错误 sending a message!</translation>
+            <translation>发送消息时出错！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/sendmessage_dialog_frame.cpp" line="71" />
             <source>You must select a friend!</source>
-            <translation>You 必须 select a friend!</translation>
+            <translation>您必须选择一位好友！</translation>
         </message>
     </context>
     <context>
@@ -15977,7 +16529,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="193" />
             <source>Max Power Saving CPU-preemptions</source>
-            <translation>Max Power 保存中 CPU-preemptions</translation>
+            <translation>最大节能 CPU 抢占数</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="214" />
@@ -16004,12 +16556,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="262" />
             <source>Preferred SPU Threads</source>
-            <translation>首选 SPU 线程</translation>
+            <translation>首选 SPU 线程数</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="280" />
             <source>Thread Scheduler</source>
-            <translation>线程 Scheduler</translation>
+            <translation>线程调度器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="328" />
@@ -16040,7 +16592,10 @@ To confirm, type your username below and click "Yes".
 
 
 </source>
-            <translation>Point your 鼠标 at an 选项 到 display a 描述 内 这里.</translation>
+            <translation>将鼠标悬停在某个选项上，可在此处显示其说明。
+
+
+</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="357" />
@@ -16102,12 +16657,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="553" />
             <source>Enable 3D Support</source>
-            <translation>启用 3D Support</translation>
+            <translation>启用 3D 支持</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="563" />
             <source>Anaglyph Settings</source>
-            <translation>Anaglyph 设置</translation>
+            <translation>分色设置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="569" />
@@ -16118,7 +16673,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="579" />
             <source>Screen Size (Inch)</source>
-            <translation>Screen 大小 (Inch)</translation>
+            <translation>屏幕尺寸（英寸）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="614" />
@@ -16128,7 +16683,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="634" />
             <source>Resolution Scale (Disable Strict Mode)</source>
-            <translation>分辨率 缩放 (禁用 Strict Mode)</translation>
+            <translation>分辨率缩放（禁用严格模式）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="658" />
@@ -16189,7 +16744,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="958" />
             <source>Write Color Buffers</source>
-            <translation>写入颜色缓冲</translation>
+            <translation>写入颜色缓冲区</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="965" />
@@ -16209,7 +16764,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="986" />
             <source>Asynchronous Texture Streaming</source>
-            <translation>异步纹理流</translation>
+            <translation>异步纹理流式传输</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1061" />
@@ -16224,7 +16779,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1083" />
             <source>Audio Format</source>
-            <translation>音频 Format</translation>
+            <translation>音频格式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1108" />
@@ -16239,22 +16794,22 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1121" />
             <source>Dump to File</source>
-            <translation>Dump 到 文件</translation>
+            <translation>转储到文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1167" />
             <source>Audio Device</source>
-            <translation>音频 Device</translation>
+            <translation>音频设备</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1179" />
             <source>Audio Output Format</source>
-            <translation>音频 Output Format</translation>
+            <translation>音频输出格式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1191" />
             <source>Audio Provider</source>
-            <translation>音频提供者</translation>
+            <translation>音频提供程序</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1203" />
@@ -16264,7 +16819,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1215" />
             <source>Music Handler</source>
-            <translation>音乐 Handler</translation>
+            <translation>音乐处理器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1227" />
@@ -16290,7 +16845,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1322" />
             <source>Audio Buffer Duration: 0ms</source>
-            <translation>音频 缓冲区 Duration: 0ms</translation>
+            <translation>音频缓冲持续时间：0ms</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1345" />
@@ -16300,17 +16855,17 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1367" />
             <source>Time Stretching Threshold: 0%</source>
-            <translation>时间 Stretching 阈值: 0%</translation>
+            <translation>时间拉伸阈值：0%</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1413" />
             <source>Microphone Settings</source>
-            <translation>Microphone 设置</translation>
+            <translation>麦克风设置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1421" />
             <source>Microphone Type:</source>
-            <translation>Microphone 类型:</translation>
+            <translation>麦克风类型：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1459" />
@@ -16341,17 +16896,17 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1617" />
             <source>Guitar Hero Live Emulated Guitar</source>
-            <translation>Guitar Hero Live 模拟 Guitar</translation>
+            <translation>Guitar Hero Live 模拟吉他</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1629" />
             <source>Move Handler</source>
-            <translation>Move 控制器处理器</translation>
+            <translation>Move 处理器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1641" />
             <source>DJ Hero Emulated Turntable</source>
-            <translation>DJ Hero 模拟 Turntable</translation>
+            <translation>DJ Hero 模拟打碟机</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1653" />
@@ -16361,7 +16916,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1665" />
             <source>Buzz! Emulated Controller</source>
-            <translation>Buzz! 模拟 控制器</translation>
+            <translation>Buzz! 模拟控制器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1677" />
@@ -16371,7 +16926,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1689" />
             <source>Pad Handler Mode</source>
-            <translation>手柄处理程序模式</translation>
+            <translation>手柄处理器模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1701" />
@@ -16381,7 +16936,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1713" />
             <source>Camera Flip</source>
-            <translation>Camera 翻转</translation>
+            <translation>摄像头翻转</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1725" />
@@ -16396,37 +16951,37 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1749" />
             <source>Emulated MIDI Device 1</source>
-            <translation>模拟 MIDI Device 1</translation>
+            <translation>模拟 MIDI 设备 1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1768" />
             <source>Emulated MIDI Device 3</source>
-            <translation>模拟 MIDI Device 3</translation>
+            <translation>模拟 MIDI 设备 3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1787" />
             <source>Emulated MIDI Device 2</source>
-            <translation>模拟 MIDI Device 2</translation>
+            <translation>模拟 MIDI 设备 2</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1812" />
             <source>Enable Background Input</source>
-            <translation>启用 Background Input</translation>
+            <translation>启用后台输入</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1819" />
             <source>Keep Pads Connected</source>
-            <translation>Keep Pads 已连接</translation>
+            <translation>保持手柄连接</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1826" />
             <source>Show PS Move Cursor</source>
-            <translation>显示 PS 移动 Cursor</translation>
+            <translation>显示 PS Move 光标</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1833" />
             <source>Lock Overlay Input To Player One</source>
-            <translation>Lock Overlay Input 到 Player One</translation>
+            <translation>将叠加层输入锁定到玩家一</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1840" />
@@ -16436,7 +16991,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1847" />
             <source>Enable Mouse-based Gyro</source>
-            <translation>启用 鼠标-based Gyro</translation>
+            <translation>启用基于鼠标的陀螺仪</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1920" />
@@ -16456,7 +17011,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1954" />
             <source>Enter Button Assignment</source>
-            <translation>Enter 按钮 Assignment</translation>
+            <translation>回车按钮分配</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="1977" />
@@ -16481,22 +17036,22 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2045" />
             <source>Date Format</source>
-            <translation>日期 Format</translation>
+            <translation>日期格式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2057" />
             <source>Time Format</source>
-            <translation>时间 Format</translation>
+            <translation>时间格式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2069" />
             <source>Console Time</source>
-            <translation>Console 时间</translation>
+            <translation>主机时间</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2114" />
             <source>Set to Now</source>
-            <translation>集合 到 现在</translation>
+            <translation>设为现在</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2143" />
@@ -16521,7 +17076,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2236" />
             <source>Network Configuration</source>
-            <translation>Network 配置</translation>
+            <translation>网络配置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2242" />
@@ -16536,12 +17091,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2273" />
             <source>IP/Hosts switches</source>
-            <translation>IP/Hosts 开关</translation>
+            <translation>IP/主机名开关</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2292" />
             <source>Bind address</source>
-            <translation>Bind 地址</translation>
+            <translation>绑定地址</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2311" />
@@ -16551,7 +17106,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2318" />
             <source>Derive ethernet address from PSID</source>
-            <translation>Derive ethernet 地址 从 PSID</translation>
+            <translation>从 PSID 派生以太网地址</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2344" />
@@ -16571,7 +17126,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2374" />
             <source>Enable Clans</source>
-            <translation>启用 Clans</translation>
+            <translation>启用战队</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2447" />
@@ -16607,17 +17162,17 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2497" />
             <source>Delay each odd MFC Command</source>
-            <translation>Delay 每个 odd MFC Command</translation>
+            <translation>延迟每个奇数 MFC 命令</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2504" />
             <source>Disable SPU GETLLAR Spin Optimization</source>
-            <translation>禁用 SPU GETLLAR Spin Optimization</translation>
+            <translation>禁用 SPU GETLLAR 自旋优化</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2511" />
             <source>Enable SPU Events Busy Loop</source>
-            <translation>启用 SPU Events 忙碌 Loop</translation>
+            <translation>启用 SPU 事件忙循环</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2518" />
@@ -16637,12 +17192,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2539" />
             <source>Silence All Logs</source>
-            <translation>Silence 全部 Logs</translation>
+            <translation>静音所有日志</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2546" />
             <source>SPU Compatible Savestates Mode</source>
-            <translation>SPU 兼容 Savestates Mode</translation>
+            <translation>SPU 兼容存档模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2562" />
@@ -16652,12 +17207,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2580" />
             <source>Maximum Number of SPURS Threads</source>
-            <translation>最大值 数字 的 SPURS 线程</translation>
+            <translation>SPURS 线程最大数量</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2598" />
             <source>Clocks Scale</source>
-            <translation>Clocks 缩放</translation>
+            <translation>时钟缩放</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2613" />
@@ -16672,12 +17227,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2726" />
             <source>Allow Host GPU Labels (Experimental)</source>
-            <translation>允许 Host GPU 标签 (Experimental)</translation>
+            <translation>允许主机 GPU 标签（实验性）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2733" />
             <source>Disable MSL Fast Math</source>
-            <translation>禁用 MSL 快速 Math</translation>
+            <translation>禁用 MSL 快速数学</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2740" />
@@ -16687,7 +17242,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2747" />
             <source>Emulate Special Depth Comparison</source>
-            <translation>Emulate Special 深度 Comparison</translation>
+            <translation>模拟特殊深度比较</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2754" />
@@ -16697,7 +17252,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2761" />
             <source>Handle RSX Memory Tiling</source>
-            <translation>Handle RSX 内存 Tiling</translation>
+            <translation>处理 RSX 内存平铺</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2768" />
@@ -16707,12 +17262,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2775" />
             <source>Read Color Buffers</source>
-            <translation>读取颜色缓冲</translation>
+            <translation>读取颜色缓冲区</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2782" />
             <source>Use Re-BAR memory for GPU uploads</source>
-            <translation>Use Re-BAR 内存 为 GPU uploads</translation>
+            <translation>使用 Re-BAR 内存进行 GPU 上传</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2789" />
@@ -16727,12 +17282,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2823" />
             <source>Exclusive Fullscreen Mode</source>
-            <translation>Exclusive 全屏 Mode</translation>
+            <translation>独占全屏模式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2841" />
             <source>Driver Wake-Up Delay</source>
-            <translation>Driver Wake-上 Delay</translation>
+            <translation>驱动唤醒延迟</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="2856" />
@@ -16772,32 +17327,32 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3013" />
             <source>Exit RPCS3 when process finishes</source>
-            <translation>退出 RPCS3 当 进程 finishes</translation>
+            <translation>进程结束时退出 RPCS3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3020" />
             <source>Pause emulation after loading savestates</source>
-            <translation>暂停 模拟 之后 加载中 savestates</translation>
+            <translation>加载存档后暂停模拟</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3027" />
             <source>Pause emulation during home menu</source>
-            <translation>暂停 模拟 期间 home 菜单</translation>
+            <translation>主菜单期间暂停模拟</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3034" />
             <source>Pause emulation on RPCS3 focus loss</source>
-            <translation>暂停 模拟 开 RPCS3 focus loss</translation>
+            <translation>RPCS3 失去焦点时暂停模拟</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3041" />
             <source>Prevent display sleep while running games</source>
-            <translation>Prevent display sleep 当 运行中 游戏</translation>
+            <translation>运行游戏时防止显示器休眠</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3048" />
             <source>Start games in fullscreen mode</source>
-            <translation>开始 游戏 内 全屏 mode</translation>
+            <translation>以全屏模式启动游戏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3055" />
@@ -16812,62 +17367,62 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3072" />
             <source>Overlay Settings</source>
-            <translation>Overlay 设置</translation>
+            <translation>叠加层设置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3078" />
             <source>Play music during boot sequence</source>
-            <translation>Play 音乐 期间 启动 sequence</translation>
+            <translation>在启动序列期间播放音乐</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3085" />
             <source>Record and screenshot with overlays</source>
-            <translation>Record 和 screenshot 与 overlays</translation>
+            <translation>录制和截图时包含叠加层</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3092" />
             <source>Show analog limiter toggle hint</source>
-            <translation>显示 模拟 limiter toggle hint</translation>
+            <translation>显示模拟摇杆限制器切换提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3099" />
             <source>Show autosave/autoload hint</source>
-            <translation>显示 autosave/autoload hint</translation>
+            <translation>显示自动保存/自动加载提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3106" />
             <source>Show capture hints</source>
-            <translation>显示 capture hints</translation>
+            <translation>显示捕获提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3113" />
             <source>Show fatal error hints</source>
-            <translation>显示 致命 错误 hints</translation>
+            <translation>显示致命错误提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3120" />
             <source>Show mouse and keyboard toggle hint</source>
-            <translation>显示 鼠标 和 键盘 toggle hint</translation>
+            <translation>显示鼠标和键盘切换提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3127" />
             <source>Show netplay popups</source>
-            <translation>显示 netplay popups</translation>
+            <translation>显示联机弹出提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3134" />
             <source>Show pressure intensity toggle hint</source>
-            <translation>显示 压力 intensity toggle hint</translation>
+            <translation>显示压力强度切换提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3141" />
             <source>Show PPU compilation hint</source>
-            <translation>显示 PPU compilation hint</translation>
+            <translation>显示 PPU 编译提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3148" />
             <source>Show shader compilation hint</source>
-            <translation>显示 着色器 compilation hint</translation>
+            <translation>显示着色器编译提示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3155" />
@@ -16877,7 +17432,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3181" />
             <source>Max LLVM Compile Threads</source>
-            <translation>Max LLVM 编译 线程</translation>
+            <translation>最大 LLVM 编译线程数</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3193" />
@@ -16892,27 +17447,27 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3215" />
             <source>Ignore doubleclicks for Fullscreen</source>
-            <translation>Ignore doubleclicks 为 全屏</translation>
+            <translation>忽略双击进入全屏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3222" />
             <source>Ignore keyboard hotkeys</source>
-            <translation>Ignore 键盘 hotkeys</translation>
+            <translation>忽略键盘快捷键</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3229" />
             <source>Show mouse cursor in Fullscreen</source>
-            <translation>显示 鼠标 cursor 内 全屏</translation>
+            <translation>在全屏中显示鼠标光标</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3236" />
             <source>Lock mouse cursor in Fullscreen</source>
-            <translation>Lock 鼠标 cursor 内 全屏</translation>
+            <translation>在全屏中锁定鼠标光标</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3258" />
             <source>Hide mouse cursor if idle</source>
-            <translation>隐藏 鼠标 cursor 如果 空闲</translation>
+            <translation>空闲时隐藏鼠标光标</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3274" />
@@ -16942,12 +17497,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3400" />
             <source>Shader Loading Screen</source>
-            <translation>着色器 加载中 Screen</translation>
+            <translation>着色器加载屏幕</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3406" />
             <source>Allow custom background</source>
-            <translation>允许 自定义 background</translation>
+            <translation>允许自定义背景</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3413" />
@@ -16957,7 +17512,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3427" />
             <source>Background blur:</source>
-            <translation>Background 模糊:</translation>
+            <translation>背景模糊：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3460" />
@@ -16967,7 +17522,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3478" />
             <source>Reset the game window title to default</source>
-            <translation>Reset the 游戏 窗口 标题 到 默认</translation>
+            <translation>将游戏窗口标题重置为默认</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3488" />
@@ -16982,7 +17537,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3507" />
             <source>Performance Overlay</source>
-            <translation>性能覆盖层</translation>
+            <translation>性能叠加层</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3513" />
@@ -16992,12 +17547,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3520" />
             <source>Show framerate graph</source>
-            <translation>显示 framerate graph</translation>
+            <translation>显示帧率图表</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3527" />
             <source>Show frametime graph</source>
-            <translation>显示 frametime graph</translation>
+            <translation>显示帧时间图表</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3549" />
@@ -17012,7 +17567,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3590" />
             <source>Horizontal Margin:</source>
-            <translation>Horizontal 边距:</translation>
+            <translation>水平边距：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3599" />
@@ -17023,7 +17578,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3618" />
             <source>Vertical Margin:</source>
-            <translation>Vertical 边距:</translation>
+            <translation>垂直边距：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3646" />
@@ -17033,7 +17588,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3668" />
             <source>Update Interval:</source>
-            <translation>更新 Interval:</translation>
+            <translation>更新间隔：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3706" />
@@ -17043,7 +17598,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3738" />
             <source>Opacity:</source>
-            <translation>不透明度:</translation>
+            <translation>不透明度：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3767" />
@@ -17083,17 +17638,17 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3935" />
             <source>Gamelist icons</source>
-            <translation>Gamelist 图标</translation>
+            <translation>游戏列表图标</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3942" />
             <source>Save manager icons</source>
-            <translation>保存 manager 图标</translation>
+            <translation>存档管理器图标</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3949" />
             <source>Trophy manager icons</source>
-            <translation>Trophy manager 图标</translation>
+            <translation>奖杯管理器图标</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3979" />
@@ -17103,12 +17658,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4006" />
             <source>Maximum log blocks (0 = no limit)</source>
-            <translation>最大值 日志 blocks (0 = 否 限制)</translation>
+            <translation>最大日志块数（0 = 无限制）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4041" />
             <source>Maximum TTY blocks (0 = no limit)</source>
-            <translation>最大值 TTY blocks (0 = 否 限制)</translation>
+            <translation>最大 TTY 块数（0 = 无限制）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4061" />
@@ -17118,12 +17673,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4067" />
             <source>Enable Pad Navigation</source>
-            <translation>启用 Pad Navigation</translation>
+            <translation>启用手柄导航</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4074" />
             <source>Allow Global Pad Navigation</source>
-            <translation>允许 全局 Pad Navigation</translation>
+            <translation>允许全局手柄导航</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4105" />
@@ -17138,7 +17693,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4160" />
             <source>Show Welcome Screen</source>
-            <translation>显示 Welcome Screen</translation>
+            <translation>显示欢迎屏幕</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4167" />
@@ -17153,12 +17708,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4181" />
             <source>Show Obsolete Settings Dialog</source>
-            <translation>显示 Obsolete 设置 对话框</translation>
+            <translation>显示过时设置对话框</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4188" />
             <source>Show Duplicate Buttons Dialog</source>
-            <translation>显示 Duplicate 按钮 对话框</translation>
+            <translation>显示重复按钮对话框</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4195" />
@@ -17168,7 +17723,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4221" />
             <source>Check for updates on startup</source>
-            <translation>Check 为 updates 开 startup</translation>
+            <translation>启动时检查更新</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4233" />
@@ -17208,27 +17763,27 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4364" />
             <source>Debug Output</source>
-            <translation>调试 Output</translation>
+            <translation>调试输出</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4371" />
             <source>Debug Overlay</source>
-            <translation>调试 Overlay</translation>
+            <translation>调试叠加层</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4378" />
             <source>Disable Asynchronous Memory Manager</source>
-            <translation>禁用 Asynchronous 内存 Manager</translation>
+            <translation>禁用异步内存管理器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4385" />
             <source>Disable FIFO Reordering</source>
-            <translation>禁用 FIFO Reordering</translation>
+            <translation>禁用 FIFO 重排序</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4392" />
             <source>Disable Hardware ColorSpace Remapping</source>
-            <translation>禁用 Hardware ColorSpace Remapping</translation>
+            <translation>禁用硬件色彩空间重映射</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4399" />
@@ -17238,27 +17793,27 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4406" />
             <source>Disable Video Output</source>
-            <translation>禁用 视频 Output</translation>
+            <translation>禁用视频输出</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4413" />
             <source>Disable Vulkan Memory Allocator</source>
-            <translation>禁用 Vulkan 内存 Allocator</translation>
+            <translation>禁用 Vulkan 内存分配器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4420" />
             <source>Disable ZCull Occlusion Queries</source>
-            <translation>禁用 ZCull Occlusion Queries</translation>
+            <translation>禁用 ZCull 遮挡查询</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4427" />
             <source>Force CPU Blit Emulation</source>
-            <translation>Force CPU Blit 模拟</translation>
+            <translation>强制 CPU 位块传送模拟</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4434" />
             <source>Force GPU Texture Scaling</source>
-            <translation>Force GPU 纹理 Scaling</translation>
+            <translation>强制 GPU 纹理缩放</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4441" />
@@ -17273,12 +17828,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4458" />
             <source>Strict Texture Flushing</source>
-            <translation>Strict 纹理 Flushing</translation>
+            <translation>严格纹理刷新</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4465" />
             <source>Use High Precision Z-Buffer</source>
-            <translation>Use 高 Precision Z-缓冲区</translation>
+            <translation>使用高精度 Z 缓冲区</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4497" />
@@ -17288,7 +17843,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4504" />
             <source>Enable performance report</source>
-            <translation>启用 性能 report</translation>
+            <translation>启用性能报告</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4511" />
@@ -17328,22 +17883,22 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4575" />
             <source>Accurate PPU/SPU Double-Precision FMA</source>
-            <translation>Accurate PPU/SPU 双精度-Precision FMA</translation>
+            <translation>精确 PPU/SPU 双精度 FMA</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4582" />
             <source>Accurate PPU/SPU Cache Line Stores</source>
-            <translation>Accurate PPU/SPU 缓存 Line Stores</translation>
+            <translation>精确 PPU/SPU 缓存行存储</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4589" />
             <source>Accurate PPU Float Condition Control</source>
-            <translation>Accurate PPU 浮点数 Condition Control</translation>
+            <translation>精确 PPU 浮点条件控制</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4596" />
             <source>Accurate PPU Saturation Bit</source>
-            <translation>Accurate PPU 饱和度 Bit</translation>
+            <translation>精确 PPU 饱和位</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4603" />
@@ -17353,7 +17908,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4610" />
             <source>Accurate PPU Vector NaN Handling</source>
-            <translation>Accurate PPU 向量 NaN Handling</translation>
+            <translation>精确 PPU 向量 NaN 处理</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4617" />
@@ -17363,7 +17918,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4624" />
             <source>Approximate PPU Vector NaN Handling</source>
-            <translation>Approximate PPU 向量 NaN Handling</translation>
+            <translation>近似 PPU 向量 NaN 处理</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4668" />
@@ -17378,12 +17933,12 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4692" />
             <source>LOD Bias Offset</source>
-            <translation>LOD Bias 偏移</translation>
+            <translation>LOD 偏移偏移</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4721" />
             <source>Vulkan Queue Scheduler</source>
-            <translation>Vulkan 队列 Scheduler</translation>
+            <translation>Vulkan 队列调度器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4733" />
@@ -17393,17 +17948,17 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4745" />
             <source>Log Levels</source>
-            <translation>日志 Levels</translation>
+            <translation>日志级别</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4767" />
             <source>Debug Overlay For Pad Input</source>
-            <translation>调试 Overlay 为 Pad Input</translation>
+            <translation>手柄输入调试叠加层</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="4774" />
             <source>Debug Overlay For Mouse Input</source>
-            <translation>调试 Overlay 为 鼠标 Input</translation>
+            <translation>鼠标输入调试叠加层</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="113" />
@@ -17429,7 +17984,10 @@ To confirm, type your username below and click "Yes".
 
 Control how RPCS3 utilizes the threads of your system.
 Each option heavily depends on the game and on your CPU, it's recommended to try each option to find out which performs the best.</source>
-            <translation>Changing the 线程 scheduler 是 不 支持 开 CPUs 与 更少 比 %0 线程. Control 如何 RPCS3 utilizes the 线程 的 your system. 每个 选项 heavily depends 开 the 游戏 和 开 your CPU, it's recommended 到 try 每个 选项 到 find 外 哪个 performs the 最好.</translation>
+            <translation>线程数少于 %0 的 CPU 不支持更改线程调度器。
+
+控制 RPCS3 如何利用您系统的线程。
+每个选项在很大程度上取决于游戏和您的 CPU，建议尝试每个选项以找出性能最佳的。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="293" />
@@ -17524,7 +18082,7 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="990" />
             <source>Unknown device</source>
-            <translation>未知 device</translation>
+            <translation>未知设备</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1151" />
@@ -17536,13 +18094,13 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1154" />
             <source>Audio Buffer Duration: %0 ms</source>
             <comment>Audio buffer duration</comment>
-            <translation>音频 缓冲区 Duration: %0 ms</translation>
+            <translation>音频缓冲持续时间：%0 毫秒</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1157" />
             <source>Time Stretching Threshold: %0 %</source>
             <comment>Time stretching threshold</comment>
-            <translation>时间 Stretching 阈值: %0 %</translation>
+            <translation>时间拉伸阈值：%0 %</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1187" />
@@ -17571,7 +18129,7 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1593" />
             <source>Unlimited (Default)</source>
             <comment>Max SPURS threads</comment>
-            <translation>Unlimited (默认)</translation>
+            <translation>无限制（默认）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1620" />
@@ -17588,7 +18146,7 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1694" />
             <source>Do not touch libsysutil libs, development purposes only, will cause game crashes.</source>
-            <translation>执行 不 touch libsysutil libs, development purposes 仅, 将 cause 游戏 crashes.</translation>
+            <translation>请勿触碰 libsysutil 库，仅供开发使用，会导致游戏崩溃。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1701" />
@@ -17612,7 +18170,7 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1968" />
             <source>Update Interval: %0 ms</source>
             <comment>Performance overlay update interval</comment>
-            <translation>更新 Interval: %0 ms</translation>
+            <translation>更新间隔：%0 毫秒</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1971" />
@@ -17648,7 +18206,7 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1986" />
             <source>Background blur: %0 %</source>
             <comment>Shader load background blur</comment>
-            <translation>Background 模糊: %0 %</translation>
+            <translation>背景模糊：%0 %</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="1991" />
@@ -17690,7 +18248,7 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2145" />
             <source>System Memory</source>
             <comment>Game window title</comment>
-            <translation>System 内存</translation>
+            <translation>系统内存</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2146" />
@@ -17750,7 +18308,7 @@ Preview:
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2168" />
             <source>Game Window Title Format</source>
             <comment>Game window title</comment>
-            <translation>游戏 窗口 标题 Format</translation>
+            <translation>游戏窗口标题格式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2236" />
@@ -17766,7 +18324,7 @@ Preview:
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2267" />
             <source>Failed to create new installation ID!</source>
-            <translation>失败 到 创建 新建 installation ID!</translation>
+            <translation>无法创建新的安装 ID！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2328" />
@@ -17796,19 +18354,19 @@ Preview:
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2406" />
             <source>Choose gamelist icon color</source>
             <comment>Settings: color dialog</comment>
-            <translation>Choose gamelist 图标 颜色</translation>
+            <translation>选择游戏列表图标颜色</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2410" />
             <source>Choose save manager icon color</source>
             <comment>Settings: color dialog</comment>
-            <translation>Choose 保存 manager 图标 颜色</translation>
+            <translation>选择存档管理器图标颜色</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2414" />
             <source>Choose trophy manager icon color</source>
             <comment>Settings: color dialog</comment>
-            <translation>Choose trophy manager 图标 颜色</translation>
+            <translation>选择奖杯管理器图标颜色</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2535" />
@@ -17843,12 +18401,12 @@ Preview:
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2687" />
             <source>Remove obsolete settings?</source>
-            <translation>移除 obsolete 设置?</translation>
+            <translation>移除过时的设置？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2688" />
             <source>Your config file contains one or more obsolete entries.&lt;br&gt;Consider that a removal might render them invalid for other versions of RPCS3.&lt;br&gt;&lt;br&gt;Do you wish to let the program remove them for you now?&lt;br&gt;This change will only be final when you save the config.</source>
-            <translation>Your 配置 文件 contains one 或 更多 obsolete entries.&lt;br&gt;Consider 那个 a removal 可能 渲染 them 无效 为 其他 版本 的 RPCS3.&lt;br&gt;&lt;br&gt;执行 you wish 到 let the 程序 移除 them 为 you 现在?&lt;br&gt;此 change 将 仅 是 final 当 you 保存 the 配置.</translation>
+            <translation>您的配置文件包含一个或多个过时的条目。&lt;br&gt;请注意，移除它们可能使其在其他版本的 RPCS3 中无效。&lt;br&gt;&lt;br&gt;您是否希望程序现在为您移除它们？&lt;br&gt;此更改仅在保存配置后才会最终生效。</translation>
         </message>
     </context>
     <context>
@@ -17856,17 +18414,17 @@ Preview:
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_dialog.ui" line="14" />
             <source>Keyboard Shortcuts</source>
-            <translation>键盘 Shortcuts</translation>
+            <translation>键盘快捷键</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_dialog.ui" line="22" />
             <source>Main Window Shortcuts</source>
-            <translation>主 窗口 Shortcuts</translation>
+            <translation>主窗口快捷键</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_dialog.ui" line="47" />
             <source>Game Window Shortcuts</source>
-            <translation>游戏 窗口 Shortcuts</translation>
+            <translation>游戏窗口快捷键</translation>
         </message>
     </context>
     <context>
@@ -17897,7 +18455,7 @@ Preview:
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="70" />
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="73" />
             <source>Toggle Fullscreen</source>
-            <translation>Toggle 全屏</translation>
+            <translation>切换全屏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="71" />
@@ -17913,17 +18471,17 @@ Preview:
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="75" />
             <source>Add Log Mark</source>
-            <translation>添加 日志 Mark</translation>
+            <translation>添加日志标记</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="76" />
             <source>Mouse lock</source>
-            <translation>鼠标 lock</translation>
+            <translation>鼠标锁定</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="77" />
             <source>Start/Stop Recording</source>
-            <translation>开始/停止 Recording</translation>
+            <translation>开始/停止录制</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="78" />
@@ -17933,7 +18491,7 @@ Preview:
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="79" />
             <source>Pause/Play</source>
-            <translation>暂停/Play</translation>
+            <translation>暂停/播放</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="81" />
@@ -17973,17 +18531,17 @@ Preview:
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="89" />
             <source>Toggle Keyboard</source>
-            <translation>Toggle 键盘</translation>
+            <translation>切换键盘</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="90" />
             <source>Open Home Menu</source>
-            <translation>打开 Home 菜单</translation>
+            <translation>打开主菜单</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="91" />
             <source>Mute/Unmute Audio</source>
-            <translation>Mute/Unmute 音频</translation>
+            <translation>静音/取消静音</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="92" />
@@ -17998,7 +18556,7 @@ Preview:
         <message>
             <location filename="../rpcs3/rpcs3qt/shortcut_settings.cpp" line="94" />
             <source>Toggle Mouse-based Gyro</source>
-            <translation>Toggle 鼠标-based Gyro</translation>
+            <translation>切换基于鼠标的陀螺仪</translation>
         </message>
     </context>
     <context>
@@ -18037,17 +18595,17 @@ Preview:
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="608" />
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="614" />
             <source>Error converting value</source>
-            <translation>错误 converting 值</translation>
+            <translation>转换值时出错</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="608" />
             <source>ID entered is invalid!</source>
-            <translation>ID entered 是 无效!</translation>
+            <translation>输入的 ID 无效！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="614" />
             <source>Variant entered is invalid!</source>
-            <translation>Variant entered 是 无效!</translation>
+            <translation>输入的变体无效！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="629" />
@@ -18057,18 +18615,19 @@ Preview:
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="629" />
             <source>Skylander Object (*.sky);;All Files (*)</source>
-            <translation>Skylander Object (*.sky);;全部 文件 (*)</translation>
+            <translation>Skylander 对象 (*.sky);;所有文件 (*)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="638" />
             <source>Failed to create skylander file!</source>
-            <translation>失败 到 创建 skylander 文件!</translation>
+            <translation>创建 skylander 文件失败！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="638" />
             <source>Failed to create skylander file:
 %1</source>
-            <translation>失败 到 创建 skylander 文件: %1</translation>
+            <translation>创建 skylander 文件失败：
+%1</translation>
         </message>
     </context>
     <context>
@@ -18081,7 +18640,7 @@ Preview:
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="696" />
             <source>Active Portal Skylanders:</source>
-            <translation>活跃 Portal Skylanders:</translation>
+            <translation>当前传送门上的 Skylanders：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="707" />
@@ -18106,34 +18665,36 @@ Preview:
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="770" />
             <source>Select Skylander File</source>
-            <translation>Select Skylander 文件</translation>
+            <translation>选择 Skylander 文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="770" />
             <source>Skylander (*.sky *.bin *.dmp *.dump);;All Files (*)</source>
-            <translation>Skylander (*.sky *.bin *.dmp *.dump);;全部 文件 (*)</translation>
+            <translation>Skylander (*.sky *.bin *.dmp *.dump);;所有文件 (*)</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="786" />
             <source>Failed to open the skylander file!</source>
-            <translation>失败 到 打开 the skylander 文件!</translation>
+            <translation>打开 skylander 文件失败！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="786" />
             <source>Failed to open the skylander file(%1)!
 File may already be in use on the portal.</source>
-            <translation>失败 到 打开 the skylander 文件(%1)! 文件 可以 已经 是 内 use 开 the portal.</translation>
+            <translation>打开 skylander 文件(%1)失败！
+文件可能已在传送门上使用。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="793" />
             <source>Failed to read the skylander file!</source>
-            <translation>失败 到 read the skylander 文件!</translation>
+            <translation>读取 skylander 文件失败！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="793" />
             <source>Failed to read the skylander file(%1)!
 File was too small.</source>
-            <translation>失败 到 read the skylander 文件(%1)! 文件 曾是 也 小.</translation>
+            <translation>读取 skylander 文件(%1)失败！
+文件太小。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/skylander_dialog.cpp" line="823" />
@@ -18151,13 +18712,14 @@ File was too small.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="18" />
             <source>Sound Effects</source>
-            <translation>声音 Effects</translation>
+            <translation>音效</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="21" />
             <source>You can import sound effects for the RPCS3 overlays here.
 The file format is .wav and you should try to make the sounds as short as possible.</source>
-            <translation>You 能 导入 声音 effects 为 the RPCS3 overlays 这里. The 文件 format 是 .wav 和 you 应该 try 到 make the 声音 作为 short 作为 可能.</translation>
+            <translation>您可以在此为 RPCS3 覆盖层导入音效。
+文件格式为 .wav，建议尽量缩短音频长度。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="33" />
@@ -18177,22 +18739,22 @@ The file format is .wav and you should try to make the sounds as short as possib
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="36" />
             <source>Onscreen keyboard accept</source>
-            <translation>Onscreen 键盘 accept</translation>
+            <translation>屏幕键盘确认</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="37" />
             <source>Onscreen keyboard cancel</source>
-            <translation>Onscreen 键盘 取消</translation>
+            <translation>屏幕键盘取消</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="38" />
             <source>Dialog popup</source>
-            <translation>对话框 popup</translation>
+            <translation>对话框弹窗</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="39" />
             <source>Error dialog popup</source>
-            <translation>错误 对话框 popup</translation>
+            <translation>错误对话框弹窗</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="40" />
@@ -18202,17 +18764,17 @@ The file format is .wav and you should try to make the sounds as short as possib
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="49" />
             <source>Remove sound effect?</source>
-            <translation>移除 声音 effect?</translation>
+            <translation>移除音效？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="49" />
             <source>Do you really want to remove the '%0' sound effect.</source>
-            <translation>执行 you really want 到 移除 the '%0' 声音 effect.</translation>
+            <translation>您真的要移除“%0”音效吗。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="61" />
             <source>Select Audio File to Import</source>
-            <translation>Select 音频 文件 到 导入</translation>
+            <translation>选择要导入的音频文件</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/sound_effect_manager_dialog.cpp" line="61" />
@@ -18245,7 +18807,7 @@ The file format is .wav and you should try to make the sounds as short as possib
         <message>
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="28" />
             <source>Send Custom Command</source>
-            <translation>Send 自定义 Command</translation>
+            <translation>发送自定义命令</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="79" />
@@ -18255,12 +18817,12 @@ The file format is .wav and you should try to make the sounds as short as possib
         <message>
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="84" />
             <source>Select Custom Command</source>
-            <translation>Select 自定义 Command</translation>
+            <translation>选择自定义命令</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="89" />
             <source>Select Value</source>
-            <translation>Select 值</translation>
+            <translation>选择值</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="118" />
@@ -18274,18 +18836,19 @@ The file format is .wav and you should try to make the sounds as short as possib
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="118" />
             <source>The selected command is bugged.
 Please contact a developer.</source>
-            <translation>The selected command 是 bugged. Please contact a developer.</translation>
+            <translation>选定的命令存在问题。
+请联系开发者。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="126" />
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="149" />
             <source>Please select a proper value first.</source>
-            <translation>Please select a proper 值 第一个.</translation>
+            <translation>请先选择一个合适的值。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/system_cmd_dialog.cpp" line="141" />
             <source>Please select a proper custom command first.</source>
-            <translation>Please select a proper 自定义 command 第一个.</translation>
+            <translation>请先选择一个合适的自定义命令。</translation>
         </message>
     </context>
     <context>
@@ -18322,43 +18885,43 @@ Please contact a developer.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="160" />
             <source>Show Not Earned Trophies</source>
-            <translation>显示 不 Earned Trophies</translation>
+            <translation>显示未获得的奖杯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="164" />
             <source>Show Earned Trophies</source>
-            <translation>显示 Earned Trophies</translation>
+            <translation>显示已获得的奖杯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="168" />
             <source>Show Hidden Trophies</source>
-            <translation>显示 已隐藏 Trophies</translation>
+            <translation>显示隐藏奖杯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="172" />
             <source>Show Bronze Trophies</source>
-            <translation>显示 Bronze Trophies</translation>
+            <translation>显示铜杯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="176" />
             <source>Show Silver Trophies</source>
-            <translation>显示 Silver Trophies</translation>
+            <translation>显示银杯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="180" />
             <source>Show Gold Trophies</source>
-            <translation>显示 Gold Trophies</translation>
+            <translation>显示金杯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="184" />
             <source>Show Platinum Trophies</source>
-            <translation>显示 Platinum Trophies</translation>
+            <translation>显示白金杯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="189" />
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="251" />
             <source>Trophy Icon Size: %0x%1</source>
-            <translation>Trophy 图标 大小: %0x%1</translation>
+            <translation>奖杯图标大小：%0x%1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="192" />
@@ -18369,17 +18932,17 @@ Please contact a developer.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="203" />
             <source>Choose Game</source>
-            <translation>Choose 游戏</translation>
+            <translation>选择游戏</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="208" />
             <source>Trophy Info</source>
-            <translation>Trophy 信息</translation>
+            <translation>奖杯信息</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="213" />
             <source>Trophy View Options</source>
-            <translation>Trophy View 选项</translation>
+            <translation>奖杯视图选项</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="224" />
@@ -18461,7 +19024,7 @@ Please contact a developer.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="438" />
             <source>Show Platinum Relevant</source>
-            <translation>显示 Platinum Relevant</translation>
+            <translation>显示白金相关</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="439" />
@@ -18491,18 +19054,18 @@ Please contact a developer.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="464" />
             <source>Show Progress</source>
-            <translation>显示 Progress</translation>
+            <translation>显示进度</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="465" />
             <source>Show Trophies</source>
-            <translation>显示 Trophies</translation>
+            <translation>显示奖杯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="875" />
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1012" />
             <source>&amp;Open Trophy Directory</source>
-            <translation>&amp;打开 Trophy 目录</translation>
+            <translation>&amp;打开奖杯目录</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="895" />
@@ -18538,12 +19101,12 @@ Please contact a developer.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="943" />
             <source>Action not permitted.</source>
-            <translation>Action 不 允许.</translation>
+            <translation>不允许此操作。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="943" />
             <source>Platinum trophies can only be unlocked ingame.</source>
-            <translation>Platinum trophies 能 仅 是 已解锁 进游戏.</translation>
+            <translation>白金奖杯只能在游戏内解锁。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="986" />
@@ -18555,7 +19118,7 @@ Please contact a developer.</source>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="986" />
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1284" />
             <source>Not Earned</source>
-            <translation>不 Earned</translation>
+            <translation>未获得</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="990" />
@@ -18577,17 +19140,18 @@ Please contact a developer.</source>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1021" />
             <source>Are you sure you want to delete the trophies for:
 %1?</source>
-            <translation>是 you 确定 you want 到 删除 the trophies 为: %1?</translation>
+            <translation>您确定要删除以下游戏的奖杯吗：
+%1？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1084" />
             <source>Loading trophies</source>
-            <translation>加载中 trophies</translation>
+            <translation>正在加载奖杯</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1084" />
             <source>Loading trophy data, please wait...</source>
-            <translation>加载中 trophy data, please wait...</translation>
+            <translation>正在加载奖杯数据，请稍候...</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_manager_dialog.cpp" line="1084" />
@@ -18640,25 +19204,29 @@ Please contact a developer.</source>
             <location filename="../rpcs3/rpcs3qt/trophy_notification_frame.cpp" line="44" />
             <source>You have earned the Bronze trophy.
 %1</source>
-            <translation>You 有 earned the Bronze trophy. %1</translation>
+            <translation>您已获得铜奖杯。
+%1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_notification_frame.cpp" line="45" />
             <source>You have earned the Silver trophy.
 %1</source>
-            <translation>You 有 earned the Silver trophy. %1</translation>
+            <translation>您已获得银奖杯。
+%1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_notification_frame.cpp" line="46" />
             <source>You have earned the Gold trophy.
 %1</source>
-            <translation>You 有 earned the Gold trophy. %1</translation>
+            <translation>您已获得金奖杯。
+%1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/trophy_notification_frame.cpp" line="47" />
             <source>You have earned the Platinum trophy.
 %1</source>
-            <translation>You 有 earned the Platinum trophy. %1</translation>
+            <translation>您已获得白金奖杯。
+%1</translation>
         </message>
     </context>
     <context>
@@ -18672,7 +19240,7 @@ Please contact a developer.</source>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="549" />
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="878" />
             <source>Auto-updater</source>
-            <translation>自动-updater</translation>
+            <translation>自动更新程序</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="91" />
@@ -18681,37 +19249,38 @@ Please contact a developer.</source>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="549" />
             <source>An error occurred during the auto-updating process.
 Check the log for more information.</source>
-            <translation>An 错误 occurred 期间 the 自动-更新中 进程. Check the 日志 为 更多 information.</translation>
+            <translation>在自动更新过程中发生错误。
+请查看日志获取更多信息。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="118" />
             <source>Checking For Updates</source>
-            <translation>Checking 为 Updates</translation>
+            <translation>正在检查更新</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="216" />
             <source>Your version is already up to date!</source>
-            <translation>Your 版本 是 已经 上 到 日期!</translation>
+            <translation>您的版本已是最新！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="342" />
             <source>&lt;br&gt;You can empower our project at &lt;a href="https://rpcs3.net/patreon"&gt;RPCS3 Patreon&lt;/a&gt;.&lt;br&gt;</source>
-            <translation>&lt;br&gt;You 能 empower our project at &lt;a href="https://rpcs3.net/patreon"&gt;RPCS3 Patreon&lt;/a&gt;.&lt;br&gt;</translation>
+            <translation>&lt;br&gt;您可以在 &lt;a href="https://rpcs3.net/patreon"&gt;RPCS3 Patreon&lt;/a&gt; 支持我们的项目。&lt;br&gt;</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="350" />
             <source>A better version of RPCS3 is available!&lt;br&gt;&lt;br&gt;Current version: %0 (%1)&lt;br&gt;Better version: %2 (%3)&lt;br&gt;%4</source>
-            <translation>A 更好 版本 的 RPCS3 是 可用!&lt;br&gt;&lt;br&gt;当前 版本: %0 (%1)&lt;br&gt;更好 版本: %2 (%3)&lt;br&gt;%4</translation>
+            <translation>有更好的 RPCS3 版本可用！&lt;br&gt;&lt;br&gt;当前版本：%0 (%1)&lt;br&gt;更好的版本：%2 (%3)&lt;br&gt;%4</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="359" />
             <source>A new version of RPCS3 is available!&lt;br&gt;&lt;br&gt;Current version: %0 (%1)&lt;br&gt;Latest version: %2 (%3)&lt;br&gt;Your version is %4 behind.&lt;br&gt;%5</source>
-            <translation>A 新建 版本 的 RPCS3 是 可用!&lt;br&gt;&lt;br&gt;当前 版本: %0 (%1)&lt;br&gt;Latest 版本: %2 (%3)&lt;br&gt;Your 版本 是 %4 behind.&lt;br&gt;%5</translation>
+            <translation>有新版本的 RPCS3 可用！&lt;br&gt;&lt;br&gt;当前版本：%0 (%1)&lt;br&gt;最新版本：%2 (%3)&lt;br&gt;您的版本落后 %4。&lt;br&gt;%5</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="370" />
             <source>You're currently using a custom or PR build.&lt;br&gt;&lt;br&gt;Latest version: %0 (%1)&lt;br&gt;The latest version is %2 old.&lt;br&gt;%3</source>
-            <translation>You're 当前 using a 自定义 或 PR build.&lt;br&gt;&lt;br&gt;Latest 版本: %0 (%1)&lt;br&gt;The latest 版本 是 %2 旧.&lt;br&gt;%3</translation>
+            <translation>您当前使用的是自定义或 PR 构建。&lt;br&gt;&lt;br&gt;最新版本：%0 (%1)&lt;br&gt;最新版本已发布 %2。&lt;br&gt;%3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="384" />
@@ -18737,7 +19306,7 @@ Check the log for more information.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="414" />
             <source>Don't show again for this version</source>
-            <translation>Don't 显示 again 为 此 版本</translation>
+            <translation>此版本不再显示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="436" />
@@ -18749,27 +19318,27 @@ Check the log for more information.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="455" />
             <source>Show Changelog</source>
-            <translation>显示 Changelog</translation>
+            <translation>显示更新日志</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="456" />
             <source>Hide Changelog</source>
-            <translation>隐藏 Changelog</translation>
+            <translation>隐藏更新日志</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="479" />
             <source>Do you want to update?</source>
-            <translation>执行 you want 到 更新?</translation>
+            <translation>您要更新吗？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="480" />
             <source>Do you want to update to the latest official RPCS3 version?</source>
-            <translation>执行 you want 到 更新 到 the latest official RPCS3 版本?</translation>
+            <translation>您要更新到最新的官方 RPCS3 版本吗？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="521" />
             <source>Please stop the emulation before trying to update.</source>
-            <translation>Please 停止 the 模拟 之前 trying 到 更新.</translation>
+            <translation>请先停止模拟再尝试更新。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="556" />
@@ -18779,7 +19348,7 @@ Check the log for more information.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="563" />
             <source>Updating RPCS3</source>
-            <translation>更新中 RPCS3</translation>
+            <translation>正在更新 RPCS3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/update_manager.cpp" line="878" />
@@ -18804,27 +19373,27 @@ Check the log for more information.</source>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="53" />
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="407" />
             <source>User Name</source>
-            <translation>User 名称</translation>
+            <translation>用户名</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="59" />
             <source>&amp;Delete User</source>
-            <translation>&amp;删除 User</translation>
+            <translation>&amp;删除用户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="62" />
             <source>&amp;Create User</source>
-            <translation>&amp;创建 User</translation>
+            <translation>&amp;创建用户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="65" />
             <source>&amp;Log In User</source>
-            <translation>&amp;日志 内 User</translation>
+            <translation>&amp;登录用户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="68" />
             <source>&amp;Rename User</source>
-            <translation>&amp;重命名 User</translation>
+            <translation>&amp;重命名用户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="71" />
@@ -18845,12 +19414,18 @@ Username: %1
 
 This will remove all files in:
 %2</source>
-            <translation>是 you 确定 you want 到 删除 the following user? User ID: %0 Username: %1 此 将 移除 全部 文件 内: %2</translation>
+            <translation>您确定要删除以下用户吗？
+
+用户 ID：%0
+用户名：%1
+
+这将移除以下位置的所有文件：
+%2</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="271" />
             <source>Rename User</source>
-            <translation>重命名 User</translation>
+            <translation>重命名用户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="272" />
@@ -18858,7 +19433,10 @@ This will remove all files in:
 Old Username: %1
 
 New Username: </source>
-            <translation>User Id: %0 旧 Username: %1 新建 Username:</translation>
+            <translation>用户 ID：%0
+旧用户名：%1
+
+新用户名：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="283" />
@@ -18871,24 +19449,26 @@ New Username: </source>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="283" />
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="340" />
             <source>Name must be between 3 and 16 characters and only consist of letters, numbers, underscores, and hyphens.</source>
-            <translation>名称 必须 是 between 3 和 16 characters 和 仅 consist 的 letters, 数字, underscores, 和 hyphens.</translation>
+            <translation>名称长度必须在 3 到 16 个字符之间，且只能由字母、数字、下划线和连字符组成。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="321" />
             <source>Cannot add more users.</source>
-            <translation>Cannot 添加 更多 users.</translation>
+            <translation>无法添加更多用户。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="329" />
             <source>New User</source>
-            <translation>新建 User</translation>
+            <translation>新用户</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="330" />
             <source>New User ID: %0
 
 New Username: </source>
-            <translation>新建 User ID: %0 新建 Username:</translation>
+            <translation>新用户 ID：%0
+
+新用户名：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="354" />
@@ -18900,12 +19480,14 @@ New Username: </source>
             <source>In order to change the user you have to stop the emulator first.
 
 Stop the emulator now?</source>
-            <translation>内 order 到 change the user you 有 到 停止 the 模拟器 第一个. 停止 the 模拟器 现在?</translation>
+            <translation>要切换用户，您必须先停止模拟器。
+
+现在停止模拟器吗？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="405" />
             <source>&amp;Sort By</source>
-            <translation>&amp;Sort 通过</translation>
+            <translation>&amp;排序方式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="409" />
@@ -18925,7 +19507,7 @@ Stop the emulator now?</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/user_manager_dialog.cpp" line="412" />
             <source>&amp;Open User Directory</source>
-            <translation>&amp;打开 User 目录</translation>
+            <translation>&amp;打开用户目录</translation>
         </message>
     </context>
     <context>
@@ -18938,17 +19520,17 @@ Stop the emulator now?</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/vfs_dialog.cpp" line="50" />
             <source>Reset Directories</source>
-            <translation>Reset 目录</translation>
+            <translation>重置目录</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/vfs_dialog.cpp" line="57" />
             <source>Confirm Reset</source>
-            <translation>确认 Reset</translation>
+            <translation>确认重置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/vfs_dialog.cpp" line="57" />
             <source>Reset all file system directories?</source>
-            <translation>Reset 全部 文件 system 目录?</translation>
+            <translation>重置所有文件系统目录？</translation>
         </message>
     </context>
     <context>
@@ -18966,12 +19548,12 @@ Stop the emulator now?</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="40" />
             <source>Used %0 directory:</source>
-            <translation>Used %0 目录:</translation>
+            <translation>已使用 %0 目录：</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/vfs_dialog_path_widget.cpp" line="118" />
             <source>Choose a directory</source>
-            <translation>Choose a 目录</translation>
+            <translation>选择目录</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/vfs_dialog_path_widget.h" line="36" />
@@ -18994,12 +19576,12 @@ Stop the emulator now?</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/vfs_dialog_usb_input.cpp" line="46" />
             <source>Confirm Reset</source>
-            <translation>确认 Reset</translation>
+            <translation>确认重置</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/vfs_dialog_usb_input.cpp" line="46" />
             <source>Reset all entries and file system directories?</source>
-            <translation>Reset 全部 entries 和 文件 system 目录?</translation>
+            <translation>重置所有条目和文件系统目录？</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/vfs_dialog_usb_input.cpp" line="75" />
@@ -19058,22 +19640,22 @@ Stop the emulator now?</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.ui" line="180" />
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;span style=" font-weight:600; color:#ff0000;"&gt;RPCS3 does not condone piracy. You must dump your own games.&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;span style=" 字体-weight:600; 颜色:#ff0000;"&gt;RPCS3 执行 不 condone piracy. You 必须 dump your own 游戏.&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;span style=" font-weight:600; color:#ff0000;"&gt;RPCS3 不纵容盗版。您必须自行转储自己的游戏。&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.ui" line="190" />
             <source>Create desktop shortcut</source>
-            <translation>创建 desktop shortcut</translation>
+            <translation>创建桌面快捷方式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.ui" line="197" />
             <source>Create Start Menu shortcut</source>
-            <translation>创建 开始 菜单 shortcut</translation>
+            <translation>创建开始菜单快捷方式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.ui" line="204" />
             <source>Use Dark Theme (can be configured later)</source>
-            <translation>Use 深 Theme (能 是 已配置 稍后)</translation>
+            <translation>使用深色主题（可稍后配置）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.ui" line="238" />
@@ -19088,12 +19670,12 @@ Stop the emulator now?</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.ui" line="271" />
             <source>I have read the Quickstart guide</source>
-            <translation>I 有 read the Quickstart guide</translation>
+            <translation>我已阅读快速入门指南</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.ui" line="291" />
             <source>Show at startup</source>
-            <translation>显示 at startup</translation>
+            <translation>启动时显示</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.cpp" line="27" />
@@ -19101,7 +19683,10 @@ Stop the emulator now?</source>
 It is written in C++ for Windows, Linux, FreeBSD and MacOS funded with %0.
 Our developers and contributors are always working hard to ensure this project is the best that it can be.
 There are still plenty of implementations to make and optimizations to do.</source>
-            <translation>RPCS3 是 an 打开-source Sony PlayStation 3 模拟器 和 调试器. It 是 written 内 C++ 为 窗口, Linux, FreeBSD 和 MacOS funded 与 %0. Our developers 和 contributors 是 始终 working 困难 到 ensure 此 project 是 the 最好 那个 it 能 是. 那里 是 仍然 plenty 的 implementations 到 make 和 optimizations 到 执行.</translation>
+            <translation>RPCS3 是一款开源的索尼 PlayStation 3 模拟器和调试器。
+它使用 C++ 编写，可在 Windows、Linux、FreeBSD 和 MacOS 上运行，由 %0 提供资金支持。
+我们的开发者和贡献者始终在努力工作，确保本项目做到尽善尽美。
+目前仍有大量功能有待实现和优化。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.cpp" line="32" />
@@ -19114,7 +19699,10 @@ There are still plenty of implementations to make and optimizations to do.</sour
 Please refer to the %1 guide found on the official website for further information.
 If you have any further questions, please refer to the %2.
 Otherwise, further discussion and support can be found on the %3 or on our %4 server.</source>
-            <translation>到 get 已开始, you 必须 第一个 安装 the %0. Please refer 到 the %1 guide found 开 the official website 为 further information. 如果 you 有 任何 further questions, please refer 到 the %2. Otherwise, further discussion 和 support 能 是 found 开 the %3 或 开 our %4 server.</translation>
+            <translation>首先，您需要安装 %0。
+请参阅官方网站上的 %1 指南了解更多信息。
+如果您有其他问题，请参阅 %2。
+此外，还可以在 %3 或我们的 %4 服务器上进一步讨论和获取支持。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.cpp" line="39" />
@@ -19144,12 +19732,12 @@ Otherwise, further discussion and support can be found on the %3 or on our %4 se
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.cpp" line="46" />
             <source>&amp;Create Launchpad shortcut</source>
-            <translation>&amp;创建 Launchpad shortcut</translation>
+            <translation>创建 Launchpad 快捷方式</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/welcome_dialog.cpp" line="51" />
             <source>&amp;Create Application Menu shortcut</source>
-            <translation>&amp;创建 Application 菜单 shortcut</translation>
+            <translation>创建应用程序菜单快捷方式</translation>
         </message>
     </context>
 </TS>

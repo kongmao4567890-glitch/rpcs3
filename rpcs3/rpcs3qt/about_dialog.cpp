@@ -15,7 +15,7 @@ about_dialog::about_dialog(QWidget* parent) : QDialog(parent), ui(new Ui::about_
 
 	ui->close->setDefault(true);
 	ui->icon->load(QStringLiteral(":/rpcs3.svg"));
-	ui->version->setText(tr("RPCS3 Version: %1").arg(QString::fromStdString(rpcs3::get_verbose_version())));
+	ui->version->setText(tr("九尾猫游戏解说编译 版本: %1").arg(QString::fromStdString(rpcs3::get_verbose_version())));
 	ui->description->setText(gui::utils::make_paragraph(tr(
 		"RPCS3 is an open-source Sony PlayStation 3 emulator and debugger.\n"
 		"It is written in C++ for Windows, Linux, FreeBSD and MacOS, funded with %0.\n"

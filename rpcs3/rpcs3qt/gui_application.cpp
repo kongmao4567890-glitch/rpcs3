@@ -98,7 +98,7 @@ bool gui_application::Init()
 	setWindowIcon(QIcon(":/rpcs3.ico"));
 #endif
 
-	if (!rpcs3::is_release_build() && !rpcs3::is_local_build())
+	if (!rpcs3::is_release_build() && !rpcs3::is_local_build() && false)
 	{
 		const std::string_view branch_name = rpcs3::get_full_branch();
 		gui_log.warning("Experimental Build Warning! Build origin: %s", branch_name);

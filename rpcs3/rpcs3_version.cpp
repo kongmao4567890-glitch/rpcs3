@@ -12,7 +12,7 @@ namespace rpcs3
 
 	std::string_view get_full_branch()
 	{
-		return RPCS3_GIT_FULL_BRANCH;
+		return "九尾猫游戏解说编译"sv;
 	}
 
 	std::pair<std::string, std::string> get_commit_and_hash()
