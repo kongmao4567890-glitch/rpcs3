@@ -86,7 +86,8 @@ bool cheat_executor::is(std::string_view game_name, std::string_view cheat_name)
 
 bool cheat_executor::operator<(const cheat_executor& rhs) const
 {
-	return m_game_name < rhs.m_game_name || m_cheat_name < rhs.m_cheat_name;
+	if (m_game_name != rhs.m_game_name) return m_game_name < rhs.m_game_name;
+	return m_cheat_name < rhs.m_cheat_name;
 }
 
 std::string cheat_executor::parse_value(const std::string& to_parse) const
@@ -178,7 +179,7 @@ bool cheat_executor::valid_range(u32 addr, u32 size)
 
 bool cheat_executor::execute(bool pause) const
 {
-	if (Emu.IsStopped())
+	if (Emu.IsStopped(true))
 	{
 		log_cheat_patch.error("Attempted to execute a cheat while the emulator was stopped!");
 		return false;
@@ -230,15 +231,16 @@ bool cheat_executor::execute(bool pause) const
 			case cheat_inst::xor_bytes:
 			{
 				auto data = parse_value_to_vector(code.value);
-				if (!data) return;
-				if (!valid_range(addr, static_cast<u32>(data->size()))) return;
+				if (!data) { log_cheat_patch.error("Cheat '%s': failed to parse value '%s'", m_cheat_name, code.value); return; }
+				if (!valid_range(addr, static_cast<u32>(data->size()))) { log_cheat_patch.error("Cheat '%s': invalid range 0x%x size %u", m_cheat_name, addr, static_cast<u32>(data->size())); return; }
 				memory_op(code.type, vm::get_super_ptr<u8>(addr), data->data(), static_cast<u32>(data->size()));
+				log_cheat_patch.success("Cheat '%s': applied %s at 0x%x (%u bytes)", m_cheat_name, fmt::format("{}", code.type), addr, static_cast<u32>(data->size()));
 				break;
 			}
 			case cheat_inst::write_text:
 			{
 				const std::string text = parse_value(code.value);
-				if (!valid_range(addr, static_cast<u32>(text.size()))) return;
+				if (!valid_range(addr, static_cast<u32>(text.size()))) { log_cheat_patch.error("Cheat '%s': invalid range for write_text at 0x%x", m_cheat_name, addr); return; }
 				std::memcpy(vm::get_super_ptr<u8>(addr), text.c_str(), text.size());
 				break;
 			}
@@ -373,6 +375,8 @@ bool cheat_patch_engine::activate_cheat(const std::string& game_name, const std:
                                   bool force_queue)
 {
 	cheat_executor ce(game_name, cheat_name, entry, var_choices);
+	log_cheat_patch.notice("Activating cheat '%s':'%s' (type=%s, force_queue=%d, codes=%zu, IsStopped=%d)",
+		game_name, cheat_name, fmt::format("{}", entry.type), force_queue, entry.codes.size(), Emu.IsStopped());
 	if (entry.type == cheat_exec_type::constant)
 	{
 		std::lock_guard lock(m_mutex_constant);
@@ -413,6 +417,7 @@ void cheat_patch_engine::apply_queued_cheats()
 		to_apply = std::move(m_queued_cheats);
 		m_queued_cheats.clear();
 	}
+	log_cheat_patch.notice("Applying %u queued cheats", to_apply.size());
 	for (const auto& cheat : to_apply)
 		cheat.execute(false);
 }

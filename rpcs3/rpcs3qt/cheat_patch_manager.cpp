@@ -637,6 +637,21 @@ cheat_patch_manager_dialog::cheat_patch_manager_dialog(QWidget* parent)
 		auto* cheats = cheat_storage::get().cheats_for_game(game_name);
 		if (!cheats || !cheats->contains(cheat_name)) return;
 		const auto& cheat = cheats->at(cheat_name);
+
+		// Check if already active
+		bool found = false;
+		for (const auto& c : g_cheat_patch_engine.get_active_constant_cheats()) if (c.is(game_name, cheat_name)) { found = true; break; }
+		for (const auto& c : g_cheat_patch_engine.get_queued_cheats()) if (c.is(game_name, cheat_name)) { found = true; break; }
+
+		if (found)
+		{
+			// Deactivate on second double-click
+			g_cheat_patch_engine.deactivate_cheat(game_name, cheat_name);
+			item->setBackground(0, QBrush());
+			return;
+		}
+
+		// Activate on first double-click
 		std::unordered_map<std::string, std::string> var_choices;
 		if (!cheat.variables.empty())
 		{
@@ -644,13 +659,8 @@ cheat_patch_manager_dialog::cheat_patch_manager_dialog(QWidget* parent)
 			if (var_dlg.exec() == QDialog::Rejected) return;
 			var_choices = var_dlg.get_choices();
 		}
-		if (!g_cheat_patch_engine.activate_cheat(game_name, cheat_name, cheat, var_choices))
-		{
-			g_cheat_patch_engine.deactivate_cheat(game_name, cheat_name);
-			item->setBackground(0, QBrush());
-			return;
-		}
-		item->setBackground(0, QBrush(QColor(100, 200, 100, 80)));
+		if (g_cheat_patch_engine.activate_cheat(game_name, cheat_name, cheat, var_choices, true))
+			item->setBackground(0, QBrush(QColor(100, 200, 100, 80)));
 	});
 
 	connect(m_tree, &QTreeWidget::itemClicked, this, [this](QTreeWidgetItem* item, int)
