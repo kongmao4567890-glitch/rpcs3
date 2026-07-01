@@ -614,6 +614,7 @@ cheat_patch_manager_dialog::cheat_patch_manager_dialog(QWidget* parent)
 		const QStringList paths = QFileDialog::getOpenFileNames(this, tr("选择要导入的 Artemis 金手指文件"), QString(), tr("Artemis 文件 (*.nlc *.NCL);;所有文件 (*.*)"));
 		if (paths.isEmpty()) return;
 		for (const auto& path : paths) cheat_storage::get().load_ncl(path.toStdString());
+		cheat_storage::get().save();  // Persist to disk so cheats survive restart
 		refresh_tree();
 	});
 
@@ -622,6 +623,7 @@ cheat_patch_manager_dialog::cheat_patch_manager_dialog(QWidget* parent)
 		const QString path = QFileDialog::getOpenFileName(this, tr("导入 cheatsv2.yml"), QString(), tr("YAML 文件 (*.yml *.yaml);;所有文件 (*.*)"));
 		if (path.isEmpty()) return;
 		cheat_storage::get().load_cheatsv2(path.toStdString());
+		cheat_storage::get().save();  // Persist to disk so cheats survive restart
 		refresh_tree();
 	});
 

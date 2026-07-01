@@ -233,7 +233,7 @@ AutoPauseConfigDialog::AutoPauseConfigDialog(QWidget* parent, auto_pause_setting
 	m_id->setFont(QFontDatabase::systemFont(QFontDatabase::FixedFont));
 	m_id->setMaxLength(8);
 	m_id->setFixedWidth(65);
-	setWindowTitle("Auto Pause Setting: " + m_id->text());
+	setWindowTitle(tr("Auto Pause Setting: %1").arg(m_id->text()));
 
 	connect(button_cancel, &QAbstractButton::clicked, this, &AutoPauseConfigDialog::OnCancel);
 	connect(button_ok, &QAbstractButton::clicked, this, &AutoPauseConfigDialog::OnOk);

@@ -37,6 +37,11 @@
             <source>Conversion failed</source>
             <translation>转换失败</translation>
         </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/auto_pause_settings_dialog.cpp" line="236" />
+            <source>Auto Pause Setting: %1</source>
+            <translation>自动暂停设置：%1</translation>
+        </message>
     </context>
     <context>
         <name>Buffer</name>
@@ -472,7 +477,7 @@ Terminating...</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="713" />
             <source>Pause the SPU Thread!</source>
-            <translation>暂停 the SPU 线程!</translation>
+            <translation>暂停 SPU 线程！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="713" />
@@ -2538,8 +2543,8 @@ Can be reset to current wall clock time by clicking "Set to Now".</source>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/about_dialog.cpp" line="18" />
-            <source>RPCS3 Version: %1</source>
-            <translation>RPCS3 版本：%1</translation>
+            <source>九尾猫游戏解说编译 版本: %1</source>
+            <translation>九尾猫游戏解说编译 版本：%1</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/about_dialog.cpp" line="19" />
@@ -3008,6 +3013,96 @@ It might be blocked by another application.</source>
             <source>Float 32 bits</source>
             <translation>浮点数 32 位</translation>
         </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="513" />
+            <source>Cheat Manager</source>
+            <translation>金手指管理器</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="524" />
+            <source>Script</source>
+            <translation>脚本</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="528" />
+            <source>Current Value:</source>
+            <translation>当前值：</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="537" />
+            <source>Cheat Search</source>
+            <translation>金手指搜索</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="540" />
+            <source>New Search</source>
+            <translation>新建搜索</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="542" />
+            <source>Filter Results</source>
+            <translation>过滤结果</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="593" />
+            <source>Failed to resolve redirection script</source>
+            <translation>解析重定向脚本失败</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="605" />
+            <source>This Application is not running</source>
+            <translation>此应用程序未运行</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="638" />
+            <source>Failed to get the value from memory</source>
+            <translation>从内存获取值失败</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="680" />
+            <source>Import Cheats</source>
+            <translation>导入金手指</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="681" />
+            <source>Export Cheats</source>
+            <translation>导出金手指</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="682" />
+            <source>Reverse-Lookup Cheat</source>
+            <translation>反向查找金手指</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="806" />
+            <source>Couldn't convert the value you typed to the integer type of that cheat</source>
+            <translation>无法将您输入的值转换为该金手指的整数类型</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="812" />
+            <source>Error applying value</source>
+            <translation>应用值时出错</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="812" />
+            <source>Couldn't patch memory</source>
+            <translation>无法修补内存</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="850" />
+            <source>Add to cheat list</source>
+            <translation>添加到金手指列表</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="860" />
+            <source>Cheat already exists</source>
+            <translation>金手指已存在</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/cheat_manager.cpp" line="860" />
+            <source>Do you want to overwrite the existing cheat?</source>
+            <translation>是否要覆盖现有的金手指？</translation>
+        </message>
     </context>
     <context>
         <name>cheat_patch_dialog</name>
@@ -3439,7 +3534,7 @@ Some settings seem to deviate from the default config:</source>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="101" />
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="1509" />
             <source>Go To Address</source>
-            <translation>Go 到 地址</translation>
+            <translation>转到地址</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="102" />
@@ -3550,7 +3645,7 @@ Double-click: Set breakpoints.</source>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="499" />
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="555" />
             <source>Decimal only, max allowed is %0.</source>
-            <translation>十进制 仅, max 已允许 是 %0.</translation>
+            <translation>仅限十进制，最大允许值为 %0。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/debugger_frame.cpp" line="555" />
@@ -3699,6 +3794,11 @@ File may already be in use on the base.</source>
 File was too small.</source>
             <translation>无法读取玩偶文件（%1）！
 文件太小。</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/dimensions_dialog.cpp" line="776" />
+            <source>Blank Tag</source>
+            <translation>空白标签</translation>
         </message>
     </context>
     <context>
@@ -6020,7 +6120,7 @@ Caches and custom configs have been left intact.</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="352" />
             <source>Failed to remove %0 from drive!</source>
-            <translation>失败 到 移除 %0 从 驱动器!</translation>
+            <translation>从驱动器移除 %0 失败！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="368" />
@@ -6179,7 +6279,7 @@ Integrity check aborted</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="720" />
             <source>Failed to remove configuration file!</source>
-            <translation>失败 到 移除 配置 文件!</translation>
+            <translation>移除配置文件失败！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_actions.cpp" line="734" />
@@ -6754,12 +6854,12 @@ Progress: %1/%2 caches compiled</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="429" />
             <source>Failed to remove the old file!</source>
-            <translation>失败 到 移除 the 旧 文件!</translation>
+            <translation>移除旧文件失败！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="445" />
             <source>Failed to import the new file!</source>
-            <translation>失败 到 导入 the 新建 文件!</translation>
+            <translation>导入新文件失败！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="493" />
@@ -8598,7 +8698,7 @@ Space Needed: %0 KB</source>
             <source>Alignment is invalid.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>对齐 是 无效. (%0)</translation>
+            <translation>对齐无效。（%0）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="107" />
@@ -8613,7 +8713,7 @@ Space Needed: %0 KB</source>
             <source>The file is a directory.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>The 文件 是 a 目录. (%0)</translation>
+            <translation>该文件是一个目录。（%0）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="109" />
@@ -8723,7 +8823,7 @@ Space Needed: %0 KB</source>
             <source>File too large.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>文件 也 大. (%0)</translation>
+            <translation>文件过大。（%0）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="123" />
@@ -8817,7 +8917,7 @@ Space Needed: %0 KB</source>
             <source>Too many files open.
 (%0)</source>
             <comment>Error code</comment>
-            <translation>也 许多 文件 打开. (%0)</translation>
+            <translation>打开的文件过多。（%0）</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/localized_emu.h" line="135" />
@@ -10507,7 +10607,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="307" />
             <source>Failed to open '%0'</source>
-            <translation>失败 到 打开 '%0'</translation>
+            <translation>打开 '%0' 失败</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/log_viewer.cpp" line="320" />
@@ -11167,7 +11267,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1083" />
             <source>Configure the emulator</source>
-            <translation>配置 the 模拟器</translation>
+            <translation>配置模拟器</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.ui" line="1092" />
@@ -11651,7 +11751,7 @@ Subject:</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="501" />
             <source>The emulator could not create files required for booting.</source>
-            <translation>The 模拟器 能 不 创建 文件 必需 为 启动.</translation>
+            <translation>模拟器无法创建启动所需的文件。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="504" />
@@ -12273,13 +12373,14 @@ Check anyway?</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3377" />
             <source>Failed to open file</source>
-            <translation>失败 到 打开 文件</translation>
+            <translation>打开文件失败</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3377" />
             <source>The file could not be opened:
 %0</source>
-            <translation>The 文件 能 不 是 已打开: %0</translation>
+            <translation>无法打开文件：
+%0</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/main_window.cpp" line="3548" />
@@ -13653,7 +13754,7 @@ SPU 指令：搜索包含该字符串文本的 SPU 指令。用于在嵌入式 S
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2036" />
             <source>Can't remove default configuration '%0'.</source>
-            <translation>能't 移除 默认 配置 '%0'.</translation>
+            <translation>无法移除默认配置 '%0'。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2040" />
@@ -13668,7 +13769,7 @@ SPU 指令：搜索包含该字符串文本的 SPU 指令。用于在嵌入式 S
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2049" />
             <source>Failed to remove '%0'.</source>
-            <translation>失败 到 移除 '%0'.</translation>
+            <translation>移除 '%0' 失败。</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pad_settings_dialog.cpp" line="2064" />
@@ -13954,6 +14055,11 @@ The export of invalid patches is not allowed.</source>
             <source>Instruction %0: Type '%1' is invalid!</source>
             <translation>指令 %0：类型 '%1' 无效！</translation>
         </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/patch_creator_dialog.cpp" line="54" />
+            <source>&amp;Export Patch</source>
+            <translation>导出补丁(&amp;E)</translation>
+        </message>
     </context>
     <context>
         <name>patch_manager_dialog</name>
@@ -14083,7 +14189,7 @@ This action is immediate and irreversible!</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="916" />
             <source>The patch could not be removed!</source>
-            <translation>The patch 能 不 是 已移除!</translation>
+            <translation>无法移除该补丁！</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="930" />
@@ -14282,6 +14388,23 @@ Log:
             <source>All versions</source>
             <translation>全部 版本</translation>
         </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="86" />
+            <source>Download latest patches</source>
+            <translation>下载最新补丁</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="147" />
+            <source>Patch downloader</source>
+            <translation>补丁下载器</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/patch_manager_dialog.cpp" line="147" />
+            <source>An error occurred during the download process.
+Check the log for more information.</source>
+            <translation>下载过程中发生错误。
+请查看日志获取更多信息。</translation>
+        </message>
     </context>
     <context>
         <name>pkg_install_dialog</name>
@@ -14426,7 +14549,9 @@ Reorder and/or exclude them if needed, then click "Install" to proceed.</source>
             <source>Installation path: %0
 Available disk space: %1%2
 Required disk space: %3</source>
-            <translation>Installation 路径: %0 可用 磁盘 space: %1%2 必需 磁盘 space: %3</translation>
+            <translation>安装路径：%0
+可用磁盘空间：%1%2
+所需磁盘空间：%3</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/pkg_install_dialog.cpp" line="272" />
@@ -14460,12 +14585,12 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="106" />
             <source>Min Radius</source>
-            <translation>Min 半径</translation>
+            <translation>最小半径</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="122" />
             <source>Max Radius</source>
-            <translation>Max 半径</translation>
+            <translation>最大半径</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.ui" line="138" />
@@ -14610,12 +14735,12 @@ Required disk space: %3</source>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="361" />
             <source>Min Radius: %0 %</source>
-            <translation>Min 半径: %0 %</translation>
+            <translation>最小半径：%0 %</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/ps_move_tracker_dialog.cpp" line="371" />
             <source>Max Radius: %0 %</source>
-            <translation>Max 半径: %0 %</translation>
+            <translation>最大半径：%0 %</translation>
         </message>
     </context>
     <context>
@@ -14890,6 +15015,26 @@ Required disk space: %3</source>
 No changes were made.</source>
             <translation>此值无法转换。
 未作任何更改。</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/register_editor_dialog.cpp" line="63" />
+            <source>Edit registers</source>
+            <translation>编辑寄存器</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/register_editor_dialog.cpp" line="72" />
+            <source>Register:</source>
+            <translation>寄存器：</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/register_editor_dialog.cpp" line="73" />
+            <source>Value (Hex):</source>
+            <translation>值（十六进制）：</translation>
+        </message>
+        <message>
+            <location filename="../rpcs3/rpcs3qt/register_editor_dialog.cpp" line="84" />
+            <source>Search a register</source>
+            <translation>搜索寄存器</translation>
         </message>
     </context>
     <context>
@@ -17527,7 +17672,7 @@ To confirm, type your username below and click "Yes".
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3488" />
             <source>Edit the game window title</source>
-            <translation>编辑 the 游戏 窗口 标题</translation>
+            <translation>编辑游戏窗口标题</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.ui" line="3491" />
@@ -18072,7 +18217,7 @@ Each option heavily depends on the game and on your CPU, it's recommended to try
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="798" />
             <source>Not needed for %0 renderer</source>
             <comment>Graphics adapter</comment>
-            <translation>不 需要 为 %0 渲染器</translation>
+            <translation>%0 渲染器不需要</translation>
         </message>
         <message>
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="972" />
