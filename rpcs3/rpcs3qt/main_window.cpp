@@ -551,40 +551,11 @@ void main_window::Boot(const std::string& path, const std::string& title_id, boo
 		return;
 	}
 
-	// Show cheat selection dialog before booting (if cheats are available for this game)
+	// Clear cheats from previous session and ensure cheatsv2 is loaded
 	if (!title_id.empty())
 	{
-		// Clear any cheats from a previous game session
 		g_cheat_patch_engine.clear();
-
-		// Ensure cheatsv2.yml is loaded
 		cheat_storage::get().ensure_v2_loaded();
-
-		// Check if cheats exist for this serial
-		auto cheats = cheat_storage::get().find_by_serial(title_id);
-		if (!cheats.empty())
-		{
-			// Try to get game name from game list
-			std::string game_name;
-			if (m_game_list_frame)
-			{
-				for (const auto& game : m_game_list_frame->GetGameInfo())
-				{
-					if (game->info.serial == title_id)
-					{
-						game_name = game->info.name;
-						break;
-					}
-				}
-			}
-
-			cheat_pre_boot_dialog cheat_dlg(title_id, game_name, this);
-			if (cheat_dlg.exec() != QDialog::Accepted)
-			{
-				// User cancelled - don't boot the game
-				return;
-			}
-		}
 	}
 
 	Emu.GracefulShutdown(false);
