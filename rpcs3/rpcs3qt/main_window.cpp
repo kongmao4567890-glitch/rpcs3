@@ -551,10 +551,9 @@ void main_window::Boot(const std::string& path, const std::string& title_id, boo
 		return;
 	}
 
-	// Clear cheats from previous session and ensure cheatsv2 is loaded
+	// Ensure cheatsv2.yml is loaded before booting
 	if (!title_id.empty())
 	{
-		g_cheat_patch_engine.clear();
 		cheat_storage::get().ensure_v2_loaded();
 	}
 
