@@ -554,7 +554,7 @@ void gui_application::InitializeConnects()
 	{
 		m_cheat_patch_timer.start(250);
 	});
-	connect(this, &gui_application::OnEmulatorStop, this, [this]() { m_cheat_patch_timer.stop(); g_cheat_patch_engine.clear(); });
+	connect(this, &gui_application::OnEmulatorStop, this, [this]() { m_cheat_patch_timer.stop(); });
 	connect(this, &gui_application::OnEmulatorPause, this, [this]() { m_cheat_patch_timer.stop(); });
 	connect(this, &gui_application::OnEmulatorResume, this, [this]() { m_cheat_patch_timer.start(250); });
 	connect(this, &QGuiApplication::applicationStateChanged, this, &gui_application::OnAppStateChanged);

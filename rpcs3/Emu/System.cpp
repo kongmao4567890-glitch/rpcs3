@@ -3151,6 +3151,9 @@ void Emulator::GracefulShutdown(bool allow_autoexit, bool async_op, bool savesta
 		Resume();
 	}
 
+	// Clear all active and queued cheats
+	g_cheat_patch_engine.clear();
+
 	const u64 read_counter = get_sysutil_cb_manager_read_count();
 
 	const bool force_termination = old_state == system_state::frozen || savestate;

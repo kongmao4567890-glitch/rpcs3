@@ -2008,6 +2008,9 @@ shared_ptr<lv2_prx> ppu_load_prx(const ppu_prx_object& elf, bool virtual_load, c
 		ppu_check_patch_spu_images(*prx, seg);
 	}
 
+	// Apply queued cheats after PRX module is loaded
+	g_cheat_patch_engine.apply_queued_cheats();
+
 	prx->applied_patches = applied;
 	prx->is_relocatable = true;
 	prx->analyse(toc, 0, end, applied, exported_funcs);
