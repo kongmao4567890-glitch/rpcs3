@@ -3100,9 +3100,6 @@ void qt_events_aware_op(int repeat_duration_ms, std::function<bool()> wrapped_op
 
 void Emulator::GracefulShutdown(bool allow_autoexit, bool async_op, bool savestate, bool continuous_mode)
 {
-	// Clear all active and queued cheats
-	g_cheat_patch_engine.clear();
-
 	// Make sure we close the game window
 	if (!continuous_mode)
 	{

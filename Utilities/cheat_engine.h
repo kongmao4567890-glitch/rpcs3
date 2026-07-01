@@ -109,7 +109,8 @@ public:
 	void clear();
 	bool activate_cheat(const std::string& game_name, const std::string& cheat_name,
 	                    cheat_entry entry,
-	                    std::unordered_map<std::string, std::string> var_choices = {});
+	                    std::unordered_map<std::string, std::string> var_choices = {},
+	                    bool force_queue = false);
 	bool deactivate_cheat(const std::string& game_name, const std::string& cheat_name);
 	void apply_queued_cheats();
 	void operator()();

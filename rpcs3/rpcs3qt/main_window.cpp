@@ -554,6 +554,9 @@ void main_window::Boot(const std::string& path, const std::string& title_id, boo
 	// Show cheat selection dialog before booting (if cheats are available for this game)
 	if (!title_id.empty())
 	{
+		// Clear any cheats from a previous game session
+		g_cheat_patch_engine.clear();
+
 		// Ensure cheatsv2.yml is loaded
 		cheat_storage::get().ensure_v2_loaded();
 

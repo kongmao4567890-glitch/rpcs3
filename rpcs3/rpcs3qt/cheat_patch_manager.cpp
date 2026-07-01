@@ -850,7 +850,7 @@ cheat_pre_boot_dialog::cheat_pre_boot_dialog(const std::string& serial, const st
 				if (var_dlg.exec() == QDialog::Rejected) return;
 				var_choices = var_dlg.get_choices();
 			}
-			if (g_cheat_patch_engine.activate_cheat(game_name, cheat_name, cheat, var_choices))
+			if (g_cheat_patch_engine.activate_cheat(game_name, cheat_name, cheat, var_choices, true))
 				item->setBackground(0, QBrush(QColor(100, 200, 100, 80)));
 		}
 	});
@@ -885,10 +885,31 @@ void cheat_pre_boot_dialog::select_all(bool checked)
 	for (int i = 0; i < root->childCount(); i++)
 	{
 		auto* top = root->child(i);
+		const std::string game_name = top->text(0).toStdString();
+		auto* cheats = cheat_storage::get().cheats_for_game(game_name);
+		if (!cheats) continue;
+
 		for (int j = 0; j < top->childCount(); j++)
 		{
 			auto* child = top->child(j);
-			if (child->flags() & Qt::ItemIsUserCheckable) child->setCheckState(0, checked ? Qt::Checked : Qt::Unchecked);
+			const std::string cheat_name = child->text(0).toStdString();
+			if (!cheats->contains(cheat_name)) continue;
+			const auto& cheat = cheats->at(cheat_name);
+
+			bool found = false;
+			for (const auto& c : g_cheat_patch_engine.get_active_constant_cheats()) if (c.is(game_name, cheat_name)) { found = true; break; }
+			for (const auto& c : g_cheat_patch_engine.get_queued_cheats()) if (c.is(game_name, cheat_name)) { found = true; break; }
+
+			if (checked && !found)
+			{
+				if (g_cheat_patch_engine.activate_cheat(game_name, cheat_name, cheat, {}, true))
+					child->setBackground(0, QBrush(QColor(100, 200, 100, 80)));
+			}
+			else if (!checked && found)
+			{
+				g_cheat_patch_engine.deactivate_cheat(game_name, cheat_name);
+				child->setBackground(0, QBrush());
+			}
 		}
 	}
 }

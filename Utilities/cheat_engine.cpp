@@ -259,7 +259,7 @@ bool cheat_executor::execute(bool pause) const
 				if (!valid_range(addr, (*opt_increment * *opt_count) + static_cast<u32>(data->size()))) return;
 				u8* ptr = vm::get_super_ptr<u8>(addr);
 				for (u32 i = 0; i < *opt_count; i++)
-					std::memcpy(ptr + (*opt_count * *opt_increment), data->data(), data->size());
+					std::memcpy(ptr + (i * *opt_increment), data->data(), data->size());
 				break;
 			}
 			case cheat_inst::read_pointer:
@@ -369,7 +369,8 @@ void cheat_patch_engine::clear()
 
 bool cheat_patch_engine::activate_cheat(const std::string& game_name, const std::string& cheat_name,
                                   cheat_entry entry,
-                                  std::unordered_map<std::string, std::string> var_choices)
+                                  std::unordered_map<std::string, std::string> var_choices,
+                                  bool force_queue)
 {
 	cheat_executor ce(game_name, cheat_name, entry, var_choices);
 	if (entry.type == cheat_exec_type::constant)
@@ -377,7 +378,7 @@ bool cheat_patch_engine::activate_cheat(const std::string& game_name, const std:
 		std::lock_guard lock(m_mutex_constant);
 		return m_constant_cheats.insert(std::move(ce)).second;
 	}
-	if (Emu.IsStopped())
+	if (force_queue || Emu.IsStopped())
 	{
 		std::lock_guard lock(m_mutex_queued);
 		return m_queued_cheats.insert(std::move(ce)).second;
@@ -406,7 +407,13 @@ bool cheat_patch_engine::deactivate_cheat(const std::string& game_name, const st
 
 void cheat_patch_engine::apply_queued_cheats()
 {
-	for (const auto& cheat : m_queued_cheats)
+	std::set<cheat_executor> to_apply;
+	{
+		std::lock_guard lock(m_mutex_queued);
+		to_apply = std::move(m_queued_cheats);
+		m_queued_cheats.clear();
+	}
+	for (const auto& cheat : to_apply)
 		cheat.execute(false);
 }
 
