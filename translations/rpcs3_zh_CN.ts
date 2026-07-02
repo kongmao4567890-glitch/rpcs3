@@ -12646,8 +12646,16 @@ SPU 指令：搜索包含该字符串文本的 SPU 指令。用于在嵌入式 S
             <translation>SPU指令</translation>
         </message>
         <message>
-            <source>Raw Image @ 0x%x</source>
-            <translation>原始图像 @ 0x%x</translation>
+            <source>Raw Image @ 0x%1</source>
+            <translation>原始图像 @ 0x%1</translation>
+        </message>
+        <message>
+            <source>[x:%1, y:%2]: 0x%3</source>
+            <translation>[x:%1, y:%2]: 0x%3</translation>
+        </message>
+        <message>
+            <source>[-, -]: NA</source>
+            <translation>[-, -]: 不可用</translation>
         </message>
     </context>
     <context>

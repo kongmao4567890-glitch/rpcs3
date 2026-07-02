@@ -1221,7 +1221,7 @@ void memory_viewer_panel::ShowImage(QWidget* parent, u32 addr, color_format form
 				return;
 			}
 
-			m_image_title->setText(QString::fromStdString(fmt::format(tr("[x:%d, y:%d]: 0x%x").toStdString(), x, y, get_pointed_addr(x, y))));
+			m_image_title->setText(tr("[x:%1, y:%2]: 0x%3").arg(x).arg(y).arg(get_pointed_addr(x, y), 0, 16));
 		}
 
 		void keyPressEvent(QKeyEvent* event) override
@@ -1266,7 +1266,7 @@ void memory_viewer_panel::ShowImage(QWidget* parent, u32 addr, color_format form
 
 	image_viewer* f_image_viewer = new image_viewer(parent, canvas, image_title, std::move(image), addr, texel_bytes, width, width, height);
 	canvas->installEventFilter(f_image_viewer);
-	f_image_viewer->setWindowTitle(QString::fromStdString(fmt::format(tr("Raw Image @ 0x%x").toStdString(), addr)));
+	f_image_viewer->setWindowTitle(tr("Raw Image @ 0x%1").arg(addr, 0, 16));
 	f_image_viewer->setLayout(layout);
 	f_image_viewer->setAttribute(Qt::WA_DeleteOnClose);
 	f_image_viewer->show();
