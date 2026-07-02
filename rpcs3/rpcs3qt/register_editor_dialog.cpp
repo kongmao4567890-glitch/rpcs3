@@ -115,26 +115,26 @@ register_editor_dialog::register_editor_dialog(QWidget *parent, CPUDisAsm* _disa
 			//m_register_combo->addItem("XER", +PPU_XER);
 			//m_register_combo->addItem("FPSCR", +PPU_FPSCR);
 			//m_register_combo->addItem("VSCR", +PPU_VSCR);
-			m_register_combo->addItem("Priority", +PPU_PRIO);
+			m_register_combo->addItem(tr("Priority"), +PPU_PRIO);
 			//m_register_combo->addItem("Priority 2", +PPU_PRIO2);
 		}
 		else if (cpu->get_class() == thread_class::spu)
 		{
 			for (int i = spu_r0; i <= spu_r127; i++) m_register_combo->addItem(QString::fromStdString(fmt::format("r%d", i % 128)), i);
-			m_register_combo->addItem("MFC Pending Events", +MFC_PEVENTS);
-			m_register_combo->addItem("MFC Events Mask", +MFC_EVENTS_MASK);
-			m_register_combo->addItem("MFC Events Count", +MFC_EVENTS_COUNT);
-			m_register_combo->addItem("MFC Tag Mask", +MFC_TAG_MASK);
+			m_register_combo->addItem(tr("MFC Pending Events"), +MFC_PEVENTS);
+			m_register_combo->addItem(tr("MFC Events Mask"), +MFC_EVENTS_MASK);
+			m_register_combo->addItem(tr("MFC Events Count"), +MFC_EVENTS_COUNT);
+			m_register_combo->addItem(tr("MFC Tag Mask"), +MFC_TAG_MASK);
 			//m_register_combo->addItem("MFC Tag Update", +MFC_TAG_UPD);
 			//m_register_combo->addItem("MFC Atomic Status", +MFC_ATOMIC_STAT);
 			m_register_combo->addItem("SPU SNR1", +SPU_SNR1);
 			m_register_combo->addItem("SPU SNR2", +SPU_SNR2);
-			m_register_combo->addItem("SPU Out Mailbox", +SPU_OUT_MBOX);
-			m_register_combo->addItem("SPU Out-Intr Mailbox", +SPU_OUT_INTR_MBOX);
+			m_register_combo->addItem(tr("SPU Out Mailbox"), +SPU_OUT_MBOX);
+			m_register_combo->addItem(tr("SPU Out-Intr Mailbox"), +SPU_OUT_INTR_MBOX);
 			m_register_combo->addItem("SRR0", +SPU_SRR0);
 		}
 
-		m_register_combo->addItem("Reservation Clear", +RESERVATION_LOST);
+		m_register_combo->addItem(tr("Reservation Clear"), +RESERVATION_LOST);
 		m_register_combo->addItem("PC", +PC);
 	}
 

@@ -816,7 +816,7 @@ cheat_pre_boot_dialog::cheat_pre_boot_dialog(const std::string& serial, const st
 		std::map<std::string, std::vector<std::pair<std::string, const cheat_entry*>>> grouped;
 		for (const auto& [cheat_name, entry] : cheats)
 		{
-			std::string gk = entry->game_key.empty() ? "Cheats" : entry->game_key;
+			std::string gk = entry->game_key.empty() ? tr("Cheats").toStdString() : entry->game_key;
 			grouped[gk].emplace_back(cheat_name, entry);
 		}
 		QList<QTreeWidgetItem*> items;

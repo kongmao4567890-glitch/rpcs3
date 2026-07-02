@@ -398,7 +398,7 @@ void Buffer::ShowContextMenu(const QPoint& pos)
 		if (m_image.isNull())
 			return;
 
-		const QString path = QFileDialog::getSaveFileName(this, tr("Save Image"), "", "Image (*.png)");
+		const QString path = QFileDialog::getSaveFileName(this, tr("Save Image"), "", tr("Image (*.png)"));
 
 		if (path.isEmpty())
 			return;

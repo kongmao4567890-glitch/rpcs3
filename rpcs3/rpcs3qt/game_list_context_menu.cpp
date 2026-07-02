@@ -116,7 +116,7 @@ void game_list_context_menu::show_single_selection_context_menu(const game_info&
 
 		connect(boot_manual, &QAction::triggered, m_game_list_frame, [this, gameinfo]
 		{
-			if (const std::string file_path = QFileDialog::getOpenFileName(m_game_list_frame, "Select Config File", "", tr("Config Files (*.yml);;All files (*.*)")).toStdString(); !file_path.empty())
+			if (const std::string file_path = QFileDialog::getOpenFileName(m_game_list_frame, tr("Select Config File"), "", tr("Config Files (*.yml);;All files (*.*)")).toStdString(); !file_path.empty())
 			{
 				sys_log.notice("Booting from gamelist per context menu...");
 				Q_EMIT m_game_list_frame->RequestBoot(gameinfo, cfg_mode::custom_selection, file_path);

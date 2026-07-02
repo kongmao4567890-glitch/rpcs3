@@ -323,7 +323,7 @@ memory_viewer_panel::memory_viewer_panel(QWidget* parent, std::shared_ptr<CPUDis
 
 	if (m_size != 0x40000/*SPU_LS_SIZE*/)
 	{
-		m_cbox_input_mode->addItem("SPU Instruction", QVariant::fromValue(+as_fake_spu_inst));
+		m_cbox_input_mode->addItem(tr("SPU Instruction"), QVariant::fromValue(+as_fake_spu_inst));
 		m_cbox_input_mode->addItem(tr("SPU RegEx-Instruction"), QVariant::fromValue(+as_regex_fake_spu_inst));
 		tooltip.append(tr("\nSPU Instruction: Search an SPU instruction contains the text of the string. For searching instructions within embedded SPU images.\nTip: SPU floats are commented along forming instructions."));
 	}
@@ -1217,11 +1217,11 @@ void memory_viewer_panel::ShowImage(QWidget* parent, u32 addr, color_format form
 		{
 			if (x < 0 || y < 0)
 			{
-				m_image_title->setText(QString::fromStdString(fmt::format("[-, -]: NA")));
+				m_image_title->setText(tr("[-, -]: NA"));
 				return;
 			}
 
-			m_image_title->setText(QString::fromStdString(fmt::format("[x:%d, y:%d]: 0x%x", x, y, get_pointed_addr(x, y))));
+			m_image_title->setText(QString::fromStdString(fmt::format(tr("[x:%d, y:%d]: 0x%x").toStdString(), x, y, get_pointed_addr(x, y))));
 		}
 
 		void keyPressEvent(QKeyEvent* event) override
@@ -1266,7 +1266,7 @@ void memory_viewer_panel::ShowImage(QWidget* parent, u32 addr, color_format form
 
 	image_viewer* f_image_viewer = new image_viewer(parent, canvas, image_title, std::move(image), addr, texel_bytes, width, width, height);
 	canvas->installEventFilter(f_image_viewer);
-	f_image_viewer->setWindowTitle(QString::fromStdString(fmt::format("Raw Image @ 0x%x", addr)));
+	f_image_viewer->setWindowTitle(QString::fromStdString(fmt::format(tr("Raw Image @ 0x%x").toStdString(), addr)));
 	f_image_viewer->setLayout(layout);
 	f_image_viewer->setAttribute(Qt::WA_DeleteOnClose);
 	f_image_viewer->show();

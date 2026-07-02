@@ -1607,7 +1607,7 @@ settings_dialog::settings_dialog(std::shared_ptr<gui_settings> gui_settings, std
 
 	// Sliders
 
-	EnhanceSlider(emu_settings_type::DriverWakeUpDelay, ui->wakeupDelay, ui->wakeupText, tr(reinterpret_cast<const char*>(u8"%0 µs"), "Driver wake up delay"));
+	EnhanceSlider(emu_settings_type::DriverWakeUpDelay, ui->wakeupDelay, ui->wakeupText, tr("%0 µs", "Driver wake up delay"));
 	SnapSlider(ui->wakeupDelay, 20);
 	ui->wakeupDelay->setMaximum(800); // Very large values must be entered with config.yml changes
 	ui->wakeupDelay->setPageStep(20);
@@ -1635,7 +1635,7 @@ settings_dialog::settings_dialog(std::shared_ptr<gui_settings> gui_settings, std
 		ui->clockScale->setValue(clocks_scale_def);
 	});
 
-	EnhanceSlider(emu_settings_type::MaxPreemptCount, ui->maxPreemptCount, ui->preemptText, tr(reinterpret_cast<const char*>(u8"%0"), "Max CPU preempt count"));
+	EnhanceSlider(emu_settings_type::MaxPreemptCount, ui->maxPreemptCount, ui->preemptText, tr("%0", "Max CPU preempt count"));
 	SubscribeTooltip(ui->gb_max_preempt_count, tooltips.settings.max_cpu_preempt);
 
 #ifdef _WIN32

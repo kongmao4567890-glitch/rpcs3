@@ -55,6 +55,17 @@
             <source>Save Image</source>
             <translation>保存 图像</translation>
         </message>
+        <message>
+            <source>Image (*.png)</source>
+            <translation>图像 (*.png)</translation>
+        </message>
+    </context>
+    <context>
+        <name>cheat_patch_manager_dialog</name>
+        <message>
+            <source>Cheats</source>
+            <translation>金手指</translation>
+        </message>
     </context>
     <context>
         <name>DeviceChoice</name>
@@ -3957,6 +3968,10 @@ File was too small.</source>
             <source>Failed to save SPU ELF.</source>
             <translation>保存 SPU ELF 失败。</translation>
         </message>
+        <message>
+            <source>SPU ELF (*.elf)</source>
+            <translation>SPU ELF (*.elf)</translation>
+        </message>
     </context>
     <context>
         <name>emu_settings</name>
@@ -7055,6 +7070,10 @@ You can clear the line in order to use the original title.</source>
             <location filename="../rpcs3/rpcs3qt/game_list_context_menu.cpp" line="979" />
             <source>&amp;Remove Game</source>
             <translation>&amp;移除 游戏</translation>
+        </message>
+        <message>
+            <source>Select Config File</source>
+            <translation>选择配置文件</translation>
         </message>
     </context>
     <context>
@@ -12622,6 +12641,14 @@ SPU 指令：搜索包含该字符串文本的 SPU 指令。用于在嵌入式 S
             <source>%0 mode(s) selected</source>
             <translation>已选择 %0 个模式</translation>
         </message>
+        <message>
+            <source>SPU Instruction</source>
+            <translation>SPU指令</translation>
+        </message>
+        <message>
+            <source>Raw Image @ 0x%x</source>
+            <translation>原始图像 @ 0x%x</translation>
+        </message>
     </context>
     <context>
         <name>microphone_creator</name>
@@ -15045,6 +15072,38 @@ No changes were made.</source>
             <location filename="../rpcs3/rpcs3qt/register_editor_dialog.cpp" line="84" />
             <source>Search a register</source>
             <translation>搜索寄存器</translation>
+        </message>
+        <message>
+            <source>Priority</source>
+            <translation>优先级</translation>
+        </message>
+        <message>
+            <source>MFC Pending Events</source>
+            <translation>MFC待处理事件</translation>
+        </message>
+        <message>
+            <source>MFC Events Mask</source>
+            <translation>MFC事件掩码</translation>
+        </message>
+        <message>
+            <source>MFC Events Count</source>
+            <translation>MFC事件计数</translation>
+        </message>
+        <message>
+            <source>MFC Tag Mask</source>
+            <translation>MFC标签掩码</translation>
+        </message>
+        <message>
+            <source>SPU Out Mailbox</source>
+            <translation>SPU输出邮箱</translation>
+        </message>
+        <message>
+            <source>SPU Out-Intr Mailbox</source>
+            <translation>SPU输出中断邮箱</translation>
+        </message>
+        <message>
+            <source>Reservation Clear</source>
+            <translation>清除保留</translation>
         </message>
     </context>
     <context>
@@ -18562,6 +18621,16 @@ Preview:
             <location filename="../rpcs3/rpcs3qt/settings_dialog.cpp" line="2688" />
             <source>Your config file contains one or more obsolete entries.&lt;br&gt;Consider that a removal might render them invalid for other versions of RPCS3.&lt;br&gt;&lt;br&gt;Do you wish to let the program remove them for you now?&lt;br&gt;This change will only be final when you save the config.</source>
             <translation>您的配置文件包含一个或多个过时的条目。&lt;br&gt;请注意，移除它们可能使其在其他版本的 RPCS3 中无效。&lt;br&gt;&lt;br&gt;您是否希望程序现在为您移除它们？&lt;br&gt;此更改仅在保存配置后才会最终生效。</translation>
+        </message>
+        <message>
+            <source>%0 µs</source>
+            <comment>Driver wake up delay</comment>
+            <translation>%0 微秒</translation>
+        </message>
+        <message>
+            <source>%0</source>
+            <comment>Max CPU preempt count</comment>
+            <translation>%0</translation>
         </message>
     </context>
     <context>

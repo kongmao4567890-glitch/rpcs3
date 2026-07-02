@@ -203,7 +203,7 @@ void elf_memory_dumping_dialog::save_to_file()
 
 	const QString path_last_elf = m_gui_settings->GetValue(gui::fd_save_elf).toString();
 
-	const QString qpath = QFileDialog::getSaveFileName(this, tr("Capture"), path_last_elf, "SPU ELF (*.elf)" );
+	const QString qpath = QFileDialog::getSaveFileName(this, tr("Capture"), path_last_elf, tr("SPU ELF (*.elf)"));
 	const std::string path = qpath.toStdString();
 
 	if (!path.empty())
